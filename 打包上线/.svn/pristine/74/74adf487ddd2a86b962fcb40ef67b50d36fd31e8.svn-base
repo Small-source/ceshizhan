@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-0cb975d0"],{1865:function(n,e,t){"use strict";t.r(e);var u=function(){var n=this,e=n.$createElement,t=n._self._c||e;return t("div")},o=[],a={name:"zhongzhuan",beforeCreate:function(){this.$router.push("/shengyaceping")}},c=a,i=(t("6f87"),t("2877")),r=Object(i["a"])(c,u,o,!1,null,"a7e61434",null);r.options.__file="zhongzhuan.vue";e["default"]=r.exports},"1e19":function(n,e,t){},"6f87":function(n,e,t){"use strict";var u=t("1e19"),o=t.n(u);o.a}}]);
+//# sourceMappingURL=chunk-0cb975d0.531e74a9.js.map

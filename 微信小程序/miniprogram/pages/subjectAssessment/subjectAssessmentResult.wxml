@@ -1,0 +1,14 @@
+<!--pages/subjectAssessment/subjectAssessmentResult.wxml-->
+<view class="body">
+  <view class="head">
+    <view>学校代码</view>
+    <view>学校名称</view>
+    <view>评估结果</view>
+  </view>
+  <view class="list" wx:for="{{list}}" wx:key="index">
+     <view>{{item.universityCode}}</view>
+     <view>{{item.universityName}}</view>
+     <view style="color:#F51D2B;">{{item.selectionResult}}</view>
+  </view>
+</view>
+

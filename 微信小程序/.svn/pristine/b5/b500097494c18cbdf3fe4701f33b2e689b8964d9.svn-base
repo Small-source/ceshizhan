@@ -1,0 +1,72 @@
+/* pages/service/service.wxss */
+.page {
+  background-color: #3669F8;
+  padding: 30rpx;
+  font-size: 28rpx;
+  color: #333;
+}
+.header {
+  border-radius: 10rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.header .lis {
+  display: flex;
+  align-items: center;
+  padding: 30rpx;
+  border-bottom: 1px solid #DCDCDC;
+  min-height: 100rpx;
+  font-weight: 500;
+  box-sizing: border-box;
+  
+}
+.header .lis:last-child {
+    border-bottom:0;
+}
+.header .lis image {
+  width: 32rpx;
+  height: 39rpx;
+  margin-right: 20rpx;
+}
+.header .top {
+  display: flex;
+  align-items: flex-start;
+}
+.header .lis .s_title {
+  width: 160rpx;
+}
+.callPhone {
+  color: #3769F8;
+}
+.main {
+  box-sizing: border-box;
+  padding: 20rpx 30rpx;
+  width: 690rpx;
+  height: 214rpx;
+  background: url(https://m.xuematech.com/applet/img/service/bg.png);
+  background-size: 690rpx 214rpx;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+  color: #9A9A9A;
+  font-size: 24rpx;
+}
+.main image {
+  width: 140rpx;
+  height: 104rpx;
+  margin-right: 30rpx;
+}
+.main .right {
+  flex: 1;
+  height: 156rpx;
+}
+.main .right .title {
+  font-size: 32rpx;
+  color: #333;
+  margin-bottom: 15rpx;
+  font-weight: 500;
+}
+.main .right .detail {
+  line-height: 1.4em;
+}
+

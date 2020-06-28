@@ -1,0 +1,15 @@
+<!--miniprogram/pages/learningAssessment/learningAssessments.wxml-->
+<view class="main">
+   <view wx:for="{{evaluation}}" wx:key="index">
+    <view class="img_box">
+       <image src="https://m.xuematech.com/applet/img/diagnosis/{{item.img_url}}" alt=""></image>
+    </view>
+    <view class="p">{{item.title}}</view>
+      <view class="btn_box">
+        <view class="btn"  bindtap="goEntry" data-index="{{item.assessType}}">测评</view>
+        <view class="btn"  bindtap="goReport" wx:if="{{newIdData[index]}}" data-assesstype="{{item.assessType}}" data-reportId="{{newIdData[index]}}">查看</view>
+     </view>
+   </view>
+</view>
+
+

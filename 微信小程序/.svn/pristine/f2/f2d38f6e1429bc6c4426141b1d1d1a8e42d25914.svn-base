@@ -1,0 +1,32 @@
+<!--pages/consultant/consultantDetail.wxml-->
+<view class="consultant-list main">
+  <view class="list">
+    <!-- <image src="{{item.img}}"></image> -->
+    <image src="{{cData.img}}"></image>
+    <view class="right">
+      <view class="top">
+        <view class="top-title">{{cData.name}}</view>
+        <view class="work">
+          <image src="/images/common/icon_zhiye.png"></image>
+          从业{{cData.workTime}}年
+        </view>
+      </view>
+      <view class="bottom">
+        <view wx:for="{{cData.abilityLabel}}"  wx:for-item="child" wx:key="id">{{child}}</view>
+      </view>
+    </view>
+  </view>
+
+</view>
+<view class="consultant-list main">
+  <view class="title">
+    <text>咨询师预约</text>
+  </view>
+  <view class="detail">
+    <rich-text nodes="{{cData.desc}}"></rich-text>
+  </view>
+</view>
+<view class="btnYuyue" bindtap="storeReserve">
+    预约
+</view>
+

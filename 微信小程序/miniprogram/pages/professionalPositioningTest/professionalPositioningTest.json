@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "专业定位测评",
+  "navigationBarBackgroundColor": "#3669F8",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

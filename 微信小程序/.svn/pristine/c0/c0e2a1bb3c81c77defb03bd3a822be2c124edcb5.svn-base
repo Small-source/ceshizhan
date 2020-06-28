@@ -1,0 +1,10 @@
+<!--招生简章列表-->
+<block wx:for="{{jzList}}"  wx:for-item="value" wx:for-index="key" wx:key="index">
+  <view wx:for="{{value}}"  wx:for-item="child" wx:for-index="idx" wx:key="kid" >
+    <!-- <view class="year" v-if="key>=0">{{key}}年{{idx}}月</view> -->
+    <navigator class="detailBox navigatorBox"  wx:for="{{child}}" wx:key="idx"  wx:for-item="itemd"   url="/pages/universityOverview/universityOverview?id={{itemd.id}}" hover-class="none">
+      <view class="smallTitle">{{itemd.title}}</view>
+      <image src="/images/schoolDetail/icon_chakangengduo.png"></image>
+    </navigator>
+  </view>
+</block>

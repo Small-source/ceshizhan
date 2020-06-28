@@ -1,0 +1,22 @@
+<!--pages/consultant/consultant.wxml-->
+  <view class="consultant-list main">
+    <view class="title">
+      <text>咨询师预约</text>
+    </view>
+    <navigator wx:for="{{consultantList}}"  wx:key="key" class="list" url="/pages/consultant/consultantDetail?consultantId={{item.id}}">
+      <!-- <image src="{{item.img}}"></image> -->
+      <image src="{{item.img}}"></image>
+      <view class="right">
+        <view class="top">
+          <view class="top-title">{{item.name}}</view>
+          <view class="work">
+            <image src="/images/common/icon_zhiye.png"></image>
+            从业{{item.workTime}}年
+          </view>
+        </view>
+        <view class="bottom">
+          <view wx:for="{{item.abilityLabel}}"  wx:for-item="child" wx:key="id">{{child}}</view>
+        </view>
+      </view>
+    </navigator>
+  </view>

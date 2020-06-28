@@ -1,0 +1,11 @@
+view,text,image,input{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 32rpx;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei","Arial","黑体","宋体",sans-serif !important;
+    letter-spacing: 0.02rpx;
+    text-indent: 0.02rpx;
+}

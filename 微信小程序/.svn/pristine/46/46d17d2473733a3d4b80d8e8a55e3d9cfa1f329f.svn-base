@@ -1,0 +1,26 @@
+<!--pages/login/password.wxml-->
+<view id="bindPhone">
+     <view class="head">
+     </view>
+    <view class="denglu">
+        <view class="title">
+            登录
+        </view>
+        <view class="input">
+            <view class="icon">
+                <image src="https://m.xuematech.com/applet/img/login/icon_mima.png" alt="" class="icon1"></image>
+            </view>
+            <input type="password" placeholder="请设置6至20位登录密码" value="{{pw1}}" id="phone" bindinput="bindPw1"></input>
+        </view>
+        <view class="input">
+            <view class="icon">
+                <image src="https://m.xuematech.com/applet/img/login/icon_mima.png" alt="" class="icon2"></image>
+            </view>
+            <input type="password" placeholder="请再次输入登录密码" value="{{pw2}}" id="code" bindinput="bindPw2"></input>
+        </view>
+        <view id="waring">{{warning}}</view>
+        <view class="submit" bindtap="submit">
+            确定
+        </view>
+    </view>
+</view>

@@ -1,0 +1,9 @@
+<!--components/classRoomList/classRoomList.wxml-->
+<navigator url="{{url}}" class="mainBox" hover-class="none">
+  <image src="{{itemObj.img}}"></image>
+  <view class="right">
+    <view class="smallTitle">{{itemObj.name}}</view>
+    <view class="detail">{{itemObj.desc}}</view>
+    <view class="time"><image src="/images/common/icon_time.png"></image>{{itemObj.date}}</view>
+  </view>
+</navigator>

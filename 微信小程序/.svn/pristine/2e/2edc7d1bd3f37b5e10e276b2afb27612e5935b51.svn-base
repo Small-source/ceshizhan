@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mask": "../../components/mask/mask"
+  },
+  "navigationBarTitleText": "院校库"
+}

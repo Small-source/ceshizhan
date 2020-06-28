@@ -1,0 +1,71 @@
+<!--pages/professionalPositioningAssessment/professionalPositioningAssessment.wxml-->
+<view class="head">
+  <image src="../../images/professionalLibrary/banner2.png"></image>
+  <view style="position:relative;z-index:10">
+      <view class="name">{{data.name}}</view>
+  </view>
+</view>
+<view class="content">
+    <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">职业简介</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.introduction}}" class="detail"></rich-text>
+      </view>
+    </view>
+    <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">任务职责</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.duties}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">知识背景</text>
+      </view>
+      <view class="detailBox">
+       <view class="title2">学历</view>
+        <rich-text nodes="{{data.degree}}" class="detail"></rich-text>
+      </view>
+      <view class="detailBox">
+        <view class="title2">专业知识背景</view>
+        <rich-text nodes="{{data.knowledge}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">职业技能</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.skill}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">从业资格</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.qualification}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">职业发展前景</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.development}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">个人晋升途径</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.promotionPath}}" class="detail"></rich-text>
+      </view>
+    </view>
+</view>
+

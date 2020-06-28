@@ -1,0 +1,4 @@
+<!--pages/service/serviceDetail.wxml-->
+<view>
+  <image src="https://m.xuematech.com/applet/img/service/{{imgUrl}}" mode="widthFix"></image>
+</view>

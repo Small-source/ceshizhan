@@ -1,0 +1,99 @@
+<!--pages/learningAssessment/testReport/testReport6.wxml-->
+<view class="page_cover">
+  <view class="header">
+    <view class="h3">学业归因测评报告</view>
+    <view class="detail">( 个人报告 )</view>
+  </view>
+  <view class="main">
+    <view class="name">姓名：{{reportData.name}}</view>
+    <view>报告编号：{{reportData.reportNum}}</view>
+    <view>报告时间：{{reportData.updatedAt}}</view>
+  </view>
+  <view class="cover_warning">
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">隐私权: 本报告所含信息属于个人资料，未经许可，不可阅读、复制或泄露报告内容。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">说  明: 本测评属于指导性测验，用于中学生的时间管理分析，如有任何疑问，请与您的规划师联系。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">版  权: 未经授权，任何机构均不得拷贝、引用报告中的相关信息。</text>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">
+      目录
+  </view>
+  <view class="content">
+      <view class="big_title_box">
+          <view class="big_title"><text>Part1</text>前言</view>
+          <view class="line"></view>
+          <view class="page_number">1</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part2</text>测评结果</view>
+          <view class="line"></view>
+          <view class="page_number">2</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part3</text>温馨提示</view>
+          <view class="line"></view>
+          <view class="page_number">3</view>
+      </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part1前言</view>
+  <view class="content">
+    <view class="foreword_detail">
+      <view>学习动机是指引发与维持学生的学习行为，并使之指向一定学业目标的一种动力倾向。根据不同的来源可以将学习动机分为内源性动机和外源性动机，内源性动机指由个体内在兴趣、好奇心或成就需要等内部原因引起的动机；外源性动机指由外在的奖惩或害怕考试不及格等活动之外的原因激起的动机。学习动机在教育心理学中是非常重要的一部分内容，不同心理学家从不同角度对学习动机进行了阐释，主要包括强化理论、归因理论、需要层次理论、成就动机理论、自我价值理论、自我效能感理论等。</view>
+      <view>心理学研究发现学习动机和学习效率、学习成绩直接相关。中等程度学习动机的学生学习效率最高，学习动机过低过高都会影响学生的学习效率，学习动机过低，学习积极性不高，懒懒散散、没有目标；学习动机过高，过分看重成绩和是否超过别人，情绪波动起伏较大，都不利于学习效率的提高。</view>
+      <view>学习动机测评包括四个维度，分别是学习动机太弱、学习动机太强、学习兴趣和学习目标。通过学习动机测评可以发现学生在学习动机上存在的具体问题，从而有针对性地提供个性化的辅导方案。</view>
+    </view>
+    <view class="foreword_footer">
+      <view class="title">阅读须知：</view>
+      <view>①本报告基于您的在线作答结果，通过系统分析您在各个维度的得分水平，有针对性地为您提供建议。</view>
+      <view>②测评结果的准确性和可靠性主要依赖于您是否对自己有明确客观的认识，以及在测评过程中是否认真和坦白等。</view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part2测评结果</view>
+  <view class="content">
+    <view class="echarts_box">
+      <view class="title">通过对您的作答结果进行分析，您四个维度的得分如下图所示：</view>
+      <view class="echarts">
+        <ec-canvas  id="mychart-dom-bar1" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+      </view>
+      <view class="fenxi">经过分析，您的归因倾向为：<text wx:for="{{reportData.report.studentData}}" wx:key="index">{{item.category}}</text></view>
+      <view class="fenxi_detail" wx:for="{{reportData.report.studentData}}" wx:key="index">
+          <text>{{item.content}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part3温馨提示</view>
+  <view class="content">
+    <view class="warmtips_header">
+      对考试成败的归因方式直接影响中学生的学业自我效能感，进而影响学习动力和学习成绩。因此对于中学生来说，掌握正确的归因方式学会正确归因是非常重要的，以下是几点小建议：
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">1.学会将考试成败归因于努力程度</view>
+      <view>韦纳归因三维度分别是控制点、稳定性以及可控性，我们应该尽可能将考试成败归因于内部、不稳定、可以控制的因素，即自身能控制的因素，也就是努力程度。将好成绩归因于足够努力，意识到是努力造成了好成绩，为了取得好成绩，以后会继续努力；将成绩不好归因于努力程度不够，自身可以控制努力程度，这次考得不好，相信以后加倍努力，自然就能取得好成绩。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">2.客观看待外部因素的存在</view>
+      <view>有的同学将考得不好归因于能力不足，导致对自己没有信心，不相信自己能取得好成绩，从而产生考试焦虑。其实题目过难或者运气不好等因素可能是客观存在的，因此，不要认为成绩不好都是由于自身因素。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">3.学会合理归因，避免自我服务偏差</view>
+      <view>有的同学倾向于将考试成功归因于自己的能力或努力，而将考试失败归因于情境、运气等外部因素，这是心理学中的自我服务偏差。这种归因方式可以降低我们的焦虑感，但也让我们错失了查缺补漏的机会，考试中检测出来的没有掌握的内容并没有得到及时的补充，导致以后的考试中还会出现类似的错误。</view>
+    </view>
+  </view>
+</view>
+

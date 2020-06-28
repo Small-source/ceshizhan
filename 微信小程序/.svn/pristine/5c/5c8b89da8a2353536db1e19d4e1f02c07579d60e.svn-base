@@ -1,0 +1,18 @@
+<!--pages/learningAssessment/test.wxml--> 
+<view class="header">
+  <view class="number">
+    <text class="nowNumber">{{question_number}}</text>
+    <text class="allNumber">/{{question_all_data.length}}</text>
+  </view>
+  <view class="lineBox">
+    <view class="line" style="width:{{question_number/question_all_data.length*100+'%'}}"></view>
+  </view>
+  <view class="question" :key="question_data.id">{{question_data.topic}}</view>
+</view>
+<view class="answerBox">
+  <view class="{{answer==key ? 'active': ''}} answered"  wx:for="{{question_data.option}}" wx:for-index="key" wx:key="index" data-answer="{{key}}" bindtap="changeData" data-questionnum="{{question_data.id}}" >
+    <text class="check">{{check[item]}}</text>
+    <text>{{key}}</text>
+    <view></view>
+  </view>
+</view>

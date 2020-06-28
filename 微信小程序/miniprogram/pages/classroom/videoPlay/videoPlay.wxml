@@ -1,0 +1,79 @@
+<!--pages/classroom/videoPlay/videoPlay.wxml-->
+<block wx:if="{{isThrough==2}}">
+  <view class="goLearn">关注公众号，学习课程！</view>
+  <official-account ></official-account>
+</block>
+<block wx:else>
+  <block wx:if="{{type==1}}">
+    <block wx:if="{{videoData.videoLink}}">
+      <view class="videoBox">
+        <video id="myVideo" src="{{videoData.videoLink}}"  controls object-fit="cover"></video> 
+        <view class="title">{{videoData.name}}</view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">简介</text>
+        </view>
+        <view class="desc">
+          {{videoData.desc}}
+        </view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">详情</text>
+        </view>
+        <view class="desc">
+          <rich-text nodes="{{remark}}"></rich-text>
+        </view>
+      </view>
+    </block>
+    <block wx:else>
+      <view class="header">
+        <image src="{{videoData.img}}"></image>
+        <view class="right">
+          <view class="smallTitle">{{videoData.name}}</view>
+          <view class="btnLearn" data-imgUrl="{{videoData.qrCode}}" bindtap="changeCard">观看</view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">简介</text>
+        </view>
+        <view class="desc">
+          {{videoData.desc}}
+        </view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">详情</text>
+        </view>
+        <view class="desc">
+          <rich-text nodes="{{remark}}"></rich-text>
+        </view>
+      </view>
+      <view class="fixBtn" data-imgUrl="{{videoData.qrCode}}" bindtap="changeCard">观看</view>
+      <view class="popupBox" wx:if="{{isShowCard}}">
+        <view class="prpTitle">请保存二维码到本地，微信扫码学习 <icon type="clear" size="30" color="rgb(255,255,255)" bindtap="closeCard"/></view>
+        <image src="{{imgUrl}}" data-src='{{imgUrl}}' bindtap='previewImage'></image>
+        <view class="btnDownload" data-url="{{imgUrl}}" bindtap="saveImg">保存</view>
+      </view>
+    </block>
+  </block>
+  <block wx:else>
+      <view class="videoBox">
+        <video id="myVideo" src="{{videoData.videoLink}}"  controls object-fit="cover"></video> 
+        <view class="title">{{videoData.title}}</view>
+      </view>
+      <view class="main" wx:if="{{videoData.similarData.length}}">
+        <view class="titleBox">
+          <text class="title">相关推荐</text>
+        </view>
+        <view class="tuijian">
+          <view class="video" wx:for="{{videoData.similarData}}" :key="index" bindtap="changData" data-id="{{item.id}}">
+            <image src="{{item.pic}}"></image>
+            <view class="videoTitle">{{item.title}}</view>
+          </view>
+        </view>
+      </view>
+  </block>
+</block>

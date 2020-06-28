@@ -1,0 +1,12 @@
+<!--pages/classroom/columnlist/columnlist.wxml-->
+<view class="content">
+  <navigator class="mainBox" hover-class="none" wx:for="{{classList}}" wx:key="index" url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=2">
+    <image src="{{item.pic}}"></image>
+    <view class="right">
+      <view class="smallTitle">{{item.title}}</view>
+      <view class="detail"></view>
+      <view class="time"></view>
+    </view>
+  </navigator>
+</view>
+

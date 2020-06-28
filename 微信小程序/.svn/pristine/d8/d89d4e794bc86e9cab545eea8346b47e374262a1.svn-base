@@ -1,0 +1,111 @@
+/* miniprogram/pages/login/bindphone.wxss */
+@import  "../public/public.wxss";
+ #waring{
+        color:red;
+        line-height: 60rpx;
+        height: 60rpx;
+        text-align: center;
+        font-size: 24rpx;
+    }
+    #bindPhone{
+        width: 750rpx;
+        margin: 0 auto;
+    }
+    .head{
+        height: 536rpx;
+        width: 750rpx;
+        background-size:100% 100%;
+        background-image:url("https://m.xuematech.com/applet/img/login/bg.png");
+    }
+    .denglu{
+        width: 700rpx;
+        height: 420rpx;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 10rpx;
+        box-shadow: 0 4rpx 4rpx #f6f6f6;
+        position: relative;
+        top:-140rpx;
+    }
+    .title{
+        font-size: 40rpx;
+        text-align: center;
+        color:#3076EC;
+        font-weight: bolder;
+        padding: 50rpx 0 30rpx;
+    }
+    .input{
+        width: 540rpx;
+        margin: 28rpx auto 0;
+        position: relative;
+    }
+    .icon{
+        width: 32rpx;
+        height: 32rpx;
+        position: absolute;
+        top:16rpx;
+        /* overflow: hidden; */
+        text-align: center;
+    }
+    input{
+        width: 100%;
+        border:none;
+        line-height: 64rpx;
+        height: 64rpx;
+        font-size: 24rpx;
+        text-indent: 0;
+        border-bottom: 2rpx solid #F3F3F3;
+        outline:none;
+        padding-left: 50rpx;
+    }
+    #send{
+        width: 148rpx;
+        height: 40rpx;
+        line-height: 40rpx;
+        background: #3076EC;
+        text-align: center;
+        font-size: 24rpx;
+        position: absolute;
+        border-radius: 22rpx;
+        letter-spacing: 0;
+        right: 0;
+        color: white;
+        top:16rpx;
+        z-index: 9
+    }
+    .jishi{
+        width: 148rpx;
+        height: 40rpx;
+        line-height: 40rpx;
+        background: #ccc;
+        text-align: center;
+        font-size: 24rpx;
+        position: absolute;
+        border-radius: 22rpx;
+        letter-spacing: 0;
+        right: 0;
+        color: red;
+        top:16rpx;
+    }
+    .submit{
+        width: 420rpx;
+        line-height: 76rpx;
+        border-radius: 38rpx;
+        text-align: center;
+        font-size: 32rpx;
+        color: white;
+        background:#3076EC;
+        margin: 0 auto;
+    }
+    image{
+      height: 28rpx;
+      display: inline-block;
+      overflow: hidden;
+      position: relative;
+    }
+    .icon1{
+      width: 24rpx;
+    }
+    .icon2{
+      width: 28rpx;
+    }

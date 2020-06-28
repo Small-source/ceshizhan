@@ -1,0 +1,110 @@
+<!--pages/learningAssessment/testReport/testReport4.wxml-->
+<view class="page_cover">
+  <view class="header">
+    <view class="h3">学习习惯测评报告</view>
+    <view class="detail">( 个人报告 )</view>
+  </view>
+  <view class="main">
+    <view class="name">姓名：{{reportData.name}}</view>
+    <view>报告编号：{{reportData.reportNum}}</view>
+    <view>报告时间：{{reportData.updatedAt}}</view>
+  </view>
+  <view class="cover_warning">
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">隐私权: 本报告所含信息属于个人资料，未经许可，不可阅读、复制或泄露报告内容。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">说  明: 本测评属于指导性测验，用于中学生的时间管理分析，如有任何疑问，请与您的规划师联系。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">版  权: 未经授权，任何机构均不得拷贝、引用报告中的相关信息。</text>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">
+      目录
+  </view>
+  <view class="content">
+      <view class="big_title_box">
+          <view class="big_title"><text>Part1</text>前言</view>
+          <view class="line"></view>
+          <view class="page_number">1</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part2</text>测评结果</view>
+          <view class="line"></view>
+          <view class="page_number">2</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part3</text>温馨提示</view>
+          <view class="line"></view>
+          <view class="page_number">3</view>
+      </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part1前言</view>
+  <view class="content">
+    <view class="foreword_detail">
+      <view>良好的行为习惯是一个人成功的基础，亚里士多德说过，人类的美德分为两类：一是理智的，二是道德的。理智的美德由教学产生和发展，道德的美德由行为习惯而来。习惯养成的重要性，人们有很多真知灼见，“积千累万，不如养成个好习惯”，“习惯影响性格，性格决定命运”。</view>
+      <view>习惯是一种自动化动作，是一种持久、自然的心理行为趋向。学习习惯是在学习过程中经过反复练习形成并发展，成为一种个体需要的自动化学习行为方式。中学生处于身心发展逐渐成熟的时期，此时培养学生良好的学习习惯，对其心智发展具有重要的促进作用。良好学习习惯的养成与当下学习成绩息息相关；有利于激发学生学习的积极性和主动性，形成学习策略，提高学习效率；有利于培养自主学习能力；培养学生的创新精神和创造能力，对学生今后的学习和工作产生深远持久的影响，使学生终身受益。学习习惯量表包括课前准备、课上听课和课后复习三个维度。通过学习习惯测评，可以了解学生在学习习惯上存在的一些具体问题，从而更有针对性地给出一些具体的建议。</view>
+    </view>
+    <view class="foreword_footer">
+      <view class="title">阅读须知：</view>
+      <view>①报告基于您的在线作答结果，通过系统分析您在各个维度的得分水平，有针对性地为您提供建议。</view>
+      <view>②测评结果的准确性和可靠性主要依赖于您是否对自己有明确客观的认识，以及在测评过程中是否认真和坦白等。</view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part2测评结果</view>
+  <view class="content">
+    <view class="circle_title">通过对您的作答结果进行分析，您当前的得分如下图所示(每项满分为5分)：</view>
+    <view class="circle_box">
+      <canvas class='oneCan' canvas-id='yuan1'></canvas>
+      <canvas class='oneCan' canvas-id='yuan2'></canvas>
+      <canvas class='oneCan' canvas-id='yuan3'></canvas>
+    </view>
+    <view class="resule_header">三个维度的解释如下：</view>
+    <view class="resule_table">
+      <view class="li" wx:for="{{reportData.report.studentData}}" wx:key="idx" wx:for-index="idx" wx:for-item="value">
+        <view class="lis_title">
+          <text class="color_box"></text>
+          <text class="weidu">维度：{{value.name}}</text>
+          <text>得分：<text class="defen">{{value.avgScore}}</text></text>
+        </view>
+        <view class="lis_detail">解释</view>
+        <view class="detail">{{value.content}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part3温馨提示</view>
+  <view class="content">
+    <view class="warmtips_header">
+      习惯伴随着人的一生，影响人的生活方式和个人成长的道路。习惯对人极为重要，从某种意义上说，“习惯是人生最大的指导”。良好的学习习惯对学习效率的提升有事半功倍的效果，因此养成良好的学习习惯是非常重要的，以下是几个良好的学习习惯，可以参考使用：
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">1.课前预习</view>
+      <view>凡事预则立，不预则废，学习也是如此，预习是学习中不可或缺的环节。学会预习可以说是学会求知、学会学习的核心。知识的海洋是浩瀚无边的，课堂上学到的知识却是极为有限的。自学是获取知识的主要途径，而预习可以帮助我们提高自学能力，习惯课前预习的学生，总能在学习中处于主动地位并能在学习中获得快乐感和成就感。预习能帮助我们提前了解学习内容，有的放矢，提高课堂学习效率，同时也锻炼了我们的自学能力。文理科的预习方式有所不同，文科类一般先大致阅读全文，分段，掌握框架，标记不懂之处，先尝试自己思考，完成文章思考题，标记自己无法解决的地方等待老师课上解答。理科类先大致掌握课程内容、相关公式，标记不懂的地方，先尝试自己思考，之后做课后练习，将自己无法解决的地方标记出来，等待老师课上解答。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">2.培养上课认真听讲的习惯</view>
+      <view>古语说得好：一心不能两用。做任何事情都是如此，集中注意力、专心致志就会事半倍。学习更是如此，课堂是我们获取知识、提高能力的重要场所。但有一部分学生往往“身在曹营心在汉”，表面上他们是坐在教室里专心听讲，实则思绪早已“飞到了九霄云外”。对于这种情况，要暗示自己上课认真听讲或者为自己写座右铭，放在课桌上最醒目的位置提醒自己。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">3.课后复习</view>
+      <view>艾宾浩斯曲线告诉我们在学习中的遗忘是有规律的，遗忘的进程很快，并且先快后慢。学得的知识一天后，如不抓紧复习，就只剩下原来的25%。随着时间的推移，遗忘的速度减慢，遗忘的数量也就减少，所以我们要学会及时复习整理归纳。复习可以有多种方法：一是一日一复习，入睡前回顾当天学习内容，有疑惑的次日再寻求帮助；二是一周一总结，每个周末把本周内老师讲过的知识点梳理归纳在一个小本子上；三是绘知识树，每学期以整本教材为内容绘一棵树，每一个单元相当于一个树枝，每一个知识点对应一片树叶，把每个知识点都归纳在一棵树上，增加我们对知识整体性的把握。总之，要养成复习的习惯，就必须有具体的计划、合理的时间安排，还需要持之以恒、善始善终。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">4.利用自己的黄金时间完成重点难点任务</view>
+      <view>每个人每天的精力状况不同，有的人可能早上精力比较好，有的人中午精力较好，有的人晚上效率高。因此我们要根据自己的精力状况安排不同的学习内容，将重点难点内容安排在每天精力最好的时间段进行学习。</view>
+    </view>
+  </view>
+</view>
+

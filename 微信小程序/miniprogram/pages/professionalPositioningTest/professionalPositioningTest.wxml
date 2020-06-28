@@ -1,0 +1,90 @@
+<!--pages/professionalPositioningTest/professionalPositioningTest.wxml-->
+<block wx:for="{{questions}}" wx:key="index">
+    <view class="part part1"  wx:if="{{number==(index+1)}}">
+    <view class="head">
+      <view>
+        <text class="text1">{{text1}}</text>
+        <text class="text2">{{text2}}</text>
+      </view>
+      <view>
+        <text id="text3">{{number}}/</text>
+        <text id="text4">{{total}}</text>
+      </view>
+      <view class="jindu" style="width:{{number/total*100+'%'}}"></view>
+      <view class="jinduline"></view>
+      <view id="tigan">{{item.detail}}</view>
+    </view>
+    <view class="content">
+    <block wx-if="{{item.question_options}}">
+       <view wx:for="{{item.question_options}}" wx:for-item="itemName" wx:key="index" bindtap="TabTitle" data-id="{{item.id}}" data-paper="{{item.paper}}"  data-order="{{itemName.opt_order}}" class="{{numberArr[number][index]&&'hoverClass'}}" data-index="{{index}}">
+        <text wx:if="{{itemName.opt_order=='1'}}">A</text>
+        <text wx:if="{{itemName.opt_order=='2'}}">B</text>
+        {{itemName.opt_txt}}
+      </view>
+    </block>
+    <block wx-if="{{!item.question_options}}">
+       <view wx-if="{{!item.question_options}}" data-id="{{item.id}}" data-answer='0' bindtap="TabTitle" data-index="0" class="{{numberArr[number][0]&&'hoverClass'}}">
+        <text>A</text>
+        是
+      </view>
+      <view wx-if="{{!item.question_options}}" data-id="{{item.id}}" data-answer='1' bindtap="TabTitle" data-index="1" class="{{numberArr[number][1]&&'hoverClass'}}">
+        <text>B</text>
+        否
+      </view>
+    </block>
+    </view>
+  </view>
+</block>
+<block wx:for="{{questions2}}" wx:key="index">
+    <view class="part part1"  wx:if="{{number2==(index+1)}}">
+    <view class="head">
+      <view>
+        <text class="text1">第二部分</text>
+        <text class="text2">兴趣倾向</text>
+      </view>
+      <view>
+        <text id="text3">{{number2}}/</text>
+        <text id="text4">{{total2}}</text>
+      </view>
+      <view class="jindu" style="width:{{number2/total2*100+'%'}}"></view>
+      <view class="jinduline"></view>
+      <view id="tigan">{{item.detail}}</view>
+    </view>
+    <view class="content">
+    <block>
+       <view data-id="{{item.id}}" data-id="{{item.id}}" data-paper="{{item.paper}}" data-order="0"  bindtap="TabTitle2" data-index="0" class="{{numberArr2[number2][0]&&'hoverClass'}}">
+        <text>A</text>
+        是
+      </view>
+      <view  data-id="{{item.id}}" data-id="{{item.id}}" data-paper="{{item.paper}}" data-order="1"  bindtap="TabTitle2" data-index="1" class="{{numberArr2[number2][1]&&'hoverClass'}}">
+        <text>B</text>
+        否
+      </view>
+    </block>
+    </view>
+  </view>
+</block>
+<block wx:if='{{finish}}'>
+    <view class="part3">
+      <image src="../../images/professionalLibrary/result.png"></image>
+          <view class="wancheng">测评完成</view>
+      <block wx:if='{{!homeFlag}}'>
+        <navigator url="/pages/professionalPositioningTest/professionalPositioningTest_report" class="next" >查看专业定位测评报告</navigator>
+      </block>
+       <block wx:if='{{homeFlag}}'>
+        <text>新高考选科专业定位测评已完成，请进入下一项</text>
+        <navigator url="/pages/newSelectSubjects/generateSubjectPlan/generateSubjectPlan" class="next" wx:if="{{testCode == 4}}">去完成选科</navigator>
+        <navigator url="/pages/newSelectSubjects/selectTargetMajor1/selectTargetMajor1" class="next" wx:else>选择目标专业</navigator>
+      </block>
+      <view class="tui">
+        <view class="tuiTitle">推荐专业:</view>
+        <view class="tui2">
+          <block wx:for="{{resultData}}" wx:key='index'>
+          <view class="next2" >{{item.name}}</view>
+          </block >
+        </view>
+      </view>
+    </view>
+</block>
+
+

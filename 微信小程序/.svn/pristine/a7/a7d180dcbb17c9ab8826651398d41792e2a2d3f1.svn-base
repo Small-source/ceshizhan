@@ -1,0 +1,4 @@
+/* pages/service/serviceDetail.wxss */
+image {
+  width: 750rpx;
+}

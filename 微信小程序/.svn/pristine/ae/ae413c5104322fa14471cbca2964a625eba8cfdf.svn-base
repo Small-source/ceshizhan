@@ -1,0 +1,28 @@
+<!--miniprogram/pages/login/bindphone.wxml-->
+<view id="bindPhone">
+     <view class="head">
+     </view>
+    <view class="denglu">
+        <view class="title">
+            登录
+        </view>
+        <view class="input">
+            <view class="icon">
+                <image src="https://m.xuematech.com/applet/img/login/icon_shouji.png" alt="" class="icon1"></image>
+            </view>
+            <input type="text" placeholder="请输入手机号"  id="phone" value="{{phone}}" bindinput="bindPhone"></input>
+        </view>
+        <view class="input">
+            <view class="icon">
+                <image src="https://m.xuematech.com/applet/img/login/icon_duanxin.png" alt="" class="icon2"></image>
+            </view>
+            <input type="text" placeholder="请输入短信验证码" id="code" value="{{code}}"  bindinput="bindCode"></input>
+            <view id="send"  catchtap="sendCode" wx:if="{{phoneIf}}">获取验证码</view>
+            <view class="jishi" wx:if="{{!phoneIf}}">{{number}}s</view>
+        </view>
+        <view id="waring">{{warning}}</view>
+        <view class="submit" bindtap="submit">
+            确定
+        </view>
+    </view>
+</view>

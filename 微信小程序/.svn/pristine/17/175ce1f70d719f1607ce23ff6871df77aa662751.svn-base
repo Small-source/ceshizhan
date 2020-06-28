@@ -1,0 +1,217 @@
+<!--pages/collegeLibrary/collegeLibrary.wxml-->
+<wxs module="Fun" src='../../utils/Fun.wxs'></wxs>
+<view class="fix">
+  <view class="nav">
+    <view class="navClass" bindtap="TabDaxueFlag" data-number='0'>
+      大学专业选科要求
+      <view class="navClassLine {{daxueFlag&&'navClassActive'}}"  ></view>
+    </view>
+    <view class="line"></view>
+    <view class="navClass"  bindtap="TabDaxueFlag" data-number='1'>
+      选科组合可报专业
+      <view class="navClassLine {{!daxueFlag&&'navClassActive'}}" 
+      ></view>
+    </view>
+</view>
+</view>
+<view hidden="{{!daxueFlag}}">
+  <view class="topFloat">
+    <view class="searchBox">
+      <input placeholder="输入大学名称" bindinput="searchChange" value="{{searchValue}}"></input>
+      <view class="btn_search" bindtap="goSearch"><icon type="search" color="#3979FD"/></view>
+    </view>
+    <view class="checkBox">
+      <view class="tabBox">
+        <view data-value="{{item.value}}"  wx:for="{{tabBox}}" bindtap="changeType" class="{{ activeTabValue == item.value ? 'activeTab':'untab'}}" wx:key="index">
+          <text>{{item.name}}</text>
+          <image src="{{activeTabValue == item.value ? item.imgUrl2 : item.imgUrl1}}"></image>
+        </view>
+      </view>
+      <view class="childBox nomall" wx:if="{{ activeTabValue == 1 }}">
+        <view class="{{province.length ? '':'active'}}" data-tap="全国" bindtap="checkChange">全国</view>
+        <view data-tap="{{item}}" wx:for="{{diqu}}" bindtap="checkChange" class="{{Fun.indexOf(province,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+      </view>
+      <view class="childBox nomall" wx:if="{{ activeTabValue == 2 }}">
+        <view class="{{type.length ? '':'active'}}" data-tap="全部" bindtap="checkChangeType">全部</view>
+        <view data-tap="{{item}}" wx:for="{{daxueleibie}}" bindtap="checkChangeType" class="{{Fun.indexOf(type,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+      </view>
+      <view class="childBox tagBox" wx:if="{{ activeTabValue == 3 }}">
+        <view class="{{tagShuangyiliu.length||tag985||tag211||tagZhongdianxueke||tagTesezhuanye||tagBushenghejian||tagBaoyanzige ? '':'active'}}" data-tap="全部" bindtap="checkChangeType" bindtap="checkAllTag">全部</view>
+        <view data-tap="{{item.value}}" wx:for="{{tesebiaoqian}}" bindtap="checkChangeTeseTag" class="{{Fun.indexOf(tagShuangyiliu,item.value) > -1 ? 'active':''}}" wx:key="index">{{item.name}}</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tag985" class="{{tag985 == 1 ? 'active':''}}">985</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tag211" class="{{tag211 == 1 ? 'active':''}}">211</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagZhongdianxueke" class="{{tagZhongdianxueke == 1 ? 'active':''}}">重点学科</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagTesezhuanye" class="{{tagTesezhuanye == 1 ? 'active':''}}">特色专业</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagBushenghejian" class="{{tagBushenghejian == 1 ? 'active':''}}">省部合建</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagBaoyanzige" class="{{tagBaoyanzige == 1 ? 'active':''}}">保研资格</view>
+      </view>
+      <view class="btnBox"wx:if="{{ activeTabValue != 0 }}">
+        <view class="btn" bindtap="goUpdate">确定</view>
+      </view>
+    </view>
+  </view>
+  <view class="content">
+  <view wx:for="{{schoolList}}" wx:key="index" class="scool">
+    <view class="main">
+      <image src="{{item.logo}}"></image>
+      <view class="mainRight">
+        <view class="top">
+          <text class="title">{{item.name}}</text>
+          <view class="type">
+            <image src="/images/common/icon_dingwei01.png" mode="widthFix"></image>
+            {{item.city}}
+          </view>
+        </view>
+        <view class="bottom" wx:if="{{item.tag985Name&&item.tag211Name&&item.tagShuangyiliuName}}">
+          <view class="tag" wx:if="{{item.tag985Name}}">{{item.tag985Name}}</view>
+          <view class="tag" wx:if="{{item.tag211Name}}">{{item.tag211Name}}</view>
+          <view class="tag" wx:if="{{item.tagShuangyiliuName}}">{{item.tagShuangyiliuName}}</view>
+        </view>
+        <view class="address" wx:if="{{boolArr[index]}}" data-index="{{index}}" bindtap="hideBox">
+          收起<text>∧</text> 
+        </view>
+        <view class="address" wx:if="{{!boolArr[index]}}" data-index="{{index}}" bindtap="showBox">
+          查看选科要求<text>∨</text> 
+        </view>
+      </view>
+    </view>
+    <view class='subjectall' wx:if="{{boolArr[index]}}">
+      <scroll-view scroll-y='true' class="subjectScroll">
+          <view class="subjectScrolls subjectScroll1">
+            <view>专业名称/专业类</view>
+            <view wx:if="{{typeSubject==1}}">首选科目要求</view>
+            <view wx:if="{{typeSubject==1}}">再选科目要求</view>
+            <view wx:if="{{typeSubject==2}}" style="width:66.6%">科目要求</view>
+          </view>
+          <view wx:for="{{item.chooseSubject}}" wx:key="index" class="subjectScrolls">
+            <view>{{item.subjectName}}</view>
+            <view wx:if="{{typeSubject==1}}">{{item.firstCourseRequire}}</view>
+            <view wx:if="{{typeSubject==1}}">{{item.secondCourseRequire}}</view>
+            <view wx:if="{{typeSubject==2}}" style="width:66.6%">{{item.chooseCourseRequire}}</view>
+          </view>
+      </scroll-view>
+    </view>
+  </view>
+  <view wx:if="{{count==schoolList.length}}" class="noMore">没有更多了...</view>
+  </view>
+  <view wx:if="{{count==0}}" class="noneBox">
+    <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none' ></image>
+  </view>
+  <mask style='z-Index:1' wx:if="{{activeTabValue != 0}}"></mask>
+</view>
+<view hidden="{{daxueFlag}}">
+  <view class="topFloat">
+    <view class="searchBox">
+      <input placeholder="输入专业名称" bindinput="searchChange" value="{{searchValue}}"></input>
+      <view class="btn_search" bindtap="goSearch2"><icon type="search" color="#3979FD"/></view>
+    </view>
+    <view class="xuankeBox1" wx:if="{{typeSubject==1}}">
+         <view class="inputs">
+            <view class="inputLeft" style="width:120rpx;">
+                首选科目:
+            </view>
+            <view class="inputRight">
+                <radio-group class="radio-group" bindchange="radioChange">
+                  <radio class="radio" wx:for-items="{{shouXuans}}" wx:key="name" value="{{item.name}}" dichecked="{{item.value}}">
+                      <text class="sex">{{item.value}}</text>
+                  </radio>
+                </radio-group>
+            </view>
+        </view>
+         <view class="inputs">
+            <view class="inputLeft" style="margin-right:4rpx;">
+                再选科目:
+            </view>
+            <view class="inputRight">
+                <checkbox-group bindchange="checkboxChange">
+                    <label wx:for="{{fuXuans}}" class="radio" wx:key="index" >
+                      <checkbox class="radio" value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}"/>{{item.value}}
+                    </label>
+                </checkbox-group>
+            </view>
+        </view>
+    </view>
+    <view class="xuankeBox2" wx:if="{{typeSubject==2}}">
+         <view class="inputs" style="height:80rpx">
+            <view class="inputLeft" style="margin-right:4rpx;width:70rpx;">
+                科目:
+            </view>
+            <view class="inputRight" style="width:540rpx">
+                <checkbox-group bindchange="checkboxChange3">
+                    <label wx:for="{{sanXuans}}" class="radio" wx:key="index" wx:if="{{index!=6||xuankeDiqu=='浙江'}}" >
+                      <checkbox class="radio" value="{{item.name}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />{{item.value}}
+                    </label>
+                </checkbox-group>
+            </view>
+        </view>
+    </view>
+    <view  class="checkBox">
+      <view class="tabBox">
+        <view data-value="{{item.value}}"  wx:for="{{tabBox}}" bindtap="changeType" class="{{ activeTabValue == item.value ? 'activeTab':'untab'}}" wx:key="index">
+          <text>{{item.name}}</text>
+          <image src="{{activeTabValue == item.value ? item.imgUrl2 : item.imgUrl1}}"></image>
+        </view>
+      </view>
+      <scroll-view scroll-y='true' style="max-height:400rpx;">
+        <view class="childBox nomall" wx:if="{{ activeTabValue == 1 }}">
+        <view class="{{province.length ? '':'active'}}" data-tap="全国" bindtap="checkChange">全国</view>
+             <view data-tap="{{item}}" wx:for="{{diqu}}" bindtap="checkChange" class="{{Fun.indexOf(province,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+      </view>
+      </scroll-view>
+      <view class="childBox nomall" wx:if="{{ activeTabValue == 2 }}">
+        <view class="{{type.length ? '':'active'}}" data-tap="全部" bindtap="checkChangeType">全部</view>
+        <view data-tap="{{item}}" wx:for="{{daxueleibie}}" bindtap="checkChangeType" class="{{Fun.indexOf(type,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+      </view>
+      <view class="childBox tagBox" wx:if="{{ activeTabValue == 3 }}">
+        <view class="{{tagShuangyiliu.length||tag985||tag211||tagZhongdianxueke||tagTesezhuanye||tagBushenghejian||tagBaoyanzige ? '':'active'}}" data-tap="全部" bindtap="checkChangeType" bindtap="checkAllTag">全部</view>
+        <view data-tap="{{item.value}}" wx:for="{{tesebiaoqian}}" bindtap="checkChangeTeseTag" class="{{Fun.indexOf(tagShuangyiliu,item.value) > -1 ? 'active':''}}" wx:key="index">{{item.name}}</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tag985" class="{{tag985 == 1 ? 'active':''}}">985</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tag211" class="{{tag211 == 1 ? 'active':''}}">211</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagZhongdianxueke" class="{{tagZhongdianxueke == 1 ? 'active':''}}">重点学科</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagTesezhuanye" class="{{tagTesezhuanye == 1 ? 'active':''}}">特色专业</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagBushenghejian" class="{{tagBushenghejian == 1 ? 'active':''}}">省部合建</view>
+        <view bindtap="checkChangeTagSmall" data-typeName="tagBaoyanzige" class="{{tagBaoyanzige == 1 ? 'active':''}}">保研资格</view>
+      </view>
+      <view class="btnBox"wx:if="{{ activeTabValue != 0 }}">
+        <view class="btn" bindtap="goUpdate2">确定</view>
+      </view>
+    </view>
+  </view>
+  <view class="content" style="background:#fff;padding-top:{{typeSubject==2?'460rpx':'520rpx'}}">
+      <view class="subjectTop">
+          <view>
+            <image src="/images/xuanke/icon_kebaozhuanye.png"></image>
+            <text>可报考<text class="colorDaxue">{{daxuecounts}}</text>所大学</text>
+          </view>
+          <view>
+            <image src="/images/xuanke/icon_yuanxiao.png"></image>
+            <text>可报考<text class="colorDaxue">{{zhuanyecounts}}</text>所专业</text>
+          </view>
+      </view>
+      <view class='subjectall'>
+      <view  class="subjectScroll subjectScrollzong">
+          <view class="subjectScrolls subjectScroll1" id='subjectScroll'>
+            <view style="border-left:2rpx solid #F2F2F2;width:{{typeSubject==2&&'33.3333%'}}">院校名称</view>
+            <view style="width:{{typeSubject==2&&'33.3333%'}}">专业名称/专业类</view>
+            <view wx:if="{{typeSubject==1}}" >首选科目要求</view>
+            <view wx:if="{{typeSubject==1}}">再选科目要求</view>
+            <view wx:if="{{typeSubject==2}}" style="width:{{typeSubject==2&&'33.3333%'}}">科目要求</view>
+          </view>
+          <view wx:for="{{zhuanyeList}}" wx:key="index" class="subjectScrolls subjectScroll2">
+            <view style="border-left:2rpx solid #F2F2F2;width:{{typeSubject==2&&'33.3333%'}}" >{{item.universityName}}</view>
+            <view style="width:{{typeSubject==2&&'33.3333%'}}">{{item.subjectName}}</view>
+            <view wx:if="{{typeSubject==1}}">{{item.firstCourseRequire}}</view>
+            <view wx:if="{{typeSubject==1}}">{{item.secondCourseRequire}}</view>
+            <view wx:if="{{typeSubject==2}}" style="width:{{typeSubject==2&&'33.3333%'}}">{{item.chooseCourseRequire}}</view>
+          </view>
+      </view>
+      </view>
+  </view>
+  <view wx:if="{{count==zhuanyeList.length}}" class="noMore">没有更多了...</view>
+  <view wx:if="{{count==0}}" class="noneBox"  >
+    <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none2'  style="marign:50px 15px"></image>
+  </view>
+  <mask style='z-Index:1' wx:if="{{activeTabValue != 0}}"></mask>
+</view>
+
+

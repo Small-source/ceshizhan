@@ -1,0 +1,2 @@
+(window["webpackJsonp"]=window["webpackJsonp"]||[]).push([["chunk-2d20885b"],{a4c5:function(e,r,n){"use strict";n.r(r);var t=function(){var e=this,r=e.$createElement,n=e._self._c||r;return n("div")},c=[],a={name:"refresh",beforeCreate:function(){this.$router.push("/careerArchives")}},s=a,u=n("2877"),i=Object(u["a"])(s,t,c,!1,null,"3ce2a172",null);r["default"]=i.exports}}]);
+//# sourceMappingURL=chunk-2d20885b.8926be5f.js.map

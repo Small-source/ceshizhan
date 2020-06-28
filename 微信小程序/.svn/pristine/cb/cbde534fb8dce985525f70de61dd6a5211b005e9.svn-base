@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ec-canvas": "../../../ec-canvas/ec-canvas"
+  },
+  "navigationBarBackgroundColor": "#3669F8",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "选科方案"
+}

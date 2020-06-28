@@ -1,0 +1,23 @@
+<!-- <view class="goLearn">关注公众号，学习课程！</view> -->
+<official-account ></official-account>
+<view class="header">
+  <image src="https://m.xuematech.com/applet/img/classroom/bg_peigengshuxue01.png"></image>
+</view>
+<view>
+  <view class="videoBox">
+    <view class="video video1">
+      <video id="myVideo"src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/37847cdd-171203288ea-0007-0e88-a79-43367.mp4"  controls></video>
+    </view>
+    <view class="video">
+      <video id="myVideo" src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/51224f20-171203288d6-0007-0e88-a79-43367.mp4"  controls></video>
+    </view>
+  </view>
+</view>
+<!-- <navigator url="/pages/classroom/pagePeiGeng" class="go_pei_geng" open-type="reLaunch">前往学习</navigator> -->
+<view  class="go_pei_geng" bindtap="changeCard" data-imgUrl="{{imgUrl}}">获取学习地址</view>
+<!-- <view  class="go_pei_geng"><official-account ></official-account></view> -->
+<view class="popupBox" wx:if="{{isShowCard}}">
+  <view class="prpTitle">请保存二维码到本地，微信扫码学习 <icon type="clear" size="30" color="rgb(255,255,255)" bindtap="closeCard"/></view>
+  <image src="{{imgUrl}}" data-src='{{imgUrl}}'></image>
+  <view class="btnDownload" data-url="{{imgUrl}}" bindtap="saveImg">保存</view>
+</view>

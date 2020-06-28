@@ -1,0 +1,52 @@
+<!--pages/mine/mine.wxml-->
+<view class="head">
+  <image src="../../images/mine/bg.png"></image>
+  <view class="neirong">
+    <image src="{{person.sex==1?body:girl}}" class="sex"></image>
+    <view>
+      <view class="view1">{{person.name}}</view>
+      <view class="view2">
+        <text class="text1">高考年份:{{person.baccll_year}}</text>
+        <text>所在地区:{{person.province}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="views">
+    <view class="viewsBox">
+      <view class='viewsBox1'>
+        <image src="../../images/mine/icon_shoujihao.png"></image>
+         <text>已绑定手机号:{{person.username}}</text>
+      </view>
+      <view class='viewsBox2'>
+        <image src="../../images/mine/icon_dingwei.png"></image>
+         <text>所在地:{{person.province}} {{person.city}} {{person.area}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="report">
+  <view class="top">报告&方案</view>
+  <view class="lisBox">
+    <navigator url="/pages/professionalPositioningTest/professionalPositioningTest_report" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/newSelectSubjects/icon_xingaokaoxuanke.png"></image>
+        <view class="title">专业定位测评报告</view>
+    </navigator>
+    <navigator url="/pages/mine/reportList/reportList?type=1" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/newSelectSubjects/icon_xingaokaoxuanke.png"></image>
+        <view class="title">新高考选科方案</view>
+    </navigator>
+    <navigator url="/pages/mine/reportList/reportList?type=2" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/newSelectSubjects/icon_xingaokaoxuanke.png"></image>
+        <view class="title">学习状态诊断</view>
+    </navigator>
+  </view>
+</view>
+<view class="bottom">
+  <view class="hui"></view>
+  <view style="padding-left:30rpx;">
+    <view class="top">
+      护航计划
+     </view>
+  </view>
+  <image src="../../images/mine/icon_jingqingqidai.png" class="qidai"></image>
+</view>

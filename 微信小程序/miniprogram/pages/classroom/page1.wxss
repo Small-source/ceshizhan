@@ -1,0 +1,96 @@
+/* pages/classroom/page1.wxss */
+.goLearn {
+  line-height: 30px;
+  padding-left: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  background-color: #fff;
+} 
+.header image {
+  width: 750rpx;
+  height: 7450rpx;
+}
+.videoBox {
+  padding: 178rpx 26.5rpx 59rpx 26.5rpx;
+  box-sizing: border-box;
+  background: url(https://m.xuematech.com/applet/img/classroom/bg_peigengshuxue02.png) no-repeat;
+  background-size: 750rpx 1091rpx;
+  height: 1141rpx;
+  background-color: #DDEFFF;
+}
+.videoBox .video {
+  width: 100%;
+  height: 367.5rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoBox .video video {
+  width: 100%;
+  height: 100%;
+}
+.video1 {
+  margin-bottom: 117rpx;
+}
+.go_pei_geng{
+  position: fixed;
+  bottom: 0;
+  height: 90rpx;
+  line-height: 90rpx;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  left: 0;
+  background-color: #3979FD;
+}
+.popupBox {
+  width: 520rpx;
+  height: 530rpx;
+  background-color: rgba(0, 0, 0,.8);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -260rpx;
+  margin-top: -265rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  z-index: 10;
+}
+.popupBox .prpTitle icon {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+}
+.popupBox .prpTitle {
+  position: relative;
+  line-height: 80rpx;
+  color: #fff;
+}
+.popupBox image {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20rpx;
+}
+.btnDownload {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #3979FD;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+.content {
+  padding-bottom: 84px;
+}
+.account {
+  width: 100%;
+  height: 100%;
+}

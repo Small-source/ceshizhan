@@ -1,0 +1,18 @@
+var Fun = {
+  indexOf: function (arr, value) {
+    return arr.indexOf(value);
+  },
+  isObject: function (obj) {
+    return obj.constructor == Object;
+  },
+  some: function (arr,id) {
+    return arr.some(function(value, index, arrv) {
+      return value.subjectId == id
+    })
+  }
+}
+module.exports = {
+  indexOf: Fun.indexOf,
+  isObject: Fun.isObject,
+  some: Fun.some
+}

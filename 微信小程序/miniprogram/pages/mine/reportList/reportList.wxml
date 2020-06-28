@@ -1,0 +1,27 @@
+<!--pages/newSelectSubjects/reportList/reportList.wxml-->
+<block wx:if="{{type==1}}">
+  <view wx:if="{{reportList.length}}">
+    <navigator class="navigatorBox" url="/pages/newSelectSubjects/selectSubjectReport/selectSubjectReport?batch={{item.batch}}" wx:for="{{reportList}}" wx:key="index">
+      <view class="title">{{item.subjectName}}</view>
+      <view class="time">{{item.createdAt}}</view>
+      <image src="/images/schoolDetail/icon_chakangengduo.png"role="img"></image>
+    </navigator>
+  </view>
+  <view  class="noReport" wx:else>
+    暂无报告~~
+    <navigator url="/pages/newSelectSubjects/entry/entry" hover-class="none">去选科</navigator>
+  </view>
+</block>
+<block wx:if="{{type==2}}">
+  <view wx:if="{{reportList.length}}">
+    <navigator class="navigatorBox" url="/pages/learningAssessment/testReport/testReport{{item.assessType}}?assessType={{item.assessType}}&id={{item.id}}" wx:for="{{reportList}}" wx:key="index">
+      <view class="title">{{item.assessName}}测评</view>
+      <view class="time">{{item.updatedAt}}</view>
+      <image src="/images/schoolDetail/icon_chakangengduo.png"role="img"></image>
+    </navigator>
+  </view>
+  <view  class="noReport" wx:else>
+    暂无报告~~
+    <!-- <navigator url="/pages/newSelectSubjects/entry/entry" hover-class="none">去测试</navigator> -->
+  </view>
+</block>

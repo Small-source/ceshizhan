@@ -1,0 +1,41 @@
+<!--pages/jobLibrary/jobLibrary.wxml-->
+<view class="body">
+<view class="fix">
+   <view class="searchBox">
+    <input class="search" placeholder="输入职业名称" placeholder-style="color:#A8A8A8" bindinput='setSearchName'></input>
+    <image src="../../images/professionalLibrary/icon_sousuo.png" bindtap="search"></image>
+  </view>
+  <scroll-view class="navItems" scroll-x="true">
+    <view wx:for="{{discipline1}}" wx:key="index" class="middle">
+       <view class="navli {{item.id==currentIndex1&&'active'}}"  wx:for="{{item}}" wx:key="index" data-value="{{item.value}}" data-Index="{{item.id}}" bindtap="benKeTab">{{item.names}}</view>
+    </view>
+  </scroll-view>
+</view>
+<scroll-view class="scroll" scroll-y="true" scroll-with-animation="true" wx:if='{{!searchFlag}}'>
+<block wx:for="{{zhiYeData}}" wx:for-index="idx" wx:key="idx">
+  <view class="viewlist"  wx:if="{{idx==tag}}">
+      <view class="title">{{idx}}</view>
+        <navigator wx:for="{{item}}" wx:key="index" class="title title3" url="/pages/jobLibrary/jobLibraryDetail?ZhiyeId={{item.id}}">
+              <view class="circle"></view>
+              {{item.name}}
+              <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+        </navigator>
+  </view>
+</block>
+</scroll-view>
+<scroll-view class="scroll" scroll-y="true" scroll-with-animation="true" wx:if='{{searchFlag&&(!searchNone)}}'>
+<block wx:for="{{searchData}}" wx:for-index="idx" wx:key="idx">
+  <view class="viewlist">
+      <view class="title">{{idx}}</view>
+        <navigator wx:for="{{item}}" wx:key="index" class="title title3" url="/pages/jobLibrary/jobLibraryDetail?ZhiyeId={{item.id}}">
+              <view class="circle"></view>
+              {{item.name}}
+              <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+        </navigator>
+  </view>
+</block>
+</scroll-view>
+<view style="padding-top:310rpx;" hidden='{{!(searchFlag&&searchNone)}}' class="searchfixed">
+  <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none'></image>
+</view>
+</view>

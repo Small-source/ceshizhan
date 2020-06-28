@@ -1,0 +1,37 @@
+/* pages/newSelectSubjects/reportList/reportList.wxss */
+.navigatorBox  {
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+  padding: 0 30rpx;
+  background-color: #fff;
+}
+.navigatorBox image {
+  width: 17rpx;
+  height: 23rpx;
+}
+.navigatorBox .title {
+  width: 400rpx;
+  color: #333;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.navigatorBox .time {
+  width: 240rpx;
+  font-size: 22rpx;
+  color: #666;
+}
+.noReport {
+  text-align: center;
+  padding-top: 100rpx;
+  font-size: 30rpx;
+  color: #666;
+  display: flex;
+  justify-content: center;
+}
+.noReport navigator {
+  color: #3669F8;
+  margin-left: 30rpx;
+}

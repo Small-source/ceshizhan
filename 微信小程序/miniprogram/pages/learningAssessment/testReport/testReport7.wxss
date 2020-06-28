@@ -1,0 +1,163 @@
+view,text{
+  color:#666;
+  box-sizing: border-box;
+}
+.part{
+       width: 750rpx;
+        min-height: 1334rpx;
+        background: #fff;
+        overflow: hidden;
+        box-shadow: 0rpx 0rpx 16rpx #666;
+        margin-bottom: 60rpx;
+        padding-bottom: 20rpx;
+        background-image:url("https://m.xuematech.com/applet/img/zhuyili/bgreport.png") ;
+        background-size:100% 100%;
+        position: relative;
+    }
+    .difen{
+         position: absolute;
+        bottom: 20rpx;
+        left: 50%;
+        font-size: 20rpx;
+        margin-left: -16rpx;
+    }
+    .head{
+         margin-top: 200rpx;
+        text-align: center;
+        font-size: 56rpx;
+        color:#3076EB;
+    }
+    .person{
+        text-align: center;
+        font-size: 30rpx;
+        color:#666;
+        margin-top: 20rpx;
+    }
+    .name{
+         width: 420rpx;
+        margin: 220rpx auto 
+    }
+    .name>.li{
+         text-align: center;
+        line-height: 52rpx;
+        font-size: 26rpx;
+        white-space: nowrap;
+    }
+    .warning{
+         width: 680rpx;
+        padding-left: 32rpx;
+        margin: 0 auto;
+    }
+    .warning>.li{
+         position: relative;
+        font-size: 20rpx;
+        padding-left: 32rpx;
+        line-height: 28rpx;
+        margin-bottom: 20rpx;
+    }
+    .warning>.li>image{
+        position: absolute;
+        width: 24rpx;
+        height: 24rpx;
+        left: 0;
+        top: 4rpx;
+    }
+    .mulus{
+         width: 664rpx;
+        margin: 90rpx auto;
+    }
+    .mulus>.li{
+        font-size: 30rpx;
+        margin-bottom: 28rpx;
+    }
+    .mulus>.li>.span{
+        font-size: 30rpx;
+        color:#3076EB;
+        font-weight: bold;
+    }
+    .xuxian{
+        border-bottom: 2rpx #696969 dashed;
+        display: inline-block;
+        width: 360rpx;
+    }
+    .qianyan,.box{
+        padding: 0 32rpx;
+    }
+    .qianyan>.li{
+         text-indent: 44rpx;
+        font-size: 22rpx;
+    }
+    .yuedu{
+         width:100% ;
+        min-height: 240rpx;
+        background: #EDF3FF;
+        margin-top: 20rpx;
+        padding: 20rpx;
+    }
+    .yueduyi .span{
+        font-size: 28rpx;
+        color:#4D8AFF;
+        position: relative;
+        top:-20rpx;
+    }
+     .yueduyi image{
+         width: 40rpx;
+         height: 60rpx;
+     }
+    .yueduer{
+        font-size: 22rpx;
+    }
+    .wen1{
+        font-size: 26rpx;
+        color:#333;
+    }
+    .wen2{
+         border-radius: 20rpx;
+        background: #C3D6FA;
+        line-height: 88rpx;
+        font-size:30rpx;
+        margin: 32rpx 0;
+        color: #373738;
+        text-indent: 32rpx;
+        font-weight: bold;
+    }
+     .wen2 image{
+          width: 40rpx;
+          height: 40rpx;
+         position: relative;
+         top:8rpx;
+     }
+    .wen3{
+        font-size: 22rpx;
+        line-height: 40rpx;
+    }
+    .jieguo{
+        font-size: 24rpx;
+        line-height: 40rpx;
+        color:#3076EB;
+    }
+     .jieguo .span{
+         font-size: 26rpx;
+     }
+     .echart{
+        position: relative;
+     }
+     .fen{
+        position: absolute;
+         left:284rpx;
+         top:76rpx;
+         font-size: 32rpx;
+         line-height: 48rpx;
+         width: 120rpx;
+         font-weight: bolder;
+         text-align: center;
+     }
+    .fen .span{
+        font-size: 40rpx;
+        color:#3076EB;
+    }
+#circle{
+  width:268rpx;
+  height: 268rpx;
+  margin:0 auto;
+}

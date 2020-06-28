@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "mask": "../../components/mask/mask"
+  },
+  "navigationBarTitleText": "学习状态诊断测评",
+  "navigationBarBackgroundColor": "#3669F8",
+  "navigationBarTextStyle": "white",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": true
+}

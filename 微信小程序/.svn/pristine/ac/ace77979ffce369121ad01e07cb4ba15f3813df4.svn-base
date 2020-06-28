@@ -1,0 +1,93 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/login/bindphone",
+    "pages/login/perfectInformation",
+    "pages/subjectAssessment/subjectAssessment",
+    "pages/mine/mine",
+    "pages/login/password",
+    "pages/classroom/classroom",
+    "pages/service/service",
+    "pages/newSelectSubjects/entry/entry",
+    "pages/professionalPositioningAssessment/professionalPositioningAssessment",
+    "pages/collegeLibrary/collegeLibrary",
+    "pages/professionalLibrary/professionalLibrary",
+    "pages/professionalPositioningTest/professionalPositioningTest",
+    "pages/jobLibrary/jobLibrary",
+    "pages/jobLibrary/jobLibraryDetail",
+    "pages/selectSubjects/selectSubjects",
+    "pages/matchingSchools/matchingSchools",
+    "pages/article/article",
+    "pages/universityOverview/universityOverview",
+    "pages/schoolDetail/schoolDetail",
+    "pages/schoolDetail/jianzhangList",
+    "pages/facultiesMajors/facultiesMajors",
+    "pages/consultant/consultant",
+    "pages/consultant/consultantDetail",
+    "pages/newSelectSubjects/selectTargetMajor1/selectTargetMajor1",
+    "pages/newSelectSubjects/selectTargetMajor2/selectTargetMajor2",
+    "pages/newSelectSubjects/generateSubjectPlan/generateSubjectPlan",
+    "pages/newSelectSubjects/selectSubjectReport/selectSubjectReport",
+    "pages/classroom/page1",
+    "pages/classroom/pagePeiGeng",
+    "pages/classroom/page2",
+    "pages/subjectAssessment/subjectAssessmentResult",
+    "pages/mine/reportList/reportList",
+    "pages/classroom/classroomList/classroomList",
+    "pages/classroom/columnlist/columnlist",
+    "pages/classroom/videoPlay/videoPlay",
+    "pages/service/serviceDetail",
+    "pages/learningAssessment/learningAssessments",
+    "pages/learningAssessment/test",
+    "pages/learningAssessment/test7",
+    "pages/learningAssessment/testEntry",
+    "pages/learningAssessment/testReport/testReport1",
+    "pages/learningAssessment/testReport/testReport2",
+    "pages/learningAssessment/testReport/testReport3",
+    "pages/learningAssessment/testReport/testReport4",
+    "pages/learningAssessment/testReport/testReport5",
+    "pages/learningAssessment/testReport/testReport6",
+    "pages/learningAssessment/testReport/testReport7",
+    "pages/learningAssessment/testReport/testReport8",
+    "pages/professionalPositioningTest/professionalPositioningTest_report"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3669F8",
+    "navigationBarTitleText": "学马生涯",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#3979FD",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tabbar/icon_shouye_weixuanzhong.png",
+        "selectedIconPath": "images/tabbar/icon_shouye_xuanzhong.png"
+      },
+      {
+        "pagePath": "pages/classroom/classroom",
+        "text": "课堂",
+        "iconPath": "images/tabbar/icon_ketang_weixuanzhong.png",
+        "selectedIconPath": "images/tabbar/icon_ketang_yixuanzhong.png"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "服务",
+        "iconPath": "images/tabbar/icon_fuwu_weixuanzhong.png",
+        "selectedIconPath": "images/tabbar/icon_fuwu_yixuanzhong.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabbar/icon_wode_weixuanzhong.png",
+        "selectedIconPath": "images/tabbar/icon_wode_yixuanzhong.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

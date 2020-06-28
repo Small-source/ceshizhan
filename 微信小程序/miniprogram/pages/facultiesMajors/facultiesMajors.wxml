@@ -1,0 +1,15 @@
+<!--pages/facultiesMajors/facultiesMajors.wxml-->
+<view wx:for="{{cData}}"  wx:key="index" class="main" id="main{{index}}">
+  <view class="titleBox {{schoolArr[index]== index ? 'active': ''}}" bindtap="changeSchoolArr" data-idx="{{index}}">
+    <view>
+      <image src="/images/common/arrow.png"></image>
+      <view>{{item.college}}</view>
+    </view>
+    <view>{{item.major.length}}</view>
+  </view>
+  <block wx:if="{{schoolArr[index]==index}}">
+    <view wx:for="{{item.major}}"  wx:key="index" class="major" wx:for-item="child">
+      <view class="arrow"></view>{{child}}
+    </view>
+  </block>
+</view>

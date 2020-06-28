@@ -1,0 +1,81 @@
+/* pages/classroom/classroomList/classroomList.wxss */
+.content {
+  padding: 0 30rpx;
+  background-color: #fff;
+}
+.lisBox {
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+
+}
+.lisBox:last-child {
+  border: none;
+}
+/* components/classRoomList/classRoomList.wxss */
+.mainBox {
+  color: #9a9a9a;
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+.mainBox:last-child {
+  border: none;
+}
+.contentBox {
+  padding: 30rpx;
+  padding-top: 65px;
+}
+.contentBox image {
+  width: 320rpx;
+  height: 210rpx;
+  border-radius: 10rpx;
+}
+
+.contentBox .smallTitle {
+  line-height: 40rpx;
+  color: #333;
+  font-size: 28rpx;
+  overflow: hidden;  /** 隐藏超出的内容 **/
+  word-break: break-all;
+  display: -webkit-box; /** 对象作为伸缩盒子模型显示 **/
+  -webkit-box-orient: vertical; /** 设置或检索伸缩盒对象的子元素的排列方式 **/
+  -webkit-line-clamp: 1;
+}
+.contentBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+.contentBox .mainBox {
+  width: 320rpx;
+  margin-bottom: 30rpx;
+}
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: #f6f6f6;
+  height:65px;
+  display: flex;
+  align-items: center;
+}
+.searchBox {
+  box-sizing: border-box;
+  width: 690rpx;
+  height: 32px;
+  border: 1px solid #DEDEDE;
+  margin: 0 auto;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+}
+.searchBox input {
+  flex: 1;
+  padding-left: 30rpx;
+}
+.searchBox view {
+  width: 40rpx;
+  height: 40rpx;
+  padding-right: 30rpx;
+}

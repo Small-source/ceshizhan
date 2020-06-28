@@ -1,0 +1,43 @@
+/* pages/facultiesMajors/facultiesMajors.wxss */
+.main {
+}
+.titleBox {
+  justify-content: space-between;
+}
+.titleBox view {
+  display: flex;
+  align-items: center;
+}
+.titleBox, .major{
+  height: 100rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #DEDEDE;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.titleBox image { 
+  margin-left: -6rpx;
+  margin-right: 10rpx;
+  width: 24rpx;
+  height: 24rpx;
+  transform: rotate(90deg);
+  transition: all .5s;
+}
+.major {
+  color: #9A9A9A;
+  font-weight: normal;
+}
+.arrow {
+  width: 7rpx;
+  height: 7rpx;
+  background-color: #9A9A9A;
+  margin-right: 8rpx;
+}
+.active image{
+  transform: rotate(180deg);
+  transition: all .5s;
+}

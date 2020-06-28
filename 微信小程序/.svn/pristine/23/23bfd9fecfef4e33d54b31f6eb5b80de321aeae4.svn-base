@@ -1,0 +1,200 @@
+/* pages/schoolDetail/schoolDetail.wxss */
+.header {
+  display: flex;
+  padding: 60rpx 0 50rpx 30rpx;
+  height: 125rpx;
+  color: #fff;
+  /* align-items: center; */
+  background-image: url(https://m.xuematech.com/applet/img/schoolDetail/bg.png);
+  background-size: 100% 100%;
+}
+.header .logoImg {
+  width: 108rpx;
+  height: 108rpx;
+  margin-right: 20rpx;
+  padding: 7rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+.header .mainRight {
+  flex: 1;
+}
+.header .top {
+  display: flex;
+  margin-bottom: 20rpx;
+  align-items: center;
+}
+.header .top .title {
+  margin-right: 30rpx;
+  font-size: 34rpx;
+  font-weight: 600;
+}
+.header .top .type {
+  display: flex;
+  font-size: 22rpx;
+  align-items: center;
+  background-color: none;
+}
+.header .top .type image {
+  width: 26rpx;  
+  margin-right: 5rpx;
+  background-color: none;
+}
+.header .bottom {
+  /* display: flex; */
+  width: 100%;
+  overflow: hidden;
+  font-size: 20rpx;
+  /* height: 32rpx; */
+}
+.header .bottom .tag {
+  padding: 0 12rpx;
+  border: 1px solid #fff;
+  line-height: 30rpx;
+  margin-right: 10rpx;
+  float: left;
+  border-radius: 15rpx;
+}
+.content {
+  background-color: #F5F5F5;
+  color: #333;
+}
+.content .titleBox {
+  /* box-sizing: border-box; */
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  margin-bottom: 20rpx;
+  justify-content: space-between;
+}
+.content .titleBox navigator {
+  color: #9a9a9a;
+  font-size: 22rpx;
+  display: flex;
+  align-items: center;
+}
+.content .titleBox navigator image {
+  width: 17rpx;
+  height: 23rpx;
+  margin-left: 5rpx;
+}
+.content .title {
+  border-left: 6rpx solid #3979FD;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  height: 34rpx;
+  font-weight: 600;
+  padding-left: 10rpx;
+  background-color: #fff;
+}
+.content .main {
+  background-color: #fff;
+  margin-bottom: 10rpx;
+  padding: 0 30rpx;
+}
+.content .detail {
+  color: #9a9a9a;
+  font-size: 26rpx;
+
+}
+.tagBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 17rpx 30rpx;
+}
+.tagBox view {
+  width: 25%;
+  height: 85rpx;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+.tagBox view image {
+  width: 50rpx;
+  height: 50rpx;
+  margin-right: 5rpx;
+}
+.callSchool .titleBox {
+  margin-bottom: 0rpx;
+}
+.callSchool .detailBox{
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+.callSchool .detailBox:last-child,.gradeLine .detailBox:last-child {
+  border: none;
+}
+.callSchool .detailBox .smallTitle {
+  font-size: 28rpx;
+}
+.schoolJianjie .detailBox {
+  padding: 0rpx 0 50rpx 0;
+  text-indent: 2em;
+}
+.jianzhang .titleBox {
+  margin-bottom: 0rpx;
+}
+.jianzhang .detailBox ,.yuanxi .detailBox{
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jianzhang .detailBox:last-child {
+  border: none;
+}
+.gradeLine .topBox {
+  display: flex;
+  height: 70rpx;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F5F5F5;
+}
+
+.gradeLine .topBox text, .gradeLine .detailBox text{
+  width: 105rpx;
+  text-align: center;
+}
+.gradeLine .topBox text.model ,.gradeLine .detailBox text.model{
+  width: 160rpx;
+}
+.gradeLine .detailBox{
+  height: 70rpx;
+  color: #9A9A9A;
+  align-items: center;
+  justify-content: space-between;
+}
+.tesezhuanye .detailBox,.mainSubject .detailBox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: start;
+  width: 710rpx;
+}
+.tesezhuanye .detailBox .detail,.mainSubject .detailBox .detail {
+  height: 50rpx;
+  line-height: 50rpx;
+  padding: 0 18rpx;
+  border-radius: 5rpx;
+  border: 1px solid #E5E5E5;
+  margin-bottom: 30rpx;
+  margin-right: 20rpx;
+}
+.tesezhuanye .detailBox navigator,.mainSubject .detailBox navigator  {
+  border: 1px solid #3979FD;
+  color: #3979FD;
+}
+.yuanxi .titleBox {
+  margin-bottom: 0rpx;
+}
+.yuanxi navigator:last-child {
+  border: none;
+}
+.navigatorBox image {
+  width: 17rpx;
+  height: 23rpx;
+}

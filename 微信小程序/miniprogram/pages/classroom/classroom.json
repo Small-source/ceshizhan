@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "classroom-list": "/components/classroom-list/classroom-list"
+  },
+  "navigationBarTitleText": "优选课程",
+  "navigationBarBackgroundColor": "#3669F8",
+  "navigationBarTextStyle": "white"
+}

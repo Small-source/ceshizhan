@@ -1,0 +1,75 @@
+<!--pages/selectTargetMajor/selectTargetMajor2.wxml-->
+<wxs module="Fun" src='../../../utils/Fun.wxs'></wxs>
+<view class="header">
+  <view class="searchBox">
+    <input placeholder="请输入专业名称" bindinput="searchChange" value="{{searchValue}}"></input>
+    <view class="btn_search" hidden="{{isSearching}}"><icon type="search" color="#3979FD"/></view>
+    <view class="btn_search" bindtap="closeSearch"  hidden="{{!isSearching}}"><icon type="cancel" color="#666"/></view>
+  </view>
+</view>
+<view class="searhResults" style="height: {{winHeight-65-50}}px" hidden="{{!isSearching}}">
+  <scroll-view scroll-y="true" class="searchScroll">
+    <block wx:for="{{searhResults}}"  wx:key="index" >
+      <view wx:for="{{item.list}}"  wx:key="index" class="major main" wx:for-item="child">
+        <view class="arrowBox">
+          <view class="arrow"></view>
+          <navigator url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{child.id}}">{{child.name}}</navigator>
+        </view>
+        <view class="btn uncheck" bindtap="removeMajor" data-id="{{child.id}}" wx:if="{{Fun.some(checkMajor2,child.id)}}">
+        已选
+        </view>
+        <view class="btn check" bindtap="addMajor" data-id="{{child.id}}" data-name="{{child.name}}" wx:else>
+          选择
+        </view>
+      </view>
+    </block>
+  </scroll-view>
+</view>
+<view class="content" style="height: {{winHeight-65-50}}px" hidden="{{isSearching}}">
+  <scroll-view class="scrollBox leftBox" scroll-y="true">
+    <view wx:for="{{discipline}}" wx:key="index" bindtap="changeData" data-typeid="{{item.value}}" class="{{typeId==item.value ? 'active' : ''}}">{{item.names}}</view>
+  </scroll-view>
+  <scroll-view class="scrollBox rightBox" scroll-y="true">
+    <view class="typeName">{{cData[0].first_name}}</view>
+    <view wx:for="{{cData}}"  wx:key="index" class="main">
+      <view class="titleBox {{schoolArr[index]== index ? 'active': ''}}" bindtap="changeSchoolArr" data-idx="{{index}}">
+        <view>
+          <image src="/images/common/arrow.png"></image>
+          <view>{{item.name}}</view>
+        </view>
+        <view>{{item.list.length}}个专业</view>
+      </view>
+      <block wx:if="{{schoolArr[index]==index}}">
+        <view wx:for="{{item.list}}"  wx:key="index" class="major" wx:for-item="child">
+          <navigator class="arrowBox" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{child.id}}">
+            <view class="arrow"></view>
+            <view>{{child.name}}</view>
+          </navigator>
+          <view class="btn uncheck" bindtap="removeMajor" data-id="{{child.id}}" wx:if="{{Fun.some(checkMajor2,child.id)}}">已选</view>
+          <view class="btn check" bindtap="addMajor" data-id="{{child.id}}" data-name="{{child.name}}" wx:else>选择</view>
+        </view>
+      </block>
+    </view>
+  </scroll-view>
+</view>
+<view class="bottom">
+  <view class="btTitle" bindtap="changeHad">已选目标专业<text>{{checkMajor2.length}}</text>个</view>
+  <view class="btnNext" bindtap="goNext">下一步</view>
+</view>
+<view class="hadCheckBox" style="height: {{winHeight-50}}px" hidden="{{isShowHad}}">
+  <view class="mainBox">
+    <view class="hadHeader">
+      <view>已选专业{{checkMajor2.length}}/20</view>
+      <view class="closeBox"><icon type="cancel" color="#3979FD" bindtap="closeHadCheck" size="22" class="close"/></view>
+    </view>
+    <scroll-view class="hadScroll" scroll-y="true">
+      <view wx:for="{{checkMajor2}}"  wx:key="index" class="major" >
+        <view class="arrowBox">
+          <view class="arrow"></view>
+          <view>{{item.subjectName}}</view>
+        </view>
+        <image class="removeBox" src="/images/common/icon_del.png" data-id="{{item.subjectId}}" bindtap="removeMajor"></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>

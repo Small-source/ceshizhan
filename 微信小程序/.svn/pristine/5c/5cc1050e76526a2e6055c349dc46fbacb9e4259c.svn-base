@@ -1,0 +1,130 @@
+<!--pages/learningAssessment/testReport/testReport.wxml-->
+<view class="page_cover">
+  <view class="header">
+    <view class="h3">成就目标定向测评报告</view>
+    <view class="detail">( 个人报告 )</view>
+  </view>
+  <view class="main">
+    <view class="name">姓名：{{reportData.name}}</view>
+    <view>报告编号：{{reportData.reportNum}}</view>
+    <view>报告时间：{{reportData.updatedAt}}</view>
+  </view>
+  <view class="cover_warning">
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">隐私权: 本报告所含信息属于个人资料，未经许可，不可阅读、复制或泄露报告内容。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">说  明: 本测评属于指导性测验，用于中学生的时间管理分析，如有任何疑问，请与您的规划师联系。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">版  权: 未经授权，任何机构均不得拷贝、引用报告中的相关信息。</text>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">
+      目录
+  </view>
+  <view class="content">
+      <view class="big_title_box">
+          <view class="big_title"><text>Part1</text>前言</view>
+          <view class="line"></view>
+          <view class="page_number">1</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part2</text>测评结果</view>
+          <view class="line"></view>
+          <view class="page_number">2</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part3</text>温馨提示</view>
+          <view class="line"></view>
+          <view class="page_number">3</view>
+      </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part1前言</view>
+  <view class="content">
+    <view class="foreword_detail">
+      <view>成就目标是关于个体追求成就任务的理由，对目标认知的表征，它反映了个体对成就任务的一种内在认知取向，是一个关于目标、胜任、成功、能力和努力的标准的有组织的结构系统。成就目标定向是个体关于成就活动的目的、成功的意义和成功标准的整合的信念系统，具有行为（学习策略、任务选择和学业）、认知（对于情境的认知、成败归因）和情感（焦虑）的特征。成就目标中的目标指的是隐藏在主体成就行为背后的，在任务选择时所表现出来的一种普遍的目的倾向。</view>
+      <view>成就目标定向是认知因素被引入成就动机的研究后所产生的概念，它的提出，从概念上揭示出成就动机的另一重要特性即成就动机的认知特点。成就动机是由成就目标激发出的动力因素，具有一定的目标指向性，是个体对于自己认为很重要、有价值的事情而去努力的动力因素。因此，成就目标定向必然包含了个体的认知判断和价值判断，对于目标价值的判断体现出个体成就目标定向的类型。</view>
+      <view>Dweck最先提出掌握目标和成绩目标的概念，但他认为掌握目标定向和成绩目标定向不是两个维度，而是同一维度上的两个相对变量。随着研究的不断深入，出现了成就目标定向的二因素理论，并把两种目标定向分别命名为任务卷入（掌握目标定向或学习目标定向）和自我卷入（能力目标定向和成绩目标定向），前者认为学习的目的是为了掌握知识，学习过程中遭遇失败并不能说明自身能力不足。后者认为学习的目的是为了取得好成绩，失败就说明自身能力欠缺。二因素理论认掌握目标定向的作用是积极的，成绩目标定向的作用是消极的。但在实际研究中发现成绩目标定向也可能产生积极的结果，因此又将成绩目标定向分为成绩—接近目标定向和成绩—回避目标定向，与掌握目标定向一起形成了成就目标定向的三因素。</view>
+      <view>随着研究的进一步深入，Elliot等人进一步将掌握目标、成绩目标与接近成功动机和回避成功动机两两搭配，形成了四因素成就动机理论模型，分别是掌握—接近目标、掌握—回避目标、成绩—接近目标、成绩—回避目标。</view>
+      <view>成就目标定向是产生成就动机的认知因素，对中学生来说，成就目标定向通过影响学习动机，进而影响学生的学习成绩。培养良好的定向方式，对于提高学生学习投入的水平和未来的发展都是十分有意义的。成就目标定向测评可以了解学生的目标定向类型，在此基础上，对不好的目标定向类型加以正确引导，让学生逐步建立良好的定向方式。</view>
+    </view>
+    <view class="foreword_table">
+      <view>掌握—趋近目标</view>
+      <view>掌握—回避目标</view>
+      <view>成绩—趋近目标</view>
+      <view>成绩—回避目标</view>
+    </view>
+    <view class="foreword_footer">
+      <view class="title">阅读须知：</view>
+      <view>①本报告基于您的在线作答结果，通过系统分析您在各个维度的得分水平，从而确定您目前成就目标定向的类型，有针对性地为您提供建议。</view>
+      <view>②测评结果的准确性和可靠性主要依赖于您是否对自己有明确客观的认识，以及在测评过程中是否认真和坦白等。</view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part2测评结果</view>
+  <view class="content">
+    <view class="resule_header">成就目标定向测评的各维度及特点如下：</view>
+    <view class="resule_table">
+      <view class="li">
+        <view class="lis_title"><text>01</text>维度: 掌握—趋近目标</view>
+        <view class="lis_deatil">特点：关注的是任务掌握、学习和理解；根据自己的进步和提高，以及对任务的理解深度评价自身的表现。</view>
+      </view>
+      <view class="li">
+        <view class="lis_title"><text>02</text>维度: 掌握—回避目标</view>
+        <view class="lis_deatil">特点：关注如何避免不理解和没有完成任务；判断成功的标准是在自我比较基础上准确无误地完成任务。</view>
+      </view>
+      <view class="li">
+        <view class="lis_title"><text>03</text>维度: 成绩—趋近目标</view>
+        <view class="lis_deatil">特点：关注如何超越他人，表现得自己最聪明、最棒；根据常模标准评价自身，如在班上考得最好。</view>
+      </view>
+      <view class="li">
+        <view class="lis_title"><text>01</text>维度: 成绩—回避目标</view>
+        <view class="lis_deatil">特点：关心如何不让自己显得低能，显得比别人笨；根据常模标准来评价自身的表现，如不是班里最差的。</view>
+      </view>
+    </view>
+    <view class="echarts_box">
+      <view class="title">通过对您的作答结果进行分析，您四个维度的得分如下图所示：</view>
+      <view class="echarts">
+        <ec-canvas  id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+      </view> 
+      <view class="fenxi">经过分析，您的成就目标定向类型为：<text>{{reportData.report.studentData.category}}。</text></view>
+      <view class="fenxi_detail">
+          <text>{{reportData.report.studentData.content}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part3温馨提示</view>
+  <view class="content">
+    <view class="warmtips_header">
+      学习最重要的是掌握知识和提高能力，如果把成绩看得太重或者总想着要比别人考得好，在成绩不好或者考试不如别人时会感受到很大的心理落差，伴随而来的是很多情绪问题。因此，树立正确的目标定向类型是非常重要的，下面给出几个小建议：
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">1.培养每天睡觉前回忆所学内容的习惯</view>
+      <view>睡前回忆所学知识是一个非常好的习惯，一是有助于促进记忆，心理学研究发现睡眠具有记忆功能；二是通过回忆，可以发现自己今天所学的知识哪些方面掌握得较好，哪些方面掌握得不好，从而进行有针对性地复习；三也是最重要的一点是可以养成用是否掌握知识点检验学习情况的好习惯，慢慢培养掌握型的学习目标。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">2.培养通过考试成绩分析对各个知识点的掌握情况的习惯</view>
+      <view>中学有很多考试，月考、期中考试以及期末考试等。看到试卷，不仅要关注成绩，更要关注哪道题错了，这道题考的知识点是什么，是不是这道题考的知识点没有很好地掌握，以从而更有针对性地进行复习。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">3.不要因为某一次的成绩不好而苛责自己</view>
+      <view>有的时候可能因为情绪或者突发事件导致考试发挥失常，不要因为成绩不好苛责自己，一次两次考得不好并不能说明任何问题。碰到这种情况要多想想这次考试考的知识点自己是不是掌握了，如果知识点都掌握了，考试考的不好是因为情绪等其他原因的话，要学会原谅自己，最重要的是掌握知识和能力，而不是某一次的考试成绩。</view>
+    </view>
+    <view class="tips_box">
+      <view class="tips_title">4.确定目标后学会拆分目标</view>
+      <view>当我们确定一个目标时，往往会因为目标太大，看不到希望导致自己没有办法坚持下去。所以当我们设定目标时应该把目标拆解成可以执行的、可以达到的、有时间限制的小目标。比如说想要考中南大学的计算机专业，为了达成这个目标，可以把目标分解为高一、高二、高三的阶段目标，再对各个阶段的目标进行细分，最后分解到每个月、每周、每天的目标，一步步地完成最后的目标。</view>
+    </view>
+  </view>
+</view>
+

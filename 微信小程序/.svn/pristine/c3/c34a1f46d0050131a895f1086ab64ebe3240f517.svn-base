@@ -1,0 +1,23 @@
+/* pages/schoolDetail/jianzhangList.wxss */
+.year {
+  padding: 0 30rpx;
+  line-height: 60rpx;
+  color: #3669F8;
+  background-color: #fff;
+}
+.smallTile {
+  font-size: 28rpx;
+}
+.detailBox {
+  padding: 0 30rpx;
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  margin-bottom: 10rpx;
+}
+.navigatorBox image {
+  width: 17rpx;
+  height: 23rpx;
+}

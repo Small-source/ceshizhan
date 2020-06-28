@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#3669F8",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "职业库",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

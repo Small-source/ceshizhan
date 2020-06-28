@@ -1,0 +1,26 @@
+/* pages/classroom/page2.wxss */
+/* pages/classroom/page1.wxss */
+.header image {
+  width: 750rpx;
+  height: 4944rpx;
+}
+.videoBox {
+  padding: 140rpx 30rpx 59rpx 30rpx;
+  box-sizing: border-box;
+  background: url(https://m.xuematech.com/applet/img/classroom/bg_fushizhidao02.png) no-repeat;
+  background-size: 750rpx 525rpx;
+  height: 565rpx;
+  background-color: #DDEFFF;
+}
+.videoBox .video {
+  width: 100%;
+  height: 343rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.videoBox .video video {
+  width: 100%;
+  height: 100%;
+}
+

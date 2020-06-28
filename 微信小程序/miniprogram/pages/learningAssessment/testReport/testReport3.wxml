@@ -1,0 +1,109 @@
+<!--pages/learningAssessment/testReport/testReport3.wxml-->
+<view class="page_cover">
+  <view class="header">
+    <view class="h3">学习动机测评报告</view>
+    <view class="detail">( 个人报告 )</view>
+  </view>
+  <view class="main">
+    <view class="name">姓名：{{reportData.name}}</view>
+    <view>报告编号：{{reportData.reportNum}}</view>
+    <view>报告时间：{{reportData.updatedAt}}</view>
+  </view>
+  <view class="cover_warning">
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">隐私权: 本报告所含信息属于个人资料，未经许可，不可阅读、复制或泄露报告内容。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">说  明: 本测评属于指导性测验，用于中学生的时间管理分析，如有任何疑问，请与您的规划师联系。</text>
+    </view>
+    <view>
+      <image src="https://m.xuematech.com/applet/img/diagnosis/icon_xingxing.png"></image>
+      <text space="ensp">版  权: 未经授权，任何机构均不得拷贝、引用报告中的相关信息。</text>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">
+      目录
+  </view>
+  <view class="content">
+      <view class="big_title_box">
+          <view class="big_title"><text>Part1</text>前言</view>
+          <view class="line"></view>
+          <view class="page_number">1</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part2</text>测评结果</view>
+          <view class="line"></view>
+          <view class="page_number">2</view>
+      </view>
+      <view class="big_title_box">
+          <view class="big_title"><text>Part3</text>温馨提示</view>
+          <view class="line"></view>
+          <view class="page_number">3</view>
+      </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part1前言</view>
+  <view class="content">
+    <view class="foreword_detail">
+      <view>学习动机是指引发与维持学生的学习行为，并使之指向一定学业目标的一种动力倾向。根据不同的来源可以将学习动机分为内源性动机和外源性动机，内源性动机指由个体内在兴趣、好奇心或成就需要等内部原因引起的动机；外源性动机指由外在的奖惩或害怕考试不及格等活动之外的原因激起的动机。学习动机在教育心理学中是非常重要的一部分内容，不同心理学家从不同角度对学习动机进行了阐释，主要包括强化理论、归因理论、需要层次理论、成就动机理论、自我价值理论、自我效能感理论等。</view>
+      <view>心理学研究发现学习动机和学习效率、学习成绩直接相关。中等程度学习动机的学生学习效率最高，学习动机过低过高都会影响学生的学习效率，学习动机过低，学习积极性不高，懒懒散散、没有目标；学习动机过高，过分看重成绩和是否超过别人，情绪波动起伏较大，都不利于学习效率的提高。</view>
+      <view>学习动机测评包括四个维度，分别是学习动机太弱、学习动机太强、学习兴趣和学习目标。通过学习动机测评可以发现学生在学习动机上存在的具体问题，从而有针对性地提供个性化的辅导方案。</view>
+    </view>
+    <view class="foreword_footer">
+      <view class="title">阅读须知：</view>
+      <view>①报告基于您的在线作答结果，通过系统分析您在各个维度的得分水平，有针对性地为您提供建议。</view>
+      <view>②测评结果的准确性和可靠性主要依赖于您是否对自己有明确客观的认识，以及在测评过程中是否认真和坦白等。</view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part2测评结果</view>
+  <view class="content">
+    <view class="echarts_box">
+      <view class="title">
+        通过对您的作答结果进行分析，您当前的得分如下图所示：
+      </view>
+      <view class="echarts">
+        <ec-canvas  id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+      </view> 
+    </view>
+    <view class="resule_header">您在各个维度上的得分和解释如下：</view>
+    <view class="resule_table">
+      <view class="li" wx:for="{{reportData.report.studentData.list}}" wx:key="idx" wx:for-index="idx" wx:for-item="value">
+        <view class="lis_title">
+          <text class="color_box"></text>
+          <text class="weidu">维度：{{value.category}}</text>
+          <text>得分：<text class="defen">{{value.score}}</text></text>
+        </view>
+        <view class="lis_detail">解释</view>
+        <view class="detail">{{value.content}}</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="page">
+  <view class="s_header">Part3温馨提示</view>
+  <view class="content">
+    <view class="warmtips_header">
+      学习动机与学习效率直接相关，中等程度的学习动机学生的学习效率是最高的，学习动机过低或过高都会影响学习效率，因此矫正学生不合理的学习动机帮助学生建立对学习动机的合理信念是非常重要的。以下是一些建议：
+    </view>
+    <view class="tips_box" wx:for="{{endData}}" wx:key="index" wx:if="{{index < 5}}">
+      <view class="tips_title"><text>{{index + 1}}</text>.{{item.title}}</view>
+      <view class="p">{{item.detail}}</view>
+    </view>
+    <view class="p" wx:if="{{endData.length == 0}}">您在学习动机的四个维度学习动机太弱、学习动机太强、学习兴趣和学习目标上没有任何困扰，这说明您目前的学习动机非常好，没有任何问题，请继续保持。</view>
+  </view>
+</view>
+<view class="page" wx:if="{{endData.length > 6}}">
+  <view class="content">
+    <view class="tips_box" wx:for="{{endData}}" wx:key="index" wx:if="{{index > 4}}">
+      <view class="tips_title"><text>{{index + 1}}</text>.{{item.title}}</view>
+      <view class="p">{{item.detail}}</view>
+    </view>
+  </view>
+</view>

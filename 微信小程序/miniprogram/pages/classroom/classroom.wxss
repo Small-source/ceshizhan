@@ -1,0 +1,119 @@
+/* pages/classroom/classroom.wxss */
+.title {
+  border-left: 6rpx solid #3979FD;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  height: 34rpx;
+  font-weight: 600;
+  padding-left: 10rpx;
+  background-color: #fff;
+}
+.titleBox {
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.titleBox .navigator {
+  color: #9a9a9a;
+  font-size: 22rpx;
+  display: flex;
+  align-items: center;
+}
+.titleBox .navigator image {
+  width: 17rpx;
+  height: 23rpx;
+  margin-left: 5rpx;
+}
+swiper {
+  margin-bottom: 30rpx;
+}
+.header {
+  width: 690rpx;
+  height: 190rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 30rpx;
+  /* margin-top: -70rpx; */
+  position: relative;
+  z-index: 1;
+}
+.header .navigator {
+  width: 25%;
+  text-align: center;
+  font-size: 28rpx;
+  color: #333;
+}
+.header .navigator image{
+  width: 74rpx;
+  height: 68rpx;
+  margin-bottom: 10rpx;
+}
+.content {
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.mainBox {
+  display: flex;
+  border-bottom: 1px solid #e5e5e5;
+
+}
+.mainBox:last-child {
+  border: none;
+}
+swiper {
+  height: 360rpx;
+}
+swiper image{
+  width: 750rpx;
+  height: 360rpx;
+}
+
+.popupBox {
+  width: 520rpx;
+  height: 530rpx;
+  background-color: rgba(0, 0, 0,.8);
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: -260rpx;
+  margin-top: -265rpx;
+  color: #fff;
+  font-size: 24rpx;
+  text-align: center;
+  border-radius: 10rpx;
+  z-index: 10;
+}
+.popupBox .prpTitle icon {
+  position: absolute;
+  top: 10rpx;
+  right: 10rpx;
+}
+.popupBox .prpTitle {
+  position: relative;
+  line-height: 80rpx;
+  color: #fff;
+}
+.popupBox image {
+  width: 350rpx;
+  height: 350rpx;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 20rpx;
+}
+.btnDownload {
+  width: 120rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #3979FD;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10rpx;
+  color: #fff;
+  font-size: 30rpx;
+}

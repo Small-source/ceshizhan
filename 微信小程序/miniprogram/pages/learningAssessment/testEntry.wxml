@@ -1,0 +1,31 @@
+<!--miniprogram/pages/learningAssessment/testEntry.wxml-->
+<view class="evaluation_entry">
+  <view class="banner">
+     <image src="https://m.xuematech.com/applet/img/diagnosis/bg.jpg" alt=""></image>
+  </view>
+   <view class="content">
+        	<view class="title_box">
+        		<view class="box"></view>
+        		<view class='p' class="box_title">{{question[assessType]}}</view>
+        		<view class="box box2"></view>
+        	</view>
+            <view class="main">
+                <view class='p' wx:for="{{entry[assessType].main}}" wx:key="index">{{item}}</view>
+            </view>
+            <view class="notice">
+                <view class='h6'>测试前须知</view>
+                <view class="ol">
+                   <view wx:for="{{entry[assessType].notice}}" wx:key="index" class="li">{{item}}</view>
+                </view>
+            </view>
+            <block wx:if="{{assessType==7}}">
+              <navigator url="/pages/learningAssessment/test7" class="btn"  open-type="redirect">开始测评</navigator>
+            </block>
+            <block wx:else>
+              <navigator class="btn" hover-class="none" open-type="redirect" url="/pages/learningAssessment/test?assessType={{assessType}}">开始测评</navigator>
+            </block>
+            
+    </view>
+</view>
+
+

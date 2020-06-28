@@ -1,0 +1,89 @@
+/* miniprogram/pages/learningAssessment/testEntry.wxss */
+.evaluation_entry {
+  padding-bottom: 50rpx;
+}
+.evaluation_entry .banner {
+  position: relative;
+  z-index: 2;
+  font-size:12rpx;
+}
+.evaluation_entry .banner image {
+  display: block;
+  width: 100%;
+}
+.evaluation_entry .content {
+  box-sizing: border-box;
+  width: 690rrpx;
+  padding: 0 34rpx 80rpx 34rpx;
+  background-color: #fff;
+  position: relative;
+  border-radius: 46rpx;
+  color: #333;
+  margin: 0 auto;
+  margin-top: -155rpx;
+  z-index: 2;
+  box-shadow: 0 0 10rpx #dedede;
+}
+.evaluation_entry .content .title_box {
+  display: flex;
+}
+.evaluation_entry .content .title_box .box {
+  flex: 1;
+  background: url(https://m.xuematech.com/img/diagnosis/line.png) no-repeat center right; 
+  background-size: 60rpx  20rpx;
+}
+.evaluation_entry .content .title_box .box2 {
+  transform: rotate(180deg);
+}
+.evaluation_entry .content .title_box .box_title {
+  padding: 0 20rpx;
+  font-size: 34rpx;
+  line-height: 104rpx;
+  color: #3077ed;
+  font-weight: 600;
+}
+.evaluation_entry .content .main .p {
+  font-size: 26rpx;
+  text-indent: 20rpx;
+  line-height: 40rpx;
+  margin-bottom: 16rpx;
+}
+.evaluation_entry .content .notice {
+  padding: 20rpx 30rpx;
+  background-color: #edf3ff;
+  border-radius: 10rpx;
+}
+.evaluation_entry .content .notice .h6 {
+  line-height: 48rpx;
+  margin-bottom: 4rpx;
+  font-size: 28rpx;
+  font-weight: 600;
+  color: #3c91f4;
+  padding-left: 60rpx;
+  background: url(https://m.xuematech.com/img/diagnosis/icon_tishi.jpg) no-repeat 0 center;
+  background-size: 32rpx 48rpx;
+}
+.evaluation_entry .content .notice .ol .li {
+  font-size: 24rpx;
+  line-height: 36rpx;
+}
+.evaluation_entry .btn {
+  width: 416rpx;
+  cursor: pointer;
+  line-height: 76rpx;
+  font-size: 30rpx;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 38rpx;
+  margin: 0 auto;
+  background-color: #3075ea;
+  position: absolute;
+  left: 50%;
+  margin-left: -208rpx;
+  bottom: -38rpx;
+  overflow: hidden;
+}
+ .evaluation_entry .btn:active {
+  background-color: royalblue;
+}

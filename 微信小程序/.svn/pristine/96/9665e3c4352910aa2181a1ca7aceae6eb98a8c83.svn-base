@@ -1,0 +1,80 @@
+<!-- pages/classroom/classroom.wxml 课堂-->
+<!-- <block wx:if="{{isThrough==2}}">
+  <swiper  interval="5000" duration="500" bindchange="changSwiper" autoplay="true" circular="true" indicator-dots="true" indicator-color="rgba(255, 255, 255, .5)" indicator-active-color="#fff">
+      <swiper-item>
+        <navigator url="">
+          <image src="https://m.xuematech.com/applet/img/classroom/banner01.png"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator url="">
+          <image src="https://m.xuematech.com/applet/img/classroom/banner02.png"></image>
+        </navigator>
+      </swiper-item>
+  </swiper>
+  <view class="header">
+    <view wx:for="{{headerNav}}" wx:key="index" class="navigator" url="/pages/classroom/classroomList/classroomList?type={{index+1}}" hover-class="none" data-imgUrl="{{item.popsrc}}" bindtap="changeCard">
+      <image src="{{item.imgUrl}}"></image>
+      <view>{{item.title}}</view>
+    </view>
+  </view>
+  <view class="content">
+    <view class="titleBox">
+      <text class="title">近期优选</text>
+    </view>
+    <view class="mainBox" wx:for="{{liveList}}" wx:key="index"  data-imgUrl="{{item.qrCode}}" bindtap="changeCard">
+      <classroom-list  itemObj="{{item}}"></classroom-list>
+    </view>
+  </view>
+  <view class="content">
+    <view class="titleBox">
+      <text class="title">近期专栏</text>
+    </view>
+    <view class="mainBox" wx:for="{{columnList}}" wx:key="index"  data-imgUrl="{{item.qrCode}}" bindtap="changeCard">
+      <classroom-list  itemObj="{{item}}"></classroom-list>
+    </view>
+  </view>
+  <view class="popupBox" wx:if="{{isShowCard}}">
+    <view class="prpTitle">请保存二维码到本地，微信扫码学习 <icon type="clear" size="30" color="rgb(255,255,255)" bindtap="closeCard"/></view>
+    <image src="{{imgUrl}}" data-src='{{imgUrl}}' bindtap='previewImage'></image>
+    <view class="btnDownload" data-url="{{imgUrl}}" bindtap="saveImg">保存</view>
+  </view>
+</block> -->
+
+
+
+
+<!-- <block wx:else> -->
+  <swiper  interval="5000" duration="500" bindchange="changSwiper" autoplay="true" circular="true" indicator-dots="true" indicator-color="rgba(255, 255, 255, .5)" indicator-active-color="#fff">
+      <swiper-item>
+        <navigator url="/pages/classroom/page1">
+          <image src="https://m.xuematech.com/applet/img/classroom/banner01.png"></image>
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator url="/pages/classroom/page2">
+          <image src="https://m.xuematech.com/applet/img/classroom/banner02.png"></image>
+        </navigator>
+      </swiper-item>
+  </swiper>
+  <view class="header">
+    <navigator wx:for="{{headerNav}}" wx:key="index" class="navigator" url="/pages/classroom/classroomList/classroomList?type={{index+1}}" hover-class="none">
+      <image src="{{item.imgUrl}}"></image>
+      <view>{{item.title}}</view>
+    </navigator>
+  </view>
+  <view class="content">
+    <view class="titleBox">
+      <text class="title">近期优选</text>
+      <navigator  wx:if="{{liveList.length>5}}">查看更多<image src="/images/schoolDetail/icon_chakangengduo.png"></image></navigator>
+    </view>
+    <classroom-list wx:for="{{liveList}}" wx:key="index" itemObj="{{item}}" class="mainBox" url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=1"></classroom-list>
+  </view>
+  <view class="content">
+    <view class="titleBox">
+      <text class="title">近期专栏</text>
+      <navigator wx:if="{{columnList.length>5}}">查看更多<image src="/images/schoolDetail/icon_chakangengduo.png"></image></navigator>
+    </view>
+    <classroom-list wx:for="{{columnList}}" wx:key="index" itemObj="{{item}}" class="mainBox" url="/pages/classroom/columnlist/columnlist?id={{item.id}}"></classroom-list>
+  </view>
+<!-- </block> -->

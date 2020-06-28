@@ -1,0 +1,41 @@
+<!--miniprogram/pages/learningAssessment/test7.wxml-->
+<view class="bg">
+    <view class="top" style="display:{{contentView}}">
+        <view>
+          一共找出:<text id="total">{{total}}</text>对
+        </view>
+        <view>
+          本组找出:<text id="part">{{part}}</text>对
+        </view>
+    </view>
+    <view class="content" style="display:{{contentView}}">
+            <view class="head">
+                <text class="span"></text><text style="display: inline-block" class="a">注意力测评</text>
+                <view class="time">
+                    <image src="https://m.xuematech.com/applet/img/zhuyili/icon_naozhong.png" alt=""></image>
+                    <text style="display: inline-block" class="a">倒计时</text>
+                    <text id="fen" style="left:-0.05rem;display: inline-block" class="span">0{{fen}}</text>
+                    <text style="left:-0.1rem;display: inline-block" class="span">:</text>
+                    <text id="miao" style="left:-0.15rem;display: inline-block" class="span">{{miao}}</text>
+                </view>
+            </view>
+            <view class="numbers">
+                <view class="number">
+                  <text wx:for="{{showNumber}}" wx:key="index" class="span"
+                   data-index="{{index}}" data-bool="{{item.bool}}" data-flag="{{item.flag}}"
+                   bindtap="events"
+                   class="{{item.bool&&item.flag&&'xuanzhong'||''}}">{{item.number}}</text>
+                </view>
+            </view>
+            <view class="next" bindtap="next" wx:if='{{nextPart}}'>
+                <image src="https://m.xuematech.com/applet/img/zhuyili/icon-jiantou.png"  style="height:100%"></image>
+                <text id="next" class="span">下一组</text>
+            </view>
+    </view>
+    <view class="submit" wx:if='{{!nextPart}}' bindtap="submit">
+       提交
+    </view>
+    <view class="dao" wx:if="daoNumberFlag">
+      {{daoNumber}}
+    </view>
+</view>

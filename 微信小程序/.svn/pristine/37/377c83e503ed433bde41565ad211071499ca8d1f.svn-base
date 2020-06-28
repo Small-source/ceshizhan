@@ -1,0 +1,63 @@
+<!--pages/collegeLibrary/collegeLibrary.wxml-->
+<wxs module="Fun" src='../../utils/Fun.wxs'></wxs>
+<view class="topFloat">
+  <view class="searchBox">
+    <input placeholder="请输入大学名称" bindinput="searchChange" value="{{searchValue}}"></input>
+    <view class="btn_search" bindtap="goSearch"><icon type="search" color="#3979FD"/></view>
+  </view>
+  <view class="checkBox">
+    <view class="tabBox">
+      <view data-value="{{item.value}}"  wx:for="{{tabBox}}" bindtap="changeType" class="{{ activeTabValue == item.value ? 'activeTab':'untab'}}" wx:key="index">
+        <text>{{item.name}}</text>
+        <image src="{{activeTabValue == item.value ? item.imgUrl2 : item.imgUrl1}}"></image>
+      </view>
+    </view>
+    <view class="childBox nomall" wx:if="{{ activeTabValue == 1 }}">
+      <view class="{{province.length ? '':'active'}}" data-tap="全国" bindtap="checkChange">全国</view>
+      <view data-tap="{{item}}" wx:for="{{diqu}}" bindtap="checkChange" class="{{Fun.indexOf(province,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+    </view>
+    <view class="childBox nomall" wx:if="{{ activeTabValue == 2 }}">
+      <view class="{{type.length ? '':'active'}}" data-tap="全部" bindtap="checkChangeType">全部</view>
+      <view data-tap="{{item}}" wx:for="{{daxueleibie}}" bindtap="checkChangeType" class="{{Fun.indexOf(type,item) > -1 ? 'active':''}}" wx:key="item">{{item}}</view>
+    </view>
+    <view class="childBox tagBox" wx:if="{{ activeTabValue == 3 }}">
+      <view class="{{tagShuangyiliu.length||tag985||tag211||tagZhongdianxueke||tagTesezhuanye||tagBushenghejian||tagBaoyanzige ? '':'active'}}" data-tap="全部" bindtap="checkChangeType" bindtap="checkAllTag">全部</view>
+      <view data-tap="{{item.value}}" wx:for="{{tesebiaoqian}}" bindtap="checkChangeTeseTag" class="{{Fun.indexOf(tagShuangyiliu,item.value) > -1 ? 'active':''}}" wx:key="index">{{item.name}}</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tag985" class="{{tag985 == 1 ? 'active':''}}">985</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tag211" class="{{tag211 == 1 ? 'active':''}}">211</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tagZhongdianxueke" class="{{tagZhongdianxueke == 1 ? 'active':''}}">重点学科</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tagTesezhuanye" class="{{tagTesezhuanye == 1 ? 'active':''}}">特色专业</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tagBushenghejian" class="{{tagBushenghejian == 1 ? 'active':''}}">省部合建</view>
+      <view bindtap="checkChangeTagSmall" data-typeName="tagBaoyanzige" class="{{tagBaoyanzige == 1 ? 'active':''}}">保研资格</view>
+    </view>
+    <view class="btnBox"wx:if="{{ activeTabValue != 0 }}">
+      <view class="btn" bindtap="goUpdate">确定</view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <navigator class="main" wx:for="{{schoolList}}"  wx:key="index" url="/pages/schoolDetail/schoolDetail?schoolId={{item.id}}">
+    <image src="{{item.logo}}"></image>
+    <view class="mainRight">
+      <view class="top">
+        <text class="title">{{item.name}}</text>
+        <view class="type">
+          <image src="/images/common/tag.png" mode="widthFix"></image>
+          {{item.type}}
+        </view>
+      </view>
+      <view class="bottom" wx:if="{{item.tag985Name&&item.tag211Name&&item.tagShuangyiliuName}}">
+        <view class="tag" wx:if="{{item.tag985Name}}">{{item.tag985Name}}</view>
+        <view class="tag" wx:if="{{item.tag211Name}}">{{item.tag211Name}}</view>
+        <view class="tag" wx:if="{{item.tagShuangyiliuName}}">{{item.tagShuangyiliuName}}</view>
+      </view>
+      <view class="address"><image src="/images/common/icon_dingwei01.png"></image>{{item.city}}</view>
+    </view>
+  </navigator>
+  <view wx:if="{{count==schoolList.length}}" class="noMore">没有更多了...</view>
+</view>
+<view wx:if="{{count==0}}" class="noneBox">
+  <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none' ></image>
+</view>
+<mask style='z-Index:1' wx:if="{{activeTabValue != 0}}"></mask>
+

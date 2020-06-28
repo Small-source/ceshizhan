@@ -1,0 +1,94 @@
+<!--pages/selectTargetMajor/selectSubjectReport.wxml-->
+<view class="pageBox" hidden="{{hidden}}">
+  <view class="mySelect">
+    <view class="header">我的选科</view>
+    <view class="content">
+      <view class="smtitle">我的选科</view>
+      <view class="selectValue">{{select}}</view>
+    </view>
+  </view>
+  <view class="echarts">
+    <view class="ecTitle">{{select}}</view>
+    <view class="echartsBox">
+      <ec-canvas  id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+    </view>
+  </view>
+  <view class="majorBox">
+    <view class="header">目标专业</view>
+    <view class="content">
+      <view class="targetBox">
+        <navigator wx:for="{{target}}" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.subject_id}}" wx:key="index" hover-class="none">{{item.subject_name}}</navigator>
+      </view>
+      <view class="lineBox">
+        <view wx:for="{{12}}"></view>
+      </view>
+    </view>
+  </view>
+  <!-- <view class="majorDetails" wx:for="{{subjectCategoryData}}" wx:key="index">
+    <view class="header">目标专业信息</view>
+    <view class="content">
+      <view class="jieshao">
+        <view class=" name">{{item.name}}</view>
+        <view class="leiBox">
+          <view class="faBox">
+            <view class="top">
+              <image src="/images/report/icon_xueke.png"></image>
+              学科门类
+            </view>
+            <view class="bottom">{{item.first_name}}</view>
+          </view>
+          <view class="faBox">
+            <view class="top">
+              <image src="/images/report/icon_zhuanyelei.png"></image>
+              专业类
+            </view>
+            <view class="bottom">{{item.second_name}}</view>
+          </view>
+          <view class="faBox">
+            <view class="top">
+              <image src="/images/report/iconzhuanyelei.png"></image>
+              专业代码
+            </view>
+            <view class="bottom">{{item.code}}</view>
+          </view>
+          <view class="faBox">
+            <view class="top">
+              <image src="/images/report/icon_shouyuxuewei.png"></image>
+              授予学位
+            </view>
+            <view class="bottom">{{item.academic_degree}}</view>
+          </view>
+          <view class="faBox">
+            <view class="top">
+              <image src="/images/report/icon_xuezhi.png"></image>
+              学制
+            </view>
+            <view class="bottom">{{item.learn_year}}</view>
+          </view>
+        </view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">培养目标</text>
+        </view>
+        <view><rich-text nodes="{{item.target}}"></rich-text></view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">就业前景与方向</text>
+        </view>
+        <view><rich-text nodes="{{item.prospect_direction}}"></rich-text></view>
+      </view>
+      <view class="main">
+        <view class="titleBox">
+          <text class="title">相近专业</text>
+        </view>
+        <view class="similarBox">
+          <view wx:for="{{item.similar_name}}" wx:key="idx" wx:for-item="child">
+            {{child.name}}
+          </view>
+        </view>
+      </view>
+    </view>
+  </view> -->
+</view>

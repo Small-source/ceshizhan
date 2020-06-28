@@ -1,0 +1,4 @@
+<!--components/qidai.wxml-->
+<view class="qidai">
+  <image src="/images/mine/icon_jingqingqidai.png"></image>
+</view>

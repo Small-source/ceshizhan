@@ -1,0 +1,80 @@
+/* pages/learningAssessment/test.wxss */
+.header {
+  padding: 30rpx;
+  height: 182rpx;
+  background-color: #fff;
+}
+.header .number {
+  height: 40rpx;
+  text-align: center;
+  margin-bottom: 30rpx;
+}
+.header .number .nowNumber {
+  font-size: 32rpx;
+  color: #333333;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+.header .number .allNumber {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 40rpx;
+}
+.header .lineBox {
+  height: 20rpx;
+  border-bottom: 2rpx solid #DEDEDE;
+  display: flex;
+  flex-flow: start;
+  margin-bottom: 20rpx;
+}
+.header .line {
+  height: 20rpx;
+  background-color: #DEDEDE;
+  transition: width 0.3s;
+}
+.header .question {
+
+  font-size: 28rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+.answerBox {
+  padding: 60rpx 30rpx;
+  position: relative;
+  overflow: hidden;
+}
+.answerBox .answered {
+  box-sizing: border-box;
+  border-left: 3px solid #BCD6FC;
+  margin-bottom: 30rpx;
+  padding-left: 40rpx;
+  line-height: 90rpx;
+  background-color: #fff;
+  font-size:28rpx;
+  position: relative;
+  overflow: hidden;
+}
+.answerBox .answered .check {
+  margin-right: 40rpx;
+}
+.answerBox .answered text {
+  position: relative;
+  z-index: 2;
+}
+.answerBox .answered view {
+  width: 100%;
+  height: 90rpx;
+  position: absolute;
+  left: -100%;
+  top: 0;
+  background-color: #BCD6FC;
+}
+.answerBox .active {
+  border-color: #3669F8;
+  color: #fff;
+}
+.answerBox .active view {
+  left: 0;
+  opacity: 1;
+  transition: all 0.3s;
+}

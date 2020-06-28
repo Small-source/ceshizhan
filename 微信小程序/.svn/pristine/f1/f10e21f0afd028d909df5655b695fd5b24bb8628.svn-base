@@ -1,0 +1,141 @@
+<!--pages/schoolDetail/schoolDetail.wxml-->
+<wxs module="Fun" src='../../utils/Fun.wxs'></wxs>
+<view class="header">
+  <image src="{{school.logo}}" class="logoImg"></image>
+  <view class="mainRight">
+    <view class="top">
+      <text class="title">{{school.name}}</text>
+      <view class="type">
+        <image src="/images/common/icon_dingwei02.png" mode="widthFix"></image>
+        {{school.city}}
+      </view>
+    </view>
+    <view class="bottom">
+      <view class="tag" wx:if="{{school.tag985Name}}">{{school.tag985Name}}</view>
+      <view class="tag" wx:if="{{school.tag211Name}}">{{school.tag211Name}}</view>
+      <view class="tag" wx:if="{{school.tagShuangyiliuName}}">{{school.tagShuangyiliuName}}</view>
+    </view>
+  </view>
+</view>
+<view class="content">
+  <view class="tagBox main">
+    <view>
+      <image src="/images/schoolDetail/icon_shijian.png"></image>
+      {{school.creation}}
+    </view>
+    <view>
+      <image src="/images/schoolDetail/icon_gongli.png"></image>
+      {{school.schoolNatureName}}
+    </view>
+    <view>
+      <image src="/images/schoolDetail/icon_jiaoyubu.png"></image>
+      {{school.affiliate}}
+    </view>  
+    <view>
+      <image src="/images/schoolDetail/icon_zonghelei.png"></image>
+      {{school.type}}
+    </view>  
+    <view>
+      <image src="/images/schoolDetail/icon_shengyaunzhiliang.png"></image>
+      No.{{school.rank}}
+    </view>  
+    <view>
+      <image src="/images/schoolDetail/icon_benke.png"></image>
+      {{school.schoolLevelName}}
+    </view>
+    <view>
+      <image src="/images/schoolDetail/icon_shuoshidian.png"></image>
+      {{school.masterNum}}
+    </view>
+    <view>
+      <image src="/images/schoolDetail/icon_boshidian.png"></image>
+      {{school.doctorsNum}}
+    </view>
+  </view>
+  <view class="main callSchool">
+    <view class="titleBox">
+      <view class="title">联系院校</view>
+    </view>
+    <view class="detailBox">
+      <text class="smallTitle">官网地址</text>
+      <text class="detail">{{school.website}}</text>
+    </view>
+    <view class="detailBox" wx:if="school.address">
+      <text class="smallTitle">办学地址</text>
+      <text class="detail">{{school.address&&school.address[0]}}</text>
+    </view>
+  </view>
+  <view class="main schoolJianjie">
+    <view class="titleBox">
+      <text class="title">院校简介</text>
+    </view>
+    <view class="detailBox">
+      <rich-text nodes="{{school.introduction}}" class="detail"></rich-text>
+    </view>
+  </view>
+  <view class="main jianzhang">
+    <view class="titleBox">
+      <text class="title">招生简章</text>
+      <navigator hover-class="none" url="">查看更多<image src="/images/schoolDetail/icon_chakangengduo.png"></image></navigator>
+    </view>
+    <block wx:for="{{jzList}}"  wx:for-item="value" wx:for-index="key" wx:key="index">
+      <block wx:for="{{value}}"  wx:for-item="child" wx:for-index="idx" wx:key="key">
+        <navigator class="detailBox navigatorBox"  wx:for="{{child}}" wx:key="idx"  wx:for-item="itemd"   url="/pages/universityOverview/universityOverview?id={{itemd.id}}" hover-class="none" wx:if="{{idx<5}}">
+          <view class="smallTitle">{{itemd.title}}</view>
+          <image src="/images/schoolDetail/icon_chakangengduo.png"></image>
+        </navigator>
+      </block>
+    </block>
+  </view>
+  <view class="main gradeLine jianzhang" wx:if="{{school.threeYearScore.length}}">
+    <view class="titleBox">
+      <text class="title">院校分数线</text>
+    </view>
+    <view class="topBox">
+      <text>年份</text>
+      <text>文/理</text>
+      <text class="model">类型</text>
+      <text>最低分</text>
+      <text>线差</text>
+    </view>
+    <view  wx:for="{{school.threeYearScore}}" wx:key="index" class="detailBox">
+      <text>{{item.year||"—"}}</text>
+      <text>{{item.artsAndScience||"—"}}</text>
+      <text class="model">{{item.batch||"—"}}</text>
+      <text>{{item.averageScore||"—"}}</text>
+      <text>{{item.differenceScore||"—"}}</text>
+    </view>
+  </view>
+  <view class="main tesezhuanye" wx:if="{{school.featureName&&school.featureName.length!=0}}">
+    <view class="titleBox">
+      <text class="title">特色专业</text>
+    </view>
+    <view class="detailBox">
+      <block wx:for="{{school.featureName}}" wx:key="index">
+        <navigator wx:if="{{item.featureId != 0}}" class="detail" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.featureId}}">{{item.featureName}}</navigator>
+        <view wx:else class="detail">{{item.featureName}}</view>
+      </block>
+    </view>
+  </view>
+  <view class="main mainSubject"  wx:if="{{school.stressName&&school.stressName.length!=0}}">
+    <view class="titleBox">
+      <text class="title">重点学科</text>
+    </view>
+    <view class="detailBox">
+      <block wx:for="{{school.stressName}}" wx:key="index">
+        <navigator wx:if="{{item.stressId != 0}}" class="detail" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.stressId}}">{{item.stressName}}</navigator>
+        <view wx:else class="detail">{{item.stressName}}</view>
+      </block>
+    </view>
+  </view>
+  <view class="main yuanxi">
+    <view class="titleBox">
+      <text class="title">院系/专业</text>
+      <navigator url="/pages/facultiesMajors/facultiesMajors?schoolId={{schoolId}}&idx=0" class="btnMore" hover-class="none" wx:if="school.facultyMajor.length>5">查看更多<image src="/images/schoolDetail/icon_chakangengduo.png"></image></navigator>
+    </view>
+    <navigator url="/pages/facultiesMajors/facultiesMajors?schoolId={{schoolId}}&idx={{index}}" wx:for="{{school.facultyMajor}}" wx:key="index" class="detailBox navigatorBox" wx:if="{{index < 5}}">
+      <view class="smallTitle">{{item.college}}</view>
+      <image src="/images/schoolDetail/icon_chakangengduo.png"></image>
+    </navigator>
+  </view>
+</view>

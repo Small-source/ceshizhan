@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "mask": "../../components/mask/mask"
+  },
+ "navigationBarTitleText": "选科要求查询",
+"navigationBarBackgroundColor": "#3669F8",
+"navigationBarTextStyle": "white",
+"backgroundColor": "#eeeeee",
+"backgroundTextStyle": "light",
+"enablePullDownRefresh": true
+}

@@ -1,0 +1,16 @@
+<!--pages/selectTargetMajor/generateSubjectPlan.wxml-->
+<view class="header flexBox">
+  <view>选科组合</view>
+  <view>专业覆盖率</view>
+  <view>院校覆盖率</view>
+  <view>目标专业覆盖率</view>
+</view>
+<view class="content">
+  <view class="main flexBox {{subjectValue == item.subjectName ? 'active': ''}}" wx:for="{{xkjyList}}" wx:key="index" data-value="{{item.subjectName}}" bindtap="changeSubject">
+    <view>{{item.subjectName}}</view>
+    <view>{{item.subjectCoverage}}</view>
+    <view>{{item.universityCoverage}}</view>
+    <view>{{item.targetSubjectCoverage}}</view>
+  </view>
+</view>
+<view class="bottom" bindtap="storeSelectionAdviceList">生成选科报告</view>

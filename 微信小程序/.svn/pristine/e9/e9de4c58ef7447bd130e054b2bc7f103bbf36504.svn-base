@@ -1,0 +1,163 @@
+/* pages/selectTargetMajor/selectSubjectReport.wxss */
+.smtitle {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 600;
+}
+.titleBox {
+  /* box-sizing: border-box; */
+  display: flex;
+  height: 90rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.title {
+  border-left: 6rpx solid #3979FD;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  height: 34rpx;
+  font-weight: 600;
+  padding-left: 10rpx;
+  background-color: #fff;
+}
+
+.pageBox {
+  padding: 30rpx;
+}
+.pageBox .header {
+  height: 98rpx;
+  width: 690rpx;
+  line-height: 80rpx;
+  text-align: center;
+  font-size: 32rpx;
+  color: #fff;
+  position: relative;
+  z-index: 10;
+  background: url(https://m.xuematech.com/applet/img/report/header.png);
+  background-size: 690rpx 100%;
+}
+.pageBox .content {
+  background-color: #fff;
+  padding: 0rpx 30rpx;
+  box-sizing: border-box;
+  width: 690rpx;
+  margin-top: -22rpx;
+  position: relative;
+  z-index: 9;
+}
+.mySelect,.majorBox {
+  margin-bottom: 30rpx;
+}
+.mySelect .title {
+  border-bottom: 1px dashed #dedede; 
+}
+.mySelect view {
+  line-height: 80rpx;
+}
+.mySelect .selectVlaue {
+  font-size: 26rpx;
+  color: #666;
+}
+.majorBox .content {
+  position: relative;
+  width: 690rpx;
+  overflow: hidden;
+  padding-bottom: 30rpx;
+}
+.majorBox .content .targetBox {
+  width: 670rpx;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
+
+}
+.majorBox .content .targetBox navigator {
+  line-height: 80rpx;
+  margin-right: 40rpx;
+  font-size: 24rpx;
+  color: #666;
+}
+.majorBox .content .lineBox {
+  position: absolute;
+  width: 630rpx;
+  height: 100%;
+  left: 30rpx;
+  top: 0rpx;
+  z-index: 9;
+}
+.majorBox .content .lineBox view{
+  height: 80rpx;
+  box-sizing: border-box;
+  border-bottom: 1px dashed #dedede; 
+}
+.majorDetails, .majorDetails .main {
+  margin-bottom: 30rpx;
+}
+.majorDetails .content {
+  padding-bottom: 20rpx;
+}
+.majorDetails .similarBox {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.majorDetails .similarBox view {
+  margin-right: 20rpx;
+}
+.echarts {
+  margin-bottom: 30rpx;
+  background-color: #fff;
+  padding-top: 30rpx;
+}
+.echarts .ecTitle {
+  line-height: 30rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.echartsBox {
+  width: 690rpx;
+  margin: 0 auto;
+  height: 850rpx;
+  box-sizing: border-box;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.majorDetails .name {
+  font-size: 30rpx;
+  color: #333;
+  font-weight: 600;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px dashed #dedede;
+}
+.majorDetails .leiBox {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30rpx;
+}
+.majorDetails .leiBox .faBox {
+    width: 33%;
+    margin-bottom: 30rpx;
+}
+.majorDetails .leiBox .faBox .top {
+  height: 46rpx;
+  font-size: 26rpx;
+  font-weight: bold; 
+  display: flex;
+  align-items: center;
+}
+.majorDetails .leiBox .faBox .top image {
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 14rpx;
+
+}
+.majorDetails .leiBox .faBox .bottom {
+  line-height: 30rpx;
+  font-size: 24rpx;
+  padding-left: 60rpx;
+}

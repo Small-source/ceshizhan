@@ -1,0 +1,48 @@
+<!--pages/professionalLibrary/professionalLibrary.wxml-->
+<view class="body">
+<view class="fix">
+  <view class="nav">
+    <view class="navClass {{benKeFlag&&'navClassActive'}}" bindtap="benKe">按学科查询</view>
+    <view class="line"></view>
+    <view class="navClass {{zhuanKeFlag&&'navClassActive'}}" bindtap="zhuanKe">按院校查询</view>
+  </view>
+  <view class="navItems2Line"></view>
+  <scroll-view class="navItems" scroll-x="true" hidden='{{!benKeFlag}}'>
+      <view class="navli {{index==currentIndex1&&'active'}}" wx:for="{{discipline1}}" wx:key="index" data-Index="{{index}}" bindtap="benKeTab">{{item.names}}</view>
+  </scroll-view>
+  <scroll-view class="scroll"  scroll-y="true" scroll-with-animation="true" hidden='{{!benKeFlag}}'>
+    <view class="xuekelists" wx:for="{{benKeData}}" wx:for-index="idx" wx:key="idx" wx-if="{{item.disciplines==discipline1[currentIndex1].names}}">
+        <navigator wx:for="{{item.subjectName}}" wx:for-item="itemName" wx:key="index"  class="view" url="/pages/subjectAssessment/subjectAssessmentResult?name={{itemName}}">
+          {{itemName}}
+        </navigator>
+    </view>
+</scroll-view>
+ <scroll-view class="navItems navItems2" scroll-x="true" hidden='{{benKeFlag}}'>
+    <view class="searchBox">
+      <input class="search" placeholder="输入院校名称" placeholder-style="color:#A8A8A8" bindinput='setSearchName' value="{{searchName}}"></input>
+      <view class="serachImage" bindtap="search">
+        <image src="../../images/professionalLibrary/icon_sousuo.png" ></image>
+      </view>
+    </view>
+  </scroll-view>
+    <scroll-view class="scroll scroll_yuanxiao"  scroll-y="true" scroll-with-animation="true" hidden='{{benKeFlag}}' >
+    <view class="xuekelists" wx:if="{{searchShaixuanFlag}}">
+          <view wx:for="{{zhuanKeData}}" wx:for-item="itemName" wx:key="index"  class="view" data-name='{{index}}' bindtap="showContent">
+            {{index}}
+          </view>
+      </view>
+      <view class="listsss" wx:for="{{zhuanKeData}}" wx:for-item="itemName" wx:for-index='idx' wx:key="idx" >
+        <view class="list" wx:for="{{itemName}}" wx:key="index" wx:if='{{idx==searchShaixuan}}'>
+          <view>{{item.disciplines}}</view>
+          <view>{{item.subjectName}}</view>
+          <view style="color:#F51D2B;">{{item.selectionResult}}</view>
+        </view>
+      </view>
+    </scroll-view>
+    <view  class="noneBox" wx:if='{{searchFlag&&zhuanKeData.length==0}}'>
+      <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none' ></image>
+    </view>
+</view>
+</view>
+
+

@@ -1,0 +1,78 @@
+<!--miniprogram/pages/login/perfectInformation.wxml-->
+<view id="bindPhone">
+    <view class="head">
+    </view>
+    <view class="denglu">
+        <view class="title">
+            为了更好的服务，请完善一下信息!
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                所在地:
+            </view>
+            <view class="inputRight">
+                <picker  mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" range="{{multiArray}}"   value="{{multiIndex}}">
+                     <view class="picker garde">
+                      {{multiArray[0][multiIndex[0]]}}
+                    </view>
+                    <view class="picker garde">
+                      {{multiArray[1][multiIndex[1]]}}
+                    </view>
+                    <view class="picker garde" style="margin-right:0">
+                      {{multiArray[2][multiIndex[2]]}}
+                    </view>
+                </picker>
+            </view>
+        </view>   
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                学<a>无</a>校:
+            </view>
+            <view class="inputRight">
+                <input type="text" id="school" placeholder="请输入学校名称" value="{{school}}" bindinput="bindSchool"></input>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                年<a>无</a>级:
+            </view>
+            <view class="inputRight">
+                <picker bindchange="bindPickerChange" value="{{garde}}" range="{{gardes}}" class="garde">
+                  <view class="picker">
+                    {{gardes[garde]}}
+                  </view>
+                </picker>
+                <text id="garde">{{nianji}}</text>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                姓<a>无</a>名:
+            </view>
+            <view class="inputRight">
+                <input type="text" id="name" placeholder="请输入你的姓名" value="{{name}}" bindinput="bindName"></input>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                性<a>无</a>别:
+            </view>
+            <view class="inputRight">
+                <radio-group class="radio-group" bindchange="radioChange">
+                  <radio class="radio" wx:for-items="{{sexs}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+                      <text class="sex">{{item.value}}</text>
+                  </radio>
+                </radio-group>
+            </view>
+        </view>
+        <view id="waring">{{warning}}</view>
+        <view class="submit" bindtap="submit">
+            提交
+        </view>
+    </view>
+</view>

@@ -1,0 +1,53 @@
+<!--pages/classroom/classroomList/classroomList.wxml-->
+<!-- 直播 -->
+<view class="content" wx:if="{{type==1}}">
+  <classroom-list wx:for="{{classList}}" wx:key="index" itemObj="{{item}}" class="lisBox" bindtap="changeCard" data-popsrc="{{zhuanlan[index]}}" url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=1"></classroom-list>
+</view>
+<!-- 专栏 -->
+<view class="content" wx:if="{{type==2}}">
+  <classroom-list wx:for="{{classList}}" wx:key="index" itemObj="{{item}}" class="lisBox" url="/pages/classroom/columnlist/columnlist?id={{item.id}}"></classroom-list>
+</view>
+<!-- 大学介绍 -->
+<view class="flexBox" wx:if="{{type==3}}">
+  <view class="header">
+    <view class="searchBox">
+      <input placeholder="请输入大学名称" bindinput="searchChange" value="{{searchValue}}"></input>
+      <view class="btn_search" hidden="{{isSearching}}"><icon type="search" color="#3979FD"/></view>
+      <view class="btn_search" bindtap="closeSearch"  hidden="{{!isSearching}}"><icon type="cancel" color="#666"/></view>
+    </view>
+  </view>
+  <view class="contentBox"  hidden="{{isSearching}}">
+    <navigator url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=3" class="mainBox" wx:for="{{classList}}" wx:key="index" hover-class="none">
+      <image src="{{item.pic}}"></image>
+      <view class="smallTitle">{{item.title}}</view>
+    </navigator>
+  </view>
+  <view  hidden="{{!isSearching}}" class="contentBox" >
+    <navigator url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=3" class="mainBox" wx:for="{{searchList}}" wx:key="index" hover-class="none">
+      <image src="{{item.pic}}"></image>
+      <view class="smallTitle">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>
+<!-- 专业介绍 -->
+<view class="flexBox" wx:if="{{type==4}}">
+  <view class="header">
+    <view class="searchBox">
+      <input placeholder="请输入专业名称" bindinput="searchChange" value="{{searchValue}}"></input>
+      <view class="btn_search" hidden="{{isSearching}}"><icon type="search" color="#3979FD"/></view>
+      <view class="btn_search" bindtap="closeSearch"  hidden="{{!isSearching}}"><icon type="cancel" color="#666"/></view>
+    </view>
+  </view>
+  <view class="contentBox"  hidden="{{isSearching}}">
+    <navigator url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=4" class="mainBox" hover-class="none" wx:for="{{classList}}" wx:key="index">
+      <image src="{{item.pic}}"></image>
+      <view class="smallTitle">{{item.title}}</view>
+    </navigator>
+  </view>
+  <view hidden="{{!isSearching}}" class="contentBox">
+    <navigator url="/pages/classroom/videoPlay/videoPlay?id={{item.id}}&type=4" class="mainBox" hover-class="none" wx:for="{{searchList}}" wx:key="index">
+      <image src="{{item.pic}}"></image>
+      <view class="smallTitle">{{item.title}}</view>
+    </navigator>
+  </view>
+</view>

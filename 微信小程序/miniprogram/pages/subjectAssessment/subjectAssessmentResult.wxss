@@ -1,0 +1,30 @@
+/* pages/subjectAssessment/subjectAssessmentResult.wxss */
+.head,.list{
+  height: 84rpx;
+  background:#F5F5F5;
+}
+.head>view{
+  font-size:30rpx;
+  color:#333333;
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  line-height: 84rpx;
+  font-weight: bold;
+}
+.body{
+  min-height: 100vh;
+  background: #fff;
+}
+.list{
+  border-bottom:2rpx solid #F5F5F5;
+  background: #fff;
+}
+.list>view{
+  font-size:26rpx;
+  color:#666;
+  width: 33.33%;
+  text-align: center;
+  float: left;
+  line-height: 84rpx;
+}

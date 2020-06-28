@@ -1,0 +1,86 @@
+<!--pages/professionalPositioningAssessment/professionalPositioningAssessment.wxml-->
+<view class="head">
+  <image src="../../images/professionalLibrary/banner.png"></image>
+  <view style="position:relative;z-index:10">
+      <view class="name">{{data.name}}</view>
+      <view class="label">
+        <view>
+          <image src="../../images/professionalLibrary/icon_zhuanyedaima.png" class="image1"></image>
+          专业代码
+          <view>{{data.code||''}}</view>
+        </view>
+        <view>
+          <image src="../../images/professionalLibrary/icon_shouyuxuewei.png" class="image2"></image>
+          授予学位
+          <view>{{data.academicDegree||''}}</view>
+        </view>
+        <view>
+          <image src="../../images/professionalLibrary/icon_xuezhi.png" class="image3"></image>
+          学制
+          <view style="padding-left:30rpx;">{{data.learnYear||''}}</view>
+        </view>
+      </view>
+  </view>
+</view>
+<view class="content">
+    <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">培养目标</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.target}}" class="detail"></rich-text>
+      </view>
+    </view>
+    <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">主要课程</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.course}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">毕业生能力</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.ability}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">就业前景与方向</text>
+      </view>
+      <view class="detailBox">
+        <rich-text nodes="{{data.prospectDirection}}" class="detail"></rich-text>
+      </view>
+    </view>
+     <view class="main schoolJianjie">
+      <view class="titleBox">
+        <text class="title">相近专业</text>
+      </view>
+      <view class="detailBox" >
+        <navigator wx:for='{{data.similarName}}' wx:key="index" class="xiangjin xiangjin_hover" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.id}}">
+          {{item.name}}
+        </navigator>
+      </view>
+    </view>
+    <view class="main jiangzhang">
+      <view class="titleBox">
+        <text class="title">开设院校及热度指数</text>
+      </view>
+      <view class="detailBox">
+          <view class="topBox">
+            <view>院校名称</view>
+            <view>所在地</view>
+            <view>热度指数</view>
+          </view>
+          <navigator class="detailBox2" wx:for="{{kaisheyuanxiao}}" wx:key="index" url="/pages/schoolDetail/schoolDetail?schoolId={{item.universityId}}">
+            <view>{{item.universityName||"—"}}</view>
+            <view>{{item.province||"—"}}</view>
+            <view>{{item.rank||"—"}}</view>
+            <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+          </navigator> 
+      </view>
+    </view>
+</view>

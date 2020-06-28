@@ -1,0 +1,9 @@
+<!--pages/classroom/page2.html.wxml-->
+<view class="header">
+  <image src="https://m.xuematech.com/applet/img/classroom/bg_fushizhidao.png"></image>
+</view>
+<view class="videoBox">
+  <view class="video video1">
+    <video id="myVideo"src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/351886d6-16ba683ddd5-0007-0e88-a79-43367.mp4"  controls poster=""></video>
+  </view>
+</view>

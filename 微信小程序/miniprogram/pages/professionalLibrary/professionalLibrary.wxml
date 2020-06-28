@@ -1,0 +1,96 @@
+<!--pages/professionalLibrary/professionalLibrary.wxml-->
+<view class="body">
+<view class="fix">
+   <view class="searchBox">
+    <input class="search" placeholder="输入专业名称" placeholder-style="color:#A8A8A8" bindinput='setSearchName'></input>
+    <image src="../../images/professionalLibrary/icon_sousuo.png" bindtap="search"></image>
+  </view>
+  <view class="nav">
+    <view class="navClass {{benKeFlag&&'navClassActive'}}" bindtap="benKe">本科专业</view>
+    <view class="line"></view>
+    <view class="navClass {{zhuanKeFlag&&'navClassActive'}}" bindtap="zhuanKe">专科专业</view>
+  </view>
+  <scroll-view class="navItems" scroll-x="true" hidden='{{!benKeFlag}}'>
+      <view class="navli {{index==currentIndex1&&'active'}}" wx:for="{{discipline1}}" wx:key="index" data-Index="{{index}}" bindtap="benKeTab">{{item.names}}</view>
+  </scroll-view>
+  <scroll-view class="navItems" scroll-x="true" hidden='{{!zhuanKeFlag}}'>
+      <view class="navli {{index==currentIndex2&&'active'}}" wx:for="{{discipline2}}" wx:key="index" data-Index="{{index}}" bindtap="zhuanKeTab">{{item.names}}</view>
+  </scroll-view>
+</view>
+<!-- 本科数据 -->
+<scroll-view class="scroll" scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true" hidden='{{!benKeFlag}}'>
+  <view class="viewlist" wx:for="{{benKeData}}" wx:for-index="idx" wx:key="idx"  >
+      <view class="title" id="{{'inToView'+idx}}">{{item.name}}</view>
+      <view wx:for="{{item.list}}" wx:for-index="index"  wx:key="index">
+        <view class="title title2" bindtap="tabBenke" data-idx='{{idx}}' data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{item.showFlag}}'>
+          <image src="{{xiala}}" class='icon1'></image>
+          {{item.name}}
+          <view class="number">{{item.length}}个专业</view>
+        </view>
+        <view class="title title2" bindtap="tabBenke" data-idx='{{idx}}' data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{!item.showFlag}}'>
+          <image src="{{shouqi}}" class='icon1_2' ></image>
+          {{item.name}}
+          <view class="number">{{item.length}}个专业</view>
+        </view>
+        <view hidden="{{item.showFlag}}">
+          <navigator wx:for="{{item.list}}" wx:key="index" class="title title3" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.id}}">
+                <view class="circle"></view>
+                {{item.name}}
+                <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+          </navigator>
+        </view>
+      </view>
+  </view>
+</scroll-view>
+<!-- 专科数据 -->
+<scroll-view class="scroll" scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true" hidden='{{!zhuanKeFlag}}'>
+  <view class="viewlist" wx:for="{{zhuanKeData}}" wx:for-index="idx" wx:key="idx"  >
+      <view class="title" id="{{'inToView'+idx}}">{{item.name}}</view>
+      <view wx:for="{{item.list}}" wx:for-index="index"  wx:key="index">
+        <view class="title title2" bindtap="tabZhuanke" data-idx='{{idx}}' data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{item.showFlag}}'>
+          <image src="{{xiala}}" class='icon1'></image>
+          {{item.name}}
+          <view class="number">{{item.length}}个专业</view>
+        </view>
+        <view class="title title2" bindtap="tabZhuanke" data-idx='{{idx}}' data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{!item.showFlag}}'>
+          <image src="{{shouqi}}" class='icon1_2' ></image>
+          {{item.name}}
+           <view class="number">{{item.length}}个专业</view>
+        </view>
+        <view hidden="{{item.showFlag}}">
+            <navigator wx:for="{{item.list}}" wx:key="index" class="title title3" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.id}}">
+                  <view class="circle"></view>
+                  {{item.name}}
+                  <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+            </navigator>
+        </view>
+      </view>
+  </view>
+</scroll-view>
+<view style="padding-top:200rpx;">
+      <view wx:for="{{searchData}}" wx:for-index="index"  wx:key="index" hidden='{{!searchFlag}}' class="viewlist">
+        <view class="title title2" bindtap="tabSearch"  data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{item.showFlag}}'>
+          <image src="{{xiala}}" class='icon1'></image>
+          {{item.name}}
+           <view class="number">{{item.length}}个专业</view>
+        </view>
+        <view class="title title2" bindtap="tabSearch"  data-bool='{{item.showFlag}}' data-Index='{{index}}' wx:if='{{!item.showFlag}}'>
+          <image src="{{shouqi}}" class='icon1_2' ></image>
+           <view class="number">{{item.length}}个专业</view>
+          {{item.name}}
+        </view>
+        <view hidden="{{item.showFlag}}">
+            <navigator wx:for="{{item.list}}" wx:key="index" class="title title3" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.id}}">
+                  <view class="circle"></view>
+                  {{item.name}}
+                  <image src="../../images/professionalLibrary/icon_zhuanyexiala.png" class='icon2'></image>
+            </navigator>
+        </view>
+  </view>
+</view>
+<view style="padding-top:310rpx;" hidden='{{!(searchFlag&&searchData.length==0)}}' class="searchfixed">
+  <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none'></image>
+</view>
+</view>
+
+

@@ -1,0 +1,68 @@
+ <view class="head">
+    <view class="classification">
+      <text bindtap="clickYuanxiaoShow" style="color:{{flagYuanxiao?'#3979FD':''}}">院校地区</text>
+      <image src="{{imageYuanxiao}}"></image>
+    </view>
+    <view class="classification">
+      <text bindtap="clickDaxueShow" style="color:{{flagDaxue?'#3979FD':''}}">大学类别</text> 
+      <image src="{{imageDaxue}}"></image>
+    </view>
+</view>
+<view class="Yuanxiao" wx:if="{{flagYuanxiao}}">
+    <view class="list" wx:for="{{diqu}}" wx:key="{{index}}" bindtap="clickYuanxiao" data-value="{{item.names+','+item.value+','+index}}" id="{{item.value==item.names?'':'clickBlue'}}">{{item.names}}</view>
+    <view class='submit' bindtap="fixSubmit">确定</view>
+</view>
+<view class="Yuanxiao" wx:if="{{flagDaxue}}">
+    <view class="list" wx:for="{{daxue}}" wx:key="{{index}}" bindtap="clickDaxue" data-value="{{item.names+','+item.value+','+index}}" id="{{item.value==item.names?'':'clickBlue'}}">{{item.names}}</view>
+    <view class="list" style="opacity:0"></view>
+    <view class="list" style="opacity:0"></view>
+    <view class="list" style="opacity:0"></view>
+    <view class='submit' bindtap="fixSubmit">确定</view>
+</view>
+<view class="toudang">
+  <view class="toudangxian">
+    <view class="image">
+      <image src="../../images/matchingSchools/icon_fenshuxian.png"></image>
+    </view>
+    <view>投档线:</view>
+    <view>2019</view>
+    <view class="line"></view>
+    <view>2018</view>
+    <!-- <view class="line"></view>
+    <view>2017</view> -->
+  </view>
+</view>
+<view class="zhange"></view>
+<navigator class="viewList" wx:for="{{listData}}" wx:key="index" url="/pages/schoolDetail/schoolDetail?schoolId={{item.universityId}}">
+  <view class="viewLeft">
+      <image src="{{item.logo}}"></image>
+  </view>
+  <view class="viewMiddle" style="position:relative;top:{{(item.tag985||item.tag211||item.tagShuangyiliu)?'0px':'18rpx'}};">
+      <view  class="dingweis">{{item.universityName}}
+         <view class="dingwei">
+          <image src="/images/common/icon_dingwei01.png"></image>
+          {{item.city}}
+        </view>
+      </view>
+      <view class="viewMiddleChild">
+        <view  wx-if="{{item.tag985}}">985</view>
+         <view wx-if="{{item.tag211}}">211</view>
+         <view wx-if="{{item.tagShuangyiliu}}">{{item.tagShuangyiliu}}</view>
+      </view>
+  </view>
+  <view class="viewRight">
+      <view>{{item.list['2019'].averageScore}}</view>
+      <view class="line"></view>
+       <view>{{item.list['2018'].averageScore}}</view>
+      <!-- <view class="line"></view>
+       <view>{{item.list['2017'].averageScore}}</view> -->
+  </view>
+</navigator>
+<view class="bottom">
+  <image src="../../images/matchingSchools/icon_tishi.png"></image>
+  上下滑动查看更多院校
+</view>
+<view hidden="{{serachflag}}" class="noneBox">
+  <image src="../../images/professionalLibrary/icon_sousuowujieguo.png" class='none' ></image>
+</view>
+<mask style='z-Index:1' wx-if="{{flagYuanxiao||flagDaxue}}"></mask>

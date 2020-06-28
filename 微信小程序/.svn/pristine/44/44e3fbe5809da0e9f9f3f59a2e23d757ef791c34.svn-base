@@ -1,0 +1,136 @@
+/* pages/mine/mine.wxss */ 
+@import  "../public/public.wxss";
+.head{
+  position: relative;
+  z-index: 99;
+  margin-bottom: 30rpx;
+  background-color: #F6F6F6;
+}
+.head>image{
+  position: absolute;
+  width: 100%;
+  height: 404rpx;
+}
+.neirong{
+  position: relative;
+  z-index: 99;
+  padding: 30rpx 30rpx 0;
+}
+.sex{
+  width:124rpx;
+  height: 124rpx;
+}
+.neirong>view{
+  display: inline-block;
+  margin-left: 20rpx;
+  position: relative;
+  top:-26rpx;
+}
+.view1{
+  font-size: 36rpx;
+  color:#FFFFFF;
+  font-weight: bold;
+  height:60rpx;
+  line-height: 60rpx;
+}
+.view2>text{
+  font-size: 28rpx;
+  color:#FFFFFF;
+}
+.text1{
+  margin-right: 40rpx;
+}
+.views{
+  display: block;
+  height: 206rpx;
+  position: relative;
+  z-index: 10;
+  padding: 0 30rpx;
+  margin-top: 20rpx;
+}
+.viewsBox{
+    background: #fff;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.viewsBox>view{
+  height: 50%;
+}
+.viewsBox1{
+  border-bottom:2rpx solid #EDEDED;
+}
+.viewsBox1 image{
+  width: 26rpx;
+  height: 40rpx;
+  position: relative;
+  top:10rpx;
+  left:40rpx;
+}
+.viewsBox1 text{
+  font-size: 28rpx;
+  color:#333333;
+  line-height: 102rpx;
+  margin-left: 60rpx;
+  font-weight: 500;
+}
+.viewsBox2 image{
+  width: 28rpx;
+  height: 38rpx;
+  position: relative;
+  top:10rpx;
+  left:40rpx;
+}
+.viewsBox2 text{
+  font-size: 28rpx;
+  color:#333333;
+  line-height: 102rpx;
+  margin-left: 60rpx;
+  font-weight: 500;
+}
+.bottom{
+  /* position: absolute; */
+  background: #fff;
+  padding-bottom: 30rpx;
+  /* width: 100%;
+  height: 100%;
+  padding-top: 690rpx; */
+  box-sizing: border-box;
+}
+.bottom .top, .report .top{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+  border-left:6rpx solid #3D4DE9;
+  padding-left: 10rpx;
+}
+.qidai{
+  width: 300rpx;
+  height: 300rpx;
+  display: block;
+  margin:80rpx auto 0;
+}
+.hui{
+  height: 40rpx;
+  background: #F6F5F3;
+}
+.report {
+  padding: 0 20rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+}
+.report .lisBox {
+  display: flex;
+  padding-top: 30rpx;
+  justify-content: space-between;
+}
+.report navigator {
+  /* width: 270rpx; */
+  text-align: center;
+}
+.report image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.report .title {
+  font-size: 28rpx;
+}

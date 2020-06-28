@@ -1,0 +1,230 @@
+/* pages/newSelectSubjects/newSelectSubjects.wxss */
+.title {
+  border-left: 6rpx solid #3979FD;
+  font-size: 34rpx;
+  line-height: 34rpx;
+  height: 34rpx;
+  font-weight: 600;
+  padding-left: 10rpx;
+  background-color: #fff;
+}
+.titleBox {
+  display: flex;
+  height: 80rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.detail {
+  font-size: 24rpx;
+}
+.banner {
+  width: 750rpx;
+  height: 364rpx;
+  background: url('https://m.xuematech.com/applet/img/newSelectSubjects/bg.png');
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding-top: 247rpx;
+  position: relative;
+  color: #FFF;
+}
+.banner .btn {
+  width: 322rpx;
+  height: 94rpx;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 47rpx;
+  line-height: 94rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+}
+.banner .province {
+  position: absolute;
+  top: 162rpx;
+  left: 360rpx;
+  width: 80rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-size: 26rpx;
+
+}
+.step {
+  padding: 30rpx;
+  background-color: #fff;
+  padding-bottom: 0;
+}
+.step .main {
+  width: 100%;
+  height: 180rpx;
+  margin-bottom: 30rpx;
+  position: relative;
+  box-sizing: border-box;
+  padding: 40rpx;
+  padding-right: 32rpx;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.step .main .btn {
+  width: 136rpx;
+  height: 54rpx;
+  right: 30rpx;
+  line-height: 54rpx;
+  text-align: center;
+  border-radius: 27rpx;
+  font-size: 26rpx;
+}
+.step .main .active {
+  background-color: #fff;
+} 
+.step .main .unactive {
+  background-color: rgba(255, 255, 255, .5);
+} 
+.step .main .mainTitle {
+  font-size: 28rpx;
+  color: #fff;
+  margin-bottom: 20rpx;
+  font-weight: bold;
+}
+.step .main .mainDetail {
+  font-size: 24rpx;
+  color: #fff;
+}
+.step .no1 {
+  background: url('https://m.xuematech.com/applet/img/newSelectSubjects/01.png');
+  background-size: 100% 100%;
+  color: #3681FC;
+}
+.step .no2 {
+  background: url('https://m.xuematech.com/applet/img/newSelectSubjects/02.png');
+  background-size: 100% 100%;
+  color: #06BF7C;
+}
+.step .no3 {
+  background: url('https://m.xuematech.com/applet/img/newSelectSubjects/03.png');
+  background-size: 100% 100%;
+  color: #FD9358;
+}
+.chaxun {
+  padding: 30rpx;
+  padding-top: 0;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+}
+.chaxun .mainBox {
+  display: flex;
+  justify-content: space-between;
+
+}
+.chaxun .mainBox .main {
+  width: 330rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+  box-shadow: 0px 0px 10px #dedede;
+  box-sizing: border-box;
+  padding: 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.chaxun .mainBox .main image {
+  width: 91rpx;
+  height: 91rpx;
+}
+.chaxun .mainBox .main text {
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+}
+.liucheng {
+  padding: 30rpx;
+  background-color: #fff;
+  margin-bottom: 30rpx;
+  padding-bottom: 0;
+}
+.liucheng .header {
+  width: 690rpx;
+  height: 150rpx;
+  background: url(https://m.xuematech.com/applet/img/newSelectSubjects/pcduan.png);
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding: 36rpx 30rpx 20rpx 30rpx;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 30rpx;
+}
+.liucheng .header .btn {
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  right: 28rpx;
+  top: 35rpx;
+}
+.liucheng .header .headerText text{
+  display: block;
+  color: #fff;
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.liucheng .main {
+  margin-bottom: 30rpx;
+  box-sizing: border-box;
+  padding: 25rpx 30rpx 20rpx 110rpx;
+  height: 174rpx;
+}
+.liucheng .main .mainTitle {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: ##33;
+  margin-bottom: 20rpx;
+}
+.liucheng .main .detail {
+  color: #666;
+  font-size: 24rpx;
+}
+.fenlei {
+  padding: 70rpx 30rpx 0rpx 30rpx;
+  background-color: #fff;
+}
+.fenlei .main {
+  padding: 0rpx 30rpx 30rpx 40rpx;
+  margin-bottom: 90rpx;
+  background-color: #ECF4FE;
+  border-radius: 10rpx;
+}
+.fenlei .main .mainTitle {
+  width: 320rpx;
+  height: 68rpx;
+  text-align: center;
+  line-height: 68rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  background-color: #408DFC;
+  border-radius: 34rpx;
+  position: relative;
+  top: -35rpx;
+  left: 50%;
+  margin-left: -160rpx;
+  color: #fff;
+}
+.fenlei .main .child {
+  margin-bottom: 25rpx;
+  position: relative;
+  font-size: 26rpx;
+}
+.fenlei .main .child::before {
+  content: '';
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  background-color: #3979FD;
+  left: -15rpx;
+  top: 13rpx;
+}
+.liucheng .header .pcUrl text{
+  font-size: 24rpx;
+  font-weight: normal;
+}

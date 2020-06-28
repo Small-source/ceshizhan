@@ -1,0 +1,120 @@
+<!--pages/index/index.wxml-->
+<!-- <mp-icon type="field" icon="add" color="black" size="{{40}}"></mp-icon> -->
+<view class="banner">
+  <image src="https://m.xuematech.com/applet/img/home/banner.png"></image>
+</view>
+<view class="content">
+  <view class="main grade-school">
+    <view class="top">
+        <view class="location">
+          <image src="/images/home/icon_dingwei.png"></image>
+          <text>{{province}}</text>
+        </view>
+        <view class="checkBox">
+          <view data-tap="{{item.value}}" wx:for="{{stamp}}" bindtap="switchChange" class="check {{isWen === item.value ? 'active':''}}" wx:key="index">
+            <image src="/images/home/icon_yixuanzhong.png" wx:if="{{isWen === item.value}}"></image>
+            <image src="/images/home/icon_weixuanzhong.png" wx:else></image>
+            <view>{{item.name}}</view>
+          </view>
+        </view>
+    </view>
+    <view class="middle">
+      高考/模拟总分
+    </view>
+    <view class="gradeBox">
+        <view class="inputbox">
+          <input type="digit" value="{{grade}}" bindinput="inputChange"></input>分
+          <image src="/images/home/icon_bianji.png"></image>
+        </view>
+    </view>
+    <view class="btn bottom" bindtap="goMatchingSchool">成绩匹配院校</view>
+  </view> 
+  <view class="main toolBox">
+    <view class="toolTop">
+      <navigator url="/pages/newSelectSubjects/entry/entry" class="no1">
+        <view>新高考选科</view>  
+        <text>34864人好评</text>
+      </navigator>
+      <navigator url="/pages/professionalPositioningTest/professionalPositioningTest?homeFlag=true" class="no2">
+        <view>专业定位测评</view>
+        <text>62554人好评</text>
+      </navigator>
+      <navigator url="/pages/learningAssessment/learningAssessments" class="no3">
+          <view>学习状态诊断</view>
+          <text>71873人好评</text>
+      </navigator>
+    </view>
+    <view class="tools-nav">
+      <navigator url="/pages/collegeLibrary/collegeLibrary" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/home/icon_yuanxiaoku.png"></image>
+        院校库
+      </navigator>
+      <navigator url="/pages/professionalLibrary/professionalLibrary" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/home/icon_zhuanyeku.png"></image>
+        专业库
+      </navigator>
+      <navigator url="/pages/jobLibrary/jobLibrary" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/home/icon_zhiyeku.png"></image>
+        职业库
+      </navigator>
+       <navigator url="/pages/subjectAssessment/subjectAssessment" hover-class="none">
+        <image src="/images/home/icon_xuekepinggu.png"></image>
+        学科评估
+      </navigator>
+      <navigator url="/pages/selectSubjects/selectSubjects?city={{province}}" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/home/icon_xuankechaxun.png"></image>
+        选科要求
+      </navigator>
+    </view>
+  </view>
+  <view class="consultant-list main">
+    <view class="title">
+      <text>咨询师预约</text>
+      <navigator url="/pages/consultant/consultant" hover-class="none" class="navigatorBtn">
+        查看全部
+        <image src="/images/common/icon_chakangengduo.png"></image>
+      </navigator>
+    </view>
+    <navigator wx:for="{{consultantList}}"  wx:key="key" class="list" url="/pages/consultant/consultantDetail?consultantId={{item.id}}">
+      <image src="{{item.img}}" wx:if='{{item.img}}'></image>
+      <view class="right">
+        <view class="top">
+          <view class="top-title">{{item.name}}</view>
+          <view class="work">
+            <image src="/images/common/icon_zhiye.png"></image>
+            从业{{item.workTime}}年
+          </view>
+        </view>
+        <view class="bottom">
+          <view wx:for="{{item.abilityLabel}}"  wx:for-item="child" wx:key="id">{{child}}</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+  <view class="swiper_tab_view">
+    <scroll-view scroll-x='true' scroll-left="{{scrollleft}}" class='tab-h' enable-flex>
+      <view class="scroll_box">
+        <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0"
+        bindtap="swichNav" data-cateId="12">新高考资讯</view> 
+        <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" 
+        bindtap="swichNav" data-cateId="9">院校资讯</view>
+          <view class="swiper-tab-list {{currentTab==2 ? 'on' : ''}}" data-current="2" 
+        bindtap="swichNav" data-cateId="10">专业资讯</view> 
+        <view class="swiper-tab-list {{currentTab==3 ? 'on' : ''}}" data-current="3" 
+        bindtap="swichNav" data-cateId="11">生涯知识</view> 
+        <view class="swiper-tab-list {{currentTab==4 ? 'on' : ''}}" data-current="4" 
+        bindtap="swichNav" data-cateId="13"  wx:if="{{articleStatus==1}}">{{articleName}}</view> 
+      </view>
+    </scroll-view>
+  </view>
+  <scroll-view scroll-y='{{isScrollY}}'  enable-flex style="height:{{winHeight-48}}px" class="swiper-box" bindscrolltoupper="stopScrollY" bindscrolltolower="getMoreData" upper-threshold="0" lower-threshold="0" scroll-top="{{scrollTop}}" id="scrolly">
+    <view class="list_box" style="min-height:{{winHeight-48}}px">
+      <navigator url="/pages/article/article?id={{item.id}}" hover-class="none"  wx:for="{{appletArticleList}}" wx:key="index">
+        <image src="{{item.pic}}"></image>
+        {{item.title}}
+      </navigator>
+    </view>
+    <view class="tips" wx:if="{{count==appletArticleList.length}}" >没有更多了...</view>
+    <view class="tips"  wx:else>上拉加载更多...</view>
+  </scroll-view>
+</view>

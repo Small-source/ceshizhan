@@ -1,0 +1,115 @@
+.page_shadow {
+  -webkit-box-shadow: 0px 0px 10px #666;
+  -ms-box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  height: 1300px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+.page_content h5.header {
+  line-height: 60px;
+  color: #7CC156;
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.page_content h5.header span {
+  font-size: 30px;
+  margin-right: 10px;
+}
+.page_content h6.small_title {
+  font-size: 24px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #7CC156;
+  padding-left: 40px;
+  margin-bottom: 30px;
+  background: url(/imgs/growthFile/icon_smallbg.png) no-repeat 0px center;
+}
+.page_content h6.small_title_nobg {
+  font-size: 25px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #7CC156;
+  margin-bottom: 30px;
+}
+.page_content .block {
+  width: 16px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: #7AC34F;
+}
+.page_content .tips {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.page_content .big_title_box {
+  display: flex;
+  line-height: 50px;
+}
+.page_content .big_title_box .big_title {
+  position: relative;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #7CC156;
+  font-weight: 600;
+}
+.page_content .big_title_box .big_title span {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  width: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #7CC156;
+}
+.page_content .big_title_box .line {
+  flex: 1;
+  border-top: 1px dashed #000;
+  margin: auto 0;
+}
+.page_content .big_title_box .page_number {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.page_content .small_title_box {
+  display: flex;
+  line-height: 50px;
+  line-height: 40px;
+}
+.page_content .small_title_box .big_title {
+  position: relative;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #7CC156;
+  font-weight: 600;
+}
+.page_content .small_title_box .big_title span {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  width: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #7CC156;
+}
+.page_content .small_title_box .line {
+  flex: 1;
+  border-top: 1px dashed #000;
+  margin: auto 0;
+}
+.page_content .small_title_box .page_number {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.page_content .small_title_box .small_titled {
+  padding-left: 70px;
+  padding-right: 20px;
+}

@@ -1,0 +1,99 @@
+<!--miniprogram/pages/login/perfectInformation.wxml-->
+<view id="bindPhone">
+    <image src="../../images/tuance/perfectInformation/banner.png" class="image"></image>
+    <view class="denglu">
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                所在地:
+            </view>
+            <view class="inputRight">
+                <picker  mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" range="{{multiArray}}"   value="{{multiIndex}}">
+                     <view class="picker garde">
+                      {{multiArray[0][multiIndex[0]]}}
+                      <image src="../../images/tuance/perfectInformation/icon_xiala.png" class="xiala"></image>
+                    </view>
+                    <view class="picker garde">
+                      {{multiArray[1][multiIndex[1]]}}
+                      <image src="../../images/tuance/perfectInformation/icon_xiala.png" class="xiala"></image>
+                    </view>
+                    <view class="picker garde" style="margin-right:0">
+                      {{multiArray[2][multiIndex[2]]}}
+                      <image src="../../images/tuance/perfectInformation/icon_xiala.png" class="xiala"></image>
+                    </view>
+                </picker>
+            </view>
+        </view>   
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                学校:
+            </view>
+            <view class="inputRight">
+                <input type="text" id="school" placeholder="请输入学校名称" value="{{school}}" bindinput="bindSchool"></input>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                高考年份:
+            </view>
+            <view class="inputRight">
+                <picker bindchange="bindPickerChange" value="{{garde}}" range="{{gardes}}" class="garde2">
+                  <view class="picker garde2">
+                    {{gardes[garde]}}
+                    <image src="../../images/tuance/perfectInformation/icon_xiala.png" class="xiala"></image>
+                  </view>
+                </picker>
+                <text id="garde">{{nianji}}</text>
+            </view>
+        
+        </view>
+        <view>
+           <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                班级:
+            </view>
+            <view class="inputRight">
+                <input type="number" id="banji" placeholder="请输入你的班级" value="{{classNumber}}" bindinput="bindClass"></input>
+            </view>
+        </view>
+        </view>
+           <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                手机号:
+            </view>
+            <view class="inputRight">
+                <input type="number" placeholder="请输入你的手机号" value="{{phone}}" bindinput="bindPhone"></input>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                姓名:
+            </view>
+            <view class="inputRight">
+                <input type="text" id="name" placeholder="请输入你的姓名" value="{{name}}" bindinput="bindName"></input>
+            </view>
+        </view>
+        <view class="inputs">
+            <view class="inputLeft">
+                <text>*</text>
+                性别:
+            </view>
+            <view class="inputRight">
+                <radio-group class="radio-group" bindchange="radioChange">
+                  <radio class="radio" wx:for-items="{{sexs}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}">
+                      <text class="sex">{{item.value}}</text>
+                  </radio>
+                </radio-group>
+            </view>
+        </view>
+        <view id="waring">{{warning}}</view>
+        <view class="submit" bindtap="submit">
+            确定
+        </view>
+    </view>
+</view>

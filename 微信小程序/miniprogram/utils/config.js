@@ -63,5 +63,9 @@ var config ={
   matchingScholls: host+ '/targetSetting/getScoreMatchUniversityList',//成绩匹配院校
   xuankeDaxue: host +'/chooseSubject/getInstitutionSubjectRequireList',//选科按大学查询
   xuankeXueke: host +'/chooseSubject/getSubjectCanReportProfessionList',//选科按学科查询
+  //团测部分
+  tuance:{
+    bindCard: host +'/login/appletTeamReportLogin'//卡号密码登录
+  }
 }
 module.exports=config;

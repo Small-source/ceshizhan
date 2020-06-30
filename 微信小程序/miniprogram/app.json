@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/tuance/bindcard",
     "pages/index/index",
     "pages/login/bindphone",
     "pages/login/perfectInformation",
@@ -49,7 +50,9 @@
     "pages/learningAssessment/testReport/testReport6",
     "pages/learningAssessment/testReport/testReport7",
     "pages/learningAssessment/testReport/testReport8",
-    "pages/professionalPositioningTest/professionalPositioningTest_report"
+    "pages/professionalPositioningTest/professionalPositioningTest_report",
+    "pages/tuance/perfectInformation",
+    "pages/tuance/tStart"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -1,0 +1,12 @@
+<image src="../../images/tuance/bindcard/banner.png" class="image"></image>
+<text class="p">请使用学校发放的卡号密码登录</text>
+<view class="inputs" style="margin-bottom:36rpx">
+  <image src="../../images/tuance/bindcard/icon_kahao.png"></image>
+  <input placeholder="请输入卡号" value="{{userName}}" bindinput="binduserName"></input>
+</view>
+<view class="inputs" style="margin-bottom:16rpx">
+  <image src="../../images/tuance/bindcard/icon_mima.png"></image>
+  <input placeholder="请输入密码" value="{{passWord}}" bindinput="bindpassWord"></input>
+</view>
+<view class="warning">{{warning}}</view>
+<view class="denglu" bindtap="submit">登录</view>

@@ -1,0 +1,53 @@
+/* miniprogram/pages/tuance/tStart.wxss */
+.image{
+  width: 750rpx;
+  height: 284rpx;
+  display: block;
+}
+.head{
+  position: absolute;
+  width: 100%;
+  left:0;
+  top:0;
+  height: 284rpx;
+  padding-left: 66rpx;
+  color:#fff;
+  font-size: 26rpx;
+}
+.p{
+  font-size: 50rpx;
+  color:#fff;
+  padding-top: 96rpx;
+  margin-bottom: 10rpx;
+}
+.head>image{
+  width: 23rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+  position: relative;
+  top:6rpx;
+}
+.content{
+  box-sizing: border-box;
+  padding: 60rpx 40rpx;
+  width: 100%;
+  color:#333;
+  font-size: 26rpx;
+  line-height: 40rpx;
+}
+.submit{
+    width: 710rpx;
+    line-height: 88rpx;
+    border-radius: 44rpx;
+    text-align: center;
+    font-size: 32rpx;
+    color: white;
+    background:#3076EC;
+    position: absolute;
+    bottom:66rpx;
+    left:50%;
+    margin-left: -355rpx;
+}
+page{
+  background: #ffffff;
+}

@@ -8,4 +8,4 @@
 <view class="content">
     新高考选科帮助学生了解院校、专业与职业，明确院校专业选考科目要求，在此基础上使用决策平衡单进行选科决策，并最终根据加权分、目标专业覆盖率等指标决定选考科目。
 </view>
-<view class="submit">确定</view>
+<view class="submit" bindtap="jump">确定</view>

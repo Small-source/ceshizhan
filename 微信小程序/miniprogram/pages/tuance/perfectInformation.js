@@ -25,7 +25,23 @@ Page({
     dailishangData:[],
     classNumber:'',
     flag:true,
-    phone:''
+    phone:'',
+    images: [
+      [
+        {
+          src: '../../images/tuance/perfectInformation/icon_nanbai.png',
+          color: '#fff',
+          background: '#3979FD',
+          text: '男'
+        },
+        {
+          src: '../../images/tuance/perfectInformation/icon_nvlan.png',
+          color: '3979FD',
+          background: '#fff',
+          text: '女'
+        }
+      ]
+    ]
   },
   //绑定学校名称
   bindSchool:function(e){
@@ -97,6 +113,51 @@ Page({
   radioChange: function (e) {
     this.setData({
       sex:e.detail.value
+    })
+  },
+  //性别
+  sexTab: function (e) {
+    if(e.currentTarget.dataset.sex=='男'){
+      this.setData({
+        images: [
+          [
+            {
+              src: '../../images/tuance/perfectInformation/icon_nanbai.png',
+              color: '#fff',
+              background: '#3979FD',
+              text: '男'
+            },
+            {
+              src: '../../images/tuance/perfectInformation/icon_nvlan.png',
+              color: '3979FD',
+              background: '#fff',
+              text: '女'
+            }
+          ]
+        ]
+      })
+    }else{
+      this.setData({
+        images: [
+          [
+            {
+              src: '../../images/tuance/perfectInformation/icon_nanlan.png',
+              color: '3979FD',
+              background: '#fff',
+              text: '男'
+            },
+            {
+              src: '../../images/tuance/perfectInformation/icon_nvbai.png',
+              color: '#fff',
+              background: '#3979FD',
+              text: '女'
+            }
+          ],
+        ]
+      })
+    }
+    this.setData({
+      sex: e.currentTarget.dataset.sex
     })
   },
   //提交

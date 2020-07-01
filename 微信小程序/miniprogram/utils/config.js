@@ -12,7 +12,8 @@ var config ={
     getUserInfoByPhone: host + '/login/getAppletUserInfoByPhoneCode',//绑定手机号
     storePassword: host + '/login/storePassword',//完善密码
     improveInfo: host + '/register/improveInfo',//完善个人信息
-    dailishang: host +'/login/getMobileOpenProvince'//获取代理商省市
+    dailishang: host +'/login/getMobileOpenProvince',//获取代理商省市
+    getuserInfo: host +'/login/getUserInfo'
   },
   //专业定位测评
   zhuanYeDingWei:{
@@ -65,7 +66,8 @@ var config ={
   xuankeXueke: host +'/chooseSubject/getSubjectCanReportProfessionList',//选科按学科查询
   //团测部分
   tuance:{
-    bindCard: host +'/login/appletTeamReportLogin'//卡号密码登录
+    bindCard: host +'/login/appletTeamReportLogin',//卡号密码登录
+    cepingjindu: host + '/applet/startTestEvaluationTeam',//测评进度
   }
 }
 module.exports=config;

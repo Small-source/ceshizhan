@@ -169,3 +169,19 @@
       right:20rpx;
       top:20px;
     }
+    .sex{
+      width: 180rpx;
+      height: 88rpx;
+      border-radius:44rpx;
+      border:1px solid #3979FD; 
+      display: inline-block;
+      margin-right: 30rpx;
+      font-size: 28rpx;
+    }
+    .sex>image{
+      width: 36rpx;
+      height: 38rpx;
+      position: relative;
+      top:8rpx;
+      margin: 0 10rpx 0 42rpx;
+    }

@@ -7,7 +7,12 @@ Page({
   data: {
     city:''
   },
-
+  //跳转页面
+  jump(){
+    wx.navigateTo({
+      url: 'professionalPositioningTest',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -17,7 +22,7 @@ Page({
        city:user.province
      })
   },
-
+ 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

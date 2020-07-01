@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/tuance/bindcard",
+    "pages/tuance/perfectInformation",
+    "pages/tuance/professionalPositioningTest_report",
     "pages/index/index",
     "pages/login/bindphone",
     "pages/login/perfectInformation",
@@ -51,7 +52,8 @@
     "pages/learningAssessment/testReport/testReport7",
     "pages/learningAssessment/testReport/testReport8",
     "pages/professionalPositioningTest/professionalPositioningTest_report",
-    "pages/tuance/perfectInformation",
+    "pages/tuance/professionalPositioningTest",
+    "pages/tuance/bindcard",
     "pages/tuance/tStart"
   ],
   "window": {

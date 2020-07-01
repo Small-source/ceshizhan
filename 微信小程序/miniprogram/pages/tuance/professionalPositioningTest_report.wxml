@@ -1,0 +1,350 @@
+<!--miniprogram/pages/professionalPositioningTest/professionalPositioningTest_report.wxml-->
+<view class="body">
+  <view class="part">
+    <view class="head">专业定位测评报告</view>
+    <view class="person">（个人报告）</view>
+    <view class="name">
+        <view class="li">
+            姓名: <text class="span" id="name">{{personData.user&&personData.user.realname}}</text>
+        </view>
+        <view class="li" style="text-aviewgn: left">
+            报告编号: <text class="span" id="bianhao">{{reportNumber}}</text>
+        </view>
+        <view class="li" style="text-aviewgn: left">
+            报告时间: <text class="span" id="shijian">{{time}}</text>
+        </view>
+    </view>
+    <view class="warning">
+        <view class="li">
+            <image src="https://m.xuematech.com/applet/img/zhuyili/icon_xingxing.png" alt=""></image>
+            系统开发技术、测评方法及报告设计已申请知识产权保护
+        </view>
+        <view class="li">
+            <image src="https://m.xuematech.com/applet/img/zhuyili/icon_xingxing.png" alt=""></image>
+            本报告仅供相关个人阅读参考，未经许可不得传阅 严禁用做他途
+        </view>
+    </view>
+     <image src="https://m.xuematech.com/applet/img/zhuanyedingwei/icon_niukou.png" class="niukou">
+     </image>
+     <view class="part2">
+        <view class="h1">第一部分 人格特性评估</view>
+        <view class="h2">1.1 人格特性类别评估结果</view>
+        <view class="title1" style="width:130rpx">偏好程度</view>
+        <view class="grade">
+              <text>强</text>
+              <text>明显</text>
+              <text>中等</text>
+              <text>轻微</text>
+              <text>中等</text>
+              <text>明显</text>
+              <text>强</text>
+        </view>
+        <view class="tu1">
+          <view class="biaoLeft">
+            <view wx:for="{{pianhao}}" wx:key="index" class="{{item.c?'active':''}}">{{item.a}}</view>
+          </view>
+          <view class="biaoLeft score"  style="margin-left:14rpx;">
+            <view wx:for="{{pianhao}}" wx:key="index" style="opacity:{{!item.c&&0}}">
+              <view style="right:0;width:{{item.f}}"></view>
+            </view>
+          </view>
+           <view class="biaoLeft score">
+            <view wx:for="{{pianhao}}"  wx:key="index"  style="opacity:{{!item.d&&0}}">
+              <view style="width:{{item.f}}"></view>
+            </view>
+          </view>
+          <view class="biaoLeft" style="float:right">
+            <view wx:for="{{pianhao}}" wx:key="index" class="{{item.d?'active':''}}">{{item.b}}</view>
+          </view>
+        </view>
+        <view class="title2">你的人格类型为</view>
+        <view class="title2" style="color:#99148D">{{xgtxData.personality.name}}</view>
+        <view class="title2" style="color:#99148D">{{xgtxDesc}}</view>
+        <view class="h2">1.2 人格特性类型分析</view>
+        <view class="title1">人格类型基本描述</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.basic_desc}}" wx:key="index" style="border:{{xgtxData.personality.basic_desc.length==index+1&&'none'}}">
+              <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+        <view class="title1">气质类型</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.temper}}" wx:key="index" style="border:{{xgtxData.personality.temper.length==index+1&&'none'}}">
+              <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+        <view class="title1">人格类型优势</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.advantage}}" wx:key="index" style="border:{{xgtxData.personality.advantage.length==index+1&&'none'}}">
+              <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+        <view class="title1">人格类型劣势</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.disadvantage}}" wx:key="index" style="border:{{xgtxData.personality.disadvantage.length==index+1&&'none'}}">
+            <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+        <view class="title1" style="width:260rpx">人格类型的功能运用</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.funcs}}" wx:key="index" style="border:{{xgtxData.personality.funcs.length==index+1&&'none'}}">
+              <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+        <view class="title1">成功秘诀</view>
+        <view class="xgtxList"> 
+           <view wx:for="{{xgtxData.personality.success}}" wx:key="index" style="border:{{xgtxData.personality.success.length==index+1&&'none'}}">
+              <view class="circle"></view>
+              {{item.detail}}              
+           </view>
+        </view>
+     </view>
+     <image src="https://m.xuematech.com/applet/img/zhuanyedingwei/icon_niukou.png" class="niukou" style="margin-top:-30rpx">
+     </image>
+     <view class="part2">
+        <view class="h1">第二部分 兴趣倾向评估</view>
+        <view class="h2">2.1 兴趣倾向评估结果</view>
+        <view class="title1" style="width:368rpx;margin-bottom:40rpx;">兴趣倾向指标评估详细结果</view>
+        <view class="table">
+          <view class="tr">
+              <view class="th th1">职业类型</view>
+              <view class="th">10</view>
+              <view class="th">20</view>
+              <view class="th">30</view>
+              <view class="th">40</view>
+              <view class="th">50</view>
+              <view class="th">60</view>
+              <view class="th">70</view>
+              <view class="th">80</view>
+              <view class="th">90</view>
+              <view class="th">100</view>
+              <view class="th" style="width:10%">指数</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">常规型 <view class="thView">（C）</view> </view>
+              <view class="th tds">
+                  <view class="zifen" style="width:{{xqqxArr[0].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[0].left}};width:{{xqqxArr[0].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.changgui}}</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">实际型 <view class="thView">（R）</view></view>
+              <view class="th tds" >
+                  <view class="zifen" style="width:{{xqqxArr[1].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[1].left}};width:{{xqqxArr[1].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.shiji}}</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">调研型  <view class="thView">（I）</view></view>
+              <view class="th tds">
+                  <view class="zifen" style="width:{{xqqxArr[2].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[2].left}};width:{{xqqxArr[2].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.diaoyan}}</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">艺术型  <view class="thView">（A）</view></view>
+              <view class="th tds">
+                  <view class="zifen" style="width:{{xqqxArr[3].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[3].left}};width:{{xqqxArr[3].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.yishu}}</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">社会型  <view class="thView">（S）</view></view>
+              <view class="th tds">
+                  <view class="zifen" style="width:{{xqqxArr[4].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[4].left}};width:{{xqqxArr[4].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.shehui}}</view>
+          </view>
+          <view class="tr">
+              <view class="th th1">企业型  <view class="thView">（E）</view></view>
+              <view class="th tds">
+                  <view class="zifen" style="width:{{xqqxArr[5].a}}"></view>
+                  <view class="changgui changgui2" style="left:{{xqqxArr[5].left}};width:{{xqqxArr[5].b}}"></view>
+              </view>
+              <view class="th td">{{xqqxData.data.qiye}}</view>
+          </view>
+        </view>
+        <view class="title1" style="width:130rpx;margin:40rpx auto">典型职业</view>
+        <view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi1">常规型（C）</view>
+              <view class="zhiyeBottom">
+                  信息处理、行政办公、财务会计和经营分析等方面的职业领域
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi2">实际型（R）</view>
+              <view class="zhiyeBottom">
+                  技术性职业岗位：计算机硬件、装备制造业领域；技能性职业领域：加工业、农业机械领域。
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi3">调研型（I）</view>
+              <view class="zhiyeBottom">
+                 科学研究领域、工程设计、教育、软件业、医疗、工程规划设计等职业类型。
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi4">艺术型（A）</view>
+              <view class="zhiyeBottom">
+                  艺术领域方面：艺术设计、演艺业、摄影；音乐领域方面：歌唱家、作曲家；文学方面：小说家、诗人、剧作家等。
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi5">社会型（S）</view>
+              <view class="zhiyeBottom">
+                  教育领域：教育培训；社会工作者：社会工作事业、社会公益人员、咨询。
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi6">企业型（E）</view>
+              <view class="zhiyeBottom">
+                  社会机构组织管理者、企业经营、建设项目、市场营销与司法服务。
+              </view>
+           </view>
+        </view>
+        <view class="title1" style="width:368rpx;margin-bottom:40rpx;">兴趣倾向评估结果示意图</view>
+        <view class="echarts">
+            <view class="echartsBox">
+              <ec-canvas  id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+            </view>
+        </view>
+        <view class="xiaojie">
+          <view>测评小结</view>
+          <view>根据您的测试结果，您的兴趣倾向推荐为：</view>
+          <view class="xiaojieview">
+              <view>
+                推荐一
+                <view>{{xqqxData.comment[0].name}}</view>
+             </view>
+             <view class="xiaojieline"></view>
+             <view>
+                推荐二
+                <view>{{xqqxData.comment[1].name}}</view>
+             </view>
+             <view class="xiaojieline"></view>
+             <view>
+                推荐三
+                <view>{{xqqxData.comment[2].name}}</view>
+             </view>
+          </view>
+        </view>
+        <view class="h2">2.2 兴趣倾向分析</view>
+        <view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi1">{{xqqxData.comment[0].name}}</view>
+              <view class="zhiyeBottom" wx:for="{{xqqxData.comment[0].comments}}" wx:key="index">
+                {{item.detail}}
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi2">{{xqqxData.comment[1].name}}</view>
+              <view class="zhiyeBottom" wx:for="{{xqqxData.comment[1].comments}}" wx:key="index">
+                {{item.detail}}
+              </view>
+           </view>
+           <view class="zhiyeList">
+              <view class="zhiyeTop zhi3">{{xqqxData.comment[2].name}}</view>
+              <view class="zhiyeBottom" wx:for="{{xqqxData.comment[2].comments}}" wx:key="index">
+                {{item.detail}}
+              </view>
+           </view>
+        </view>
+     </view>
+      <image src="https://m.xuematech.com/applet/img/zhuanyedingwei/icon_niukou.png" class="niukou"  style="margin-top:-30rpx">
+     </image>
+     <view class="part2">
+        <view class="h1">第三部分 职业生涯规划
+        </view>
+        <view class="h2">3.1 职业匹配结果评估</view>
+        <view class="table" style="margin-bottom:60rpx;overflow:hidden">
+          <view class="tr">
+              <view class="th ths">职业类型</view>
+              <view class="th ths">指标类型</view>
+              <view class="th ths">指标得分</view>
+          </view>
+          <view wx:for="{{zhiyeData}}" wx:key="index">
+              <view class="th ths">{{item.name}}</view>
+              <view class="th ths ths2">兴趣倾向</view>
+              <view class="th ths ths2">{{item.hscore}}</view>
+          </view>
+        </view>
+        <view class="h2" style="margin-bottom:0">3.2 第一匹配职业与专业</view>
+        <view>
+          <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">职业领域</view>
+              <view class="zhiyeBottom">
+                通过对您的人格特性、兴趣倾向进行分析，您最适合
+                <text style="color:#6CAFF2">{{mathingData.ctype.best.name}}</text> 领域的工作
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">典型职业</view>
+              <view class="zhiyeBottom zhiyeBttom2" wx:for="{{mathingData.ctype.best.careers}}" wx:key="index">
+                {{item.name}}
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">推荐专业及专业代码</view>
+              <view class="zhiyeBottom zhiyeBttom2 zhiyeBttom3" wx:for="{{mathingData.ctype.best.majors}}" wx:key="index">
+                {{item.name}} {{item.code}}
+              </view>
+           </view> 
+        </view>
+        <view class="h2" style="margin-bottom:0">3.2 第二匹配职业与专业</view>
+        <view>
+          <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">职业领域</view>
+              <view class="zhiyeBottom">
+                通过对您的人格特性、兴趣倾向进行分析，您最适合
+                <text style="color:#6CAFF2">{{mathingData.ctype.second.name}}</text> 领域的工作
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">典型职业</view>
+              <view class="zhiyeBottom zhiyeBttom2" wx:for="{{mathingData.ctype.second.careers}}" wx:key="index">
+                {{item.name}}
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">推荐专业及专业代码</view>
+              <view class="zhiyeBottom zhiyeBttom2 zhiyeBttom3" wx:for="{{mathingData.ctype.second.majors}}" wx:key="index">
+                {{item.name}} {{item.code}}
+              </view>
+           </view> 
+        </view>
+        <view class="h2" style="margin-bottom:0">3.3 第三匹配职业与专业</view>
+        <view>
+          <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">职业领域</view>
+              <view class="zhiyeBottom">
+                通过对您的人格特性、兴趣倾向进行分析，您最适合
+                <text style="color:#6CAFF2">{{mathingData.ctype.third.name}}</text> 领域的工作
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">典型职业</view>
+              <view class="zhiyeBottom zhiyeBttom2" wx:for="{{mathingData.ctype.third.careers}}" wx:key="index">
+                {{item.name}}
+              </view>
+           </view> 
+           <view class="zhiyeList">
+              <view class="zhiyeTop" style="padding-left:0">推荐专业及专业代码</view>
+              <view class="zhiyeBottom zhiyeBttom2 zhiyeBttom3" wx:for="{{mathingData.ctype.third.majors}}" wx:key="index">
+                {{item.name}} {{item.code}}
+              </view>
+           </view> 
+        </view>
+     </view>
+  </view>
+</view>

@@ -1,0 +1,343 @@
+/* miniprogram/pages/professionalPositioningTest/professionalPositioningTest_report.wxss */
+view,text{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+.part{
+  width: 750rpx;
+  min-height: 1334rpx;
+  overflow: hidden;
+   background-image: url("https://m.xuematech.com/applet/img/zhuanyedingwei/bg.png");
+  background-size:100% 1334rpx;
+  background-repeat:no-repeat; 
+  position: relative;
+}
+.difen{
+    position: absolute;
+    bottom: 20rpx;
+    left: 50%;
+    font-size: 20rpx;
+    margin-left: -16rpx;
+}
+.head{
+    margin-top: 620rpx;
+    text-align: center;
+    font-size: 44rpx;
+    color:#2E2E2E;
+    font-weight: bolder;
+}
+.person{
+    text-align: center;
+    font-size: 30rpx;
+    color:#666;
+    margin-top: 20rpx;
+}
+.name{
+    width: 420rpx;
+    margin: 76rpx auto  60rpx;
+}
+.name>.li{
+    line-height: 52rpx;
+    font-size: 26rpx;
+    white-space: nowrap;
+}
+.warning{
+    width: 680rpx;
+    padding-left: 32rpx;
+    margin: 0 auto;
+}
+.warning>.li{
+      position: relative;
+    font-size: 20rpx;
+    padding-left: 32rpx;
+    line-height: 28rpx;
+    margin-bottom: 20rpx;
+}
+.warning>.li>image{
+    position: absolute;
+    width: 24rpx;
+    height: 24rpx;
+    left: 0;
+    top: 4rpx;
+}
+.body{
+  background: #1757D6;
+  padding-bottom: 40rpx;
+}
+.niukou{
+  width: 644rpx;
+  height: 96rpx;
+  margin: 90rpx auto  0;
+  display: block;
+  position: relative;
+  z-index: 99;
+}
+.part2{
+  border-radius: 20rpx;
+  width: 692rpx;
+  background: #fff;
+  min-height: 200rpx;
+  margin:  -30rpx auto 0;
+  padding:72rpx 36rpx;
+}
+.h1{
+  font-size: 32rpx;
+  font-weight: bolder;
+}
+.h2{
+  color:#0961D9;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin: 40rpx 0 40rpx;
+}
+.title1{
+  background: #FCFCFC;
+  padding:8rpx;
+  color:#353636;
+  margin: 20rpx auto;
+  width: 230rpx;
+  font-size: 26rpx;
+  font-weight: bolder;
+  text-align: center;
+}
+.tu1{
+  height: 224rpx;
+  width: 100%;
+  background-image: url("https://m.xuematech.com/applet/img/zhuanyedingwei/xgtx-bg1.png");
+  background-size:100% 100%;
+}
+.grade{
+  width: 316rpx;
+  margin: 40rpx auto 10rpx;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20rpx;
+}
+.biaoLeft{
+  width: 140rpx;
+  height: 204rpx;
+  float: left;
+  line-height: 36rpx;
+  display: flex;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.biaoLeft view{
+   font-size: 20rpx;
+   width: 100rpx;
+   text-align: center;
+   margin:  0 auto;
+   height: 36rpx;
+}
+.score{
+  width: 157rpx;
+}
+.score>view{
+  position: relative;
+  width: 100%;
+  height: 25%;
+}
+.score>view>view{
+  position: absolute;
+  top:8rpx;
+  height: 36rpx;
+  background: #99148d
+}
+.title2{
+  text-align: center;
+  font-size: 24rpx;
+  font-weight: bolder;
+  margin-top: 10rpx;
+}
+.xgtxList>view{
+  border-bottom:2rpx dashed #D8D8D8;
+  padding-left:30rpx;
+  position: relative;
+  line-height: 50rpx;
+  font-size: 24rpx;
+  color:#7F7F7F;
+  padding: 20rpx 0 20rpx 30rpx;
+}
+.circle{
+  position: absolute;
+  left:8rpx;
+  top:40rpx;
+  width: 10rpx;
+  height: 10rpx;
+  border-radius:50%;
+  background:#1856D6;
+}
+.active{
+    background: #99148d;
+    color: #fff;
+}
+/* 表格代码   */
+.table{
+  border:1px solid #dadada;
+  border-right:0;
+  border-bottom: 0;
+  width: 98%;
+  margin-left: 1%;
+}
+.tr{
+  width:100%;
+  overflow: hidden;
+  /* display: flex;
+  justify-content: space-between; */
+}
+.th,.td{
+  padding: 20rpx 8rpx;
+  border-bottom: 2rpx solid #dadada;
+  border-right: 2rpx solid #dadada;
+  text-align: center;
+  width: 100%;
+
+}
+.th1,.th2,.td1,.td2{
+  width: 15% !important;
+  
+}
+.th{
+  font-weight: 800;
+  background-color: #E3F0FF;
+  font-size: 14rpx;
+  color: #67AFF5;
+  float: left;
+  width:7.5%;
+}
+.thView{
+  text-align: center;
+}
+.tds{
+  float: left;
+  width: 75%;
+  min-height: 80rpx;
+  background: none;
+  position: relative;
+}
+.tds .zifen,.tds .changgui{
+  position: absolute;
+  top:20rpx;
+  left:0;
+  height: 40rpx;
+  background: #2D87FB;
+  width: 40rpx;
+  z-index: 0;
+}
+.tds>.changgui2{
+  background:#000;
+  z-index: 10;
+  opacity: 0.2;
+}
+.td{
+  width: 10% !important;
+  min-height: 78rpx;
+  box-sizing: border-box;
+  padding-top: 30rpx;
+}
+
+.zhiyeTop{
+  height: 54rpx;
+  background-size:46rpx;
+  background-repeat:no-repeat;
+  font-size: 24rpx;
+  color:#313131;
+  font-weight: bold;
+  line-height: 70rpx;
+  padding-left: 36rpx;
+  margin: 20rpx 0;
+}
+.zhi1{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_c.png");
+}
+.zhi2{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_r.png");
+}
+.zhi3{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_i.png");
+}
+.zhi4{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_a.png");
+}
+.zhi5{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_s.png");
+}
+.zhi6{
+   background-image:url("https://m.xuematech.com/applet/img/zhuanyedingwei/icon_e.png");
+}
+.zhiyeBottom{
+  font-size: 24rpx;
+  color:#666;
+  line-height: 44rpx;
+}
+.xiaojie{
+  margin-top: 30rpx;
+  background: #F8F9FB;
+  padding: 20rpx 30rpx 40rpx; 
+}
+.xiaojie>view{
+  font-size: 24rpx;
+  height: 40rpx;
+}
+.xiaojieview{
+  margin: 20rpx auto; 
+  display: flex;
+  justify-content: space-between;
+  /* overflow: hidden; */
+}
+.xiaojieview>view{
+  font-weight: bold;
+  font-size: 26rpx;
+}
+.xiaojieview>view>view{
+    font-size: 24rpx;
+    font-weight: normal;
+    line-height: 40rpx;
+    color:#BABBBD;
+}
+.xiaojieline{
+  border-right:2rpx solid #EFF0F1;
+  height: 60rpx;
+}
+
+.echarts {
+  background-color: #fff;
+}
+.echarts .ecTitle {
+  line-height: 30rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.echartsBox {
+  width: 540rpx;
+  margin: 0 auto;
+  height: 540rpx;
+  box-sizing: border-box;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.ths{
+  width: 33.333%;
+  font-size: 22rpx;
+  color:#838485;
+}
+.ths2{
+  background: #fff;
+  color:#6FB3F3;
+}
+.zhiyeBttom2{
+  display: inline-block;
+  padding: 0 20rpx;
+  background:#FFF0D4;
+  color:#FDC74B;
+  margin-right: 24rpx;
+  margin-bottom: 30rpx;
+}
+.zhiyeBttom3{
+  background: #E5F1FE;
+  color:#67AEFA;
+}

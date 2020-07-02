@@ -1,0 +1,36 @@
+<!--pages/newSelectSubjects/selectTargetMajor1/selectTargetMajor.wxml-->
+<wxs module="Fun" src='../../../../utils/Fun.wxs'></wxs>
+<view class="header">
+  <image src="/images/common/icon_sm.png"></image>
+  <view>通过“专业定位测评”，系统推荐20个适合专业，请你在以下推荐专业中添加5-20个专业为目标专业，添加完成后点击“下一步”。</view>
+</view>
+<view class="main" wx:for="{{majorList}}" wx:key="index" >
+  <navigator class="majorName" url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{item.id}}">{{item.name}}</navigator>
+  <view class="btn uncheck" bindtap="removeMajor" data-id="{{item.id}}" wx:if="{{Fun.some(checkMajor1,item.id)}}">
+    已选
+  </view>
+  <view class="btn check" bindtap="addMajor" data-id="{{item.id}}" data-name="{{item.name}}" wx:else>
+    选择
+  </view>
+</view>
+<view class="bottom">
+  <view class="btTitle" bindtap="changeHad">已选推荐目标专业<text>{{checkMajor1.length}}</text>个</view>
+  <view class="btnNext" bindtap="goNext">下一步</view>
+</view>
+<view class="hadCheckBox" style="height: {{winHeight-50}}px" hidden="{{isShowHad}}">
+  <view class="mainBox">
+    <view class="hadHeader">
+      <view>已选专业{{checkMajor1.length}}/20</view>
+      <view class="closeBox"><icon type="cancel" color="#3979FD" bindtap="closeHadCheck" size="22" class="close"/></view>
+    </view>
+    <scroll-view class="hadScroll" scroll-y="true">
+      <view wx:for="{{checkMajor1}}"  wx:key="index" class="major" >
+        <view class="arrowBox">
+          <view class="arrow"></view>
+          <view>{{item.subjectName}}</view>
+        </view>
+        <image class="removeBox" src="/images/common/icon_del.png" data-id="{{item.subjectId}}" bindtap="removeMajor"></image>
+      </view>
+    </scroll-view>
+  </view>
+</view>

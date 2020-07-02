@@ -1,0 +1,22 @@
+<view class="head">
+  <view class="sekuai">
+   说明
+  </view>
+  <text>
+    提示：请你系统分析每一个因素，判断各因素对你进行选科的影响程度，填写完毕后点击“下一步”。
+    （1颗星表示没有影响、2颗星表示较为不重要、3颗星表示一般、4颗星表示重要、5颗星表示非常重要）
+  </text>
+</view>
+<view class="list"  wx:for="{{listData}}" wx:key="index">
+    <text>{{item.numbers}}{{item.titles}}</text>
+    <view class="listli">
+      <view 
+      style="background-image:{{item.influenceFactorWeight>=i?'url('+imgSrc1+')':'url('+imgSrc2+')'}}" wx:for-item='it' wx:for-index='i' wx:for="{{5}}" wx:key="i" 
+      data-index='{{index}}' data-i='{{i}}' bindtap="tab">
+      </view>
+      <text>"{{res[item.influenceFactorWeight]}}"</text>
+    </view>
+  </view>
+  <view class="submit" bindtap="next">
+    下一步
+  </view>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+	<title>请完成以下测评</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/question.css?version=0001">
+	<link rel="stylesheet" href="css/elementUi.css">
+	<script src="js/rem.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+<body>
+    <div class="test_app">
+	    <div class="evalustion_question" v-if="question_data&&answered">
+	    	<h6>{{question[assessType]}}</h6>
+	    	<div class="question" v-for="(item, index) in question_data" :key="index" :id="'question' + item.id">
+	            <p class="title">{{item.serialNumber}}.{{item.topic}}</p> 
+	            <div class="option_box"> 
+	                <el-radio-group v-model="answered[index].answer">
+	                    <el-radio :label="key" v-for="(value,key,$index) in item.option" :key="$index">{{key}}</el-radio>
+	                </el-radio-group>
+	            </div>
+	        </div>
+	        <div class="btn_box">
+	            <div class="box">
+	                <div class="btn_next btn" @click="goStoreResult()" :class="isFinish == true ? '' : 'unactive'">提交</div>
+	            </div>    
+	        </div>
+	        <!-- <div class="fixd_box" :class="isShowSlide ? 'slide': 'unslide'">
+	            <p class="title">答题情况</p>
+	            <ul>
+	                <li v-for="(item, index) in answered" :key="index" :class="item.answer=='' ? 'unfinish' : 'finish'" @click="scrollToView(item.questionNum)">{{index + 1}}</li>
+	            </ul>
+	            <div class="btn" @click="isShowSlide = !isShowSlide" :class="isShowSlide ? 'slide': 'unslide'"> 
+	            </div>
+	        </div> -->
+	    </div>
+	</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/elementUi.js"></script> 
+<script src="js/axios.min.js"></script>
+<script src="js/router.js?002"></script>
+<script>
+	// window.sessionStorage.setItem('ymtxToken','9b3467e94562be9a6942762bf05d233a581ed9bd73fa85bbea103d453ca8129e');
+    Vue.prototype.$ajax= axios;
+    // Vue.prototype.G_uri= '/papi';
+    Vue.prototype.G_uri= '/papi';
+	// Vue.prototype.G_uris = '/api';
+    new Vue({
+        el:'.test_app',
+        data(){
+            return{
+            	question: {
+	                "1": '成就目标定向测评',
+	                "2": '时间管理测评',
+	                "3": '学习动机测评',
+	                "4": '学习习惯测评',
+	                "5": '情绪管理测评',
+	                "6": '人际关系综合诊断测评'
+	            },
+            	question_data: null,
+            	answered: null,
+            	// 是否隐藏右边答题情况
+	            isShowSlide: true,
+	            isFinish: false,
+	            assessType : window.sessionStorage.getItem('assessType')
+            }
+        },
+	    methods: {
+	    	// 获取测试题 this.$route.query.question
+	        // 1:成就目标定向测评  2:时间管理测评  3:学习动机测评
+	        // 4:学习习惯测评  5:情绪管理测评  6:人际关系综合诊断测评
+	        getTopicAndOptionsList() {
+	            var _this = this;
+	            var token = window.sessionStorage.getItem('token');
+	            console.log(token);
+	            let assessType =  window.sessionStorage.getItem('assessType');
+	            this.$ajax
+	                .post(this.G_uri + '/assessQuestion/getTopicAndOptionsList', {
+	                    assessType: assessType
+	                },{
+	                    headers:{
+	                        token: token
+	                    }
+	                })
+	                // 监听数据返回
+	                .then(function(res) {
+	                	_this.question_data = res.data.data;
+	                    console.log(_this.question_data,66666)
+	                })
+	                .catch(function(error) {
+	                    console.log(error)
+	                })
+	        },
+	        // 提交测试结果  
+	        goStoreResult() {
+	            let token = window.sessionStorage.getItem('token');
+	            let _this = this;
+	            let answer = this.answered;
+	            let assessType =  window.sessionStorage.getItem('assessType');
+	            let source = window.sessionStorage.getItem('source');
+	            this.$ajax.post(this.G_uri + '/assessQuestion/storeResult', {
+	                assessType: assessType,
+	                answer: answer,
+	                source: source
+	                },{
+	                    headers:{
+	                        token: token
+	                    }
+	                })
+	                // 监听数据返回
+	                .then(function(res) {
+	                    if(res.data.code == 2000) {
+	                    	let idx =  window.sessionStorage.getItem('assessType');
+	                    	let reportId = res.data.data.id;
+	                    	window.sessionStorage.setItem('reportId',reportId);
+	                    	window.location.href="evaluation_report" + idx + ".html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+	                    }
+	                })
+	                .catch(function(error) {
+	                    console.log(error)
+	                })
+	        }, 
+
+
+
+
+
+
+
+
+
+
+	        changeQuestion(num) {
+	            if(this.isFinish === false && num > 0) {
+	                return;
+	            }
+	            this.$parent.changeQuestion(num);
+	        },
+	        isFinished() {
+	            let bol = true;
+	            this.question_data.forEach((item,index) => {
+	                if(this.answered[index].answer == '') {
+	                    bol = false; 
+	                } 
+	            
+	            })
+	            this.isFinish = bol;
+	        },
+	        scrollToView(id) {
+	            document.getElementById('question' + id).scrollIntoView({
+	                block: 'start',
+	                inline: 'nearest',
+	                behavior: 'smooth'
+	            })
+	        }
+	    },
+	    watch: {
+		   	question_data() { 
+	            let answered = [];
+	            this.question_data.forEach(function(item){
+	                let obj = {};
+	                obj.questionNum = item.id;
+	                obj.answer = '';
+	                answered.push(obj);
+	            });
+	            this.answered = answered;
+	        },
+	        // question_data() {
+	        //     this.isFinished();
+	        // },
+	        answered: {
+	            immediate: false,
+	            deep: true,
+	            handler(val) {
+	                this.isFinished();
+	            }
+	        }
+
+	    },
+	    computed:{
+
+	    },
+	    mounted() {
+	        
+	    },
+	    created() {
+	    	this.getTopicAndOptionsList();
+	    }
+    })
+</script>
+<!-- <script src="js/echarts.min.js"></script> -->
+<!-- <script src="js/circleChart.min.js"></script> -->
+<!-- <script src="js/html2canvas.js"></script> -->
+<!-- <script src="js/jspdf.js"></script> --> 
+</html>

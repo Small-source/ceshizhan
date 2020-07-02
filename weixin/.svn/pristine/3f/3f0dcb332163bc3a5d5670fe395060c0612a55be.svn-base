@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    #waring{
+        color:red;
+        line-height: 0.3rem;
+        height: 0.3rem;
+        text-align: center;
+        font-size: 0.12rem;
+    }
+    #bindPhone{
+        width: 3.75rem;
+        margin: 0 auto;
+    }
+    .head{
+        height: 2.68rem;
+        width: 3.75rem;
+        background-image:url("img/denglu/bg.png");
+        background-size:100% 100%;
+    }
+    .denglu{
+        width: 3.5rem;
+        height: 2.1rem;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 0.05rem;
+        box-shadow: 0 0.02rem 0.02rem #f6f6f6;
+        position: relative;
+        top:-0.7rem;
+    }
+    .title{
+        font-size: 0.2rem;
+        text-align: center;
+        color:#3076EC;
+        font-weight: bolder;
+        padding: 0.25rem 0 0.15rem;
+    }
+    .input{
+        width: 2.7rem;
+        margin: 0.14rem auto 0;
+        position: relative;
+    }
+    .icon{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top:8px;
+        overflow: hidden;
+        text-align: center;
+    }
+    input{
+        width: 100%;
+        border:none;
+        line-height: 0.32rem;
+        font-size: 0.12rem;
+        text-indent: 0.25rem;
+        border-bottom: 0.01rem solid #F3F3F3;
+        outline:none;
+    }
+    #send{
+        width: 0.74rem;
+        height: 0.20rem;
+        line-height: 0.20rem;
+        background: #3076EC;
+        text-align: center;
+        font-size: 0.12rem;
+        position: absolute;
+        border-radius: 0.11rem;
+        letter-spacing: 0;
+        right: 0;
+        color: white;
+        top:0.08rem;
+    }
+    .jishi{
+        line-height: 0.20rem;
+        text-align: center;
+        font-size: 0.12rem;
+        position: absolute;
+        border-radius: 0.11rem;
+        letter-spacing: 0;
+        right: 0;
+        top:0.08rem;
+        display: none;
+        color:#3076EC;
+    }
+    .submit{
+        width: 2.1rem;
+        line-height: 0.38rem;
+        border-radius: 0.19rem;
+        text-align: center;
+        font-size: 0.16rem;
+        color: white;
+        background:#3076EC;
+        margin: 0 auto;
+    }
+    .beizhu{
+        width: 3.5rem;
+        margin: 0 auto;
+        font-size: 0.14rem;
+        word-break:break-all;
+        word-wrap:break-word;
+        /*white-space:pre-wrap;*/
+    }
+    .beizhu>span{
+        font-size: 0.14rem;
+    }
+</style>
+<script>
+    window.onload=function(){
+        window.onresize=setRemFont;
+        function setRemFont() {
+            var domIe=document.documentElement;
+            var width=domIe.clientWidth;
+            domIe.style.fontSize=width/375*100+'px';
+        }
+        setRemFont();
+    }
+</script>
+<body>
+<div id="bindPhone">
+    <div class="head">
+    </div>
+    <div class="denglu">
+        <div class="title">
+            登录
+        </div>
+        <div class="input">
+            <div class="icon">
+                <img src="img/denglu/icon_mima.png" alt="" style="width: 12px">
+            </div>
+            <input type="password" placeholder="请设置6至20位登录密码"  id="pw1">
+        </div>
+        <div class="input">
+            <div class="icon">
+                <img src="img/denglu/icon_mima.png" alt="" style="width: 12px">
+            </div>
+            <input type="password" placeholder="请再次输入登录密码"  id="pw2">
+        </div>
+        <div id="waring"></div>
+        <div class="submit">
+            确定
+        </div>
+    </div>
+    <div class="beizhu">
+        <span style="color:red">备注:</span>
+        使用此处注册的账号密码可登录
+        <span id="loine"></span>
+        查看更多相关信息</div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/router.js?002"></script>
+<script>
+
+    $('.submit').click(function () {
+        $('#waring').html(' ');
+        var pw1=$('#pw1').val();
+        var pw2=$('#pw2').val();
+        var  reg = /[a-zA-z0-9!@#$%^&*.?]{6,20}/;
+        if(!pw1||!pw2) {
+            $('#waring').html('密码不能为空');
+            return;
+        }
+        if(pw1!=pw2) {
+            $('#waring').html('两次输入的密码不一致');
+            return;
+        }
+        if(!reg.test(pw1)){
+            $('#waring').html('密码格式不正确');
+            return;
+        }
+        $.ajax({
+            type : "POST",
+            url : "/papi/login/storePassword",
+            dataType : "json",
+            data : {
+                password:pw1,
+                repeatPassword:pw2
+            },
+            beforeSend: function(request) {
+                request.setRequestHeader("token",window.sessionStorage.token);
+            },
+            success : function(data) {
+                var data=data.data;
+                if(data.isImproveInformation=='2'){
+                    window.location.href="perfectInformation.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                    return;
+                }
+                if(window.sessionStorage.type == 1){//类型 1.沛耕数学
+                    window.location.href="main_pg.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                }else{
+                    window.location.href="main.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                }
+            },
+        });
+    })
+    $.ajax({
+        type : "POST",
+        url : "/papi/login/getPcUrlByAgentId",
+        dataType : "json",
+        data : {
+            a:window.sessionStorage.a
+        },
+        success : function(data) {
+            var data=data.data;
+            $('#loine').html(data.url);
+        },
+    });
+</script>
+</html>

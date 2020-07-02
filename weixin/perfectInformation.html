@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>完善信息</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/vue.js"></script>
+</head>
+<style>
+    #waring{
+        color:red;
+        line-height: 0.4rem;
+        height: 0.4rem;
+        text-align: center;
+        font-size: 0.12rem;
+    }
+    #bindPhone{
+        width: 3.75rem;
+        margin: 0 auto;
+    }
+    .head{
+        height: 2.68rem;
+        width: 3.75rem;
+        background-image:url("img/denglu/bg.png");
+        background-size:100% 100%;
+    }
+    .denglu{
+        width: 3.5rem;
+        height: 3.56rem;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 0.05rem;
+        box-shadow: 0 0.02rem 0.02rem #f6f6f6;
+        position: relative;
+        top:-0.7rem;
+        padding: 0 0.25rem;
+    }
+    .title{
+        font-size: 0.18rem;
+        text-align: center;
+        color:#3076EC;
+        font-weight: bolder;
+        padding: 0.25rem 0 0;
+    }
+    .inputs{
+        height:0.28rem;
+        width: 100%;
+        line-height: 0.28rem;
+        margin-top: 0.21rem;
+    }
+    .inputLeft{
+        float: left;
+        width: 0.76rem;
+        height: 100%;
+        font-size: 0.13rem;
+        line-height: 0.28rem;
+        font-weight: bold;
+        color: #333;
+    }
+    .inputLeft a{
+        font-size: 0.13rem;
+        line-height: 0.28rem;
+        font-weight: bold;
+        color: #333;
+        opacity: 0;
+    }
+    .inputRight{
+        float: right;
+        width: 2.18rem;
+        height: 100%;
+        line-height: 0.28rem;
+    }
+    .inputLeft>span{
+        color: red;
+        margin-right: 0.08rem;
+        font-size: 0.16rem;
+        line-height: 0.28rem;
+        position: relative;
+        top:0.03rem;
+    }
+    .submit{
+        width: 2.1rem;
+        line-height: 0.38rem;
+        border-radius: 0.19rem;
+        text-align: center;
+        font-size: 0.16rem;
+        color: white;
+        background:#3076EC;
+        margin: 0 auto;
+
+    }
+    select{
+        display: inline-block;
+        width: 0.66rem;
+        line-height: 0.28rem;
+        border-radius: 0.05rem;
+        border-color:#D0DFFE;
+        outline: none;
+        font-size: 0.12rem;
+        height: 0.28rem;
+    }
+    option{
+        font-size: 0.12rem;
+    }
+    input[type=text]{
+        width: 100%;
+        height: 100%;
+        border-radius: 0.03rem;
+        outline: none;
+        border:1px solid #D0DFFE;
+        font-size: 0.12rem;
+        text-indent: 0.05rem;
+    }
+    #liandong{
+        display: flex;
+        justify-content: space-between;
+    }
+    .inputRight>span{
+        font-size: 0.12rem;
+    }
+    input[type=radio]{
+        position: relative;
+        top:0.02rem;
+    }
+</style>
+<script>
+    window.onload=function(){
+        window.onresize=setRemFont;
+        function setRemFont() {
+            var domIe=document.documentElement;
+            var width=domIe.clientWidth;
+            domIe.style.fontSize=width/375*100+'px';
+        }
+        setRemFont();
+    }
+</script>
+<body>
+<div id="bindPhone">
+    <div class="head">
+    </div>
+    <div class="denglu">
+        <div class="title">
+            为了更好的服务，请完善一下信息!
+        </div>
+        <div class="inputs">
+            <div class="inputLeft">
+                <span>*</span>
+                所在地:
+            </div>
+            <div class="inputRight">
+                <div id="liandong">
+                    <select id="sheng">
+                        <option>省级地区</option>
+                    </select>
+                    <select id="shi">
+                        <option>市级地区</option>
+                    </select>
+                    <select  id="qu">
+                        <option>区级地区</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputLeft">
+                <span>*</span>
+                学<a>无</a>校:
+            </div>
+            <div class="inputRight">
+                <input type="text" id="school" placeholder="请输入学校名称">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputLeft">
+                <span>*</span>
+                年<a>无</a>级:
+            </div>
+            <div class="inputRight">
+                <select name="" id="nianfen" >
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                </select>
+                <span id="garde">高三</span>
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputLeft">
+                <span>*</span>
+                姓<a>无</a>名:
+            </div>
+            <div class="inputRight">
+                <input type="text" id="names" placeholder="请输入你的姓名">
+            </div>
+        </div>
+        <div class="inputs">
+            <div class="inputLeft">
+                <span>*</span>
+                性<a>无</a>别:
+            </div>
+            <div class="inputRight">
+                <input type="radio" name="sex" value="1" checked>
+                <span>男</span>
+                <input type="radio" name="sex" value="2">
+                <span>女</span>
+            </div>
+        </div>
+        <div id="waring"></div>
+        <div class="submit">
+            提交
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/router.js?002"></script>
+<script>
+    function dataShuju(data,shuju){
+        data.forEach(function (item) {
+            if(shuju.length>0){
+                shuju.forEach(function (val) {
+                    if(val.name==item.name){
+                        $('#sheng').append('<option>'+item.name+'</option>');
+                    }
+                })
+            }else{
+                $('#sheng').append('<option>'+item.name+'</option>');
+            }
+
+        })
+        $('#sheng').change(function () {
+            $('#shi').children().not(':eq(0)').remove();
+            $('#qu').children().not(':eq(0)').remove();
+            data.forEach(function (item) {
+                if($('#sheng option:selected').val()==item.name){
+                    item.cityList.forEach(function (city) {
+                        if(shuju.length>0){
+                            shuju.forEach(function (val) {
+                                if($('#sheng option:selected').val()==val.name){
+                                    val.child.forEach(function (citychild) {
+                                        if(citychild.name==city.name){
+                                            $('#shi').append('<option>'+city.name+'</option>');
+                                        }
+                                    })
+                                }
+                            })
+                        }else{
+                            $('#shi').append('<option>'+city.name+'</option>');
+                        }
+                    })
+                    return false;
+                }
+            })
+        })
+        $('#shi').change(function () {
+            $('#qu').children().not(':eq(0)').remove();
+            data.forEach(function (item) {
+                if($('#sheng option:selected').val()==item.name){
+                    item.cityList.forEach(function (city) {
+                        if($('#shi option:selected').val()==city.name){
+                            city.areaList.forEach(function (area) {
+                                $('#qu').append('<option>'+area+'</option>');
+                            })
+                        }
+                        return false;
+                    })
+                }
+                return false;
+            })
+        })
+    }
+    function dailishang(shuju){
+        $.getJSON("js/map.json", function (data) {
+            dataShuju(data,shuju);
+        })
+    }
+    //获取代理商
+    $.ajax({
+        type : "POST",
+        url : "/papi/login/getMobileOpenProvince  ",
+        dataType : "json",
+        data:{
+            a:window.sessionStorage.a
+        },
+        beforeSend: function(request) {
+            request.setRequestHeader("token",window.sessionStorage.token);
+        },
+        success:function(data) {
+            var data=data.data;
+            dailishang(data);
+        },
+    });
+
+  $(function () {
+      $('#nianfen').on('change',function () {
+         let val=$(this).val();
+         if(val==2020){
+             $('#garde').html('高三');
+         }
+          if(val==2021){
+              $('#garde').html('高二');
+          }
+          if(val==2022){
+              $('#garde').html('高一');
+          }
+          if(val==2023){
+              $('#garde').html('初三');
+          }
+          if(val==2024){
+              $('#garde').html('初二');
+          }
+          if(val==2025){
+              $('#garde').html('初一');
+          }
+      })
+      $('.submit').click(function () {
+          $('#waring').html(' ');
+          var province=$('#sheng').val();
+          var city=$('#shi').val();
+          var area=$('#qu').val();
+          var schoolName=$('#school').val();
+          var baccllYear=$('#nianfen').val();
+          var name=$("#names").val();
+          var sex=$("input:checked").val();
+          if(province=='省级地区'||city=='市级地区'||area=='区级地区'){
+              $('#waring').html('请选择省、市、区');
+              return;
+          }
+          if(!schoolName){
+              $('#waring').html('请输入学校名称');
+              return;
+          }
+          if(!name){
+              $('#waring').html('请输入你的姓名');
+              return;
+          }
+          $.ajax({
+              type : "POST",
+              url : "/papi/register/improveInfo",
+              dataType : "json",
+              data : {
+                  province:province,
+                  city:city,
+                  area:area,
+                  schoolName:schoolName,
+                  baccllYear:baccllYear,
+                  name:name,
+                  sex:sex
+              },
+              beforeSend: function(request) {
+                  request.setRequestHeader("token",window.sessionStorage.token);
+              },
+              success:function(data) {
+                  if(data.code=='2000') {
+                      if(window.sessionStorage.type == 1){//类型 1.沛耕数学
+                          window.location.href="main_pg.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                      }else{
+                          window.location.href="main.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                      }
+                  }else{
+                      $('#waring').html(data.msg);
+                  }
+              },
+          });
+      })
+  })
+</script>
+
+</html>

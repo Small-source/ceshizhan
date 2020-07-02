@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="css/index.css">
+    <title>请完成以下测试</title>
+</head>
+<style>
+    .bg{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: url('img/zhuyili/bg.png') no-repeat #000;
+        /*background-size: cover; !* 铺满屏幕，屏幕变小，图片可能显示不下 *!*/
+        background-size: 100% 100%; /* 铺满屏幕，随屏幕变化而变化比例，图片可能被拉伸 */
+    }
+    .top{
+        width: 3.3rem;
+        height: 0.44rem;
+        margin: 0.15rem auto;
+        line-height: 0.44rem;
+    }
+    .top{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    .top>li{
+        width: 1.32rem;
+        height: 100%;
+        background: url("img/zhuyili/icon_bg.png");
+        background-size: 100% 100%;
+        font-size: 0.15rem;
+        color:white;
+    }
+    .top span{
+        color:#00EAB5;
+        margin-left: 0.04rem;
+        margin-left: 0.04rem;
+    }
+    .content{
+        width: 6.24rem;
+        height: 2.18rem;
+        margin: 0 auto;
+        background: url("img/zhuyili/bg_ceshibeijing.png");
+        background-size: 100% 100%;
+        overflow: hidden;
+        position: relative;
+    }
+    .head{
+        text-indent: 0.06rem;
+        font-size: 0.15rem;
+        color: white;
+        margin-top: 0.18rem;
+        position: relative;
+    }
+    .head>span{
+        display: inline-block;
+        width: 0.04rem;
+        height: 0.04rem;
+        border-radius: 50%;
+        background: #fff;
+        position: relative;
+        margin-right: 0.04rem;
+        top:-0.04rem;
+    }
+    .time{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        text-align: center;
+        color:#D33057;
+        overflow: hidden;
+        font-size: 0.15rem;
+    }
+    .time img{
+        height: 0.22rem;
+    }
+    .time>a,.time>span{
+        display: inline;
+        font-size: 0.15rem;
+        position: relative;
+        top:-0.06rem;
+    }
+    .time>span>span{
+        letter-spacing:0;
+    }
+    .numbers{
+        width: 100%;
+        margin: 0.5rem 0;
+    }
+    .number{
+        /*font-weight: bold;*/
+        font-size: 0.24rem;
+        line-height: 0.24rem;
+        color:white;
+        width: 6rem;
+        margin: 0 auto ;
+        letter-spacing: 0.026rem;
+        overflow: hidden;
+    }
+    .number span{
+        font-size: 0.24rem;
+        line-height: 0.24rem;
+        display: inline-block;
+        letter-spacing: 0.026rem;
+        text-indent: 0;
+    }
+    .xuanzhong{
+        /*border:0.01rem solid #079295 !important;*/
+        color:#00FFBF;
+    }
+    .next{
+        width: 0.96rem;
+        height: 0.3rem;
+        position: absolute;
+        bottom: 0.34rem;
+        right: 0.2rem;
+    }
+    .next span{
+        font-size: 0.16rem;
+        color:#fff;
+        position: relative;
+        top:-0.1rem;
+    }
+    .submit{
+        width: 2.1rem;
+        height: 0.38rem;
+        line-height:0.38rem;
+        background: #3075EA;
+        left:50%;
+        bottom: 0.12rem;
+        position: absolute;
+        margin-left: -1.05rem;
+        border-radius: 0.2rem;
+        font-size: 0.16rem;
+        color: white;
+        text-align: center;
+        display: none;
+    }
+    .fangkuang{
+        position: absolute;
+    }
+    .dao{
+        margin: 1rem auto;
+        text-align: center;
+        font-size: 1rem;
+        color: white;
+    }
+</style>
+<script>
+    window.onload=function(){
+        window.onresize=setRemFont;
+        function setRemFont() {
+            var domIe=document.documentElement;
+            var width=domIe.clientWidth;
+            var height=domIe.clientHeight;
+            if(width<height){
+                domIe.style.fontSize=width/375*100+'px';
+            }else{
+                domIe.style.fontSize=height/375*100+'px';
+            }
+
+        }
+        setRemFont();
+    }
+</script>
+<body>
+    <div class="bg">
+        <ul class="top" style="display: none">
+            <li>
+                一共找出:<span id="total">0</span>对
+            </li>
+            <li>
+                本组找出:<span id="part">0</span>对
+            </li>
+        </ul>
+        <div class="content" style="display: none">
+            <div class="head">
+                <span></span><a style="display: inline-block">注意力测评</a>
+                <div class="time">
+                    <img src="img/zhuyili/icon_naozhong.png" alt="">
+                    <a style="display: inline-block">倒计时&nbsp;</a>
+                    <span style="display: inline-block">0</span>
+                    <span id="fen" style="left:-0.05rem;display: inline-block">5</span>
+                    <span style="left:-0.1rem;display: inline-block">:</span>
+                    <span id="miao" style="left:-0.15rem;display: inline-block">00</span>
+                </div>
+            </div>
+            <div class="numbers">
+                <div class="number">
+                </div>
+            </div>
+            <div class="next">
+                <img src="img/zhuyili/icon-jiantou.png"  style="height:100%">
+                <span id="next">下一组</span>
+            </div>
+            <div class="fangkuang">
+            </div>
+        </div>
+        <div class="submit">
+            提交
+        </div>
+        <div class="dao">
+            3
+        </div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/router.js?002"></script>
+<script>
+    $(function () {
+        changeOrientation();
+        function changeOrientation( $print ){
+            var width = document.documentElement.clientWidth;
+            var height =  document.documentElement.clientHeight;
+            if(width<height){
+                $print =  $('.bg');
+                $print.width(height);
+                $print.height(width);
+                $print.css('top',  (height-width)/2 );
+                $print.css('left',  0-(height-width)/2 );
+                $print.css('transform' , 'rotate(90deg)');
+                $print.css('transform-origin' , '50% 50%');
+            }else{
+                $print =  $('.bg');
+                $print.width(width);
+                $print.height(height);
+            }
+        }
+        //倒计时
+        var it=3;
+        var daoT=setInterval(function () {
+            it--;
+            if(it<0){
+                clearInterval(daoT);
+                $('.top,.content').show()
+                $('.dao').hide();
+                obj.time();
+                return
+            }
+            $('.dao').html(it);
+        },1000)
+        var obj={
+            data:[],
+            number:0,
+            fen:5,
+            miao:"00",
+            t:'',
+            total:0,
+            part:0,
+            showNumber:'',
+            arrBian:[],
+            //返回数据添加span标签
+            jisuan:function (string) {
+                var arr= string.split("");
+                for(var i=0;i<arr.length-1;i++){
+                    if(Number(arr[i])+Number(arr[i+1])==10){
+                        arr[i]='<span>'+arr[i];
+                        arr[i+1]=arr[i+1]+'</span>'
+                        i++;
+                    }else{
+
+                    }
+                }
+                let res=arr.join('');
+                this.showNumber=res;
+                $('.number').html(this.showNumber);
+                events();
+            }.bind(this),
+            //倒计时
+            time:function() {
+                var times=300;
+                this.t = setInterval(() => {
+                    times--;
+                    let miao = times % 60;
+                    this.miao = miao < 10 ? "0" + miao : miao
+                    this.fen = Math.floor(times / 60);
+                    $('#fen').html(this.fen);
+                    $('#miao').html(this.miao);
+                    if (times == 0) {
+                        $('.next').hide();
+                        submit();
+                        clearInterval(this.t);
+                    }
+                }, 1000)
+            }.bind(this)
+        };
+        //获取试题
+        $.ajax({
+            type : "POST",
+            url : "/papi/assessQuestion/getRandomNumberFor10",
+            dataType : "json",
+            beforeSend: function(request) {
+                request.setRequestHeader("token",window.sessionStorage.token);
+            },
+            success:function(data) {
+                if(data.code=='2000') {
+                    obj.data=data.data;
+                    obj.jisuan(obj.data[obj.number]);
+                    events();
+                }else{
+
+                }
+            },
+        });
+        $('.submit').click(function () {
+            submit();
+        })
+        //提交试题
+        function submit(){
+            $.ajax({
+                type : "POST",
+                url : "/papi/assessQuestion/storeResult",
+                dataType : "json",
+                data:{
+                    assessType: 7,
+                    answer: obj.total,
+                    source: window.sessionStorage.getItem('source')
+                },
+                beforeSend: function(request) {
+                    request.setRequestHeader("token",window.sessionStorage.token);
+                },
+                success:function(data) {
+                    if(data.code=='2000') {
+                        let idx =  window.sessionStorage.getItem('assessType');
+                        let reportId = data.data.id;
+                        window.sessionStorage.setItem('reportId',reportId);
+                        window.location.href="evaluation_report" + idx + ".html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                    }else{
+
+                    }
+                },
+            });
+        }
+        //切换下一组
+        $('.next').click(function () {
+            obj.number++;
+            obj.part=0;
+            obj.arrBian=[];
+            obj.jisuan(obj.data[obj.number])
+            obj.part=0;
+            $('#part').html(obj.part);
+            if(obj.number==199){
+                $('.next').hide();
+                $('.submit').show();
+                return
+            }
+        })
+        function events(){
+            //选中组数
+            $('.number span').click(function () {
+                if($(this).hasClass('xuanzhong')){
+                }else{
+                    $(this).addClass('xuanzhong');
+                    obj.total++;
+                    obj.part++;
+                    $('#total').html(obj.total);
+                    $('#part').html(obj.part);
+                }
+            })
+        }
+    })
+
+</script>
+</html>

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.16rem;
+    box-sizing: border-box;
+    font-family: "Microsoft YaHei","Arial","黑体","宋体",sans-serif !important;
+    letter-spacing: 0.01rem;
+    text-indent: 0.01rem;
+}
+body{
+    padding-bottom: 0.5rem;
+}

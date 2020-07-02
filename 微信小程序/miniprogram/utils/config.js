@@ -19,6 +19,7 @@ var config ={
   zhuanYeDingWei:{
       cepingjindu: host + '/applet/startTestEvaluation',//测评进度
       tuijian: host +'/applet/getRecommendedMajor',//推荐专业
+      tuanceTuijian: host +'/applet/getRecommendedMajorTeam',//团测推荐专业
       createTest: host2 +'/test/create',
       goonTest: host2 +'/usercenter/test/goon',//继续测试
       xgtx: host2 + '/test/mbti/list_mbti2',//人格特性试题列表

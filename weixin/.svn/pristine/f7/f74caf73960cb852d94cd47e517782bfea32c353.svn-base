@@ -1,0 +1,111 @@
+ul {
+     padding: 0.4rem 0.4rem;
+}
+ ul li {
+     height: 1.4rem;
+     border-radius: 0.1rem;
+     border: 1px solid #ebebeb;
+     padding: 0rem 0.3rem;
+     margin-bottom: 0.4rem;
+     border: 1px solid #dedede;
+}
+ ul li .img_box {
+     float: left;
+     width: 0.8rem;
+     height: 0.8rem;
+     padding: 0.3rem 0rem;
+     margin-top: -0.1rem;
+}
+ ul li .img_box img {
+     width: 100%;
+     height: 100%;
+}
+ ul li p {
+     line-height: 1.4rem;
+     font-size: 0.34rem;
+     color: #333;
+     font-weight: 600;
+     float: left;
+     padding-left: 0.2rem;
+     margin: 0;
+}
+ ul li .btn_box {
+  width: 1.52rem;
+  height: 1.4rem;
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+ }
+ ul li .btn {
+     display: block;
+     width: 1.5rem;
+     height: 0.55rem;
+     line-height: 0.6rem;
+     text-align: center;
+     border-radius: 0.06rem;
+     background-color: #358ced;
+     color: #fff;
+     font-size: 0.26rem;
+     float: right;
+     cursor: pointer;
+}
+ ul li .btn:active {
+     background-color: #3492f9;
+}
+.nav_box {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+.nav_box .nav {
+    width: 1.6rem;
+}
+.nav_box .nav img {
+    display: block;
+    width: 1.4rem;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+.nav_box .nav p {
+    line-height: 0.7rem;
+    font-size: 0.34rem;
+    color: #333;
+    text-align: center;
+}
+
+.img_peigeng img{
+    width: 100%;
+}
+.videoBox {
+    width: 7.5rem;
+    height: 10.9rem;
+    box-sizing: border-box;
+    padding: 1.79rem 0.246rem 0.6rem 0.246rem;
+    background: url(/img/peigeng/bg_peigengshuxue02.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.videoBox .fitVideo {
+    width: 100%;
+    height: 3.68rem;
+    margin-bottom: 1.17rem;
+}
+.videoBox .fitVideo:last-child {
+    margin-bottom: 0;
+}
+.lineBox {
+    padding-bottom: 0.8rem;
+}
+.go_learn {
+    background-color: #3979FD;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+    color:#fff;
+    font-size: 14px;
+    font-weight: bold;
+}

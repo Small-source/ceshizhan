@@ -1,0 +1,130 @@
+.test_app {
+     padding: 0.4rem;
+}
+ .test_app h6 {
+     line-height: 0.6rem;
+     font-size: 0.4rem;
+     text-align: center;
+     color: #2c8ffc;
+}
+ .evalustion_question {
+     font-size: 0.28rem;
+}
+ .evalustion_question .question {
+     margin-bottom: 0.2rem;
+}
+ .evalustion_question .question .title {
+     /*line-height: 0.76rem;*/
+     line-height: 0.4rem;
+     font-size: 0.32rem;
+     color: #3187e6;
+     margin: 0;
+     padding: 0.28rem 0rem;
+}
+ .evalustion_question .question .option_box {
+     overflow: hidden;
+     padding-left: 0.4rem;
+}
+ .evalustion_question .question .option_box .inputs {
+     float: left;
+     margin-right: 0.4rem;
+}
+ .evalustion_question .question .input_box {
+     width: 4rem;
+}
+ .evalustion_question .btn_box {
+     padding: 0.86rem 0rem;
+}
+ .evalustion_question .btn_box .box {
+     width: 6rem;
+     height: 0.72rem;
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+}
+ .evalustion_question .btn_box .box .btn {
+     line-height: 0.72rem;
+     text-align: center;
+     background-color: #2c8ffc;
+     width: 2rem;
+     border-radius: 0.1rem;
+     color: #fff;
+     margin: 0rem 0.4rem;
+     cursor: pointer;
+}
+ .evalustion_question .btn_box .box .unactive {
+     background-color: #eaeaea;
+}
+ .evalustion_question .fixd_box {
+     width: 4.2rem;
+     min-height: 6rem;
+     position: fixed;
+     bottom: 4rem;
+     right: 0.04rem;
+     box-shadow: 0rem 0rem 0.2rem #dedede;
+}
+ .evalustion_question .fixd_box .title {
+     line-height: 1rem;
+     font-size: 0.4rem;
+     font-weight: 600;
+     text-align: center;
+}
+ .evalustion_question .fixd_box ul {
+     width: 4.2rem;
+     display: flex;
+     flex-wrap: wrap;
+}
+ .evalustion_question .fixd_box ul li {
+     width: 0.6rem;
+     height: 0.6rem;
+     border-radius: 0.1rem;
+     text-align: center;
+     line-height: 0.6rem;
+     margin-left: 0.2rem;
+     margin-bottom: 0.1rem;
+     color: #fff;
+     cursor: pointer;
+}
+ .evalustion_question .fixd_box ul .finish {
+     color: #fff;
+     background-color: #2c8ffc;
+}
+ .evalustion_question .fixd_box ul .unfinish {
+     color: #fff;
+     background-color: #eaeaea;
+}
+ .evalustion_question .fixd_box .btn {
+     width: 0.6rem;
+     height: 1rem;
+     background-color: #2c8ffc;
+     position: absolute;
+     left: -0.6rem;
+     top: 50%;
+     cursor: pointer;
+     margin-top: -0.5rem;
+}
+ .evalustion_question .slide {
+     right: 0.04rem;
+     transition: all 1s;
+}
+ .evalustion_question .unslide {
+     right: -4.2rem;
+     transition: all 1s;
+}
+ .evalustion_question .el-input__inner {
+     border: 1px solid #DCDFE6 !important;
+     border-radius: 0.08rem;
+}
+ .evalustion_question .el-radio-group .el-radio {
+     display: block;
+     line-height: 0.6rem;
+}
+.evalustion_question .el-radio-group .el-radio .el-radio__input .el-radio__inner{
+     width: 0.32rem;
+     height: 0.32rem;
+}
+.evalustion_question .el-radio-group .el-radio .el-radio__label {
+     font-size: 0.30rem;
+}
+
+ 

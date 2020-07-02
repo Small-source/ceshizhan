@@ -67,7 +67,7 @@ Page({
       region: e.detail.value
     })
   },
-  //手机号
+  //手机号n
   bindPhone: function (e) {
     this.setData({
       phone: e.detail.value

@@ -1,0 +1,59 @@
+/* miniprogram/pages/tuance/newSelectSubjects/balance1/balance1.wxss */
+@import  "../../../public/public.wxss";
+.head{
+  padding: 0 30rpx 20rpx;
+  background: #fff;
+}
+.head>text{
+  font-size: 22rpx;
+  color:#666;
+}
+.sekuai{
+  width: 106rpx;
+  height: 44rpx;
+  background: url('https://m.xuematech.com/applet/img/tuance/xuanke/icon_sekuai.png') center center/100% 100%;
+  position: relative;
+  top:28rpx;
+  text-align: center;
+  color:#fff;
+  font-size: 24rpx;
+  line-height: 44rpx;
+}
+.list{
+  width: 100%;
+  border-top:10rpx solid #F6F5F3;
+  height: 180rpx;
+  background: #fff;
+  padding: 0 30rpx;
+}
+.list>text{
+  line-height: 90rpx;
+  font-size: 28rpx;
+  color:#333;
+}
+.listli{
+  height: 50rpx;
+  width: 100%;
+}
+.listli>view{
+  width: 50rpx;
+  height:48rpx;
+  background-size:100% 100%; 
+  float: left;
+  margin-right: 48rpx;
+}
+.listli>text{
+  width: 200rpx;
+  float: right;
+  text-align: center;
+  font-size: 28rpx;
+  line-height:52rpx;
+}
+.submit{
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color:#fff;
+  font-size: 30rpx;
+  background: #3979FD;
+}

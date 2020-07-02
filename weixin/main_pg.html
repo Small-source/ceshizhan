@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+    <title>沛耕数学</title>
+   	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css?version=0002">
+	<script src="js/rem.js"></script>
+	<script src="js/vue.js"></script>
+</head>
+<body>
+		<div class="main lineBox">
+			<div class="img_peigeng">
+				<img src="/img/peigeng/bg_peigengshuxue01.png" alt="">
+			</div>
+			<div class="videoBox">
+				<div class="fitVideo">
+					<video src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/37847cdd-171203288ea-0007-0e88-a79-43367.mp4" controls poster="/img/peigeng/bg02.png" style="width:100%; height:100%; object-fit: fill"></video>
+				</div>
+				<div class="fitVideo">
+					<video src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/51224f20-171203288d6-0007-0e88-a79-43367.mp4" controls poster="/img/peigeng/bg01.png" style="width:100%; height:100%; object-fit: fill"></video>
+				</div>
+			</div>
+			<div class="go_learn" @touchstart="goPeigeng()">
+				进入学习
+			</div>
+			<!-- <li v-for="(item, index) in evaluation" :key="index">
+				<div class="img_box">
+					<img :src="'img/diagnosis/' + item.img_url" alt="">
+				</div>
+		        <p class="lis_title">
+	                {{item.title}}
+	            </p>
+	            <div class="btn_box">
+	            	<div class="btn"  @touchstart="goPeigeng()">学习</div>
+	            </div>
+
+			</li> -->
+		</div>
+</body>
+<script src="js/axios.min.js"></script>
+<script src="js/router.js?009"></script>
+<script>
+    Vue.prototype.$ajax= axios;
+    Vue.prototype.G_uri= '/papi';
+    new Vue({
+        el:'.main',
+        data(){
+            return{
+                evaluation: [
+                    { title: '沛耕数学', assessType: 0, img_url: 'icon_peigeng.png' }
+                ],
+                newIdData: null,
+	            assessType : window.sessionStorage.getItem('assessType')
+            }
+        },
+	    methods: {
+			// 获取沛耕链接
+			goPeigeng() {
+	            var _this = this;
+	            var token = window.sessionStorage.getItem('token');
+	            this.$ajax.post(this.G_uri + '/volunteer/requestThirdPartyH5', {}, {
+	                    headers:{
+	                        token: token
+	                    }
+	            })
+	            .then(function(res) {
+	                if(res.data.code == 2000) {
+	                    let url =res.data.data;
+	                    let obj=_this.urlToObj(url)
+	                    if(obj.isBindCard=='1'){
+                            window.location.href ='bindCard.html?a='+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+						}
+                        if(obj.isBindCard=='2'){
+                            window.location.href = url;
+                        }
+	                }
+	            })
+	            .catch(function(error) {
+	                console.log(error);
+	            });
+	        },
+			//分割url参数
+			urlToObj(str){
+				let obj = {};
+				let arr1 = str.split("?");
+				let arr2 = arr1[1]&&arr1[1].split("&")||[];
+				for(var i=0 ; i < arr2.length; i++){
+					var res = arr2[i].split("=");
+					obj[res[0]] = res[1];
+				}
+				return obj;
+			 }
+	    },
+	    watch: {
+	    },
+	    computed:{
+	    },
+	    mounted() {
+	    },
+	    created() {
+
+	    }
+    })
+</script>
+</html>

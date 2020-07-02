@@ -1,0 +1,87 @@
+.evaluation_entry {
+  padding-bottom: 0.5rem;
+}
+.evaluation_entry .banner {
+  position: relative;
+  z-index: 2;
+  font-size: 0.12rem;
+}
+.evaluation_entry .banner img {
+  display: block;
+  width: 100%;
+}
+.evaluation_entry .content {
+  box-sizing: border-box;
+  width: 6.9rem;
+  padding: 0rem 0.35rem 0.8rem 0.35rem;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.46rem;
+  color: #333;
+  margin: 0 auto;
+  margin-top: -1.55rem;
+  z-index: 2;
+  box-shadow: 0rem 0rem 0.1rem #dedede;
+}
+.evaluation_entry .content .title_box {
+  display: flex;
+}
+.evaluation_entry .content .title_box .box {
+  flex: 1;
+  background: url(../img/diagnosis/line.png) no-repeat center right;
+  background-size: 0.6rem 0.2rem;
+}
+.evaluation_entry .content .title_box .box2 {
+  transform: rotate(180deg);
+}
+.evaluation_entry .content .title_box .box_title {
+  padding: 0 0.2rem;
+  font-size: 0.34rem;
+  line-height: 1.04rem;
+  color: #3077ed;
+  font-weight: 600;
+}
+.evaluation_entry .content .main p {
+  font-size: 0.26rem;
+  text-indent: 2em;
+  line-height: 0.4rem;
+  margin-bottom: 0.16rem;
+}
+.evaluation_entry .content .notice {
+  padding: 0.2rem 0.3rem;
+  background-color: #edf3ff;
+  border-radius: 0.1rem;
+}
+.evaluation_entry .content .notice h6 {
+  line-height: 0.48rem;
+  margin-bottom: 0.04rem;
+  font-size: 0.28rem;
+  font-weight: 600;
+  color: #3c91f4;
+  padding-left: 0.6rem;
+  background: url(../img/diagnosis/icon_tishi.jpg) no-repeat 0rem center;
+  background-size: 0.32rem 0.48rem;
+}
+.evaluation_entry .content .notice ol li {
+  font-size: 0.24rem;
+  line-height: 0.36rem;
+}
+.evaluation_entry .btn {
+  width: 4.16rem;
+  cursor: pointer;
+  line-height: 0.76rem;
+  font-size: 0.30rem;
+  color: #fff;
+  border: none;
+  text-align: center;
+  border-radius: 0.38rem;
+  margin: 0 auto;
+  background-color: #3075ea;
+  position: absolute;
+  left: 50%;
+  margin-left: -2.08rem;
+  bottom: -0.38rem;
+}
+.evaluation_entry .btn:active {
+  background-color: #136ed8;
+}

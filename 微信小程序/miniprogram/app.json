@@ -1,8 +1,9 @@
 {
   "pages": [
-    "pages/tuance/perfectInformation",
-    "pages/tuance/professionalPositioningTest_report",
+    "pages/tuance/newSelectSubjects/balance1/balance1",
+    "pages/tuance/bindcard",
     "pages/index/index",
+    "pages/tuance/professionalPositioningTest",
     "pages/login/bindphone",
     "pages/login/perfectInformation",
     "pages/subjectAssessment/subjectAssessment",
@@ -52,9 +53,13 @@
     "pages/learningAssessment/testReport/testReport7",
     "pages/learningAssessment/testReport/testReport8",
     "pages/professionalPositioningTest/professionalPositioningTest_report",
-    "pages/tuance/professionalPositioningTest",
-    "pages/tuance/bindcard",
-    "pages/tuance/tStart"
+    "pages/tuance/tStart",
+    "pages/tuance/perfectInformation",
+    "pages/tuance/professionalPositioningTest_report",
+    "pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1",
+    "pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2",
+    "pages/tuance/newSelectSubjects/generateSubjectPlan/generateSubjectPlan",
+    "pages/tuance/newSelectSubjects/balance2/balance2"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

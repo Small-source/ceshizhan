@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>加载中...</title>
+</head>
+<body>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+    function urlToObj(str){
+        var obj = {};
+        var arr1 = str.split("?");
+        var arr2 = arr1[1]&&arr1[1].split("&")||[];
+        for(var i=0 ; i < arr2.length; i++){
+            var res = arr2[i].split("=");
+            obj[res[0]] = res[1];
+        }
+        return obj;
+    }
+    var url = window.location.search;
+    var item=urlToObj(url);
+    //alert(item.pg);
+
+    window.sessionStorage.type = item.type;
+    window.sessionStorage.source=item.source||2;
+    window.sessionStorage.a=item.a||20;
+
+    $.ajax({
+        type : "POST",
+        url : "/papi/login/loginByOpenId",
+        dataType : "json",
+        data : {
+            sid:item.sid,
+            a:window.sessionStorage.a||''
+        },
+        success : function(data) {
+            var data=data.data;
+            window.sessionStorage.sid=item.sid;
+            if(!data.token){
+                window.location.href="bindphone.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                return;
+            }
+            window.sessionStorage.token=data.token;
+            if(data.is_band_phpone=='1'){
+                window.location.href="bindphone.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                return;
+            }
+            if(data.is_need_password=='1'){
+                window.location.href="password.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                return;
+            }
+            if(data.isImproveInformation=='2'){
+                window.location.href="perfectInformation.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                return;
+            }
+            if(window.sessionStorage.type == 1){//沛耕数学
+                window.location.href="main_pg.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+            }else{
+                window.location.href="main.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+            }
+        },
+    });
+</script>
+</html>

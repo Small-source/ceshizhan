@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<style>
+    #waring{
+        color:red;
+        line-height: 0.3rem;
+        height: 0.3rem;
+        text-align: center;
+        font-size: 0.12rem;
+    }
+    #bindPhone{
+        width: 3.75rem;
+        margin: 0 auto;
+    }
+    .head{
+        height: 2.68rem;
+        width: 3.75rem;
+        background-image:url("img/denglu/bg.png");
+        background-size:100% 100%;
+    }
+    .denglu{
+        width: 3.5rem;
+        height: 2.1rem;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 0.05rem;
+        box-shadow: 0 0.02rem 0.02rem #f6f6f6;
+        position: relative;
+        top:-0.7rem;
+    }
+    .title{
+        font-size: 0.2rem;
+        text-align: center;
+        color:#3076EC;
+        font-weight: bolder;
+        padding: 0.25rem 0 0.15rem;
+    }
+    .input{
+        width: 2.7rem;
+        margin: 0.14rem auto 0;
+        position: relative;
+    }
+    .icon{
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top:8px;
+        overflow: hidden;
+        text-align: center;
+    }
+    input{
+        width: 100%;
+        border:none;
+        line-height: 0.32rem;
+        font-size: 0.12rem;
+        text-indent: 0.25rem;
+        border-bottom: 0.01rem solid #F3F3F3;
+        outline:none;
+    }
+    #send{
+        width: 0.74rem;
+        height: 0.20rem;
+        line-height: 0.20rem;
+        background: #3076EC;
+        text-align: center;
+        font-size: 0.12rem;
+        position: absolute;
+        border-radius: 0.11rem;
+        letter-spacing: 0;
+        right: 0;
+        color: white;
+        top:0.08rem;
+    }
+    .jishi{
+        width: 0.74rem;
+        height: 0.20rem;
+        line-height: 0.20rem;
+        background: #ccc;
+        text-align: center;
+        font-size: 0.12rem;
+        position: absolute;
+        border-radius: 0.11rem;
+        letter-spacing: 0;
+        right: 0;
+        color: red;
+        top:0.08rem;
+        display: none;
+    }
+    .submit{
+        width: 2.1rem;
+        line-height: 0.38rem;
+        border-radius: 0.19rem;
+        text-align: center;
+        font-size: 0.16rem;
+        color: white;
+        background:#3076EC;
+        margin: 0 auto;
+    }
+</style>
+<script>
+    window.onload=function(){
+        window.onresize=setRemFont;
+        function setRemFont() {
+            var domIe=document.documentElement;
+            var width=domIe.clientWidth;
+            domIe.style.fontSize=width/375*100+'px';
+        }
+        setRemFont();
+    }
+</script>
+<body>
+<div id="bindPhone">
+     <div class="head">
+     </div>
+    <div class="denglu">
+        <div class="title">
+            登录
+        </div>
+        <div class="input">
+            <div class="icon">
+                <img src="img/denglu/icon_shouji.png" alt="" style="width: 12px">
+            </div>
+            <input type="text" placeholder="请输入手机号"  id="phone">
+        </div>
+        <div class="input">
+            <div class="icon">
+                <img src="img/denglu/icon_duanxin.png" alt="" style="width: 14px">
+            </div>
+            <input type="text" placeholder="请输入短信验证码" id="code">
+            <div id="send">获取验证码</div>
+            <div class="jishi">60s</div>
+        </div>
+        <div id="waring"></div>
+        <div class="submit">
+            确定
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script>
+
+    function urlToObj(str){
+        var obj = {};
+        var arr1 = str.split("?");
+        var arr2 = arr1[1]&&arr1[1].split("&")||[];
+        for(var i=0 ; i < arr2.length; i++){
+            var res = arr2[i].split("=");
+            obj[res[0]] = res[1];
+        }
+        return obj;
+    }
+    var url = window.location.search;
+    var item=urlToObj(url);
+
+    window.sessionStorage.type = item.type;
+    window.sessionStorage.source=item.source||2;
+    window.sessionStorage.a=item.a||20;
+
+    $('#send').click(function () {
+        $('#waring').html(' ');
+        var phone=$('#phone').val();
+        var  reg = /(^1[123456789]\d{9}$)|(^\d{8}$)/;
+        if(!reg.test(phone)){
+            $('#waring').html('请输入正确手机号');
+            return;
+        }
+        $('#send').hide();
+        $('.jishi').show();
+        var number=60;
+        var t=setInterval(function () {
+            number--;
+            if(number<0){
+                clearInterval(t);
+                $('.jishi').hide();
+                $('#send').show();
+            }
+            $('.jishi').html(number+'s');
+        },1000);
+        $.ajax({
+            type : "POST",
+            url : "/papi/login/getCodeByPhoneMobileTerminal",
+            dataType : "json",
+            data : {
+                phone:phone,
+                a:window.sessionStorage.a
+            },
+            success:function(data) {
+                if(data.code=='2000') {
+
+                }else{
+                    $('#waring').html(data.msg);
+                }
+            },
+        });
+    })
+    $('.submit').click(function () {
+        $('#waring').html(' ');
+        var phone=$('#phone').val();
+        var code=$('#code').val();
+        var  reg = /(^1[123456789]\d{9}$)|(^\d{8}$)/;
+        if(!reg.test(phone)){
+            $('#waring').html('请输入正确手机号');
+            return;
+        }
+        if(!code){
+            $('#waring').html('请输入验证码');
+            return;
+        }
+        $.ajax({
+            type : "POST",
+            url : "/papi/login/getUserInfoByPhone",
+            dataType : "json",
+            data : {
+                phone:phone,
+                code:code,
+                source:window.sessionStorage.source,
+                sid:window.sessionStorage.sid,
+                a:window.sessionStorage.a
+            },
+            success:function(data) {
+                if(data.code=='2000') {
+                    var data=data.data;
+                    window.sessionStorage.token=data.token;
+                    if(data.isNeedPassword=='1'){
+                        window.location.href="password.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                        return;
+                    }
+                    if(data.isImproveInformation=='2'){
+                        window.location.href="perfectInformation.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                        return;
+                    }
+                    if(window.sessionStorage.type == 1){//类型 1.沛耕数学
+                        window.location.href="main_pg.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                    }else{
+                        window.location.href="main.html?a="+window.sessionStorage.a+'&source='+window.sessionStorage.source+'&type='+window.sessionStorage.type;
+                    }
+                }else{
+                    $('#waring').html(data.msg);
+                }
+            },
+        });
+    })
+</script>
+</html>

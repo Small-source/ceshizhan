@@ -1,8 +1,8 @@
 <!--miniprogram/pages/tuance/tStart.wxml-->
-<image src="../../images/tuance/tStart/banner.png" class="image"></image>
+<image src="https://m.xuematech.com/applet/img/tuance/tStart/banner.png" class="image"></image>
 <view class="head">
   <view class="p">新高考选科</view>
-  <image src="../../images/tuance/tStart/icon_dingwei.png" ></image>
+  <image src="https://m.xuematech.com/applet/img/tuance/tStart/icon_dingwei.png" ></image>
   <text>{{city}}</text>
 </view>
 <view class="content">

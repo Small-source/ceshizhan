@@ -66,14 +66,14 @@
 </block>
 <block wx:if='{{finish}}'>
     <view class="part3">
-      <image src="../../images/tuance/tStart/icon_wancheng.png"></image>
+      <image src="https://m.xuematech.com/applet/img/tuance/tStart/icon_wancheng.png"></image>
        <block>
         <text>新高考选科团测 第一部分 专业定位测评 \n  <text>已完成</text>，请进入下一项</text>
         <view class="list">选择目标专业
-            <navigator url="/pages/newSelectSubjects/generateSubjectPlan/generateSubjectPlan" class="next">选择专业</navigator>
+            <navigator url="/pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1" class="next">选择专业</navigator>
         </view>
         <view class="list">查看专业定位测评报告
-          <navigator url="professionalPositioningTest_report" class="next" >查看报告</navigator>
+           <navigator url="professionalPositioningTest_report" class="next" >查看报告</navigator>
         </view>
       </block>
     </view>

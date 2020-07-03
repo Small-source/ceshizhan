@@ -1,2 +1,91 @@
-<!--miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxml-->
-<text>miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxml</text>
+<view class="head">
+  <view class="sekuai">
+   说明
+  </view>
+  <text>
+   提示：请你系统分析每一个因素，根据该因素对各科目的影响进行打分，打分完成后点击“下一步”。
+ （例如：我对这门科目感兴趣:-2表示兴趣很低、-1表示兴趣较低、0分表示一般、1表示兴趣较高、2表示兴趣很高）
+  </text>
+</view>
+<scroll-view class="scroll" scroll-x="true" scroll-left="{{x}}">
+    <view class="li {{currentIndex==item.numbers&&'active'}}"  wx:for='{{listData}}' wx:key='index' data-index="{{item.numbers}}" bindtap="Tab" >{{item.numbers}}</view>
+</scroll-view>
+<view class="box">
+  <view class="list"  wx:for="{{listData}}" wx:key="index" wx:if = "{{item.numbers==currentIndex}}" >
+      <text>{{item.numbers}}{{item.titles}}</text>
+      <view class="listli">
+        <view 
+        style="background-image:{{item.influenceFactorWeight>=i?'url('+imgSrc1+')':'url('+imgSrc2+')'}}" wx:for-item='it' wx:for-index='i' wx:for="{{5}}" wx:key="i" >
+        </view>
+        <text>"{{res[item.influenceFactorWeight]}}"</text>
+      </view>
+      <view class='line' style="margin:20rpx 0 "></view>
+      <block>
+           <view class="subject">
+              <text>物理</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectPhysics==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='0' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject">
+              <text>化学</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectChemistry==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='1' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject">
+              <text>生物</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectBiological==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='2' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject">
+              <text>思想政治</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectIdeologicalPolitics==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='3' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject">
+              <text>历史</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectHistory==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='4' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject">
+              <text>地理</text>
+                <view class='line'></view>
+                <view class="circles" >
+                  <view class="{{item.subjectGeography==it?'circle2':'circle1'}}"  wx:for="{{fen}}"  wx:for-item='it' wx:for-index='i' wx:key="index"
+                  data-index='{{index}}' data-i='5' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+           <view class="subject" wx:if="{{province=='浙江'}}">
+              <text>技术</text>
+                <view class='line'></view>
+                <view class="circles">
+                  <view class="{{item.subjectTechnology==it?'circle2':'circle1'}}"  wx:for="{{fen}}" 
+                   wx:for-item='it' wx:for-index='i' wx:key="index"
+                    data-index='{{index}}' data-i='6' data-it="{{it}}" bindtap="tabfen"></view>
+                </view>
+           </view>
+      </block>
+  </view>
+</view>
+  <view class="submit" bindtap="nextCurrentIndex" wx:if="{{currentIndex!='15'}}">
+    下一项
+  </view>
+  <view class="submit" bindtap="submit" wx:if="{{currentIndex=='15'}}">
+    下一步
+  </view>
+
+

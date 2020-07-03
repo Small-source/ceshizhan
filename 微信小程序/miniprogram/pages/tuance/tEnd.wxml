@@ -1,0 +1,14 @@
+
+  <view class="part3">
+    <image src="https://m.xuematech.com/applet/img/tuance/tStart/icon_wancheng.png"></image>
+      <block>
+      <text>新高考选科团测已完成</text>
+      <view class="list">查看新高考选科报告
+          <navigator url="/pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport" class="next">查看报告</navigator>
+      </view>
+      <view class="list">查看专业定位测评报告
+          <navigator url="professionalPositioningTest_report" class="next" >查看报告</navigator>
+      </view>
+    </block>
+  </view>
+

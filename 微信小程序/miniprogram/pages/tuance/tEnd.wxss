@@ -1,0 +1,152 @@
+/* pages/professionalPositioningTest/professionalPositioningTest.wxss */
+@import  "../public/public.wxss";
+.head{
+  padding: 30rpx;
+  width: 100%;
+  background:#fff;
+}
+.head>view{
+  text-align: center;
+}
+.head>view>text{
+  font-size:40rpx;
+  color:#3979FD;
+  font-weight: bold;
+  height: 120rpx;
+  line-height: 120rpx;
+}
+.text1{
+  margin-right: 44rpx;
+}
+#text3{
+  font-size:32rpx;
+  color:#333333 !important;
+  height: 40rpx;
+  line-height: 40rpx;
+  font-weight: bold;
+}
+#text4{
+  font-size: 30rpx;
+  color:#9A9A9A !important;
+  font-weight: normal ;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+.jindu{
+  width: 100%;
+  height: 20rpx;
+  background: #DEDEDE;
+  margin-top: 30rpx;
+}
+.jinduline{
+  border-bottom:2rpx solid #DEDEDE;
+  margin-bottom: 20rpx;
+}
+#tigan{
+  font-size: 26rpx;
+  color:#333333;
+  font-weight:500;
+  line-height: 30rpx;
+  text-align: left;
+}
+.part{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #F8F8F8;
+}
+.content{
+  padding: 60rpx 30rpx;
+}
+.content>view{
+  margin-bottom: 30rpx;
+  padding: 30rpx 0;
+  line-height: 42rpx;
+  font-size:28rpx;
+  font-weight: 500;
+  border-left:6rpx solid #DEDEDE;
+  background: #fff;
+  padding-left: 40rpx;
+}
+.content>view>text{
+  height: 100rpx;
+  line-height: 40rpx;
+  font-size:28rpx;
+  font-weight: 500;
+  margin-right: 40rpx;
+}
+.part3{
+    background: #fff;
+    min-height: 100vh;
+}
+.part3>image{
+  width: 114rpx;
+  height: 114rpx;
+  display: block;
+  margin: 188rpx auto 40rpx;
+}
+.part3>text{
+  display: block;
+  text-align: center;
+  font-size: 26rpx;
+  color:#333333;
+  font-weight:500;
+  line-height: 40rpx;
+  margin-bottom: 140rpx;
+}
+.part3>text>text{
+  font-size: 28rpx;
+}
+.next{
+  width:136rpx;
+  height: 48rpx;
+  font-size: 24rpx;
+  color: white;
+  text-align: center;
+  line-height: 48rpx;
+  background: #3979FD;
+  border-radius: 44rpx;
+  float: right;
+  margin-top: 22rpx;
+  font-weight: normal;
+}
+.tui{
+  margin-top: 40rpx;
+  border-top:2rpx solid #797979;
+  color:#333;
+  padding: 30rpx;
+}
+.tuiTitle{
+  font-size: 26rpx;
+  margin-bottom: 40rpx;
+}
+.next2{
+  border:2rpx solid #666666;
+  display: inline-block;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 26rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-top: 30rpx;
+  margin-right: 20rpx;
+  color:#666;
+}
+.hoverClass{
+  background: #BCD6FC!important;
+  border-left:6rpx solid #3669F8 !important;
+}
+.list{
+  width: 690rpx;
+  height: 90rpx;
+  border-radius: 20rpx;
+  padding: 0 30rpx;
+  font-size: 28rpx;
+  font-weight: bolder;
+  margin: 0 auto;
+  line-height: 90rpx;
+  background: #F1F2F5;
+  margin-bottom: 30rpx;
+}

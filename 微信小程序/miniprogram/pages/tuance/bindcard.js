@@ -5,8 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    userName:'90001348',
-    passWord:'731700',
+    userName:'90001344',
+    passWord:'985363',
     warning:''
   },
   //绑定卡号
@@ -72,9 +72,7 @@ Page({
                     url: 'perfectInformation',
                   })
                 }else{
-                  wx.navigateTo({
-                    url: 'tStart',
-                  })
+                  _this.cePingJinDu()
                 }
         } else {
           _this.setData({
@@ -86,6 +84,51 @@ Page({
     return;
     wx.navigateTo({
       url: 'perfectInformation',
+    })
+  },
+  //获取测评进度
+  cePingJinDu: function () {
+    let _this = this;
+   
+    wx.request({
+      url: wx.getStorageSync('config').tuance.cepingjindu,
+      method: 'post',
+      data: {
+
+      },
+      header: {
+        'token': wx.getStorageSync('tuanceToken')
+      },
+      success: function (data) {
+        if (data.data.code == 2000) {
+          if (data.data.data.code == 1) {
+            wx.redirectTo({
+              url: '/pages/tuance/tStart',
+            })
+            return;
+          }
+          if (data.data.data.code == 2 || data.data.data.code == 3) {
+            wx.redirectTo({
+              url: '/pages/tuance/professionalPositioningTest'
+            })
+            return
+          }
+          if (data.data.data.code == 4) {
+            wx.redirectTo({
+              url: '/pages/tuance/newSelectSubjects/generateSubjectPlan/generateSubjectPlan',
+            })
+            return;
+          }
+          wx.redirectTo({
+            url: 'tEnd',
+          })
+        } else if (data.data.code == 2026) {
+          wx.redirectTo({
+            url: '/pages/login/perfectInformation',
+          })
+        } else {
+        }
+      }
     })
   },
   /**

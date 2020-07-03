@@ -69,6 +69,10 @@ var config ={
   tuance:{
     bindCard: host +'/login/appletTeamReportLogin',//卡号密码登录
     cepingjindu: host + '/applet/startTestEvaluationTeam',//测评进度
+    xuanke: host + '/chooseSubject/storeSelectionDecision',//提交所选专业和决策平衡单
+    xuankelist: host + '/chooseSubject/getSelectionAdviceList',  // 获取选科建议列表
+    xuankeSave: host + '/chooseSubject/storeSelectionAdviceAppletTeam',  // 存储选科建议
+    xuankeReport: host +'/chooseSubject/getChooseSubjectReportDetail',  // 选科报告详情
   }
 }
 module.exports=config;

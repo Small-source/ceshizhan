@@ -1,5 +1,6 @@
 <!--pages/index/index.wxml-->
 <!-- <mp-icon type="field" icon="add" color="black" size="{{40}}"></mp-icon> -->
+<navigator url='/pages/tuance/bindcard'>团测</navigator>
 <view class="banner">
   <image src="https://m.xuematech.com/applet/img/home/banner.png"></image>
 </view>

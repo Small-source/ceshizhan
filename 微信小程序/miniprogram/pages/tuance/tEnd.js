@@ -1,33 +1,27 @@
-// miniprogram/pages/tuance/tStart.js
+// pages/tuance/tEnd.js
 Page({
+
   /**
    * 页面的初始数据
    */
   data: {
-    city:''
+
   },
-  //跳转页面
-  jump(){
-    wx.navigateTo({
-      url: 'professionalPositioningTest',
-    })
-  },
-  
+
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var user = wx.getStorageSync('tuanceUserInfo')
-     this.setData({
-       city:user.province
-     })
+
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
+
   /**
    * 生命周期函数--监听页面显示
    */

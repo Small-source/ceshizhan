@@ -29,13 +29,13 @@ Page({
     images: [
       [
         {
-          src: '../../images/tuance/perfectInformation/icon_nanbai.png',
+          src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nanbai.png',
           color: '#fff',
           background: '#3979FD',
           text: '男'
         },
         {
-          src: '../../images/tuance/perfectInformation/icon_nvlan.png',
+          src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nvlan.png',
           color: '3979FD',
           background: '#fff',
           text: '女'
@@ -122,13 +122,13 @@ Page({
         images: [
           [
             {
-              src: '../../images/tuance/perfectInformation/icon_nanbai.png',
+              src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nanbai.png',
               color: '#fff',
               background: '#3979FD',
               text: '男'
             },
             {
-              src: '../../images/tuance/perfectInformation/icon_nvlan.png',
+              src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nvlan.png',
               color: '3979FD',
               background: '#fff',
               text: '女'
@@ -141,13 +141,13 @@ Page({
         images: [
           [
             {
-              src: '../../images/tuance/perfectInformation/icon_nanlan.png',
+              src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nanlan.png',
               color: '3979FD',
               background: '#fff',
               text: '男'
             },
             {
-              src: '../../images/tuance/perfectInformation/icon_nvbai.png',
+              src: 'https://m.xuematech.com/applet/img/tuance/perfectInformation/icon_nvbai.png',
               color: '#fff',
               background: '#3979FD',
               text: '女'
@@ -235,8 +235,8 @@ Page({
       },
       success: function (data) {
         if (data.data.code == '2000') {
-          wx.reLaunch({
-            url: 'tStart'
+          wx.redirectTo({
+            url: '/pages/tuance/tStart',
           })
         } else {
           _this.setData({

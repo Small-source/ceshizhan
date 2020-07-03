@@ -29,7 +29,6 @@ Page({
   },
   //点击切换权重
   tab:function(e){
-    console.log(e.currentTarget.dataset)
     let { index, i} = e.currentTarget.dataset;
     let listData=this.data.listData;
     listData[index]['influenceFactorWeight']=i;
@@ -39,6 +38,7 @@ Page({
   },
   //跳到下一步
   next(){
+    wx.setStorageSync("balance", this.data.listData)
     wx.navigateTo({
       url: '/pages/tuance/newSelectSubjects/balance2/balance2',
     })

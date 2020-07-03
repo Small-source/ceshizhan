@@ -2,7 +2,6 @@
 import HTTP from '../../../../utils/httpRequest.js'
 import { GET_SELECTION_ADVICE_LIST, STORE_SELECTION_ADVICE_LIST } from '../../../../utils/configAPI.js'
 Page({
-
   /**
    * 页面的初始数据
    */
@@ -15,27 +14,47 @@ Page({
     wx.showLoading({
       title: '加载中',
     })
-    HTTP.post(GET_SELECTION_ADVICE_LIST, { 'source': 4, subjectName: ''})
-      .then((res) => {
+    wx.request({
+      url: wx.getStorageSync('config').tuance.xuankelist,
+      method: 'post',
+      data: {
+        'source': 5, 
+        subjectName: ''
+      },
+      header: {
+        'token': wx.getStorageSync('tuanceToken')
+      },
+      success: (data)=> {
         wx.hideLoading();
-        let list = res.data.report;
+        let list = data.data.data.report;
         this.setData({
           xkjyList: list,
           subjectValue: list[0].subjectName
         })
-      })
+      }
+    })
   },
   // 生成选科报告
   storeSelectionAdviceList() {
     let arr = [];
     let value = this.data.subjectValue;
     arr.push(value);
-    HTTP.post(STORE_SELECTION_ADVICE_LIST, { 'source': 4, subject: arr })
-      .then((res) => {
+    wx.request({
+      url: wx.getStorageSync('config').tuance.xuankeSave,
+      method: 'post',
+      data: {
+         source: 5,
+         subject: arr
+      },
+      header: {
+        'token': wx.getStorageSync('tuanceToken')
+      },
+      success: (data) => {
         wx.reLaunch({
-          url: '/pages/newSelectSubjects/selectSubjectReport/selectSubjectReport',
+          url: '/pages/tuance/tEnd',
         })
-      })
+      }
+    })
   },
   changeSubject(e) {
     let value = e.currentTarget.dataset.value;

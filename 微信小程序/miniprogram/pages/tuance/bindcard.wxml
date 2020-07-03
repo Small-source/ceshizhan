@@ -1,4 +1,4 @@
-<image src="../../images/tuance/bindcard/banner.png" class="image"></image>
+<image src="https://m.xuematech.com/applet/img/tuance/bindcard/banner.png" class="image"></image>
 <text class="p">请使用学校发放的卡号密码登录</text>
 <view class="inputs" style="margin-bottom:36rpx">
   <image src="https://m.xuematech.com/applet/img/tuance/bindcard/icon_kahao.png"></image>

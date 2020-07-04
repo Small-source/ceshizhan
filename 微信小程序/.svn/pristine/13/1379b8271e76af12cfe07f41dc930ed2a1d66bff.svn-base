@@ -1,0 +1,113 @@
+/* miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxss */@import  "../../../public/public.wxss";
+.head{
+  padding: 0 30rpx 20rpx;
+  background: #fff;
+}
+.head>text{
+  font-size: 22rpx;
+  color:#666;
+}
+.sekuai{
+  width: 106rpx;
+  height: 44rpx;
+  background: url('https://m.xuematech.com/applet/img/tuance/xuanke/icon_sekuai.png') center center/100% 100%;
+  position: relative;
+  top:28rpx;
+  text-align: center;
+  color:#fff;
+  font-size: 24rpx;
+  line-height: 44rpx;
+}
+.scroll{
+  height: 100rpx;
+  line-height: 100rpx;
+   white-space: nowrap;
+}
+.li{
+  width: 100rpx;
+  height: 48rpx;
+  border-radius: 24rpx;
+  border:2rpx solid #C8C7C6;
+  text-align: center;
+  line-height: 48rpx;
+  color:#C8C7C6;
+  display: inline-block;
+  margin-left: 30rpx;
+  font-size: 24rpx;
+}
+.active{
+  background:#3979FD;
+  color:#fff;
+  border:none;
+}
+.box{
+  padding: 0 30rpx;
+  background: #fff;
+}
+.list{
+  width: 100%;
+}
+.list>text{
+  line-height: 90rpx;
+  font-size: 28rpx;
+  color:#333;
+}
+.listli{
+  height: 50rpx;
+  width: 100%;
+}
+.listli>view{
+  width: 50rpx;
+  height:48rpx;
+  background-size:100% 100%; 
+  float: left;
+  margin-right: 48rpx;
+}
+.listli>text{
+  width: 200rpx;
+  float: right;
+  text-align: center;
+  font-size: 28rpx;
+  line-height:52rpx;
+}
+.submit{
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  color:#fff;
+  font-size: 30rpx;
+  background: #3979FD;
+}
+.subject>text{
+  font-size: 22rpx;
+  line-height: 72rpx;
+}
+.line{
+  border-bottom: 2rpx solid #EDEDED;
+  position: relative;
+  top:14rpx;
+}
+.subject{
+  background: #fff;
+  padding-bottom: 30rpx;
+}
+.circle1{
+  width: 26rpx;
+  height: 26rpx;
+  background: url('https://m.xuematech.com/applet/img/tuance/xuanke/icon_weidianliang1.png') 0 0/100% 100%;
+  position: relative;
+  z-index: 3
+}
+.circle2{
+  width: 26rpx;
+  height: 26rpx;
+  background: url('https://m.xuematech.com/applet/img/tuance/xuanke/icon_dianliang1.png') 0 0/100% 100%;
+  position: relative;
+  z-index: 3
+}
+.circles{
+  display: flex;
+  justify-content: space-between;
+  width: 580rpx;
+  margin:0 auto;
+}

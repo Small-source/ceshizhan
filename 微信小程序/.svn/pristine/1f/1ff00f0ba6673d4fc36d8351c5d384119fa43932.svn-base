@@ -1,0 +1,10 @@
+<scroll-view class="navItems" scroll-x="true">
+  <view class="navli {{cateId == item.cateId&&'active_navli'}}" wx:for="{{sortData}}" wx:key="index" data-cateid="{{item.cateId}}" bindtap="getEncyclopediaList">{{item.title}}           </view>
+</scroll-view>
+<view class="content">
+  <!-- <view  wx:for="{{cData}}">{{item.title}}</view> -->
+  <navigator url="/pages/gaokaobaike/gaokaobaikeDetail?id={{item.id}}"  wx:for="{{cData}}" wx:key="index">
+    {{item.title}}
+  </navigator>
+</view>
+

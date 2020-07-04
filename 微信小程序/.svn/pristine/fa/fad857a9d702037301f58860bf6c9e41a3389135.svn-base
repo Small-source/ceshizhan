@@ -1,0 +1,187 @@
+/* miniprogram/pages/login/perfectInformation.wxss */
+@import  "../public/public.wxss";
+ .image{
+   width:100%;
+   display: block;
+   height: 240rpx;
+ }
+   #waring{
+        color:red;
+        line-height: 80rpx;
+        height: 80rpx;
+        text-align: center;
+        font-size: 24rpx;
+    }
+    #bindPhone{
+        width: 750rpx;
+        margin: 0 auto;
+    }
+    .denglu{
+        overflow: hidden;
+        width: 100%;
+        background: #fff;
+        border-radius: 10rpx;
+        box-shadow: 0 4rpx 4rpx #f6f6f6;
+        position: relative;
+        padding: 0 50rpx;
+    }
+    .title{
+        font-size: 36rpx;
+        text-align: center;
+        color:#3076EC;
+        font-weight: bolder;
+        padding: 50rpx 0 0;
+    }
+    .inputs{
+        width: 100%;
+        line-height: 56rpx;
+        margin-top: 20rpx;
+    }
+    .inputLeft{
+        width: 152rpx;
+        height: 100%;
+        font-size: 26rpx;
+        line-height: 56rpx;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 10rpx;
+    }
+    .inputLeft a{
+        font-size: 26rpx;
+        line-height: 56rpx;
+        font-weight: bold;
+        color: #333;
+        opacity: 0;
+    }
+    .inputRight{
+        width: 100%;
+        height: 88rpx;
+        line-height: 88rpx;
+        position: relative;
+    }
+    .inputLeft>text{
+        color: red;
+        font-size: 32rpx;
+        line-height: 56rpx;
+        position: relative;
+        top:6rpx;
+    }
+    .submit{
+        width: 100%;
+        line-height: 88rpx;
+        border-radius: 44rpx;
+        text-align: center;
+        font-size: 32rpx;
+        color: white;
+        background:#3076EC;
+        margin: 0 auto 100rpx;
+    }
+    select{
+        display: inline-block;
+        width: 132rpx;
+        line-height: 56rpx;
+        border-radius: 10rpx;
+        border-color:#D0DFFE;
+        outline: none;
+        font-size: 24rpx;
+        height: 56rpx;
+    }
+    option{
+        font-size: 24rpx;
+    }
+    input[type=text],input[type=number]{
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border:1px solid #CCCCCC;
+        font-size: 24rpx;
+        text-indent: 10rpx;
+        padding-left: 20rpx;
+        border-radius: 44rpx;
+    }
+    #liandong{
+        display: flex;
+        justify-content: space-between;
+    }
+    .inputRight>text{
+        font-size: 24rpx;
+    }
+    input[type=radio]{
+        position: relative;
+        top:4rpx;
+    }
+    .picker{
+       border:1px solid #ccc;
+       font-size: 24rpx;
+       padding: 0 20rpx;
+    }
+    .garde{
+      min-width: 200rpx;
+      max-width: 200rpx;
+      display: inline-block;
+      margin-right: 20rpx;
+      white-space:nowrap; 
+      text-overflow:ellipsis;
+      overflow:hidden; 
+      height: 88rpx;
+      line-height: 88rpx;
+      border-radius: 44rpx;
+      position: relative;
+    }
+    .sex{
+      font-size: 36rpx;
+      position: relative;
+      top:6rpx;
+    }
+    radio {
+      transform:scale(0.8);
+      position: relative;
+      top:-6rpx;
+    }
+    .diqu{
+       display: flex;
+       justify-content: space-between;
+    }
+    .diqu .picker{
+      display: inline-block
+    }
+    #garde{
+      width: 200rpx;
+      position: absolute;
+      right:0;
+      top:0;
+      height: 88rpx;
+      border-radius: 44rpx;
+      background: #F6F5F3;
+      text-align: center
+    }
+    .garde2{
+      width: 428rpx;
+      height: 88rpx;
+      line-height: 88rpx;
+      border-radius: 44rpx;
+      position: relative;
+    }
+    .xiala{
+      width:27rpx;
+      height: 14rpx;
+      position: absolute;
+      right:20rpx;
+      top:20px;
+    }
+    .sex{
+      width: 180rpx;
+      height: 88rpx;
+      border-radius:44rpx;
+      border:1px solid #3979FD; 
+      display: inline-block;
+      margin-right: 30rpx;
+      font-size: 28rpx;
+    }
+    .sex>image{
+      width: 36rpx;
+      height: 38rpx;
+      position: relative;
+      top:8rpx;
+      margin: 0 10rpx 0 42rpx;
+    }

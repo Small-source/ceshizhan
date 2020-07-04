@@ -1,0 +1,341 @@
+<!--pages/mine/mine.wxml-->
+<view class="head">
+  <image src="../../images/mine/bg.png"></image>
+  <view class="neirong">
+    <image src="{{person.sex==1?body:girl}}" class="sex"></image>
+    <view>
+      <view class="view1">{{person.name}}</view>
+      <view class="view2">
+        <text class="text1">高考年份:{{person.baccll_year}}</text>
+        <text>所在地区:{{person.province}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="views">
+    <view class="viewsBox">
+      <view class='viewsBox1'>
+        <image src="../../images/mine/icon_shoujihao.png"></image>
+         <text>已绑定手机号:{{person.username}}</text>
+      </view>
+      <view class='viewsBox2'>
+        <image src="../../images/mine/icon_dingwei.png"></image>
+         <text>所在地:{{person.province}} {{person.city}} {{person.area}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="ngr">
+  <navigator url="/pages/myCollection/myCollection" hover-class="none" class="bd">
+    <image src="/images/mine/icon_wodeshoucang.png" class="logo"></image>
+    <text>我的收藏</text>
+    <image src="/images/common/icon_chakangengduo.png" class="go"></image>
+  </navigator>
+  <navigator url="/pages/tuance/bindcard" hover-class="none">
+    <image src="/images/mine/icon_tuancerukou.png" class="logo"></image>
+    <text>团测入口</text>
+    <image src="/images/common/icon_chakangengduo.png" class="go"></image>
+  </navigator>
+</view>
+<view class="report">
+  <view class="top">报告&方案</view>
+  <view class="lisBox">
+    <navigator url="/pages/professionalPositioningTest/professionalPositioningTest_report" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/mine/icon_zhuanyedingweiceping.png"></image>
+        <view class="title">专业定位测评报告</view>
+    </navigator>
+    <navigator url="/pages/mine/reportList/reportList?type=1" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/mine/icon_xingaokaoxuanke.png"></image>
+        <view class="title">新高考选科方案</view>
+    </navigator>
+    <navigator url="/pages/mine/reportList/reportList?type=2" hover-class="none">
+        <image src="https://m.xuematech.com/applet/img/mine/icon_xuekezhenduanceping.png"></image>
+        <view class="title">学习状态诊断</view>
+    </navigator>
+  </view>
+</view>
+<view class="bottom" wx:if="{{teacher_id > 0}}">
+    <view class="top">
+      <text>护航计划</text>
+      <navigator url="">
+          历史记录
+          <image src="/images/common/icon_chakangengduo.png"></image>
+      </navigator>
+    </view>
+    <view class="tab_box">
+      <view>当前</view>
+      <view class="box {{tabIdx == 1 ? 'active': ''}}" bindtap="changeTab" data-idx="1">月计划</view>
+      <view class="box {{tabIdx == 2 ? 'active': ''}}" bindtap="changeTab" data-idx="2">周计划</view>
+      <view class="box {{tabIdx == 3 ? 'active': ''}}" bindtap="changeTab" data-idx="3">日计划</view>
+    </view>
+    <view class="month" wx:if="{{tabIdx == 1}}">
+      <view class="b_title">
+        <view>
+          目标数量：
+          <text>{{monthData.targetNum}}</text>
+        </view>
+        <view>
+          共包含：
+          <text>{{monthData.weekCount}}周</text>
+        </view>
+      </view>
+      <view class="main_box" wx:if="{{monthData.target[1].length}}">
+        <view class="mb_title">重要 紧急</view>
+        <view class="main" wx:for="{{monthData.target[1]}}" wx:key="index">
+          <view class="m_title">{{index + 1}}. {{item.title}}</view>
+          <view class="time">
+            <image src="/images/mine/icon_shijian.png"></image>
+            截止时间：{{item.startDate}}-{{item.endDate}}
+          </view>
+        </view>
+      </view>
+      <view class="main_box" wx:if="{{monthData.target[2].length}}">
+        <view class="mb_title">重要 不紧急</view>
+        <view class="main" wx:for="{{monthData.target[2]}}">
+          <view class="m_title">{{index + 1}}. {{item.title}}</view>
+          <view class="time">
+            <image src="/images/mine/icon_shijian.png"></image>
+            截止时间：{{item.startDate}}-{{item.endDate}}
+          </view>
+        </view>
+      </view>
+      <view class="main_box" wx:if="{{monthData.target[3].length}}">
+        <view class="mb_title">不重要 紧急</view>
+        <view class="main" wx:for="{{monthData.target[3]}}">
+         <view class="m_title">{{index + 1}}. {{item.title}}</view>
+          <view class="time">
+            <image src="/images/mine/icon_shijian.png"></image>
+            截止时间：{{item.startDate}}-{{item.endDate}}
+          </view>
+        </view>
+      </view>
+      <view class="main_box" wx:if="{{monthData.target[4].length}}">
+        <view class="mb_title">不重要 不紧急</view>
+        <view class="main" wx:for="{{monthData.target[4]}}">
+          <view class="m_title">{{index + 1}}. {{item.title}}</view>
+          <view class="time">
+            <image src="/images/mine/icon_shijian.png"></image>
+            截止时间：{{item.startDate}}-{{item.endDate}}
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="week" wx:if="{{tabIdx == 2}}">
+      <view class="big_title_box">
+        <view>周计划事项{{weekData.targetNumTotal}}项</view>
+        <view class="line_box">
+          <view class="line" style="width: {{weekData.targetNumDone/weekData.targetNumTotal*320}}rpx"></view>
+        </view>
+        <view class="num"><text>{{weekData.targetNumDone}}</text>/{{weekData.targetNumTotal}}</view>
+      </view>
+      <view wx:for="{{weekData.week}}" class="week_box" wx:key="index" wx:for-index="index">
+        <view class="title_box">
+          <view class="title">第{{item.week}}周 计划事项{{item.targetNum}}项</view>
+          <view class="btn"> 
+            <view wx:if="{{weekIndex[index]}}" bindtap="changeWeekIndex" data-index="{{index}}" data-value="{{false}}">
+              收起
+              <image src="/images/mine/icon_shouqi.png"></image>
+            </view>
+            <view wx:else bindtap="changeWeekIndex" data-index="{{index}}" data-value="{{true}}">
+              展开
+              <image src="/images/mine/icon_xiala.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="week_content" hidden="{{!weekIndex[index]}}">
+          <view class="main_box" wx:if="{{item.target[1].length}}">
+            <view class="mb_title">重要 紧急</view>
+            <view class="main" wx:for="{{item.target[1]}}" wx:for-item="child" wx:for-index="idx">
+              <view class="left">
+                <view class="m_title">{{idx+1}}. {{child.title}}</view>
+                <view class="time">
+                  <image src="/images/mine/icon_shijian.png"></image>
+                  截止时间：{{child.startDate}}-{{child.endDate}}
+                </view>
+              </view>
+              <view class="right">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{child.isDone == 2}}"  class="img1" bindtap="goEditPlanWeek" data-index="{{index}}" data-targetindex="{{idx}}" data-type="1"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+              </view>
+            </view>
+          </view>
+          <view class="main_box" wx:if="{{item.target[2].length}}">
+            <view class="mb_title">重要 不紧急</view>
+            <view class="main" wx:for="{{item.target[2]}}" wx:for-item="child" wx:for-index="idx">
+              <view class="left">
+                <view class="m_title">{{idx+1}}. {{child.title}}</view>
+                <view class="time">
+                  <image src="/images/mine/icon_shijian.png"></image>
+                  截止时间：{{child.startDate}}-{{child.endDate}}
+                </view>
+              </view>
+              <view class="right">
+                <image src="/images/mine/icon_wancheng.png" wx:if="{{child.isDone == 2}}"  class="img1" bindtap="goEditPlanWeek" data-index="{{index}}" data-targetindex="{{idx}}" data-type="2"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+              </view>
+            </view>
+          </view>
+          <view class="main_box" wx:if="{{item.target[3].length}}">
+            <view class="mb_title">不重要 紧急</view>
+            <view class="main" wx:for="{{item.target[3]}}" wx:for-item="child" wx:for-index="idx">
+              <view class="left">
+                <view class="m_title">{{idx+1}}. {{child.title}}</view>
+                <view class="time">
+                  <image src="/images/mine/icon_shijian.png"></image>
+                  截止时间：{{child.startDate}}-{{child.endDate}}
+                </view>
+              </view>
+              <view class="right">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{child.isDone == 2}}"  class="img1" bindtap="goEditPlanWeek" data-index="{{index}}" data-targetindex="{{idx}}" data-type="3"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+              </view>
+            </view>
+          </view>
+          <view class="main_box" wx:if="{{item.target[4].length}}">
+            <view class="mb_title">不重要 不紧急</view>
+            <view class="main" wx:for="{{item.target[4]}}" wx:for-item="child" wx:for-index="idx">
+              <view class="left">
+                <view class="m_title">{{idx+1}}. {{child.title}}</view>
+                <view class="time">
+                  <image src="/images/mine/icon_shijian.png"></image>
+                  截止时间：{{child.startDate}}-{{child.endDate}}
+                </view>
+              </view>
+              <view class="right">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{child.isDone == 2}}"  class="img1" bindtap="goEditPlanWeek" data-index="{{index}}" data-targetindex="{{idx}}" data-type="4"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="day" wx:if="{{tabIdx == 3}}">
+      <view wx:for="{{dayData}}" class="day_box" wx:key="index" wx:for-index="index">
+        <view class="title_box">
+          <view class="title">第{{item.week}}周日计划 计划事项{{item.targetNum}}项</view>
+          <view class="btn"> 
+            <view wx:if="{{dayIndex[index]}}" bindtap="changeDayIndex" data-index="{{index}}" data-value="{{false}}">
+              收起
+              <image src="/images/mine/icon_shouqi.png"></image>
+            </view>
+            <view wx:else bindtap="changeDayIndex" data-index="{{index}}" data-value="{{true}}">
+              展开
+              <image src="/images/mine/icon_xiala.png"></image>
+            </view>
+          </view>
+        </view>
+        <view class="day_content" hidden="{{!dayIndex[index]}}">
+          <view class="main_box"  wx:if="{{item.target[1].length}}">
+            <view class="week_num">
+              <view class="en">Monday</view>
+              <view class="cn">星期一</view>
+            </view>
+            <view class="main" wx:for="{{item.target[1]}}" wx:for-item="day" wx:for-index="idx" wx:key="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="1"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[2].length}}">
+            <view class="week_num">
+              <view class="en">Tuesday</view>
+              <view class="cn">星期二</view>
+            </view>
+            <view class="main" wx:for="{{item.target[2]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="2"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[3].length}}">
+            <view class="week_num">
+              <view class="en">Wednesday</view>
+              <view class="cn">星期三</view>
+            </view>
+            <view class="main" wx:for="{{item.target[3]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="3"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[4].length}}">
+            <view class="week_num">
+              <view class="en">Thursday</view>
+              <view class="cn">星期四</view>
+            </view>
+            <view class="main" wx:for="{{item.target[4]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="4"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[5].length}}">
+            <view class="week_num">
+              <view class="en">Friday</view>
+              <view class="cn">星期五</view>
+            </view>
+            <view class="main" wx:for="{{item.target[5]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="5"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[6].length}}">
+            <view class="week_num">
+              <view class="en">Saturday</view>
+              <view class="cn">星期六</view>
+            </view>
+            <view class="main" wx:for="{{item.target[6]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="6"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+          <view class="main_box"  wx:if="{{item.target[7].length}}">
+            <view class="week_num">
+              <view class="en">Sunday</view>
+              <view class="cn">星期日</view>
+            </view>
+            <view class="main" wx:for="{{item.target[7]}}" wx:for-item="day" wx:for-index="idx">
+                <text>[{{day.endDate}}] </text>
+                <view class="detail">{{day.title}}</view>
+                <view class="btn">
+                  <image src="/images/mine/icon_wancheng.png" wx:if="{{day.isDone == 2}}"  class="img1" bindtap="goEditPlanDay" data-index="{{index}}" data-targetindex="{{idx}}" data-type="7"></image>
+                  <image src="/images/mine/icon_yiwancheng.png" wx:else  class="img2"></image>
+                </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+</view>
+<view class="bottom" wx:else>
+    <view class="top">
+      <text>护航计划</text>
+      <navigator url="">
+          历史记录
+          <image src="/images/common/icon_chakangengduo.png"></image>
+      </navigator>
+    </view>
+    <view class="no_bg">
+      <image src="https://m.xuematech.com/applet/img/mine/huhang.png"></image>
+    </view>
+</view>

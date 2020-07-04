@@ -1,0 +1,53 @@
+<view class="page">
+  <view class="main">
+    <view class="title">
+      <text>*</text> 年级：
+    </view>
+    <picker bindchange="bindPickerChange" value="{{test.grade-1}}" range="{{gradeList}}" range-key="{{'title'}}" class="mid">
+      <view class="picker">
+        {{gradeList[test.grade-1].title}}
+      </view>
+    </picker>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <text>*</text> 考试名称：
+    </view>
+     <input class="mid" placeholder="请输入考试名称" value="{{test.name}}" bindblur="bindName"/>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <text>*</text> 考试时间：
+    </view>
+    <picker bindchange="bindDate" value="{{test.date}}" class="mid" mode="date">
+      <view class="picker">
+        {{test.date}}
+      </view>
+    </picker>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <text>*</text> 年级排名：
+    </view>
+     <input class="mid" placeholder="请输入年级排名" value="{{test.rank}}" bindblur="bindRank" type="number"/>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <text>*</text> 年级人数：
+    </view>
+     <input class="mid" placeholder="请输入年级人数" value="{{test.totalPeople}}" bindblur="bindTotalPeople" type="number"/>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="subject">
+    <view class="box" wx:for="{{subject}}" wx:key="index">
+      <view>{{item.subject}}：</view>
+      <input class="mid" placeholder="请输入成绩" data-index="{{index}}" value="{{subject[index].score}}" bindblur="bindSubjectScore" type="number"/>
+      <input class="mid" placeholder="请输入排名" data-index="{{index}}" value="{{subject[index].rank}}" bindblur="bindSubjectRank" type="number"/>
+    </view>
+  </view>
+</view>
+<view class="fixed_btn" bindtap="saveData">保存</view>

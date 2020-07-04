@@ -1,0 +1,84 @@
+/* pages/myCollection/myCollection.wxss */
+.content {
+  
+}
+.header {
+  display: flex;  
+  text-align: center;
+  margin-bottom: 10rpx;
+  background-color: #fff;
+  height: 94rpx;
+  line-height: 94rpx;
+  align-items: center;
+  font-size: 28rpx;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0px 2px 2px #DEDEDE;
+}
+.header .line {
+  width: 1px;
+  height: 60rpx;
+  background-color: #DEDEDE;
+}
+.header .name {
+  flex: 1;
+}
+.header .active text{
+  border-bottom: 3px solid #3979FD;
+}
+.header text{
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 20rpx;
+  line-height: 94rpx;
+  height: 94rpx;
+}
+.tips {
+  margin-top: 104rpx;
+  background-color: #fff;
+  padding: 15rpx 30rpx;
+  font-size: 22rpx;
+  line-height: 36rpx;
+  margin-bottom: 10rpx;
+}
+.tips text {
+  color: #3979FD;
+}
+.tips .img_tip {
+  width: 110rpx;
+  height: 50rpx;
+}
+.tips .img_star {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 0 2rpx;
+}
+.main {
+  margin-bottom: 10rpx;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 130rpx;
+
+}
+.main .logo {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 20rpx;
+}
+.main .title {
+  flex: 1;
+  font-size: 28rpx;
+}
+.btn {
+  width: 50rpx;
+  height: 50rpx;
+}
+.btn image {
+  width: 50rpx;
+  height: 50rpx;
+}

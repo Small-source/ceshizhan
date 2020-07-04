@@ -1,0 +1,78 @@
+<!--miniprogram/pages/plan/history.wxml-->
+<view class="page" style="margin-top:0">
+  <view class="p" >月统计统计</view>
+   <view class="echarts" wx:hidden="{{monthData.length==0}}">
+      <view class="echartsBox">
+        <ec-canvas  id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+      </view>
+      <text class="title">学业规划</text>
+    </view>
+     <view class="echarts" style="margin-top:60rpx;float:left"  wx:hidden="{{monthData.length==0}}">
+      <view class="echartsBox2" >
+        <ec-canvas  id="mychart-dom-bar2" canvas-id="mychart-bar2" ec="{{ ec }}"></ec-canvas>
+      </view>
+       <text class="neirong">周计划\n总数量:{{number}}个</text>
+    </view>
+    <view class="middle"  wx:hidden="{{monthData.length==0}}">
+        <text>重要 紧急</text> 
+        <text>重要 不紧急</text>
+        <text>不重要 紧急</text>
+        <text>不重要 不紧急</text>
+    </view>
+    <view class="right" wx:hidden="{{monthData.length==0}}">
+        <view>
+          <view>
+            <view class="dingwei" style="width:{{w1}};background:#F85A50"></view>
+          </view>
+          <text>{{one2}}/{{one2}}</text>
+        </view>
+        <view>
+          <view>
+              <view class="dingwei" style="width:{{w2}};background:#FD9455"></view>
+          </view>
+           <text>{{two2}}/{{two1}}</text>
+        </view>
+        <view>
+          <view>
+              <view class="dingwei" style="width:{{w3}};background:#1ACEFF"></view>
+          </view>
+           <text>{{three2}}/{{three1}}</text>
+        </view>
+        <view>
+          <view>
+              <view class="dingwei" style="width:{{w4}};background:#6B72F4"></view>
+          </view>
+           <text>{{four2}}/{{four1}}</text>
+        </view>
+    </view>
+</view>
+<view class="page">
+  <view class="p">
+       学业信息
+       <navigator url="/pages/plan/xueyeMessage" class="add">添加</navigator>
+  </view>
+   <view class="head">
+    <view class="list1" >考试名称</view>
+    <view class="list2" >年级排名</view>
+    <view class="list3" >考试时间</view>
+  </view>
+  <view class="list" wx:for="{{xueyeData}}" wx:key="index">
+     <view class="list1" >{{item.name}}</view>
+     <view class="list2" >{{item.rank}}</view>
+     <view class="list2" >{{item.date}}</view>
+  </view>
+</view>
+<view class="page">
+  <view class="p">
+     获奖信息
+     <navigator url="/pages/plan/huojiangMessage" class="add">添加</navigator>
+  </view>
+  <view class="head">
+    <view class="list1" style="width:78%">名称</view>
+    <view class="list2" style="width:22%">考试时间</view>
+  </view>
+  <view class="list" wx:for="{{awardData}}" wx:key="index">
+     <view class="list1" style="width:78%">{{item.name}}</view>
+     <view class="list2" style="width:22%">{{item.date}}</view>
+  </view>
+</view>

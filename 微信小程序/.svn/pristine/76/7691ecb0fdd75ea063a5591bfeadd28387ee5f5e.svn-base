@@ -1,0 +1,85 @@
+<!--pages/plan/huojiangMessage.wxml-->
+<view class="main main_type">
+  <view class="title">
+    <text>*</text> 获奖类型：
+  </view>
+  <picker bindchange="bindPickerChange" value="{{typeList[type-1]}}" range="{{typeList}}" range-key="{{'title'}}" class="mid">
+    <view class="picker">
+      {{typeList[type-1].title}}
+    </view>
+  </picker>
+  <image src="/images/common/icon_chakangengduo.png"></image>
+</view>
+<view class="page">
+  <view class="main mian_dasai" wx:if="{{type==1}}">
+    <view class="title">
+      大<text decode="{{true}}" space="{{true}}">&emsp;&emsp;</text>赛：
+    </view>
+    <picker bindchange="bindPickerChangeOption" value="{{optionIndex}}" range="{{options}}"  class="mid">
+      <view class="picker" wx:if="{{activity}}">
+        {{activity}}
+      </view>
+      <view class="s_color" wx:else>
+        请选择
+      </view>
+    </picker>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <block wx:if="{{type==1||type==2}}">
+        具体奖项：
+      </block>
+      <block wx:else>名<text decode="{{true}}" space="{{true}}">&emsp;&emsp;</text>称：</block>
+    </view>
+     <input class="mid" placeholder="请填写" value="{{name}}" bindblur="bindName"/>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      <block wx:if="{{type==1}}">
+        奖项等级：
+      </block>
+      <block wx:if="{{type==2}}">
+        获奖类型：
+      </block>
+      <block wx:if="{{type==3||type==4}}">
+        等<text decode="{{true}}" space="{{true}}">&emsp;&emsp;</text>级：
+      </block>
+    </view>
+     <input class="mid" placeholder="请填写" value="{{degree}}" bindblur="bindDegree"/>
+    <image src="/images/common/icon_chakangengduo.png"></image>
+  </view>
+  <view class="main">
+    <view class="title">
+      参加时间：
+    </view>
+    <picker bindchange="bindDate" value="{{date}}" class="mid" mode="date">
+      <view class="picker" wx:if="{{date}}">
+        {{date}}
+      </view>
+      <view class="s_color" wx:else>
+        请选择
+      </view>
+    </picker>
+  </view>
+  <view class="main_file">
+    <view class="title">证明材料：</view>
+    <view class="content">
+      <view class="btn_upload" bindtap="goUpload" hidden="{{url}}">+</view>
+      <view wx:if="{{url}}" class="img_box">
+        <image src="{{url}}"bindtap="goUpload"></image>
+        <view bindtap="removeFile" class="btn_remove">
+          <image src="/images/common/icon_remove.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="main_file main_des">
+    <view class="title">描述：</view>
+    <view class="content">
+      <textarea bindblur="bindTextAreaBlur" auto-height placeholder="请填写" />
+    </view>
+  </view>
+</view>
+<view class="fixed_btn" bindtap="saveData">保存</view>

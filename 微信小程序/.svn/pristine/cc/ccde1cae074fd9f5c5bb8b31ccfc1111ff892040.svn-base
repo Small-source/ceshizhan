@@ -1,0 +1,55 @@
+/* pages/tuance/bindcard.wxss */
+view,input,text{
+    box-sizing: border-box;
+    color:#333;
+    letter-spacing: 2rpx;
+}
+.image{
+  width: 100%;
+  height: 472rpx;
+}
+.p{
+  line-height: 156rpx;
+  text-align: center;
+}
+.inputs{
+  width: 660rpx;
+  margin:0 auto;
+  height: 90rpx;
+  position: relative;
+}
+.inputs>input{
+  width: 100%;
+  height: 100%;
+  border: 2rpx solid #CCCCCC;
+  border-radius: 45rpx;
+  position: relative;
+  padding-left: 100rpx;
+  font-size: 24rpx;
+  letter-spacing: 2rpx;
+}
+.inputs>image{
+  width: 38rpx;
+  height: 28rpx;
+  position: absolute;
+  left:40rpx;
+  top:30rpx;
+}
+.denglu{
+  width: 660rpx;
+  margin:0 auto;
+  height: 90rpx;
+  line-height: 90rpx;
+  position: relative;
+  text-align: center;
+  border-radius: 45rpx;
+  background: #3979FD;
+  color:#fff;
+}
+.warning{
+  color:red;
+  font-size: 24rpx;
+  text-align: center;
+  line-height: 60rpx;
+  height: 60rpx;
+}

@@ -1,0 +1,56 @@
+/* pages/gaokaobaike/gaokaobaikeList.wxss */
+page {
+  height: 100%;
+  background-color: #fff;
+}
+.navItems{
+  height: 94rpx;
+  display: flex;
+  background: #F5F5F5;
+  white-space: nowrap;
+  /* padding-right: 30px; */
+  box-sizing: border-box;
+  width: 750rpx;
+}
+.active_navli {
+  background-color: #3979FD;
+  border: none;
+  color: #fff;
+}
+.navli{
+  margin-left: 30rpx;
+  display: inline-block;
+  line-height: 26px;
+  text-align: center;
+  border-radius: 26rpx;
+  padding: 0 20rpx;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+  border: 2rpx solid #C7C7C7;
+}
+.navli:last-child {
+  margin-right: 30rpx;
+} 
+.content {
+  padding: 40rpx 30rpx;
+  display: flex;
+  flex-wrap: wrap;
+}
+.content navigator {
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  box-sizing: border-box;
+  padding: 3rpx 10rpx;
+  width: 150rpx;
+  background-color: #F1F2F5;
+  height: 70rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 3rpx;
+}
+.content navigator:nth-child(4n) {
+  margin-right: 0;
+}

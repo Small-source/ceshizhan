@@ -1,0 +1,15 @@
+/* pages/gaokaobaike/gaokaobaikeDetail.wxss */
+page {
+  height: 100%;
+  background-color: #fff;
+}
+view {
+  padding: 30rpx;
+  padding-top: 0;
+}
+.title {
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  line-height: 50px;
+}

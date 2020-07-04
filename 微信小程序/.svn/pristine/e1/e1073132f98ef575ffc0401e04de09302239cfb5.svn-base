@@ -1,0 +1,341 @@
+/* pages/mine/mine.wxss */ 
+@import  "../public/public.wxss";
+.head{
+  position: relative;
+  z-index: 99;
+  margin-bottom: 30rpx;
+  background-color: #F6F6F6;
+}
+.head>image{
+  position: absolute;
+  width: 100%;
+  height: 404rpx;
+}
+.neirong{
+  position: relative;
+  z-index: 99;
+  padding: 30rpx 30rpx 0;
+}
+.sex{
+  width:124rpx;
+  height: 124rpx;
+}
+.neirong>view{
+  display: inline-block;
+  margin-left: 20rpx;
+  position: relative;
+  top:-26rpx;
+}
+.view1{
+  font-size: 36rpx;
+  color:#FFFFFF;
+  font-weight: bold;
+  height:60rpx;
+  line-height: 60rpx;
+}
+.view2>text{
+  font-size: 28rpx;
+  color:#FFFFFF;
+}
+.text1{
+  margin-right: 40rpx;
+}
+.views{
+  display: block;
+  height: 206rpx;
+  position: relative;
+  z-index: 10;
+  padding: 0 30rpx;
+  margin-top: 20rpx;
+}
+.viewsBox{
+    background: #fff;
+    height: 100%;
+    border-radius: 10rpx;
+}
+.viewsBox>view{
+  height: 50%;
+}
+.viewsBox1{
+  border-bottom:2rpx solid #EDEDED;
+}
+.viewsBox1 image{
+  width: 26rpx;
+  height: 40rpx;
+  position: relative;
+  top:10rpx;
+  left:40rpx;
+}
+.viewsBox1 text{
+  font-size: 28rpx;
+  color:#333333;
+  line-height: 102rpx;
+  margin-left: 60rpx;
+  font-weight: 500;
+}
+.viewsBox2 image{
+  width: 28rpx;
+  height: 38rpx;
+  position: relative;
+  top:10rpx;
+  left:40rpx;
+}
+.viewsBox2 text{
+  font-size: 28rpx;
+  color:#333333;
+  line-height: 102rpx;
+  margin-left: 60rpx;
+  font-weight: 500;
+}
+.bottom{
+  font-size: 28rpx;
+  background: #fff;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+.bottom .top, .report .top{
+  font-size: 32rpx;
+  font-weight: bold;
+  margin-top: 20rpx;
+  border-left:6rpx solid #3D4DE9;
+  padding-left: 10rpx;
+  display: flex;
+  align-items: center;
+}
+.top text {
+  flex: 1;
+}
+.top navigator {
+  font-size: 12px;
+  color: #999999;
+  font-weight: normal;
+}
+.top image {
+  width: 17rpx;
+  height: 23rpx;
+}
+.qidai{
+  width: 300rpx;
+  height: 300rpx;
+  display: block;
+  margin:80rpx auto 0;
+}
+.report {
+  padding: 0 20rpx;
+  padding-bottom: 20rpx;
+  background-color: #fff;
+  margin-bottom: 40rpx;
+}
+.report .lisBox {
+  display: flex;
+  padding-top: 30rpx;
+  justify-content: space-between;
+}
+.report navigator {
+  text-align: center;
+}
+.report image {
+  width: 90rpx;
+  height: 90rpx;
+}
+.report .title {
+  font-size: 28rpx;
+}
+
+.ngr {
+  padding: 0 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #fff;
+}
+.ngr navigator {
+  line-height: 100rpx;
+  display: flex;
+  align-items: center;
+}
+.ngr .logo {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 10rpx;
+}
+.ngr navigator text {
+  flex: 1;
+}
+.ngr .go {
+  width: 17rpx;
+  height: 23rpx;
+}
+.bottom .tab_box {
+  padding: 30rpx 0;
+  border-bottom:1px solid #EDEDED;
+  display: flex;
+  align-items: center;
+}
+.bottom .tab_box view {
+  margin-right: 30rpx;
+  font-size: 28rpx;
+}
+.bottom .tab_box .box {
+  box-sizing: border-box;
+  width: 146rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border-radius: 30rpx;
+  color: #9A9A9A;
+  border:1px solid #9A9A9A;
+  background-color: #F5F5F5;
+}
+.bottom .tab_box .active {
+  background-color: #3979FD;
+  color: #fff;
+  border-color: #3979FD;
+}
+.month .b_title {
+  display: flex;
+  line-height: 110rpx;
+}
+.month .b_title view {
+  color: #333;
+  margin-right: 60rpx;
+  font-weight: bold;
+}
+.month .b_title text {
+  color: #3979FD;
+}
+.mb_title {
+  width: 100%;
+  text-align: center;
+  color: #3979FD;
+  background-color: #F1F8FF;
+  line-height: 68rpx;
+  font-size: 28rpx;
+  border: 1px solid #66B1FF;
+}
+.month .main_box {
+  padding-bottom: 30rpx;
+}
+.month .main_box .main {
+  padding: 26rpx 0;
+  border-bottom: 1px dashed #DEDEDE;
+}
+.month .main_box .main:last-child {
+  border: none;
+}
+.month .main_box .main .m_title {
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+.month .main_box .main .time {
+  color: #FF731B;
+  font-size: 20rpx;
+  display: flex;
+  align-items: center;
+  height: 24rpx;
+
+}
+.month .main_box .main .time image {
+  margin-right: 10rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+
+.week .big_title_box {
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+.week .big_title_box view {
+  font-weight: bold;
+  color: #333;
+}
+.week .big_title_box .line_box {
+    width: 320rpx;
+    height: 30rpx;
+    border-radius: 15rpx;
+    border: 2rpx solid #FF731B;
+}
+.week .big_title_box .line {
+  background: linear-gradient(to right, #FEAB43, #FF7119);
+  height: 30rpx;
+  border-radius: 15rpx;
+}
+.week .big_title_box .num text{
+  color: #FF741C;
+}
+.week .week_box {
+  padding-top: 40rpx;
+}
+.week .week_box .title_box {
+  padding: 0 30rpx;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  border-radius: 10rpx;
+  box-shadow: 0 5rpx 5rpx #dedede;
+}
+.week .week_box .title_box view {
+  font-size: 28rpx;
+}
+.week .week_box .title_box .title {
+  flex: 1;
+}
+.week .week_box .title_box .btn {
+  display: flex;
+  align-items: center;
+  color: #999999;
+}
+.week .week_box .title_box image {
+  margin-left: 5rpx;
+  width: 21rpx;
+  height: 14rpx;
+}
+.week .week_content {
+  padding: 30rpx;
+  background-color: #F6F5F3;
+}
+.week .week_content .main {
+  display: flex;
+  justify-content: center;
+  padding: 26rpx 0;
+  border-bottom: 1px dashed #DEDEDE;
+}
+.week .week_content .main:last-child {
+border: none;
+}
+.week .week_content  .main .m_title {
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+.week .week_content .main .time{
+  color: #FF731B;
+  font-size: 22rpx;
+  display: flex;
+  align-items: center;
+  height: 24rpx;
+}
+.week .main .time image {
+  margin-right: 10rpx;
+  width: 24rpx;
+  height: 24rpx;
+}
+.week .week_content .main .left {
+  flex: 1;
+}
+.week .week_content .main .time text {
+  font-size: 22rpx;
+}
+.week .week_content .main .right {
+  width: 63rpx;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.week .week_content .main .right .img1 {
+  width: 38rpx;
+  height: 31rpx;
+}
+.week .week_content .main .right .img2 {
+  width: 63rpx;
+  height: 57rpx;
+}

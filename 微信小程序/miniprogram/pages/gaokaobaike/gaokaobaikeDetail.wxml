@@ -1,0 +1,5 @@
+<!--pages/gaokaobaike/gaokaobaikeDetail.wxml-->
+<view class="title">{{content.title}}</view>
+<view>
+  <rich-text nodes="{{content.content}}"></rich-text>
+</view>

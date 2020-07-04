@@ -1,0 +1,141 @@
+/* miniprogram/pages/plan/history.wxss */
+@import  "../public/public.wxss";
+.page{
+  padding: 0 30rpx;
+  background: #fff;
+  margin-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.p{
+  font-size: 36rpx;
+  font-weight: bolder;
+  color:#333;
+  letter-spacing: 3rpx;
+  border-left:8rpx solid #3979FD;
+  margin: 30rpx 0;
+  padding-left: 6rpx;
+}
+.head{
+  border:2rpx solid #ABD4FF;
+  height: 68rpx;
+  line-height: 68rpx;
+  background: #F1F8FF;
+  color:#50A3F0;
+}
+.list1{
+  width: 56%;
+  height: 100%;
+  float: left;
+  font-size: 22rpx;
+  text-indent: 25rpx;
+}
+.list2,.list3{
+  width: 22%;
+   height: 100%;
+  text-align: center;
+  float: left;
+  font-size: 22rpx;
+}
+.list{
+  border-bottom:2rpx dashed #EEEEEE;
+  height: 84rpx;
+  line-height: 84rpx;
+  color:#8A8A8A;
+}
+.add{
+  width: 120rpx;
+  line-height: 54rpx;
+  border-radius: 27rpx;
+  background: #3979FD;
+  color:#fff;
+  text-align: center;
+  font-size: 24rpx;
+  float: right;
+}
+.echarts {
+  background-color: #fff;
+  position: relative;
+}
+.echarts .ecTitle {
+  line-height: 30rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+  text-align: center;
+}
+.echartsBox {
+  width: 100%;
+  margin: 0 auto;
+  height: 440rpx;
+  box-sizing: border-box;
+}
+ec-canvas {
+  width: 100%;
+  height: 100%;
+}
+.title{
+  position: absolute;
+  top:400rpx;
+  right:30rpx;
+  font-size: 26rpx;
+}
+.echartsBox2{
+  width: 240rpx;
+  height: 240rpx;
+}
+.neirong{
+  position: absolute;
+  padding-top: 30rpx;
+  width:140rpx;
+  height: 120rpx;
+  text-align: center;
+  left:50rpx;
+  top:60rpx;
+  font-size: 22rpx;
+}
+.middle{
+  float: left;
+  text-align: right;
+  width: 150rpx;
+  margin-top: 60rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.middle>text{
+  display: block;
+  font-size: 22rpx;
+  line-height: 32rpx;
+  width: 100%;
+  text-align: right;
+  margin-bottom: 36rpx
+}
+.right{
+  width: 276rpx;
+  margin-top: 60rpx;
+  height: 20rpx;
+  float: right;
+}
+.right>view{
+  height: 32rpx;
+  width: 100%;
+  margin-bottom: 36rpx
+}
+.right>view>view{
+  height: 100%;
+  background: #DEDEDE;
+  width: 200rpx;
+  float: left;
+  position: relative;
+}
+.dingwei{
+  height:100%;
+  background: red;
+  position: absolute;
+  left:0;
+  top:0;
+}
+.right>view>text{
+  margin-left: 10rpx;
+  font-size: 22rpx;
+  position: relative;
+  top:-8rpx;
+}

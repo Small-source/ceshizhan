@@ -1,0 +1,42 @@
+<!--pages/myCollection/myCollection.wxml-->
+<view class="header">
+  <view class="name {{isUniversity&&'active'}}" bindtap="getCollectUniversityList">
+    <text>大学</text>
+  </view>
+  <view class="line"></view>
+  <view class="name {{!isUniversity&&'active'}}" bindtap="getCollectSubjectWithStartList">
+    <text>专业</text>
+  </view>
+</view>
+<view class="tips">
+  <image src="/images/mine/tishi.png" class="img_tip"></image>
+  <view>
+    点亮
+    <image src="/images/mine/star1.png" class="img_star"></image>
+    设为意向，在
+    <text>{{pcUrl}}/career</text>
+    生涯发展管理平台选择决策-定位工具 决策平衡单中可自动同步，辅助决策。
+  </view>
+</view>
+<view class="content" wx:if="{{isUniversity}}">
+  <view  wx:for="{{universityList}}" wx:key="index" class="main">
+    <image src="{{item.logo}}" class="logo"></image>
+    <!-- <view class="title">{{item.name}}</view> -->
+    <navigator hover-class="none"  url="/pages/schoolDetail/schoolDetail?schoolId={{item.id}}" class="title">{{item.name}}</navigator>
+    <view class="btn">
+      <image src='/images/mine/star{{item.isLight}}.png'  bindtap="storeStartUniversity" data-id="{{item.id}}" data-index="{{index}}"></image>
+    </view>
+  </view>
+</view>
+<view class="content" wx:else>
+  <block  wx:for="{{subjectList}}" wx:for-item="value" wx:for-index="key" wx:key="index">
+    <view wx:for="{{value}}" wx:for-item="child" wx:for-index="idx" wx:key="kid" class="main">
+      <!-- <view class="title">{{child.name}}</view> -->
+      <navigator hover-class="none"   url="/pages/professionalPositioningAssessment/professionalPositioningAssessment?ZhuanyeId={{child.id}}" class="title">{{child.name}}</navigator>
+      <view class="btn">
+        <image src='/images/mine/star{{child.isLight}}.png'  bindtap="storeStartSubject" data-id="{{child.id}}" data-index="{{idx}}" data-key="{{key}}"></image>
+      </view>
+    </view>
+  </block>
+</view>
+

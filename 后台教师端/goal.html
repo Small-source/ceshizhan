@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet/less" href="css/public.less">
+    <link rel="stylesheet" href="css/elementUi.css">
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+<div id="loading"></div>
+<div class="main" id="goal" style="display: none">
+    <div class="zhutiLeft">
+        <el-row class="tac">
+            <el-col :span="12">
+                <el-menu
+                        default-active="2"
+                        class="el-menu-vertical-demo"
+                >
+                    <el-submenu index="1">
+                        <template slot="title">
+                            <span>目标设定</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="1-1"><a href="/career/careerAnchor.html">职业定位</a></el-menu-item>
+                            <el-menu-item index="1-2"><a href="/career/university.html">院校定位</a></el-menu-item>
+                            <el-menu-item index="1-3"><a href="/career/major.html">专业定位</a></el-menu-item>
+                            <el-menu-item index="1-4"><a href="/career/goal.html">我的目标</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="2">
+                        <template slot="title">
+                            <span>目标分解</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="2-1"><a href="/career/decompose.html">目标分解</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="3">
+                        <template slot="title">
+                            <span>行动计划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="3-1"><a href="/career/plan.html">行动计划</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="4">
+                        <template slot="title">
+                            <span>学业规划报告</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="4-1"><a href="/career/academicPlanningReport.html">学业规划报告</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="5">
+                        <template slot="title">
+                            <span>学业规划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="5-1"><a href="/career/diagnosis/index.blade.php?studentId=">诊断</a></el-menu-item>
+                            <el-menu-item index="6-2"><a href="/career/planning.html">规划</a></el-menu-item>
+                            <el-menu-item index="7-3"><a href="/career/counseling.html">辅导</a></el-menu-item>
+                            <el-menu-item index="8-4"><a href="/career/growthArchiveEntry.html">成长档案</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                </el-menu>
+            </el-col>
+        </el-row>
+    </div>
+    <div class="careerAnchor" style="float:left;width:970px;">
+        <div class="careerAnchorBox " >
+            <div id="masks" v-show="addtanchuang||zhiyetanchuang||yuanxiaotanchuang||zhuanyetanchuang||false"></div>
+            <!-- <img src="imgs/careerManagement/careerAnchor/banner.png" alt="" class="banner"> -->
+            <div class="parts">
+                <div class="top" style="padding-bottom:50px">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        我的目标
+                    </div>
+                    <span @click="addtanchuang=true" style="position: relative;top:20px">新增</span>
+                </div>
+                <div class="tables">
+                    <table>
+                        <thead>
+                        <tr>
+                            <td>目标院校</td>
+                            <td>目标专业</td>
+                            <td>近三年分数线/位次</td>
+                            <td>升学路径</td>
+                            <td>选择依据与分析原因</td>
+                            <td>时间</td>
+                            <td>操作</td>
+                        </tr>
+                        </thead>
+                        <tr v-for="item in mineGoalList">
+                            <td>${item.universityName}</td>
+                            <td>${item.subjectName}</td>
+                            <td>${item.scoreLine}</td>
+                            <td>${item.furtherWay}</td>
+                            <td>${item.analyze}</td>
+                            <td>${item.updatedAt}</td>
+                            <td class="icon">
+                                <el-button type="text" @click="delConfirm(item.id)">
+                                </el-button>
+                                <span @click="showmine(item.id)"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <el-pagination v-if="mineGoalList.length!=0"
+                                   background
+                                   @current-change="currentChange"
+                                   :page-size="pageSize"
+                                   layout="prev, pager, next"
+                                   :total="total"
+                                   class="pages">
+                    </el-pagination>
+                </div>
+                <div class="noneContent" v-if="mineGoalList.length==0"></div>
+            </div>
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        职业定位结果
+                    </div>
+                    <span @click="zhiyetanchuang=true">编辑</span>
+                </div>
+                <h3 style="margin: 20px 10px">我的目标职业:</h3>
+                <div class="Occupation">
+                    <table>
+                        <tr v-for="item in zhiyeOccupationReult">
+                            <td v-for="itemContent in item">
+                                ${itemContent.name}
+                                <span>${itemContent.createdAt}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="noneContent" v-if="zhiyeOccupationReult.length==0"></div>
+            </div>
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        院校定位结果
+                    </div>
+                    <span @click="yuanxiaotanchuang=true">编辑</span>
+                </div>
+                <h3 style="margin: 20px 10px">我的目标院校:</h3>
+                <div class="Occupation">
+                    <table>
+                        <tr v-for="item in yuanxiaoOccupationReult">
+                            <td v-for="itemContent in item">
+                                ${itemContent.name}
+                                <span>${itemContent.createdAt}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="noneContent" v-if="yuanxiaoOccupationReult.length==0"></div>
+            </div>
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        专业定位结果
+                    </div>
+                    <span @click="zhuanyetanchuang=true">编辑</span>
+                </div>
+                <h3 style="margin: 20px 10px">我的目标专业</h3>
+                <div class="Occupation">
+                    <table>
+                        <tr v-for="item in zhuanyeOccupationReult">
+                            <td v-for="itemContent in item">
+                                ${itemContent.name}
+                                <span>${itemContent.createdAt}</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="noneContent" v-if="zhuanyeOccupationReult.length==0"></div>
+            </div>
+        </div>
+        <div class="Cards zhiyedingwei zhiyedingwei1" v-show="zhiyetanchuang">
+            <div class="close" @click="zhiyeaddSaveMubiao">
+            </div>
+            <div class="mubiaoBox">
+                <ul class="mubiaolist">
+                    <li v-for="(item,index) in  zhiyemubiaoLists">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="zhiyedelSaveMubiao(item.id,index)">
+                    </li>
+                    <li v-for="(item,index) in zhiyemubiaoAdd">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="zhiyedelMubiao(item.index)">
+                    </li>
+                    <li>
+                        <div class="listDiv">
+                            <img src="/career/imgs/careerManagement/careerAnchor/icon_tianjia.png" alt="" @click="zhiyeaddMubiao">
+                            <input type="text" v-model="zhiyemubiaoVlaue">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="save" @click="zhiyeaddSaveMubiao">
+                保存
+            </div>
+        </div>
+        <div class="Cards zhiyedingwei zhiyedingwei2" v-show="yuanxiaotanchuang">
+            <div class="close" @click="yuanxiaoaddSaveMubiao">
+            </div>
+            <div class="mubiaoBox">
+                <ul class="mubiaolist">
+                    <li v-for="(item,index) in  yuanxiaomubiaoLists">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="yuanxiaodelSaveMubiao(item.id,index)">
+                    </li>
+                    <li v-for="(item,index) in yuanxiaomubiaoAdd">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="yuanxiaodelMubiao(item.index)">
+                    </li>
+                    <li>
+                        <div class="listDiv">
+                            <img src="/career/imgs/careerManagement/careerAnchor/icon_tianjia.png" alt="" @click="yuanxiaoaddMubiao">
+                            <input type="text" v-model="yuanxiaomubiaoVlaue">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="save" @click="yuanxiaoaddSaveMubiao">
+                保存
+            </div>
+        </div>
+        <div class="Cards zhiyedingwei zhiyedingwei3" v-show="zhuanyetanchuang">
+            <div class="close" @click="zhuanyeaddSaveMubiao">
+            </div>
+            <div class="mubiaoBox">
+                <ul class="mubiaolist">
+                    <li v-for="(item,index) in  zhuanyemubiaoLists">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="zhuanyedelSaveMubiao(item.id,index)">
+                    </li>
+                    <li v-for="(item,index) in zhuanyemubiaoAdd">
+                        <div class="listDiv">
+                            ${item.name}
+                        </div>
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_quxiao.png" alt="" @click="zhuanyedelMubiao(item.index)">
+                    </li>
+                    <li>
+                        <div class="listDiv">
+                            <img src="/career/imgs/careerManagement/careerAnchor/icon_tianjia.png" alt="" @click="zhuanyeaddMubiao">
+                            <input type="text" v-model="zhuanyemubiaoVlaue">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="save" @click="zhuanyeaddSaveMubiao">
+                保存
+            </div>
+        </div>
+        <div class="addTests" v-show="addtanchuang">
+            <table>
+                <tr>
+                    <td>目标院校</td>
+                    <td>目标专业</td>
+                    <td>近三年分数/位次</td>
+                    <td>升学途径</td>
+                    <td>分析</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea  v-model="universityName"></textarea>
+                    </td>
+                    <td>
+                        <textarea  v-model="subjectName"></textarea>
+                    </td>
+                    <td>
+                        <textarea v-model="scoreLine"></textarea>
+                    </td>
+                    <td>
+                        <textarea v-model="furtherWay"></textarea>
+                    </td>
+                    <td>
+                        <textarea  v-model="analyze"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="save" @click="mineAdd(),mineclear()">
+                保存
+            </div>
+            <div class="close" @click="addtanchuang=false"></div>
+        </div>
+        <div class="addTests" v-show="edittanchuang">
+            <table>
+                <tr>
+                    <td>目标院校</td>
+                    <td>目标专业</td>
+                    <td>近三年分数/位次</td>
+                    <td>升学途径</td>
+                    <td>分析</td>
+                </tr>
+                <tr>
+                    <td>
+                        <textarea  v-model="universityName"></textarea>
+                    </td>
+                    <td>
+                        <textarea  v-model="subjectName"></textarea>
+                    </td>
+                    <td>
+                        <textarea v-model="scoreLine"></textarea>
+                    </td>
+                    <td>
+                        <textarea v-model="furtherWay"></textarea>
+                    </td>
+                    <td>
+                        <textarea  v-model="analyze"></textarea>
+                    </td>
+                </tr>
+            </table>
+            <div class="save" @click="eidtmine()">
+                保存
+            </div>
+            <div class="close" @click="edittanchuang=false,mineclear()"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/elementUi.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/api/index.js"></script>
+<script src="js/api/address.js"></script>
+<script>
+    Vue.prototype.ports = ports;
+    Vue.prototype.$ajax= axios;
+    Vue.prototype.$echarts =echarts;
+    Vue.prototype.G_uri= address.G_uri;
+    Vue.prototype.G_uris= address.G_uris;
+    new Vue({
+        delimiters:['${','}'],
+        el:'.main',
+        data(){
+            return {
+                zhiyetanchuang:false,
+                yuanxiaotanchuang:false,
+                zhuanyetanchuang:false,
+                addtanchuang:false,
+                edittanchuang:false,
+                zhiyeOccupationReult:[
+                ],
+                yuanxiaoOccupationReult:[
+                ],
+                zhuanyeOccupationReult:[
+                ],
+                zhiyemubiaoAdd:[],
+                zhiyemubiaoVlaue:'',
+                zhiyemubiaoLists:[],
+                yuanxiaomubiaoAdd:[],
+                yuanxiaomubiaoVlaue:'',
+                yuanxiaomubiaoLists:[],
+                zhuanyemubiaoAdd:[],
+                zhuanyemubiaoVlaue:'',
+                zhuanyemubiaoLists:[],
+                // 我的目标
+                universityName:'', //目标院校
+                subjectName:'', //目标专业
+                scoreLine:'', //三年分数线
+                furtherWay:'', //升序途径
+                analyze:'' ,//分析原因
+                mineGoalId:'',
+                mineGoalList:[],
+                // 我的目标分页器
+                pageNumber:1,//当前页码
+                pageSize:10,//每页大小
+                total:0,//总条数
+            }
+        },
+        methods:{
+            //警告提示
+            warning(text){
+                this.$notify({
+                    title: '提示',
+                    message: text,
+                    type: 'warning'
+                });
+            },
+            //获取职业目标
+            zhiyeMubiaolist(){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhiye.list,{
+                    studentId:window.sessionStorage.getItem('studentId')
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        let data=res.data.data.list||[];
+                        _this.zhiyeOccupationReult=[]
+                        for(let i=0;i<data.length;i+=3){
+                            let arr=[];
+                            data[i]&&arr.push(data[i])
+                            data[i+1]&&arr.push(data[i+1])
+                            data[i+2]&&arr.push(data[i+2])
+                            _this.zhiyeOccupationReult.push(arr)
+                            _this.zhiyemubiaoLists=data;
+                        }
+                    }
+                })
+            },
+            //提交保存添加职业目标
+            zhiyeaddSaveMubiao(){
+                let _this=this
+                if(this.zhiyemubiaoAdd.length==0){
+                    _this.zhiyetanchuang=false;
+                    _this.zhiyeMubiaolist();
+                    return
+                }
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhiye.add,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    data:this.zhiyemubiaoAdd
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.zhiyemubiaoAdd=[]
+                        _this.zhiyetanchuang=false;
+                        _this.zhiyeMubiaolist();
+                    }
+                })
+            },
+            //删除已存目标
+            zhiyedelSaveMubiao(id,index){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhiye.del,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.zhiyemubiaoLists.splice(index,1)
+                    }
+                })
+            },
+            //添加当前目标
+            zhiyeaddMubiao(){
+                if(this.zhiyemubiaoVlaue){
+                    let obj={
+                        id:'',
+                        name:this.zhiyemubiaoVlaue
+                    }
+                    this.$set(this.zhiyemubiaoAdd,this.zhiyemubiaoAdd.length,obj)
+                    this.zhiyemubiaoVlaue="";
+                }else{
+                    this.warning('添加内容不能为空')
+                }
+            },
+            //删除当前目标
+            zhiyedelMubiao(index){
+                this.zhiyemubiaoAdd.splice(index,1)
+            },
+
+            //获取院校目标
+            yuanxiaoMubiaolist(){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiYuanxiao.list,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        let data=res.data.data.list||[];
+                        _this.yuanxiaoOccupationReult=[]
+                        for(let i=0;i<data.length;i+=3){
+                            let arr=[];
+                            data[i]&&arr.push(data[i])
+                            data[i+1]&&arr.push(data[i+1])
+                            data[i+2]&&arr.push(data[i+2])
+                            _this.yuanxiaoOccupationReult.push(arr)
+                            _this.yuanxiaomubiaoLists=data;
+                        }
+                    }
+                })
+            },
+            //提交保存添加院校目标
+            yuanxiaoaddSaveMubiao(){
+                let _this=this
+                if(this.yuanxiaomubiaoAdd.length==0){
+                    _this.yuanxiaotanchuang=false;
+                    _this.yuanxiaoMubiaolist();
+                    return
+                }
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiYuanxiao.add,{
+                    data:this.yuanxiaomubiaoAdd
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.yuanxiaomubiaoAdd=[]
+                        _this.yuanxiaotanchuang=false;
+                        _this.yuanxiaoMubiaolist();
+                    }
+                })
+            },
+            //删除已存目标
+            yuanxiaodelSaveMubiao(id,index){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiYuanxiao.del,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.yuanxiaomubiaoLists.splice(index,1)
+                    }
+                })
+            },
+            //添加当前目标
+            yuanxiaoaddMubiao(){
+                if(this.yuanxiaomubiaoVlaue){
+                    let obj={
+                        id:'',
+                        name:this.yuanxiaomubiaoVlaue
+                    }
+                    this.$set(this.yuanxiaomubiaoAdd,this.yuanxiaomubiaoAdd.length,obj)
+                    this.yuanxiaomubiaoVlaue="";
+                }else{
+                    this.warning('添加内容不能为空')
+                }
+            },
+            //删除当前目标
+            yuanxiaodelMubiao(index){
+                this.yuanxiaomubiaoAdd.splice(index,1)
+            },
+            //获取专业目标
+            zhuanyeMubiaolist(){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhuanye.list,{
+                },{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        let data=res.data.data.list||[];
+                        _this.zhuanyeOccupationReult=[]
+                        for(let i=0;i<data.length;i+=3){
+                            let arr=[];
+                            data[i]&&arr.push(data[i])
+                            data[i+1]&&arr.push(data[i+1])
+                            data[i+2]&&arr.push(data[i+2])
+                            _this.zhuanyeOccupationReult.push(arr)
+                            _this.zhuanyemubiaoLists=data;
+                        }
+                    }
+                })
+            },
+            //提交保存添加专业目标
+            zhuanyeaddSaveMubiao(){
+                let _this=this
+                if(this.zhuanyemubiaoAdd.length==0){
+                    _this.zhuanyetanchuang=false;
+                    _this.zhuanyeMubiaolist();
+                    return
+                }
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhuanye.add,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    data:this.zhuanyemubiaoAdd
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.zhuanyemubiaoAdd=[]
+                        _this.zhuanyetanchuang=false;
+                        _this.zhuanyeMubiaolist();
+                    }
+                })
+            },
+            //删除已存目标
+            zhuanyedelSaveMubiao(id,index){
+                let _this=this
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mubiaoDingweiZhuanye.del,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.zhuanyemubiaoLists.splice(index,1)
+                    }
+                })
+            },
+            //添加当前目标
+            zhuanyeaddMubiao(){
+                if(this.zhuanyemubiaoVlaue){
+                    let obj={
+                        id:'',
+                        name:this.zhuanyemubiaoVlaue
+                    }
+                    this.$set(this.zhuanyemubiaoAdd,this.zhuanyemubiaoAdd.length,obj)
+                    this.zhuanyemubiaoVlaue="";
+                }else{
+                    this.warning('添加内容不能为空')
+                }
+            },
+            //删除当前目标
+            zhuanyedelMubiao(index){
+                this.zhuanyemubiaoAdd.splice(index,1)
+            },
+            //我的目标添加
+            mineAdd(){
+                let _this=this
+                if(!this.universityName){
+                    this.warning('请输入目标院校内容')
+                    return
+                }
+                if(!this.subjectName){
+                    this.warning('请输入目标专业内容')
+                    return
+                }
+                if(!this.scoreLine){
+                    this.warning('请输入三年分数线')
+                    return
+                }
+                if(!this.furtherWay){
+                    this.warning('请输入升学途径')
+                    return
+                }
+                if(!this.analyze){
+                    this.warning('请输入分析原因')
+                    return
+                }
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.myGoal.add,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    universityName:this.universityName,
+                    subjectName:this.subjectName,
+                    scoreLine:this.scoreLine,
+                    furtherWay:this.furtherWay,
+                    analyze:this.analyze
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.addtanchuang=false
+                        _this.mineList();
+                    }
+                })
+            },
+            //我的目标列表
+            mineList(pageNumber,pageSize){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.myGoal.list,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    pageNumber:pageNumber||1,
+                    pageSize:pageSize||10
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.mineGoalList=res.data.data.list||[];
+                        _this.total=res.data.data.page.count
+                    }
+                })
+            },
+            // 当页数发生变化时触发
+            currentChange(num) {
+                this.currentPage = num;
+                this.mineList(num,this.pageSize)
+            },
+            //删除我的目标
+            delmine(id){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.myGoal.del,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.mineList()
+                    }
+                })
+            },
+            //修改我的目标
+            eidtmine(){
+                let _this=this;
+                if(!this.universityName){
+                    this.warning('请输入目标院校内容')
+                    return
+                }
+                if(!this.subjectName){
+                    this.warning('请输入目标专业内容')
+                    return
+                }
+                if(!this.scoreLine){
+                    this.warning('请输入三年分数线')
+                    return
+                }
+                if(!this.furtherWay){
+                    this.warning('请输入升学途径')
+                    return
+                }
+                if(!this.analyze){
+                    this.warning('请输入分析原因')
+                    return
+                }
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.myGoal.edit,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:this.mineGoalId,
+                    universityName:this.universityName,
+                    subjectName:this.subjectName,
+                    scoreLine:this.scoreLine,
+                    furtherWay:this.furtherWay,
+                    analyze:this.analyze
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.mineclear()
+                        _this.edittanchuang=false;
+                        _this.mineList()
+                    }
+                })
+            },
+            //查看我的目标
+            showmine(id){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.myGoal.show,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id,
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        let data=res.data.data;
+                        this.universityName=data.universityName, //目标院校
+                            this.subjectName=data.subjectName, //目标专业
+                            this.scoreLine=data.scoreLine, //三年分数线
+                            this.furtherWay=data.furtherWay, //升序途径
+                            this.analyze=data.analyze ,//分析原因
+                            this.mineGoalId=data.id //我的目标ID
+                        _this.edittanchuang=true;
+                    }
+                })
+            },
+            //我的目标清空
+            mineclear(){
+                this.universityName='', //目标院校
+                    this.subjectName='', //目标专业
+                    this.scoreLine='', //三年分数线
+                    this.furtherWay='', //升序途径
+                    this.analyze='' ,//分析原因
+                    this.mineGoalId='' //我的目标ID
+            },
+            //删除确认
+            delConfirm(id){
+                this.$confirm('此操作将永久删除该记录, 是否继续?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    this.delmine(id)
+                    this.$message({
+                        type: 'success',
+                        message: '删除成功!'
+                    });
+                }).catch(() => {
+                    this.$message({
+                        type: 'info',
+                        message: '已取消删除'
+                    });
+                })
+            }
+
+        },
+        mounted(){
+            this.zhiyeMubiaolist();
+            this.yuanxiaoMubiaolist();
+            this.zhuanyeMubiaolist();
+            this.mineList(1,this.pageSize);
+            let width=$(window).width();
+            let height=$(window).height();
+            $('#masks').css({width:width,height:height});
+            setTimeout(function () {
+                $('#loading').hide();
+                $('.main').fadeIn();
+            })
+        },
+    })
+</script>
+</html>

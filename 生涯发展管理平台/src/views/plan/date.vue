@@ -456,6 +456,8 @@
                 }).then((res) => {
                     if (res.data.code == 2000) {
                         _this.$router.push('/plan/main')
+                    }else{
+                        _this.$message.error(res.data.msg);
                     }
                 })
             },

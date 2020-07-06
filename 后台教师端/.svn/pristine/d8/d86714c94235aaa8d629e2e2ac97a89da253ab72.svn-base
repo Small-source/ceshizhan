@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>辅导</title>
+    <link rel="stylesheet" href="/career/css/reset.css">
+    <!-- <link rel="stylesheet" href="/career/css/diagnosis.css"> -->
+    <!-- <link rel="stylesheet/less" href="/career/css/public.less"> -->
+    <link rel="stylesheet" href="/career/css/elementUi.css">
+    <!-- <` src="js/less.min.js"></script> -->
+</head>
+<body>
+    <div class="main_inner">
+        <div class="zhutiLeft">
+            <el-row class="tac">
+                <el-col :span="12">
+                    <el-menu
+                            default-active="2"
+                            class="el-menu-vertical-demo"
+                    >
+                        <el-submenu index="1">
+                            <template slot="title">
+                                <span>目标设定</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="1-1"><a href="/career/careerAnchor.html">职业定位</a></el-menu-item>
+                                <el-menu-item index="1-2"><a href="/career/university.html">院校定位</a></el-menu-item>
+                                <el-menu-item index="1-3"><a href="/career/major.html">专业定位</a></el-menu-item>
+                                <el-menu-item index="1-4"><a href="/career/goal.html">我的目标</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="2">
+                            <template slot="title">
+                                <span>目标分解</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="2-1"><a href="/career/decompose.html">目标分解</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="3">
+                            <template slot="title">
+                                <span>行动计划</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="3-1"><a href="/career/plan.html">行动计划</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="4">
+                            <template slot="title">
+                                <span>学业规划报告</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="4-1"><a href="/career/academicPlanningReport.html">学业规划报告</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="5">
+                            <template slot="title">
+                                <span>学业规划</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="5-1"><a href="/career/diagnosis/index.blade.php?studentId=">诊断</a></el-menu-item>
+                                <el-menu-item index="6-2"><a href="/career/planning.html">规划</a></el-menu-item>
+                                <el-menu-item index="7-3"><a href="/career/counseling.html">辅导</a></el-menu-item>
+                                <el-menu-item index="8-4"><a href="/career/growthArchiveEntry.html">成长档案</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                    </el-menu>
+                </el-col>
+            </el-row>
+        </div>
+        <!-- 生涯管理-学业规划-规划 -->
+        <div class="counseling" style="float:left;width:970px;">
+            <div class="banner">
+                <img src="/career/imgs/careerManagement/careerAnchor/banner.png" alt="">
+            </div>
+            <div class="study_motivation content_box">
+                <!-- 学习动机 -->
+                <!-- 强化训练 -->
+                <Counseling1></Counseling1>
+                <!-- 自我激励训练 -->
+                <Counseling2></Counseling2>
+                <!-- 归因训练 -->
+                <Counseling3></Counseling3>
+            </div>
+            <!-- 学习习惯 -->
+            <div class="content_box">
+                <!-- 课前预习--小作业 -->
+                <Counseling5></Counseling5>
+                <!-- 课后复习--小作业 -->
+                <Counseling6></Counseling6>
+                <!-- 发现黄金时间 -->
+                <Counseling7></Counseling7>
+                <!-- 养成好习惯 -->
+                <Counseling9 ></Counseling9>
+            </div>
+            <!-- 学习能力 -->
+            <div class="content_box">
+                <!-- 注意力训练 -->
+                <Counseling10></Counseling10>
+                <!-- 思维能力训练 -->
+                <Counseling13></Counseling13>
+                <!-- 记忆力训练 -->
+                <Counseling14></Counseling14>
+            </div>
+            <!-- 情绪管理 -->
+            <div class="content_box">
+                <!-- 练习：自我觉察应用表 -->
+                <Counseling16></Counseling16>
+                <!-- 和情绪对话 -->
+                <Counseling17></Counseling17>
+                <!-- 用ABC理论管理情绪的计划 -->
+                <Counseling18></Counseling18>
+            </div>
+            <!-- 人际关系 -->
+            <div class="content_box">
+                <Counseling19></Counseling19>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    body {
+        background-color: #f3f4f8;
+    }
+    .counseling {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .counseling .banner {
+        margin-bottom: 20px;
+    }
+    .counseling *{
+        letter-spacing: 1.5px;
+        box-sizing: border-box;
+    }
+    .counseling .content_box {
+        background-color: #fff;
+    }
+    .el-pagination .el-pager .number {
+        /*display: flex;*/
+        align-items: center;
+        justify-content: center;
+    }
+</style>
+<script src="/career/js/jquery-3.4.1.min.js"></script>
+<script src="/career/js/httpVueLoader.js"></script>
+<script src="/career/js/vue.js"></script>
+<!-- <script src="/career/js/echarts.min.js"></script> -->
+<script src="/career/js/elementUi.js"></script>
+<script src="/career/js/axios.min.js"></script>
+<script src="/career/js/api/index.js"></script>
+<script src="/career/js/api/address.js"></script>
+<!-- <script src="./js/circleChart.min.js"></script>
+<script src="./js/html2canvas.js"></script>
+<script src="./js/jspdf.js"></script> -->
+<script type="module">
+    // 最顶部提示卡片
+    // import  masks from './components/mask.vue'
+    // import getPdf from '/js/htmlToPdf.js';
+    // Vue.prototype.$echarts = echarts;
+    // Vue.prototype.getPdf = getPdf;
+    Vue.prototype.ports = ports;
+    Vue.prototype.$ajax= axios;
+    Vue.prototype.G_uri= address.G_uri;
+    Vue.prototype.G_uris= address.G_uris;     
+    new Vue({
+        el:'.main_inner',
+        components: {
+          'Counseling1': httpVueLoader('./component/Counseling1.vue'),
+          'Counseling2': httpVueLoader('./component/Counseling2.vue'),
+          'Counseling3': httpVueLoader('./component/Counseling3.vue'),
+          // 'Counseling4': httpVueLoader('./component/Counseling4.vue'),
+          'Counseling5': httpVueLoader('./component/Counseling5.vue'),
+          'Counseling6': httpVueLoader('./component/Counseling6.vue'),
+          'Counseling7': httpVueLoader('./component/Counseling7.vue'),
+          // 'Counseling8': httpVueLoader('./component/Counseling8.vue'),
+          'Counseling9': httpVueLoader('./component/Counseling9.vue'),
+          'Counseling10': httpVueLoader('./component/Counseling10.vue'),
+          // 'Counseling11': httpVueLoader('./component/Counseling11.vue'),
+          // 'Counseling12': httpVueLoader('./component/Counseling12.vue'),
+          'Counseling13': httpVueLoader('./component/Counseling13.vue'),
+          'Counseling14': httpVueLoader('./component/Counseling14.vue'),
+          // 'Counseling15': httpVueLoader('./component/Counseling15.vue'),
+          'Counseling16': httpVueLoader('./component/Counseling16.vue'),
+          'Counseling17': httpVueLoader('./component/Counseling17.vue'),
+          'Counseling18': httpVueLoader('./component/Counseling18.vue'),
+          'Counseling19': httpVueLoader('./component/Counseling19.vue')
+        },
+        data(){
+            return {
+                // 是否显示咨询目标填写弹窗
+                isShowTargetCard: false,
+                // 咨询目标
+                target: '',
+                targetObj: {},
+                isShowSchemeCard: false,
+                // 咨询方案
+                scheme: '',
+                schemeObj: {},
+                // 是否显示咨询记录弹窗
+                isShowConsultLog: false,
+                // 咨询记录
+                consultLogObj: {
+                    id: '',
+                    date: '',
+                    theme: '',
+                    purpose: '',
+                    method: '',
+                    process: '',
+                    result: '',
+                    next_plan: '',
+                    homework: ''
+                },
+                // 获取咨询记录列表
+                ConsultLogList: [],
+                // 查看咨询记录详情，不可修改
+                // 是否显示咨询记录弹窗，不可保存，修改
+                isShowConsultLogDetail: false,
+                consultLogObjDetail: {},
+
+                // 分页器
+                // 报告数组
+                reportList: [],
+                // 报告共有多少条
+                count: 1,
+                // 报告一共有多少页
+                totalPage: '',
+                // 每页显示多少条
+                pageSize: 7,
+                // 当前页
+                currentPage: 1
+            }
+        },
+        computed:{
+        },
+        methods:{
+            // 保存成功提示
+            successMessage() {
+                this.$message({
+                    type: 'success',
+                    message: '保存成功'
+                });
+            },
+            //退出确认
+            exitConfirm(id){
+                this.$confirm('退出后不会保存编辑内容，确认退出?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    this.$message({
+                        type: 'info',
+                        message: '已退出'
+                    });
+                }).catch((error) => {
+                    console.log(error)
+                })
+            },
+            //生涯管理 - 学业规划 - 规划 - 获取咨询目标详情
+            getConsultTarget(id){
+                this.$ajax.post(this.G_uri + '/plan/getConsultTarget',{
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    let data = res.data.data;
+                    if(res.data.code == 2000) {
+                        if(data.updatedAt) {
+                            this.targetObj = data;
+                        }
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+            },
+            // //生涯管理 - 学业规划 - 规划 - 保存咨询目标
+            storeConsultTarget(id){
+                this.$ajax.post(this.G_uri + '/plan/storeConsultTarget',{
+                    target: this.target,
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.data.id == true) {
+                        this.getConsultTarget();
+                        this.isShowTargetCard = false;
+                        this.successMessage();
+
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                })
+            },
+
+            getHeight() {
+                let Height = $(window).height() - 50;
+                $('.card').each(function() {
+                    let cardHeight = $(this).height();
+                    if( cardHeight > Height) {
+                        $(this).height(Height-20);
+                        $(this).find('.card_content').height(Height - 62-20);
+                    }
+                })
+            }
+        },
+        watch:{
+            isShowConsultLogDetail() {
+                if(this.isShowConsultLogDetail) {
+                    this.$nextTick(() => {
+                        this.getHeight();
+                    })
+                }
+            }
+        },
+        created() {
+        },
+        mounted(){
+        }
+    })
+</script>
+</html>

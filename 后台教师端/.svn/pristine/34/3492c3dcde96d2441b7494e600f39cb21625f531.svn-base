@@ -1,0 +1,344 @@
+.evaluation_report2 {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #E8E8E8;
+}
+.evaluation_report2 * {
+  font-size: 16px;
+  color: #333;
+}
+.evaluation_report2 .get_pdf {
+  height: 0px;
+  width: 100%;
+  position: fixed;
+  top: 30%;
+}
+.evaluation_report2 .get_pdf .inner {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+.evaluation_report2 .get_pdf .inner .btn_pdf {
+  position: absolute;
+  padding: 5px 10px;
+  right: -40px;
+  width: 20px;
+  text-align: center;
+  background-color: #2c8ffc;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.evaluation_report2 .pdf {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.evaluation_report2 .pdf .page_shadow {
+  -webkit-box-shadow: 0px 0px 10px #666;
+  -ms-box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  height: 1300px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+.evaluation_report2 .pdf .page_cover {
+  height: 1230px;
+  padding-top: 70px;
+  background: url(/career/imgs/careerManagement/diagnosis/reportCover2.png);
+  background-size: 900px 1300px;
+}
+.evaluation_report2 .pdf .page_cover .header {
+  padding-top: 320px;
+  margin-bottom: 50px;
+}
+.evaluation_report2 .pdf .page_cover .header h3 {
+  line-height: 70px;
+  font-size: 56px;
+  padding-left: 220px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.evaluation_report2 .pdf .page_cover .header .detail {
+  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.evaluation_report2 .pdf .page_cover .main {
+  height: 246px;
+  width: 440px;
+  margin: 0 auto;
+}
+.evaluation_report2 .pdf .page_cover .main p {
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  color: #fff;
+}
+.evaluation_report2 .pdf .page_cover .bottom {
+  padding-top: 50px;
+  color: #fff;
+}
+.evaluation_report2 .pdf .page_cover .bottom p {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+}
+.evaluation_report2 .pdf .page {
+  height: 1180px;
+  padding-top: 120px;
+  background: url(/career/imgs/selfAssessment/report_bg.png) no-repeat;
+  background-size: 900px 1300px;
+  background-color: #fff;
+  position: relative;
+}
+.evaluation_report2 .pdf .page .header {
+  line-height: 50px;
+  color: #199517;
+  font-size: 30px;
+  text-align: center;
+}
+.evaluation_report2 .pdf .page .header span {
+  color: #199517;
+  font-size: 30px;
+}
+.evaluation_report2 .pdf .page .header_detail {
+  text-align: center;
+  line-height: 60px;
+}
+.evaluation_report2 .pdf .page .content {
+  padding: 30px 100px;
+}
+.evaluation_report2 .pdf .page .content .big_title_box {
+  display: flex;
+  line-height: 50px;
+}
+.evaluation_report2 .pdf .page .content .big_title_box .big_title {
+  position: relative;
+  padding-left: 70px;
+  padding-right: 20px;
+  font-size: 20px;
+  color: #000;
+}
+.evaluation_report2 .pdf .page .content .big_title_box .big_title span {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  text-align: center;
+  width: 30px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  color: #199517;
+}
+.evaluation_report2 .pdf .page .content .big_title_box .line {
+  flex: 1;
+  border-top: 1px dashed #000;
+  margin: auto 0;
+}
+.evaluation_report2 .pdf .page .content .big_title_box .page_number {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.evaluation_report2 .pdf .page .content .foreword_detail p {
+  line-height: 24px;
+  text-indent: 2em;
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+.evaluation_report2 .pdf .page .content .foreword_table {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.evaluation_report2 .pdf .page .content .foreword_table table {
+  width: 600px;
+  margin: 0 auto;
+}
+.evaluation_report2 .pdf .page .content .foreword_table table tr td {
+  line-height: 50px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #fff;
+  color: #168275;
+  background-color: #CCE4E1;
+}
+.evaluation_report2 .pdf .page .content .foreword_footer .title {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.evaluation_report2 .pdf .page .content .foreword_footer p {
+  line-height: 24px;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.evaluation_report2 .pdf .page .content .warmtips_header {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.evaluation_report2 .pdf .page .content .tips_box {
+  margin-bottom: 30px;
+}
+.evaluation_report2 .pdf .page .content .tips_box .tips_title {
+  font-size: 18px;
+  color: #199517;
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+.evaluation_report2 .pdf .page .content .tips_box p {
+  line-height: 30px;
+  font-size: 16px;
+  color: #333;
+}
+.evaluation_report2 .pdf .page .content .resule_header {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 44px;
+}
+.evaluation_report2 .pdf .page .content .resule_table {
+  margin-bottom: 40px;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li {
+  margin-bottom: 30px;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .lis_title {
+  line-height: 26px;
+  margin-bottom: 5px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .lis_title .color_box {
+  display: inline-block;
+  width: 25px;
+  height: 16px;
+  margin-right: 5px;
+  line-height: 26px;
+  background-color: #71B15B;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .lis_title .weidu {
+  margin-right: 30px;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .lis_title .defen {
+  color: #199517;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .lis_detail {
+  margin-bottom: 5px;
+  padding-left: 32px;
+  font-weight: 600;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li .detail {
+  padding-left: 32px;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li:nth-child(1) .color_box {
+  background-color: #71B15B;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li:nth-child(2) .color_box {
+  background-color: #2E75B6;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li:nth-child(3) .color_box {
+  background-color: #3E9B7C;
+}
+.evaluation_report2 .pdf .page .content .resule_table ul li:nth-child(4) .color_box {
+  background-color: #ECAC5C;
+}
+.evaluation_report2 .pdf .page .content .completion {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.evaluation_report2 .pdf .page .content .completion strong {
+  color: #199517;
+  font-weight: 600;
+  font-size: 18px;
+}
+.evaluation_report2 .pdf .page .content .completion span {
+  color: #199517;
+}
+.evaluation_report2 .pdf .page .content .circle_title {
+  line-height: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.evaluation_report2 .pdf .page .content .circle_box {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle {
+  position: relative;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle .box {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  top: 50%;
+  margin-top: -30px;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle .box .box_title {
+  letter-spacing: 1px;
+  line-height: 30px;
+  font-weight: 600;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle .box .num {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle1 .num {
+  color: #1A8779;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle2 .num {
+  color: #F19149;
+}
+.evaluation_report2 .pdf .page .content .circle_box .circle3 .num {
+  color: #056C9E;
+}
+.evaluation_report2 .pdf .page .content .circle_box .title {
+  font-weight: 600;
+}
+.evaluation_report2 .pdf .page .content .circle_box .fenxi {
+  margin-bottom: 10px;
+}
+.evaluation_report2 .pdf .page .content .circle_box .fenxi span {
+  color: #199517;
+  font-weight: 600;
+}
+.evaluation_report2 .pdf .page .content .echarts_box .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.evaluation_report2 .pdf .page .content .echarts_box .title span {
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  font-size: 14px;
+  margin-right: 5px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #199517;
+}
+.evaluation_report2 .pdf .page .content .echarts_box .detail {
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.evaluation_report2 .pdf .page .big_page_number {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #666;
+  text-align: center;
+}

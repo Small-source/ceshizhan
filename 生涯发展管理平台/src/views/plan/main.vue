@@ -76,7 +76,7 @@
                     周计划、日计划
                 </div>
             </div>
-            <div class="add" @click="tiaozhuan( '/plan/week?weekNumber='+weekNumber+'&month='+(yueData[0]&&yueData[0]['id']))" >
+            <div class="add" @click="tiaozhuan( '/plan/week?weekNumber='+weekNumber+'&month='+(yueData[0]&&yueData[0]['id']),true)" >
                 <span>添加</span>
             </div>
             <p>
@@ -394,10 +394,16 @@
                 })
             },
             //跳转
-            tiaozhuan(url){
+            tiaozhuan(url,bool){
                 if(this.xueyeListNumbers==0){
                     this.$message.error('请先添加一个学业规划');
                     return;
+                }
+                if(bool){
+                    if(this.yueData.length==0){
+                        this.$message.error('请先添加一个月计划');
+                        return;
+                    }
                 }
                 this.$router.push(url);
             },

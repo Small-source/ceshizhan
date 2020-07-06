@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet/less" href="css/public.less">
+    <link rel="stylesheet" href="css/elementUi.css">
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+<div id="loading"></div>
+<div class="main" style="display: none">
+    <div class="zhutiLeft">
+        <el-row class="tac">
+            <el-col :span="12">
+                <el-menu
+                        default-active="2"
+                        class="el-menu-vertical-demo"
+                >
+                    <el-submenu index="1">
+                        <template slot="title">
+                            <span>目标设定</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="1-1"><a href="/career/careerAnchor.html">职业定位</a></el-menu-item>
+                            <el-menu-item index="1-2"><a href="/career/university.html">院校定位</a></el-menu-item>
+                            <el-menu-item index="1-3"><a href="/career/major.html">专业定位</a></el-menu-item>
+                            <el-menu-item index="1-4"><a href="/career/goal.html">我的目标</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="2">
+                        <template slot="title">
+                            <span>目标分解</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="2-1"><a href="/career/decompose.html">目标分解</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="3">
+                        <template slot="title">
+                            <span>行动计划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="3-1"><a href="/career/plan.html">行动计划</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="4">
+                        <template slot="title">
+                            <span>学业规划报告</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="4-1"><a href="/career/academicPlanningReport.html">学业规划报告</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="5">
+                        <template slot="title">
+                            <span>学业规划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="5-1"><a href="/career/diagnosis/index.blade.php?studentId=">诊断</a></el-menu-item>
+                            <el-menu-item index="6-2"><a href="/career/planning.html">规划</a></el-menu-item>
+                            <el-menu-item index="7-3"><a href="/career/counseling.html">辅导</a></el-menu-item>
+                            <el-menu-item index="8-4"><a href="/career/growthArchiveEntry.html">成长档案</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                </el-menu>
+            </el-col>
+        </el-row>
+    </div>
+    <div class="matchingSchools" id="matchingSchools" style="float:left;width:970px;">
+        <div class="parts" style="padding-bottom: 30px">
+            <div class="top">
+                <div class="title">
+                    <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                    成绩匹配院校
+                </div>
+            </div>
+            <div class="searchBox">
+                <el-select v-model="scoreProvince" placeholder="请选择">
+                    <el-option
+                            v-for="item in Provinces"
+                            :key="item.value"
+                            :label="item.label"
+                            :value="item.value">
+                    </el-option>
+                </el-select>
+                <el-select v-model="artsAndScience" placeholder="请选择">
+                    <el-option
+                            v-for="item in subjectType"
+                            :key="item.value"
+                            :label="item.label"
+                            :value="item.value">
+                    </el-option>
+                </el-select>
+                参考分数
+                <el-input v-model="averageScore" placeholder="请输入分数" type="number"></el-input>
+                <div class="search" @click="reset(),yuanxiaolist()">
+                    搜索
+                </div>
+                <p>院校筛选:</p>
+                <div class="tiaojian">
+                    <span>
+                        大学类别&nbsp;>
+                    </span>
+                    <div class="type1">
+                        <el-radio-group v-model="type">
+                            <el-radio-button v-for="(item,index) in daxueleibie" :key="index" :label="item.names"></el-radio-button>
+                        </el-radio-group>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="tiaojian">
+                    <span>
+                        学校地区&nbsp;>
+                    </span>
+                    <div class="type1">
+                        <el-checkbox v-model="checkAll" @change="handleCheckAllChange" class="All">全选</el-checkbox>
+                        <el-checkbox-group v-model="province" @change="handleCheckedCitiesChange" class="checkBox">
+                            <el-checkbox v-for="item in Provinces" :label="item.names" :key="item.names">${item.names}</el-checkbox>
+                        </el-checkbox-group>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p>筛选结果:</p>
+        <div class="parts" style="margin-top: 20px;padding: 20px 18px;">
+            <table>
+                <tr>
+                    <td width="244">院校</td>
+                    <td  width="412">
+                        <div>
+                            <span>投档线</span>
+                            <span>2019年</span>
+                            <span>2018年</span>
+                            <span>2017年</span>
+                        </div>
+                    </td>
+                    <td width="102">
+                        收藏
+                    </td>
+                    <td>
+                        设为成绩匹配
+                    </td>
+                </tr>
+            </table>
+            <div class="more" v-if="cdata.length!=0" @click="moreAverageScore('add')">
+                <img src="/career/imgs/careerManagement/careerAnchor/icon_xiala.png" alt="">
+                查看更高投档线院校
+            </div>
+            <ul class="list">
+                <li v-for="item in cdata">
+                    <div class="div1">
+                        <div class="left">
+                            <img :src="item.logo" alt="">
+                        </div>
+                        <div class="right">${item.universityName}</div>
+                    </div>
+                    <div class="div2">
+                        <span >${item.list&&item.list['2019']&&item.list['2019'].averageScore||""}</span>
+                        <span >${item.list&&item.list['2018']&&item.list['2018'].averageScore||""}</span>
+                        <span >${item.list&&item.list['2017']&&item.list['2017'].averageScore||""}</span>
+                    </div>
+                    <div class="div3">
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_weishoucang.png" alt=""
+                             v-show="collectListId.indexOf(item.universityId)==-1"
+                             @click="addCollect(item.universityId)"
+                        >
+                        <img src="/career/imgs/careerManagement/careerAnchor/icon_shoucang.png" alt=""
+                             v-show="(collectListId.indexOf(item.universityId)!=-1)"
+                             @click="addCollect(item.universityId)"
+                        >
+                    </div>
+                    <div class="div4">
+                        <div class="button" v-show="matchingListId.indexOf(item.universityId)==-1"@click="addMatching(item.universityId)">加入匹配</div>
+                        <div class="button"
+                             v-show="matchingListId.indexOf(item.universityId)!=-1" @click="addMatching(item.universityId)"
+                             style="background:#D7D7D7">已加入</div>
+                    </div>
+                </li>
+            </ul>
+            <div class="noneContent" v-if="cdata.length==0"></div>
+            <div class="more" v-if="cdata.length!=0" @click="moreAverageScore('reduce')">
+                <img src="/career/imgs/careerManagement/careerAnchor/icon_xiala.png" alt="" style="transform: rotate(180deg)">
+                查看更低投档线院校
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/elementUi.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/api/index.js"></script>
+<script src="js/api/address.js"></script>
+<script>
+    Vue.prototype.ports = ports;
+    Vue.prototype.$ajax= axios;
+    Vue.prototype.$echarts =echarts;
+    Vue.prototype.G_uri= address.G_uri;
+    Vue.prototype.G_uris= address.G_uris;
+    new Vue({
+        delimiters:['${','}'],
+        el:'.main',
+        data(){
+            return {
+                //所在地区
+                Provinces:[
+                    { names: '北京', value: '北京' },
+                    { names: '天津', value: '天津' },
+                    { names: '上海', value: '上海' },
+                    { names: '重庆', value: '重庆' },
+                    { names: '河北', value: '河北' },
+                    { names: '河南', value: '河南' },
+                    { names: '云南', value: '云南' },
+                    { names: '辽宁', value: '辽宁' },
+                    { names: '黑龙江', value: '黑龙江' },
+                    { names: '湖南', value: '湖南' },
+                    { names: '安徽', value: '安徽' },
+                    { names: '山东', value: '山东' },
+                    { names: '新疆', value: '新疆' },
+                    { names: '江苏', value: '江苏' },
+                    { names: '浙江', value: '浙江' },
+                    { names: '江西', value: '江西' },
+                    { names: '湖北', value: '湖北' },
+                    { names: '广西', value: '广西' },
+                    { names: '甘肃', value: '甘肃' },
+                    { names: '山西', value: '山西' },
+                    { names: '陕西', value: '陕西' },
+                    { names: '吉林', value: '吉林' },
+                    { names: '福建', value: '福建' },
+                    { names: '贵州', value: '贵州' },
+                    { names: '内蒙古', value: '内蒙古' },
+                    { names: '广东', value: '广东' },
+                    { names: '青海', value: '青海' },
+                    { names: '西藏', value: '西藏' },
+                    { names: '四川', value: '四川' },
+                    { names: '宁夏', value: '宁夏' },
+                    { names: '海南', value: '海南' }
+                ],
+                // 大学类别
+                daxueleibie: [
+                    { names: '不限', value: '不限' },
+                    { names: '综合类', value: '综合类' },
+                    { names: '理工类', value: '理工类' },
+                    { names: '师范类', value: '师范类' },
+                    { names: '农林类', value: '农林类' },
+                    { names: '政法类', value: '政法类' },
+                    { names: '医药类', value: '医药类' },
+                    { names: '财经类', value: '财经类' },
+                    { names: '民族类', value: '民族类' },
+                    { names: '语言类', value: '语言类' },
+                    { names: '艺术类', value: '艺术类' },
+                    { names: '体育类', value: '体育类' },
+                    { names: '军事类', value: '军事类' }
+                ],
+                //科目类别
+                subjectType:[
+                    { names: '文史', value: '文史' },
+                    { names: '理工', value: '理工' },
+                    { names: '新高考', value: '新高考' },
+                ],
+                artsAndScience:'理工',
+                scoreProvince:'北京',
+                province:[],
+                averageScore:'',
+                type:'不限',
+                checkAll:false,
+                isIndeterminate: false,
+                high:0,
+                low:0,
+                cdata:[],
+                collectListId:[],
+                matchingListId:[]
+            }
+        },
+        methods:{
+            handleCheckAllChange(val) {
+                let arr=[];
+                this.Provinces.forEach(item=>{
+                    arr.push(item.value)
+                })
+                this.province= val ? arr : [];
+                this.isIndeterminate = false;
+            },
+            handleCheckedCitiesChange(value) {
+                let arr=[];
+                this.Provinces.forEach(item=>{
+                    arr.push(item.value)
+                })
+                let checkedCount = value.length;
+                this.checkAll = checkedCount === this.Provinces.length;
+            },
+            //成绩匹配院校列表
+            yuanxiaolist(){
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.matchingScholls.list,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    scoreProvince:this.scoreProvince,
+                    artsAndScience:this.artsAndScience,
+                    averageScore:this.averageScore,
+                    type:this.type=='不限'?[]:[this.type],
+                    province:this.province.length==31?[]:this.province,
+                    high:this.high,
+                    low:this.low
+                },{
+                    headers:{
+                        token:window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then(res=>{
+                    if(res.data.code==2000){
+                        this.cdata=res.data.data;
+                    }
+                })
+            },
+            //添加/取消院校收藏
+            addCollect(id){
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.matchingScholls.addCollect,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    collectionId:id
+                },{
+                    headers:{
+                        token:window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then(res=>{
+                    if(res.data.code==2000){
+                        this.collectList()
+                    }
+                })
+            },
+            //院校收藏列表id列表
+            collectList(){
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.matchingScholls.collectList,{
+                    studentId:window.sessionStorage.getItem('studentId')
+                },{
+                    headers:{
+                        token:window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then(res=>{
+                    if(res.data.code==2000){
+                        this.collectListId=res.data.data
+                    }
+                })
+            },
+            //添加/取消成绩匹配院校
+            addMatching(id){
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.matchingScholls.add,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    collectionId:id
+                },{
+                    headers:{
+                        token:window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then(res=>{
+                    if(res.data.code==2000){
+                        this.mathingList();
+                    }
+                })
+            },
+            //获取已匹配院校数组
+            mathingList(){
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.matchingScholls.matchingList,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                },{
+                    headers:{
+                        token:window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then(res=>{
+                    if(res.data.code==2000){
+                        this.matchingListId=res.data.data;
+                    }
+                })
+            },
+            //更高或更低投档线院校
+            moreAverageScore(item){
+                if(item=='add'){
+                    this.high++;
+                }
+                if(item=='reduce'){
+                    this.low++;
+                }
+                this.yuanxiaolist();
+            },
+            //投档重置
+            reset(){
+                this.high=0;
+                this.low=0;
+            }
+        },
+        mounted(){
+            this.collectList();
+            this.mathingList();
+            setTimeout(function () {
+                $('#loading').hide();
+                $('.main').fadeIn();
+            })
+        },
+        created(){
+
+        }
+    })
+</script>
+</html>

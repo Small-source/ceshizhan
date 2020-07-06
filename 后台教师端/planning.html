@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>生涯管理-规划</title>
+    <link rel="stylesheet" href="/career/css/reset.css">
+    <link rel="stylesheet" href="/career/css/planning.css">
+    <!-- <link rel="stylesheet/less" href="css/public.less"> -->
+    <link rel="stylesheet" href="/career/css/elementUi.css">
+    <!-- <script src="js/less.min.js"></script> -->
+</head>
+<body>
+    <div id="loading">
+        <div class="card"></div>
+    </div>
+    <div class="main_inner">
+        <div class="zhutiLeft">
+            <el-row class="tac">
+                <el-col :span="12">
+                    <el-menu
+                            default-active="2"
+                            class="el-menu-vertical-demo"
+                    >
+                        <el-submenu index="1">
+                            <template slot="title">
+                                <span>目标设定</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="1-1"><a href="/career/careerAnchor.html">职业定位</a></el-menu-item>
+                                <el-menu-item index="1-2"><a href="/career/university.html">院校定位</a></el-menu-item>
+                                <el-menu-item index="1-3"><a href="/career/major.html">专业定位</a></el-menu-item>
+                                <el-menu-item index="1-4"><a href="/career/goal.html">我的目标</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="2">
+                            <template slot="title">
+                                <span>目标分解</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="2-1"><a href="/career/decompose.html">目标分解</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="3">
+                            <template slot="title">
+                                <span>行动计划</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="3-1"><a href="/career/plan.html">行动计划</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="4">
+                            <template slot="title">
+                                <span>学业规划报告</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="4-1"><a href="/career/academicPlanningReport.html">学业规划报告</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                        <el-submenu index="5">
+                            <template slot="title">
+                                <span>学业规划</span>
+                            </template>
+                            <el-menu-item-group>
+                                <el-menu-item index="5-1"><a href="/career/diagnosis/index.blade.php?studentId=">诊断</a></el-menu-item>
+                                <el-menu-item index="6-2"><a href="/career/planning.html">规划</a></el-menu-item>
+                                <el-menu-item index="7-3"><a href="/career/counseling.html">辅导</a></el-menu-item>
+                                <el-menu-item index="8-4"><a href="/career/growthArchiveEntry.html">成长档案</a></el-menu-item>
+                            </el-menu-item-group>
+                        </el-submenu>
+                    </el-menu>
+                </el-col>
+            </el-row>
+        </div>
+        <!-- 生涯管理-学业规划-规划 -->
+        <div class="planning" style="float:left;width:970px;">
+            <div class="inner">
+                <div class="main_box">
+                    <h6 class="title"><span>咨询目标</span><p @click="isShowTargetCard = true;target = targetObj.target" v-if="targetObj.updatedAt" class="btn">编辑</p></h6>
+                    <div class="table_box" v-if="targetObj.updatedAt">
+                        <table>
+                            <tr>
+                                <th>内容</th>
+                                <th>日期</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    {{targetObj.target}}
+                                </td>
+                                <td>
+                                    {{targetObj.updatedAt}}
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="recording" v-else>
+                        <div class="top" @click="isShowTargetCard = true">
+                            <img src="/career/imgs/careerManagement/diagnosis/icon-zanwuneirong.png" alt="">
+                        </div>
+                        <div class="foot">
+                            <p>暂无内容！ <span @click="isShowTargetCard = true">添加</span>咨询目标</p>
+                            <p>备注：请让咨询师填写此项内容</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_box">
+                    <h6 class="title"><span>咨询方案</span><p v-if="schemeObj.updatedAt" @click="isShowSchemeCard = true;scheme = schemeObj.scheme" class="btn">编辑</p></h6>
+                    <div class="table_box" v-if="schemeObj.updatedAt">
+                        <table>
+                            <tr>
+                                <th>内容</th>
+                                <th>日期</th>
+                            </tr>
+                            <tr>
+                                <td>{{schemeObj.scheme}}</td>
+                                <td>{{schemeObj.updatedAt}}</td>
+                            </tr>
+                        </table>
+                    </div>  
+                    <div class="recording" v-else>
+                        <div class="top" @click="isShowSchemeCard = true">
+                            <img src="/career/imgs/careerManagement/diagnosis/icon-zanwuneirong.png" alt="">
+                        </div>
+                        <div class="foot">
+                            <p>暂无内容！ <span @click="isShowSchemeCard = true">添加</span>咨询方案</p>
+                            <p>备注：请让咨询师填写此项内容</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_box">
+                    <h6 class="title"><span>咨询记录</span></h6>
+                    <div class="now_history_btn">
+                        <p>当前咨询记录</p>
+                        <div class="btn_box">
+                            <div class="btn" @click="addConsultLog()">新增</div>
+                            <div class="btn" @click="isShowConsultLog = true;">编辑</div>
+                        </div>
+                    </div>
+                    <div class="now_history_table">
+                        <table>
+                            <tr class="table_title">
+                              <td  colspan="2">规划主题:<span>{{consultLogObj.theme}}</span></td>
+                              <td width="35%">时间:<span>{{consultLogObj.updatedAt}}</span></td>
+                            </tr>
+                            <tr>
+                              <td width="20%">目的</td>
+                              <td colspan="2">{{consultLogObj.purpose}}</td>
+                            </tr>
+                            <tr>
+                              <td>方法</td>
+                              <td colspan="2">{{consultLogObj.method}}</td>
+                            </tr>
+                            <tr>
+                              <td>过程</td>
+                              <td colspan="2">{{consultLogObj.process}}</td>
+                            </tr>
+                            <tr>
+                              <td>结果</td>
+                              <td colspan="2">{{consultLogObj.result}}</td>
+                            </tr>
+                            <tr>
+                              <td>下次规划计划</td>
+                              <td colspan="2">{{consultLogObj.next_plan}}</td>
+                            </tr>
+                            <tr>
+                              <td>家庭作业</td>
+                              <td colspan="2">{{consultLogObj.homework}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <h6 class="title history_title"><span>历史记录</span></h6>
+                    <div class="history_table">
+                        <table>
+                            <tr>
+                                <th>规划主题</th>
+                                <th>日期</th>
+                                <th>查看</th>
+                            </tr>
+                            <tr v-for="(item,index) in ConsultLogList.list" :key="index">
+                                <td>{{item.theme}}</td>
+                                <td>{{item.updatedAt}}</td>
+                                <td><span @click="getConsultLog(item.id)">查看</span></td>
+                            </tr>
+                        </table>
+                        <!-- <div class="page_box">
+                            <span>共{{count}}条</span>
+                            <el-pagination
+                              background
+                              layout="prev, pager, next"
+                              :page-size="pageSize"
+                              :total="count"
+                              @current-change="currentChange"
+                            >
+                            </el-pagination>
+                        </div> -->
+                    </div>  
+                </div>
+            </div>    
+            <!-- 弹窗 -->
+            <div class="mark" v-show="isShowTargetCard">
+                <div class="card">
+                    <p class="card_title">咨询目标</p>
+                    <div class="card_content">
+                        <textarea placeholder="（请填写咨询目标）" v-model="target" onfocus="this.placeholder=''" onblur="this.placeholder='（请填写咨询目标）'" class="text_targe"></textarea>
+                        <div class="save" @click="storeConsultTarget">保存</div>
+                        <div class="close" @click="exitConfirm"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 弹窗 -->
+            <div class="mark" v-show="isShowSchemeCard">
+                <div class="card">
+                    <p class="card_title">咨询方案</p>
+                    <div class="card_content">
+                        <textarea placeholder="（请填写咨询方案）" v-model="scheme" onfocus="this.placeholder=''" onblur="this.placeholder='（请填写咨询方案）'" class="text_targe"></textarea>
+                        <div class="save" @click="storeConsultScheme">保存</div>
+                        <div class="close" @click="exitConfirm"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- 新增和编辑咨询记录弹窗 -->
+            <div class="mark" v-show="isShowConsultLog">
+                <div class="card">
+                    <p class="card_title">咨询记录</p>
+                    <div class="card_content">
+                        <div class="time">
+                            访谈时间：
+                            <el-date-picker
+                                v-model="consultLogObj.date"
+                                type="date"
+                                placeholder="请选择访谈日期"
+                                value-format="yyyy-MM-dd"
+                                >
+                            </el-date-picker>
+                        </div>
+                        <div class="card_main">
+                            <p>规划主题</p>
+                            <textarea v-model="consultLogObj.theme"  class="read_dia"></textarea>
+                            <p>目的</p>
+                            <textarea v-model="consultLogObj.purpose"  class="read_dia"></textarea>
+                            <p>方法</p>
+                            <textarea v-model="consultLogObj.method"  class="read_dia"></textarea>
+                            <p>过程</p>
+                            <textarea v-model="consultLogObj.process"  class="read_dia"></textarea>
+                            <p>结果</p>
+                            <textarea v-model="consultLogObj.result"  class="read_dia"></textarea>
+                            <p>下次规划计划</p>
+                            <textarea v-model="consultLogObj.next_plan"  class="read_dia"></textarea>
+                            <p>家庭作业</p>
+                            <textarea v-model="consultLogObj.homework"  class="read_dia"></textarea>
+                        </div>
+                        <div class="save" @click="storeConsultLog">保存</div>
+                        <div class="close" @click="exitConfirm();getConsultLogList()"></div>
+                    </div>  
+                </div>  
+            </div>
+            <div class="mark" v-show="isShowConsultLogDetail">
+                <div class="card">
+                    <p class="card_title">咨询记录</p>
+                    <div class="card_content">
+                        <div class="time">
+                            访谈时间：
+                            <el-date-picker
+                                v-model="consultLogObjDetail.date"
+                                type="date"
+                                placeholder="请选择访谈日期"
+                                value-format="yyyy-MM-dd"
+                                readonly
+                                >
+                            </el-date-picker>
+                        </div>
+                        <div class="card_main">
+                            <p>规划主题</p>
+                            <textarea v-model="consultLogObjDetail.theme"  class="read_dia" readonly></textarea>
+                            <p>目的</p> 
+                            <textarea v-model="consultLogObjDetail.purpose"  class="read_dia" readonly></textarea>
+                            <p>方法</p>
+                            <textarea v-model="consultLogObjDetail.method"  class="read_dia" readonly></textarea>
+                            <p>过程</p>
+                            <textarea v-model="consultLogObjDetail.process"  class="read_dia" readonly></textarea>
+                            <p>结果</p>
+                            <textarea v-model="consultLogObjDetail.result"  class="read_dia" readonly></textarea>
+                            <p>下次规划计划</p>
+                            <textarea v-model="consultLogObjDetail.next_plan"  class="read_dia" readonly></textarea>
+                            <p>家庭作业</p>
+                            <textarea v-model="consultLogObjDetail.homework"  class="read_dia" readonly></textarea>
+                        </div>
+                        <!-- <div class="save" @click="storeConsultLog">保存</div> -->
+                        <div class="close" @click="isShowConsultLogDetail = false"></div>
+                    </div>  
+                </div>  
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/career/js/jquery-3.4.1.min.js"></script>
+<script src="/career/js/vue.js"></script>
+<!-- <script src="/career/js/echarts.min.js"></script> -->
+<script src="/career/js/elementUi.js"></script>
+<script src="/career/js/axios.min.js"></script>
+<!-- <script src="/career/js/api/index.js"></script> -->
+<script src="/career/js/api/address.js"></script>
+<!-- <script src="/career/js/circleChart.min.js"></script> -->
+<!-- <script src="/career/js/html2canvas.js"></script> -->
+<!-- <script src="/career/js/jspdf.js"></script> -->
+<script>
+    // import getPdf from './js/htmlToPdf.js';
+    // Vue.prototype.ports = ports;
+    Vue.prototype.$ajax= axios;
+    // Vue.prototype.$echarts = echarts;
+    Vue.prototype.G_uri= address.G_uri;
+    Vue.prototype.G_uris= address.G_uris;
+    // Vue.prototype.getPdf = getPdf;
+    new Vue({
+        // name: "teacherCareerAnchor",
+        el:'.main_inner',
+        data(){
+            return{
+                studentId: window.sessionStorage.getItem('studentId'),
+                // 是否显示咨询目标填写弹窗
+                isShowTargetCard: false,
+                // 咨询目标
+                target: '',
+                targetObj: {},
+                isShowSchemeCard: false,
+                // 咨询方案
+                scheme: '',
+                schemeObj: {},
+                // 是否显示咨询记录弹窗
+                isShowConsultLog: false,
+                // 咨询记录
+                consultLogObj: {
+                    id: '',
+                    date: '',
+                    theme: '',
+                    purpose: '',
+                    method: '',
+                    process: '',
+                    result: '',
+                    next_plan: '',
+                    homework: ''
+                },
+                // 获取咨询记录列表
+                ConsultLogList: [],
+                // 查看咨询记录详情，不可修改
+                // 是否显示咨询记录弹窗，不可保存，修改
+                isShowConsultLogDetail: false,
+                consultLogObjDetail: {},
+
+
+                // 分页器
+                // 报告数组
+                reportList: [],
+                // 报告共有多少条
+                count: 1,
+                // 报告一共有多少页
+                totalPage: '',
+                // 每页显示多少条
+                pageSize: 7,
+                // 当前页
+                currentPage: 1
+            }
+        },
+        methods:{
+            // 保存成功提示
+            successMessage() {
+                this.$message({
+                    type: 'success',
+                    message: '保存成功'
+                });
+            },
+            //退出确认
+            exitConfirm(id){
+                this.$confirm('退出后不会保存编辑内容，确认退出?', '提示', {
+                    confirmButtonText: '确定',
+                    cancelButtonText: '取消',
+                    type: 'warning'
+                }).then(() => {
+                    this.isShowTargetCard = false;
+                    this.isShowSchemeCard = false;
+                    this.isShowConsultLog = false;
+
+                    this.$message({
+                        type: 'info',
+                        message: '已退出'
+                    });
+                }).catch((error) => {
+                    console.log(error)
+                })
+            },
+            //生涯管理 - 学业规划 - 规划 - 获取咨询目标详情
+            getConsultTarget(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/getConsultTarget',{
+                    studentId: this.studentId
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    let data = res.data.data;
+                    if(res.data.code == 2000) {
+                        if(data.updatedAt) {
+                            this.targetObj = data;  
+                        }
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            // //生涯管理 - 学业规划 - 规划 - 保存咨询目标
+            storeConsultTarget(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/storeConsultTarget',{
+                    target: this.target,
+                    studentId: this.studentId,
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.data.id == true) {
+                        this.getConsultTarget();
+                        this.isShowTargetCard = false;
+                        this.successMessage();
+
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            //生涯管理 - 学业规划 - 规划 - 获取咨询方案详情
+            getConsultScheme(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/getConsultScheme',{
+                    studentId: this.studentId
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    let data = res.data.data;
+                    if(res.data.code == 2000) {
+                        if(data.updatedAt) {
+                            this.schemeObj = data;  
+                        }
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            //生涯管理 - 学业规划 - 规划 - 保存咨询方案
+            storeConsultScheme(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/storeConsultScheme',{
+                    studentId: this.studentId,
+                    scheme: this.scheme,
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.data.id == true) {
+                        this.getConsultScheme();
+                        this.isShowSchemeCard = false;
+                        this.isShowSchemeschemeCard = false;
+                        this.successMessage();
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            // 增加咨询记录
+            addConsultLog() {
+                this.isShowConsultLog = true;
+                this.consultLogObj = {
+                    id: '',
+                    date: '',
+                    theme: '',
+                    purpose: '',
+                    method: '',
+                    process: '',
+                    result: '',
+                    next_plan: '',
+                    homework: ''
+                }
+            },
+            //生涯管理 - 学业规划 - 规划 - 咨询记录列表
+            getConsultLogList(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/getConsultLogList',{
+                    studentId: this.studentId,
+                    pageSize: this.pageSize,
+                    pageNumber: this.currentPage
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    let data = res.data.data;
+                    if(res.data.code == 2000) {
+                        this.ConsultLogList = data;
+                        if(data.list) {
+                            let id = data.list[0].id;
+                            this.getNowConsultLog(id)
+                        }
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+           //生涯管理 - 学业规划 - 规划 - 获取咨询当前记录详情
+            getNowConsultLog(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/getConsultLog',{
+                    studentId: this.studentId,
+                    // 咨询记录ID
+                    id:id
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.code == 2000) {
+                        this.consultLogObj = res.data.data;
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            //生涯管理 - 学业规划 - 规划 - 获取咨询记录详情
+            getConsultLog(id){
+                this.isShowConsultLogDetail = true;
+                this.$ajax.post(this.G_uri + '/careerArchives/getConsultLog',{
+                    studentId: this.studentId,
+                    // 咨询记录ID
+                    id:id
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.code == 2000) {
+                        this.consultLogObjDetail = res.data.data;
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            //生涯管理 - 学业规划 - 规划 - 保存咨询记录
+            storeConsultLog(id){
+                this.$ajax.post(this.G_uri + '/careerArchives/storeConsultLog',{
+                    studentId: this.studentId,
+                    id: this.consultLogObj.id,
+                    date: this.consultLogObj.date,
+                    theme: this.consultLogObj.theme,
+                    purpose: this.consultLogObj.purpose,
+                    method: this.consultLogObj.method,
+                    process: this.consultLogObj.process,
+                    result: this.consultLogObj.result,
+                    next_plan: this.consultLogObj.next_plan,
+                    homework: this.consultLogObj.homework,
+                },{
+                    headers:{
+                        // token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                })
+                .then((res)=>{
+                    if(res.data.data.id == true) {
+                        this.getConsultLogList();
+                        this.isShowConsultLog = false;
+                        this.successMessage();
+                    }
+                })
+                .catch((error) => {
+                    console.log(error);
+                }) 
+            },
+            getHeight() {
+                let Height = $(window).height() - 50;
+                console.log( $('.card'));
+                $('.card').each(function() {
+                    let cardHeight = $(this).height();
+                    if( cardHeight > Height) {
+                        $(this).height(Height-20);
+                        $(this).find('.card_content').height(Height - 62-20);
+                    }
+                })
+
+            }
+        },
+        watch:{
+            isShowConsultLog() {
+                // console.log(66666)
+                if(this.isShowConsultLog) {
+                    this.$nextTick(() => {
+                        this.getHeight();
+                    })
+                }
+            },
+            isShowConsultLogDetail() {
+                if(this.isShowConsultLogDetail) {
+                    this.$nextTick(() => {
+                        this.getHeight();
+                    })
+                }
+            }
+        },
+        created() {
+            this.getConsultTarget();
+            this.getConsultScheme();
+            this.getConsultLogList();
+        },
+        mounted(){
+            setTimeout(function () {
+                $('#loading').hide();
+                // $('.main').fadeIn();
+            })
+        }
+    })
+</script>
+</html>

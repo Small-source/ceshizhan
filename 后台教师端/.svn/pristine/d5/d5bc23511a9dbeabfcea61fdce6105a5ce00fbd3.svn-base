@@ -1,0 +1,168 @@
+body {
+  background-color: #f3f4f8;
+}
+.growthArchiveEntry {
+  width: 970px;
+  margin: 0 auto;
+}
+.growthArchiveEntry * {
+  box-sizing: border-box;
+  letter-spacing: 1.5px;
+}
+.growthArchiveEntry .noneContent {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 126px;
+  height: 120px;
+  background: url("/career/imgs/careerManagement/careerAnchor/noneContent.png") no-repeat center center;
+}
+.growthArchiveEntry .electiveBox {
+  background: #fff;
+  width: 950px;
+  padding: 0 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.growthArchiveEntry .electiveBox li {
+  position: relative;
+  width: 455px;
+  height: 106px;
+  border-radius: 5px;
+  border: 1px solid #EBEBEB;
+}
+.growthArchiveEntry .electiveBox li:nth-of-type(3) {
+  height: 198px;
+}
+.growthArchiveEntry .electiveBox li .left {
+  width: 120px;
+  float: left;
+}
+.growthArchiveEntry .electiveBox li .left img {
+  position: relative;
+  left: 30px;
+  top: 26px;
+}
+.growthArchiveEntry .electiveBox li .right {
+  width: 330px;
+  float: right;
+  padding-right: 25px;
+}
+.growthArchiveEntry .electiveBox li .right .title {
+  line-height: 56px;
+  font-weight: bolder;
+  font-size: 18px;
+  color: #333333;
+}
+.growthArchiveEntry .electiveBox li .right p {
+  line-height: 20px;
+  color: #AFAFAF;
+  font-size: 12px;
+}
+.growthArchiveEntry .electiveBox li .right .buttons {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.growthArchiveEntry .electiveBox li .right .button {
+  background: #3D90F6;
+  border-radius: 5px;
+  text-align: center;
+  letter-spacing: 3px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 14px;
+  width: 76px;
+  margin: 15px;
+  cursor: pointer;
+}
+.growthArchiveEntry .myReports {
+  width: 970px;
+  background: #fff;
+  padding: 0 16px;
+}
+.growthArchiveEntry .myReports img {
+  margin-right: 10px;
+}
+.growthArchiveEntry .myReports .title {
+  font-size: 17px;
+  color: #348DF1;
+  font-weight: bolder;
+  padding-top: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 24px;
+}
+.growthArchiveEntry .myReports p {
+  line-height: 62px;
+  color: #333333;
+}
+.growthArchiveEntry .myReports table {
+  width: 100%;
+}
+.growthArchiveEntry .myReports table thead tr {
+  background: #F3F4F8;
+  border-radius: 3px;
+}
+.growthArchiveEntry .myReports table thead td {
+  font-size: 15px;
+  color: #656565;
+  line-height: 44px;
+  font-weight: bolder;
+  text-align: center;
+}
+.growthArchiveEntry .myReports table td {
+  border: 1px solid #EBEBEB;
+}
+.growthArchiveEntry .myReports table tbody tr td {
+  text-align: center;
+  line-height: 38px;
+  font-size: 12px;
+}
+.growthArchiveEntry .myReports table tbody tr td span {
+  cursor: pointer;
+}
+.growthArchiveEntry .myReports table tbody tr td span:hover {
+  color: #2c8ffc;
+}
+.growthArchiveEntry .myReports table tbody tr td span a {
+  color: #2c8ffc;
+  text-decoration: none;
+}
+.growthArchiveEntry .myReports table tbody tr td .icon {
+  display: block;
+  margin: 0 auto;
+  width: 34px;
+  height: 22px;
+  background: url("/career/imgs/careerManagement/academicPlanningReport/icon_xiazaihui.png");
+}
+.growthArchiveEntry .myReports table tbody tr td .icon:hover {
+  background: url("/career/imgs/careerManagement/academicPlanningReport/icon_xiazailan.png");
+}
+.growthArchiveEntry .myReports table tbody tr .show {
+  color: #469AFA !important;
+  cursor: pointer;
+}
+.growthArchiveEntry .myReports table tbody .showClose td {
+  color: #CACACA;
+}
+.growthArchiveEntry .myReports .pages {
+  margin: 40px auto;
+  text-align: center;
+}
+.growthArchiveEntry .myReports .noNotice {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 16px;
+  color: #9e9e9e;
+}
+.growthArchiveEntry .myReports .page_box {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.growthArchiveEntry .myReports .page_box span {
+  line-height: 32px;
+  margin-right: 10px;
+}

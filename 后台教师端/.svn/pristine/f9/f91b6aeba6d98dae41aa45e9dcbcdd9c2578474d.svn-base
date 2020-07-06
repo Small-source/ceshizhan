@@ -1,0 +1,299 @@
+.planning {
+	background-color: #f3f4f8;
+	.inner {
+		width: 970px;
+		margin: 0 auto;
+	}
+	.el-input__inner  {
+        border: 1px solid #DCDFE6 !important;
+        border-radius: 4px;
+    }
+	*{
+        letter-spacing: 1.5px;
+        box-sizing: border-box;
+    }
+	.banner {
+		margin-bottom: 20px;
+	}
+	.btn {
+		width: 62px;
+		height: 24px;
+		line-height: 24px;
+		background-color: #3d91f4;
+		text-align: center;
+		color: #fff;
+		cursor: pointer;
+		font-size: 13px;
+		border-radius: 3px;
+	}
+	.main_box {
+        padding:0px 20px 24px 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        h6.title {
+            line-height: 64px;
+            font-size: 17px;
+            color: #348DF1;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            padding-left: 30px;
+            background: url(/career/imgs/careerArchives/icon_biaoti.png) no-repeat 0px center;
+            p {
+            	float: right;
+            	cursor: pointer;
+            	margin-top: 20px;
+            }
+        }
+        // 初步访谈记录 评估与诊断记录
+        .recording {
+            border: 1px solid #ebebeb;
+            border-radius: 5px;
+            height: 132px;
+            .top {
+                height: 90px;
+                line-height: 90px;
+                text-align: center;
+                cursor: pointer;
+                width: 66px;
+                margin: 0 auto;
+            }
+            .foot {
+                width: 490px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                p {
+                    font-size: 14px;
+                    color: #666;
+                    padding-left: 40px;
+                    span {
+                        color: #358ced;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+        .table_box {
+            table {
+                tr {
+                    th {
+                        background-color: #f3f4f8;
+                        border: 1px solid #ebebeb;
+                        color: #000;
+                        font-size: 14px;
+                        font-weight: 600;
+						text-align: center;
+						padding: 10px;
+						line-height: 24px;
+                        &:nth-child(1) {
+                        	width: 80%;
+                        }	                        
+                        &:nth-child(2) {
+                            width: 20%;
+                        }
+                    }
+                    td {
+                    	padding: 10px;
+                        border: 1px solid #ebebeb;
+                        line-height: 24px;
+                        &:nth-child(1) {
+                            
+                        }
+                        &:nth-child(2) {
+                            text-align: center;
+
+                        }
+                    }
+                }
+            }
+        }
+        .history_title {
+        	line-height: 74px;
+        	height: 74px;
+        }
+        .now_history_btn {
+        	margin-bottom: 20px;
+        	height: 26px;
+        	line-height: 26px;
+        	p {
+        		float: left;
+        		padding-left: 30px;
+        	}
+        	.btn_box {
+        		float: right;
+				.btn {
+					float: left;
+					margin-left: 16px;   
+				}
+        	}
+
+        } 
+        .now_history_table {
+        	table {
+
+    			tr {
+    				td {
+                        border: 1px solid #ebebeb;
+                        color: #000;
+                        font-size: 14px;
+                        
+                        text-align: center;
+                        padding: 10px 20px;
+                        &:first-child {
+							background-color: #f3f4f8;
+							line-height: 60px;
+							font-weight: 600;
+                        }
+                        &:last-child {
+                        	text-align: left;
+                        	line-height: 24px;
+                        }
+    				}
+    			}
+    			.table_title {
+					td {
+						background-color: #f3f4f8;
+						border: 1px solid #ebebeb;
+						text-align: left;
+						padding: 10px 20px;
+						font-weight: 600;
+						line-height: 24px !important;
+					}
+				}	
+            }
+        }
+        .history_table {
+        	table {
+                tr {
+                    line-height: 40px;
+                    th {
+                        background-color: #f3f4f8;
+                        border: 1px solid #ebebeb;
+                        color: #000;
+                        font-size: 14px;
+                        font-weight: 600;
+                        &:nth-child(1) {
+                            padding-left: 140px;
+                        }
+                        &:nth-child(2) {
+                            width: 20%;
+                            text-align: center;
+
+                        }
+                        &:nth-child(3) {
+                            width: 20%;
+                            text-align: center;    
+                        }
+                    }
+                    td {
+                        border: 1px solid #ebebeb;
+                        &:nth-child(1) {
+                            padding-left: 30px;
+                        }
+                        &:nth-child(2) {
+                            text-align: center;
+
+                        }
+                        &:nth-child(3) {
+                            text-align: center;
+                            span {
+                                color: #358ced;
+                                cursor: pointer;
+                            }    
+                        }
+                    }
+                }
+            }
+	        .page_box {
+                padding: 30px;
+                display: flex;
+                justify-content: center;
+                span {
+                    line-height: 32px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .mark {
+    	position: fixed;
+    	left: 0;
+    	top: 0;
+    	bottom: 0;
+    	right: 0;
+    	z-index: 10;
+    	background: rgba(0,0,0,.5);
+        .card {
+            width: 652px;
+            position: fixed;
+            left: 50%;
+            top:50%;
+            z-index: 20;
+            margin-left: -326px;
+            top: 50px;
+            border-radius: 5px;
+            // overflow: hidden;
+            background-color: #fff;
+            .card_title {
+                line-height: 60px;
+                text-align: center;
+                font-size: 17px;
+                color: #fff;
+                background: url('/career/imgs/careerManagement/diagnosis/icon_toubu.png');
+            }
+            .card_content {
+                padding: 0px 40px;
+                padding-top: 10px;
+                background-color: #fff;
+                overflow-y: auto;
+                p {
+                    line-height: 30px;
+                    padding-top: 5px;
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #333;
+                }
+                textarea {
+                    box-sizing: border-box;
+                    padding: 10px;
+                    width: 100%;
+                    height: 75px;
+                    border-radius: 5px;
+                    font-size: 14px;
+                    color: #333;
+                    border: 1px solid #DCDFE6 !important;
+
+                }
+                textarea::-webkit-input-placeholder { 
+                    color: #666;
+                    font-size: 12px;
+                }
+                .text_targe {
+                	height: 200px;
+                }
+                .save {
+                    width: 76px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 3px;
+                    background-color: #358ced;
+                    color: #fff;
+                    font-size: 13px;
+                    cursor: pointer;
+                    margin: 20px auto;
+
+                }
+            }
+            .close{
+                width: 17px;
+                height: 17px;
+                position: absolute;
+                top:21px;
+                right: 22px;
+                cursor: pointer;
+            }
+        }
+    }
+}

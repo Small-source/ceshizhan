@@ -1,0 +1,298 @@
+.diagnosis {
+	width: 970px;
+	margin: 0 auto;
+    * {
+        box-sizing: border-box;
+    }
+	.banner {
+        margin-bottom: 20px;
+    }
+    .main_box {
+        padding:0px 20px 24px 20px;
+        background-color: #fff;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        a {
+            color: #358ced;
+        }
+        h6.title {
+            line-height: 64px;
+            font-size: 17px;
+            color: #348DF1;
+            font-weight: bolder;
+            letter-spacing: 2px;
+            padding-left: 30px;
+            background: url(/career/imgs/careerArchives/icon_biaoti.png) no-repeat 0px center;
+        }
+        .lis_box {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .lis {
+                width: 454px;
+                height: 106px;
+                border-radius: 5px;
+                border: 1px solid #ebebeb;
+                padding: 30px 20px 0px 20px;
+                margin-bottom: 20px;
+                .img_box {
+                    float: left;
+                }
+                p {
+                    line-height: 42px;
+                    font-size: 17px;
+                    color: #333;
+                    font-weight: 600;
+                    float: left;
+                    padding-left: 10px;
+                }
+                .btn {
+                    width: 76px;
+                    height: 30px;
+                    line-height: 30px;
+                    text-align: center;
+                    border-radius: 3px;
+                    background-color: #358ced;
+                    color: #fff;
+                    font-size: 13px;
+                    float: right;
+                    margin-top: 7px; 
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    // 初步访谈记录 评估与诊断记录
+    .recording {
+        border: 1px solid #ebebeb;
+        border-radius: 5px;
+        height: 132px;
+        .top {
+            height: 90px;
+            line-height: 90px;
+            text-align: center;
+            cursor: pointer;
+            width: 66px;
+            margin: 0 auto;
+        }
+        .foot {
+            width: 460px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            p {
+                font-size: 14px;
+                color: #666;
+                span {
+                    color: #358ced;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    .evaluation {
+        padding-bottom: 4px;
+    }
+    .evaluation_report {
+        table {
+            tr {
+                line-height: 40px;
+                th {
+                    background-color: #f3f4f8;
+                    border: 1px solid #ebebeb;
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 600;
+                    &:nth-child(1) {
+                        padding-left: 140px;
+                    }
+                    &:nth-child(2) {
+                        width: 20%;
+                        text-align: center;
+
+                    }
+                    &:nth-child(3) {
+                        width: 20%;
+                        text-align: center;    
+                    }
+                }
+                td {
+                    border: 1px solid #ebebeb;
+                    &:nth-child(1) {
+                        padding-left: 30px;
+                    }
+                    &:nth-child(2) {
+                        text-align: center;
+
+                    }
+                    &:nth-child(3) {
+                        text-align: center;
+                        span {
+                            color: #358ced;
+                            cursor: pointer;
+                        }    
+                    }
+                }
+            }
+        }
+        .prompt {
+            line-height: 80px;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    // 诊断与评估历史记录
+    .history_record {
+        .table_box {
+            .table_title {
+                background-color: #f3f4f8;
+                border: 1px solid #ebebeb;
+                color: #000;
+                font-size: 14px;
+                font-weight: 600;
+                padding-left: 140px;
+                width: 100%;
+                line-height: 40px;
+            }
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                li {
+                    border-right: 1px solid #ebebeb;
+                    border-bottom: 1px solid #ebebeb;
+                    color: #000;
+                    font-size: 14px;
+                    font-weight: 600;
+                    padding: 0px 20px;
+                    width: 25%;
+                    line-height: 40px;
+                    &:nth-child(4n + 1) {
+                        border-left: 1px solid #ebebeb;
+                    }
+                    span {
+                        float: right;
+                        width: 40px;
+                        height: 40px;
+                        line-height: 40px;
+                        cursor: pointer;
+                        background: url(/career/imgs/careerManagement/diagnosis/icon_chakan.png) no-repeat center center;
+                    }
+                }
+            }
+        }
+        .prompt {
+            line-height: 80px;
+            font-size: 20px;
+            text-align: center;
+        }
+    }
+    .mark {
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 10;
+        background: rgba(0,0,0,.5);
+    }
+    .cards {
+        width: 652px;
+        position: fixed;
+        left: 50%;
+        top:50%;
+        z-index: 20;
+        margin-left: -326px;
+        top: 50px;
+        border-radius: 5px;
+        overflow: hidden;
+        .card_title {
+            line-height: 60px;
+            text-align: center;
+            font-size: 17px;
+            color: #fff;
+            background: url('/career/imgs/careerManagement/diagnosis/icon_toubu.png');
+        }
+        .card_content {
+            padding: 10px 40px;
+            overflow-y: auto;
+            // height: 670px;
+            background-color: #fff;
+            p {
+                line-height: 30px;
+                padding-top: 5px;
+                font-size: 14px;
+                font-weight: 600;
+                color: #333;
+            }
+            textarea {
+                box-sizing: border-box;
+                padding: 10px;
+                width: 100%;
+                height: 75px;
+                border-radius: 5px;
+                font-size: 14px;
+                color: #333;
+                border: 1px solid #DCDFE6 !important;
+
+            }
+            textarea::-webkit-input-placeholder { 
+                color: #666;
+                font-size: 12px;
+            }
+            .save {
+                margin: 20px auto;
+                width: 76px;
+                height: 30px;
+                line-height: 30px;
+                text-align: center;
+                border-radius: 3px;
+                background-color: #358ced;
+                color: #fff;
+                font-size: 13px;
+                cursor: pointer;
+            }
+        }
+        .close{
+            width: 17px;
+            height: 17px;
+            position: absolute;
+            top:21px;
+            right: 22px;
+            cursor: pointer;
+        }
+    }
+    .card_diagnosis {
+        .card_content {
+            padding-top: 20px;
+            p {
+                line-height: 40px;
+            }
+            textarea {
+                height: 160px;
+            }
+            .save {
+                width: 110px;
+                height: 42px;
+                line-height: 42px;
+                font-size: 15px;
+                font-weight: 600;
+                margin: 35px auto;
+            }
+        }
+    }
+    .page_box {
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        span {
+            line-height: 32px;
+            margin-right: 10px;
+        }
+    }
+}
+.diagnosis {
+    .el-input__inner  {
+        border: 1px solid #DCDFE6 !important;
+        border-radius: 4px;
+    }
+}

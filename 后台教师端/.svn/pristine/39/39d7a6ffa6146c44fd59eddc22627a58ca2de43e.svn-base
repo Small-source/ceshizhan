@@ -1,0 +1,331 @@
+[v-cloak] {
+  display: none;
+}
+.test_report {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #E8E8E8;
+}
+.test_report .get_pdf {
+  height: 0px;
+  width: 100%;
+  position: fixed;
+  top: 30%;
+}
+.test_report .get_pdf .inner {
+  width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+.test_report .get_pdf .inner .btn_pdf {
+  position: absolute;
+  padding: 5px 10px;
+  right: -40px;
+  width: 20px;
+  text-align: center;
+  background-color: #2c8ffc;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.test_report .pdf {
+  width: 900px;
+  line-height: 0px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.test_report .pdf .page_shadow {
+  -webkit-box-shadow: 0px 0px 10px #666;
+  -ms-box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  height: 1300px;
+  width: 900px;
+  margin-bottom: 20px;
+}
+.test_report .pdf .page_cover {
+  height: 1230px;
+  padding-top: 70px;
+  background: url(../imgs/wayToStudy/analysis_test/report/cover.png);
+  background-size: 900px 1300px;
+}
+.test_report .pdf .page_cover .header {
+  margin-bottom: 136px;
+}
+.test_report .pdf .page_cover .header h3 {
+  line-height: 70px;
+  font-size: 56px;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.test_report .pdf .page_cover .header .detail {
+  line-height: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: #fff;
+}
+.test_report .pdf .page_cover .main {
+  height: 246px;
+  width: 420px;
+  margin: 0 auto;
+  padding: 36px 0px;
+  padding-left: 200px;
+}
+.test_report .pdf .page_cover .main p {
+  line-height: 60px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.test_report .pdf .page_cover .bottom {
+  padding-top: 50px;
+  color: #fff;
+}
+.test_report .pdf .page_cover .bottom p {
+  line-height: 30px;
+  text-align: center;
+  font-size: 16px;
+}
+.test_report .pdf .paged {
+  height: 1160px;
+  padding-top: 140px;
+  background: url(../imgs/wayToStudy/analysis_test/report/bg.png) no-repeat;
+  background-size: 900px 1300px;
+  background-color: #fff;
+  position: relative;
+}
+.test_report .pdf .paged .header {
+  line-height: 50px;
+  color: #0070C0;
+  font-size: 30px;
+  text-align: center;
+}
+.test_report .pdf .paged .header_detail {
+  text-align: center;
+  line-height: 60px;
+}
+.test_report .pdf .paged .content {
+  padding: 30px 100px;
+}
+.test_report .pdf .paged .content .big_title_box {
+  display: flex;
+  line-height: 50px;
+}
+.test_report .pdf .paged .content .big_title_box .big_title {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 20px;
+  background: url(../imgs/wayToStudy/analysis_test/report/icon_biaoti.png) 0px center no-repeat;
+  font-size: 20px;
+  color: #000;
+}
+.test_report .pdf .paged .content .big_title_box .big_title span {
+  height: 50px;
+  font-size: 24px;
+  line-height: 50px;
+  font-weight: 600;
+  text-align: center;
+  width: 30px;
+  position: absolute;
+  left: 0px;
+  top: -6px;
+}
+.test_report .pdf .paged .content .big_title_box .line {
+  flex: 1;
+  border-top: 1px dashed #000;
+  margin: auto 0;
+}
+.test_report .pdf .paged .content .big_title_box .page_number {
+  padding-left: 10px;
+  font-size: 18px;
+}
+.test_report .pdf .paged .content .small_title_box {
+  line-height: 40px;
+  padding-left: 40px;
+  font-size: 16px;
+  color: #666;
+  display: flex;
+}
+.test_report .pdf .paged .content .small_title_box .small_title {
+  flex: 1;
+}
+.test_report .pdf .paged .content .echats_box {
+  height: 260px;
+  display: flex;
+  justify-content: space-between;
+}
+.test_report .pdf .paged .content .echats_box .circle1 {
+  width: 240px;
+  height: 240px;
+  position: relative;
+}
+.test_report .pdf .paged .content .echats_box .circle1 .box {
+  position: absolute;
+  text-align: center;
+  width: 240px;
+  top: 60px;
+  color: #006ec6;
+  font-size: 20px;
+  line-height: 30px;
+}
+.test_report .pdf .paged .content .echats_box .circle1 .box .box_title {
+  margin-bottom: 20px;
+}
+.test_report .pdf .paged .content .echats_box .circle1 .box .num {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.test_report .pdf .paged .content .echats_box .circle1 .box .num span:nth-child(2) {
+  color: #333;
+}
+.test_report .pdf .paged .content .echats_box .circle2 {
+  width: 240px;
+  height: 240px;
+  position: relative;
+}
+.test_report .pdf .paged .content .echats_box .circle2 .box {
+  position: absolute;
+  text-align: center;
+  width: 240px;
+  top: 60px;
+  color: #006ec6;
+  font-size: 20px;
+  line-height: 30px;
+}
+.test_report .pdf .paged .content .echats_box .circle2 .box .box_title {
+  margin-bottom: 20px;
+}
+.test_report .pdf .paged .content .echats_box .circle2 .box .num {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.test_report .pdf .paged .content .echats_box .circle2 .box .num span:nth-child(2) {
+  color: #333;
+}
+.test_report .pdf .paged .content .echats_box .circle2 .box {
+  color: ;
+}
+.test_report .pdf .paged .content .page2_detail {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.test_report .pdf .paged .content .page2_detail .tuijian {
+  color: #056dba;
+}
+.test_report .pdf .paged .content .page2_detail .fuhe {
+  color: #ff1360;
+}
+.test_report .pdf .paged .content .main {
+  margin-bottom: 30px;
+}
+.test_report .pdf .paged .content .main p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #333;
+  text-indent: 2em;
+  margin-bottom: 5px;
+}
+.test_report .pdf .paged .content .table_gaisu {
+  margin-bottom: 30px;
+}
+.test_report .pdf .paged .content .table_gaisu tr {
+  height: 50px;
+}
+.test_report .pdf .paged .content .table_gaisu tr td {
+  text-align: center;
+}
+.test_report .pdf .paged .content .explain {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #DEEBF7;
+}
+.test_report .pdf .paged .content .explain .title {
+  padding-left: 20px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #0070C0;
+  margin-bottom: 10px;
+  border-left: 3px solid #0070C0;
+}
+.test_report .pdf .paged .content .explain p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #333;
+}
+.test_report .pdf .paged .content .title_box {
+  margin-bottom: 30px;
+}
+.test_report .pdf .paged .content .title_box h6 {
+  padding-left: 30px;
+  font-size: 22px;
+  line-height: 36px;
+  color: #0070C0;
+  margin-bottom: 10px;
+  background: url(../imgs/wayToStudy/analysis_test/report/icon_biaoti2.png) 0px center no-repeat;
+}
+.test_report .pdf .paged .content .title_box h6 .go_detail {
+  margin-left: 30px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.test_report .pdf .paged .content .title_box h6 .go_detail:hover {
+  color: #2c8ffc;
+  border-bottom: 1px solid #2c8ffc;
+}
+.test_report .pdf .paged .content .title_box p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #333;
+}
+.test_report .pdf .paged .content .condition {
+  margin-bottom: 30px;
+}
+.test_report .pdf .paged .content .condition .title {
+  font-size: 22px;
+  line-height: 36px;
+  color: #0070C0;
+  margin-bottom: 10px;
+}
+.test_report .pdf .paged .content .condition p {
+  line-height: 24px;
+  font-size: 16px;
+  color: #333;
+}
+.test_report .pdf .paged .content .must_know {
+  padding: 20px;
+  background-color: #DEEBF7;
+  border-radius: 5px;
+}
+.test_report .pdf .paged .content .must_know .title {
+  font-size: 22px;
+  line-height: 50px;
+  color: #0070C0;
+  margin-bottom: 10px;
+}
+.test_report .pdf .paged .content .must_know p {
+  line-height: 24px;
+  font-size: 14px;
+  color: #333;
+}
+.test_report .pdf .paged .content .reminder p {
+  line-height: 30px;
+  text-indent: 2em;
+  font-size: 16px;
+  color: #333;
+}
+.test_report .pdf .paged .big_page_number {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #666;
+  text-align: center;
+}

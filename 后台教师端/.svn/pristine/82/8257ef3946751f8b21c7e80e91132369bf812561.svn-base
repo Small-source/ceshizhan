@@ -1,0 +1,131 @@
+const ports={
+    //生涯管理
+    careerManagement:{
+        getRecommendedProfessionAndMajor:'/careerArchives/getRecommendedProfessionAndMajor',//推荐职业和专业
+        getCardDetail:'/careerArchives/getBusinessCardDetail',//获取未来名片详情
+        saveCard:'/careerArchives/storeBusinessCard',//添加未来名片,
+        zhiyepinghengdan:{ //职业平衡单
+            save:'/careerArchives/storeProfessionTargetBalance',//添加
+            get:'/careerArchives/detailProfessionTargetBalance',//获取
+            purpose:'/careerArchives/professionTargetBalanceRank',//意向
+            tongjitu:'/careerArchives/professionTargetBalanceWeightedResult',//统计图
+            history:'/careerArchives/getProfessionTargetBalanceRankHistoryList',//历史记录
+        },
+        yuanxiaopinghengdan:{//院校平衡单
+            save:'/careerArchives/storeUniversityTargetBalance',//添加
+            get:'/careerArchives/detailUniversityTargetBalance',//获取
+            purpose:'/careerArchives/universityTargetBalanceRank',//意向
+            tongjitu:'/careerArchives/universityTargetBalanceWeightedResult',//统计图
+            history:'/careerArchives/getUniversityTargetBalanceRankHistoryList'//历史记录
+        },
+        zhuanyepinghengdan:{//专业平衡单
+            save:'/careerArchives/storeSubjectTargetBalance',//添加
+            get:'/careerArchives/detailSubjectTargetBalance',//获取
+            purpose:'/careerArchives/subjectTargetBalanceRank',//意向
+            tongjitu:'/careerArchives/subjectTargetBalanceWeightedResult',//统计图
+            history:'/careerArchives/getSubjectTargetBalanceRankHistoryList',//历史记录
+        },
+        swotZhiye:{ //职业SWOT
+            add:'/careerArchives/storeProfessionSwot',//添加
+            list:'/careerArchives/getProfessionSwotList',//列表
+            duibi:'/careerArchives/comparedProfessionSwotList',//对比
+            show:'/careerArchives/detailProfessionSwot',//详情
+            del:'/careerArchives/delProfessionSwotList',//删除
+            edit:'/careerArchives/editProfessionSwot'//编辑
+        },
+        swotYuanxiao:{ //院校SWOT
+            add:'/careerArchives/storeUniversitySwot',//添加
+            list:'/careerArchives/getUniversitySwotList',//列表
+            duibi:'/careerArchives/comparedUniversitySwotList',//对比
+            show:'/careerArchives/detailProfessionSwot',//详情
+            del:'/careerArchives/delUniversitySwotList',//删除
+            edit:'/careerArchives/editUniversitySwot'//编辑
+        },
+        swotZhuanye:{ //院校SWOT
+            add:'/careerArchives/storeSubjectSwot',//添加
+            list:'/careerArchives/getSubjectSwotList',//列表
+            duibi:'/careerArchives/comparedSubjectSwotList',//对比
+            show:'/careerArchives/detailSubjectSwot',//详情
+            del:'/careerArchives/delSubjectSwotList',//删除
+            edit:'/careerArchives/editProfessionSwot'//编辑
+        },
+        mubiaoDingweiZhiye:{//职业目标定位
+            add:'/careerArchives/storeProfessionPosition',//添加
+            del:'/careerArchives/delProfessionPosition',//删除
+            list:'/careerArchives/getProfessionPositionList',//列表
+        },
+        mubiaoDingweiYuanxiao:{//院校目标定位
+            add:'/careerArchives/storeUniversityPosition',//添加
+            del:'/careerArchives/delUniversityPosition',//删除
+            list:'/careerArchives/getUniversityPositionList',//列表
+        },
+        mubiaoDingweiZhuanye:{//专业目标定位
+            add:'/careerArchives/storeSubjectPosition',//添加
+            del:'/careerArchives/delSubjectPosition',//删除
+            list:'/careerArchives/getSubjectPositionList',//列表
+        },
+        shoucang:{//收藏
+            yuanxiao:'/careerArchives/getCollectUniversityList',//院校
+            yuanxiaoStar:'/careerArchives/storeStartUniversity',//点亮院校星星
+            zhuanye:'/careerArchives/getCollectSubjectWithStartList',//专业
+            zhuanyeStar:'/careerArchives/storeStartSubject',
+        },
+        myGoal:{ //我的目标
+            add:'/careerArchives/storeMineTarget',//添加
+            list:'/careerArchives/getMineTargetList',//列表
+            del:'/careerArchives/delMineTarget', //删除
+            edit:'/careerArchives/editMineTarget',//编辑
+            show:'/careerArchives/detailMineTarget' //查看
+        },
+        gaoGoal:{//高考目标
+            add:'/careerArchives/storeCollegeEntranceExamination' ,//添加
+            show:'/careerArchives/detailCollegeEntranceExamination',//详情
+            edit:'/careerArchives/editCollegeEntranceExamination',//编辑
+            list:'/careerArchives/getCollegeEntranceExaminationList',//列表
+        },
+        xueQiGoal:{//学期目标
+            list:'/careerArchives/getSemesterGoalList',//列表
+            addEidt:'/careerArchives/storeSemesterGoal',//添加编辑
+            show:'/careerArchives/detailSemesterGoal'
+        },
+        xueKaoGoal:{//学考目标
+            addEidt:'/careerArchives/storeAcademicGoal',//添加编辑
+            show:'/careerArchives/detailAcademicGoal',//详情
+            list:'/careerArchives/getAcademicGoalList',//列表
+        },
+        nearGoal:{//近期目标
+            add:'/careerArchives/storeRecentTarget',//添加
+            show:'/careerArchives/detailRecentTarget',//详情
+            del:'/careerArchives/delRecentTarget',//删除
+            list:'/careerArchives/getRecentTargetList',//列表
+            complete:'careerArchives/recentTargetDone',//点击完成
+            edit:'/careerArchives/editRecentTarget'//修改
+        },
+        mounthplan:{//月计划 //周计划 //日计划
+            nowlist:'/careerArchives/getCurrentMonthlyPlan',//当月计划列表
+            nowAdd:'/careerArchives/storeMonthlyPlan',//添加当月计划
+            nowEdit:'/careerArchives/editMonthlyPlan',//编辑当月计划
+            oncelist:'/careerArchives/getOnceMonthlyPlanList',//获取曾经月计划列表
+            onceshow:'/careerArchives/getOnceMonthlyPlanDetail',//月计划详情
+            oncedel:'/careerArchives/delOnceMonthlyPlan',//月计划删除
+            getweek:'/careerArchives/getCurrentMonthlyWeeklyPlan',//获取当月周计划
+            setweek:'/careerArchives/storeCurrentMonthlyWeeklyPlan',//添加、编辑当月周计划
+            setDays:'/careerArchives/storeCurrentMonthlyWeeklyDayPlan',//添加、编辑当月日计划
+            getDays:'/careerArchives/getCurrentMonthlyWeeklyDayPlan',//获取当月日计划
+            finish:'/careerArchives/isOverDayPlan' //点击完成
+        },
+        matchingScholls:{//成绩匹配院校
+            list:'/careerArchives/getScoreMatchUniversityList',//列表
+            addCollect:'/careerArchives/storeUniversity',//添加取消收藏
+            collectList:'/careerArchives/getCollectUniversityId',//获取已收餐大学id
+            add:'/careerArchives/gradeMatchUniversity',//添加/取消匹配
+            matchingList:'/careerArchives/getGradeMatchUniversityId'//获取已匹配数组
+        },
+        guihuabaogao:{//学业规划报告
+            isNo:'/careerArchives/getLastReport',//是否生成过报告
+            storeReport:'/careerArchives/storeReport',//生成报告
+            history:'/careerArchives/getReportList',//历史记录
+            show:'/careerArchives/viewReport' //查看学业规划报告
+        }
+    }
+}

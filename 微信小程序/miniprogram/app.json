@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/tuance/perfectInformation",
     "pages/index/index",
     "pages/login/bindphone",
     "pages/login/perfectInformation",
@@ -56,6 +57,7 @@
     "pages/plan/xueyeMessage",
     "pages/plan/huojiangMessage",
     "pages/tuance/tStart",
+    "pages/tuance/bindcard",
     "pages/tuance/professionalPositioningTest",
     "pages/tuance/professionalPositioningTest_report",
     "pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2",

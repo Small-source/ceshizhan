@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet/less" href="css/public.less">
+    <link rel="stylesheet" href="css/elementUi.css">
+    <script src="js/less.min.js"></script>
+</head>
+<body>
+<div id="loading"></div>
+<div class="main" id="plan" style="display: none">
+    <div class="zhutiLeft">
+        <el-row class="tac">
+            <el-col :span="12">
+                <el-menu
+                        default-active="2"
+                        class="el-menu-vertical-demo"
+                >
+                    <el-submenu index="1">
+                        <template slot="title">
+                            <span>目标设定</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="1-1"><a href="/career/careerAnchor.html">职业定位</a></el-menu-item>
+                            <el-menu-item index="1-2"><a href="/career/university.html">院校定位</a></el-menu-item>
+                            <el-menu-item index="1-3"><a href="/career/major.html">专业定位</a></el-menu-item>
+                            <el-menu-item index="1-4"><a href="/career/goal.html">我的目标</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="2">
+                        <template slot="title">
+                            <span>目标分解</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="2-1"><a href="/career/decompose.html">目标分解</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="3">
+                        <template slot="title">
+                            <span>行动计划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="3-1"><a href="/career/plan.html">行动计划</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="4">
+                        <template slot="title">
+                            <span>学业规划报告</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="4-1"><a href="/career/academicPlanningReport.html">学业规划报告</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                    <el-submenu index="5">
+                        <template slot="title">
+                            <span>学业规划</span>
+                        </template>
+                        <el-menu-item-group>
+                            <el-menu-item index="5-1"><a href="/career/diagnosis/index.blade.php?studentId=">诊断</a></el-menu-item>
+                            <el-menu-item index="6-2"><a href="/career/planning.html">规划</a></el-menu-item>
+                            <el-menu-item index="7-3"><a href="/career/counseling.html">辅导</a></el-menu-item>
+                            <el-menu-item index="8-4"><a href="/career/growthArchiveEntry.html">成长档案</a></el-menu-item>
+                        </el-menu-item-group>
+                    </el-submenu>
+                </el-menu>
+            </el-col>
+        </el-row>
+    </div>
+    <div class="careerAnchor" style="float:left;width:970px;">
+        <div class="careerAnchorBox ">
+            <div id="masks" v-show="Dayjihuatanchuang||weekjihuatanchuang||showyuejihuatanchuang||yuejihuatanchuang||false"></div>
+            <!-- <img src="imgs/careerManagement/careerAnchor/banner.png" alt="" class="banner"> -->
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        月计划
+                    </div>
+                    <h3>
+                        <img src="/career/imgs/careerManagement/plan/icon.png" alt="">
+                        当前月计划
+                        <span  style="margin-left: 30px" @click="nowShow()">编辑</span>
+                        <span  style="" @click="yuejihuatanchuang=true">新增</span>
+                    </h3>
+                </div>
+                <div class="tables2" >
+                    <table>
+                        <tr>
+                            <td>标题</td>
+                            <td>目标内容</td>
+                            <td>内容困难</td>
+                            <td>达成策略与行为管理措施(奖惩)</td>
+                        </tr>
+                        <tr v-if="YuenowData.length!=0">
+                            <td>${YuenowData.title}</td>
+                            <td>${YuenowData.target}</td>
+                            <td>${YuenowData.content}</td>
+                            <td>${YuenowData.measure}</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="noneContent" v-if="YuenowData.length==0"></div>
+                <h3>
+                    <img src="/career/imgs/careerManagement/plan/icon.png" alt="">
+                    曾经月计划
+                </h3>
+                <p style='line-height: 14px'>添加新的月计划时，当前月计划（包括当前月的周计划和日计划）会自动收集到曾经月计划中。</p>
+                <div class="tables2"  style="padding-top: 20px">
+                    <table>
+                        <tr>
+                            <td>标题</td>
+                            <td>最后编辑时间</td>
+                            <td>日期</td>
+                            <td>查看</td>
+                            <td>删除</td>
+                        </tr>
+                        <tr v-for="item in YueonceData" >
+                            <td>${item.title}</td>
+                            <td>${item.updatedAt}</td>
+                            <td>${item.createdAt}</td>
+                            <td>
+                                <span @click="showonce(item.id)">查看</span>
+                            </td>
+                            <td class="icon">
+                                <span @click="delonce(item.id)"></span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <el-pagination v-if="YueonceData.length!=0"
+                               background
+                               @current-change="currentChange"
+                               :page-size="pageSize"
+                               layout="prev, pager, next"
+                               :total="total"
+                               class="pages"
+                >
+                </el-pagination>
+                <div class="noneContent" v-if="YueonceData.length==0"></div>
+            </div>
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        周计划
+                    </div>
+                    <h3>
+                        <img src="/career/imgs/careerManagement/plan/icon.png" alt="">
+                        当前月计划的周计划
+                        <span  style="margin-left: 30px" @click="weekjihuatanchuang=true">编辑</span>
+                    </h3>
+                </div>
+                <div class="tables2" >
+                    <table>
+                        <tr>
+                            <td>标题</td>
+                            <td>学科学习方面</td>
+                            <td>其他方面</td>
+                            <td>备注</td>
+                        </tr>
+                        <tr v-for="item in weekData">
+                            <td>${Month}月第${numbers[item.week]}周计划</td>
+                            <td>${item.subjectLearning}</td>
+                            <td>${item.otherAspects}</td>
+                            <td>${item.remark}</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="parts">
+                <div class="top">
+                    <div class="title">
+                        <img src="/career/imgs/careerArchives/icon_biaoti.png" alt="">
+                        日计划
+                    </div>
+                    <h3>
+                        <img src="/career/imgs/careerManagement/plan/icon.png" alt="">
+                        当前月计划的日计划
+                        <span  style="margin-left: 30px" @click="Dayjihuatanchuang=true">编辑</span>
+                    </h3>
+                </div>
+                <ul class="listNav">
+                    <li @click="tabs(0)" :class="Daybool[0]&&'listActive'">第一周</li>
+                    <li @click="tabs(1)" :class="Daybool[1]&&'listActive'">第二周</li>
+                    <li @click="tabs(2)" :class="Daybool[2]&&'listActive'">第三周</li>
+                    <li @click="tabs(3)" :class="Daybool[3]&&'listActive'">第四周</li>
+                </ul>
+                <div class="tables2" >
+                    <table >
+                        <tr>
+                            <td>日期</td>
+                            <td>今天我要完成的目标</td>
+                            <td>完成保障措施</td>
+                            <td>是否完成</td>
+                        </tr>
+                        <tr v-for="item in DayData1" v-if="Daybool[0]">
+                            <td>${item.date}</td>
+                            <td>${item.completeTargetToday}</td>
+                            <td>${item.completeSafeguards}</td>
+                            <td class="wanchang">
+                                <span class="weiwancheng" v-if="item.isOver!=1" @click="(item.date||item.completeSafeguards||item.completeSafeguards)&&finish(item.id)"></span>
+                                <img src="/career/imgs/careerManagement/decompose/wancheng.png" alt="" v-if="item.isOver==1">
+                            </td>
+                        </tr>
+                        <tr v-for="item in DayData2" v-if="Daybool[1]">
+                            <td>${item.date}</td>
+                            <td>${item.completeTargetToday}</td>
+                            <td>${item.completeSafeguards}</td>
+                            <td class="wanchang">
+                                <span class="weiwancheng" v-if="item.isOver!=1" @click="(item.date||item.completeSafeguards||item.completeSafeguards)&&finish(item.id)"></span>
+                                <img src="/career/imgs/careerManagement/decompose/wancheng.png" alt="" v-if="item.isOver==1">
+                            </td>
+                        </tr>
+                        <tr v-for="item in DayData3" v-if="Daybool[2]">
+                            <td>${item.date}</td>
+                            <td>${item.completeTargetToday}</td>
+                            <td>${item.completeSafeguards}</td>
+                            <td class="wanchang">
+                                <span class="weiwancheng" v-if="item.isOver!=1" @click="(item.date||item.completeSafeguards||item.completeSafeguards)&&finish(item.id)"></span>
+                                <img src="/career/imgs/careerManagement/decompose/wancheng.png" alt="" v-if="item.isOver==1">
+                            </td>
+                        </tr>
+                        <tr v-for="item in DayData4" v-if="Daybool[3]">
+                            <td>${item.date}</td>
+                            <td>${item.completeTargetToday}</td>
+                            <td>${item.completeSafeguards}</td>
+                            <td class="wanchang">
+                                <span class="weiwancheng" v-if="item.isOver!=1" @click="(item.date||item.completeSafeguards||item.completeSafeguards)&&finish(item.id)"></span>
+                                <img src="/career/imgs/careerManagement/decompose/wancheng.png" alt="" v-if="item.isOver==1">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div class="addTests" v-show="yuejihuatanchuang">
+            <img src="/career/imgs/careerManagement/plan/bg_yue.png" alt="">
+            <div class="tables">
+                <table>
+                    <tr>
+                        <td>标题</td>
+                        <td>目标内容</td>
+                        <td>内容困难</td>
+                        <td>达成策略与行为管理措施(奖惩)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <textarea  v-model="Yuetitle"></textarea>
+                        </td>
+                        <td>
+                            <textarea  v-model="Yuetarget"></textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="Yuecontent"></textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="Yuemeasure"></textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="save" @click="nowAdd(),clearData()">
+                保存
+            </div>
+            <div class="close" @click="yuejihuatanchuang=false, clearData()"></div>
+        </div>
+        <div class="addTests" v-show="showyuejihuatanchuang">
+            <div class="head">查看曾经月计划</div>
+            <img src="/career/imgs/careerManagement/plan/icon_head.png" alt="">
+            <div class="tables">
+                <table>
+                    <tr>
+                        <td>标题</td>
+                        <td>目标内容</td>
+                        <td>内容困难</td>
+                        <td>达成策略与行为管理措施(奖惩)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            ${showYueData.title||''}
+                        </td>
+                        <td>
+                            ${showYueData.target||''}
+                        </td>
+                        <td>
+                            ${showYueData.content||''}
+                        </td>
+                        <td>
+                            ${showYueData.measure||''}
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="close" @click="showyuejihuatanchuang=false, clearData()"></div>
+        </div>
+        <div class="addTests week" v-show="weekjihuatanchuang">
+            <img src="/career/imgs/careerManagement/plan/bg_zhou.png" alt="">
+            <div class="tables2 ">
+                <table>
+                    <tr>
+                        <td>标题</td>
+                        <td>学科学习方面</td>
+                        <td>其他方面</td>
+                        <td>备注</td>
+                    </tr>
+                    <tr v-for="item in weekData">
+                        <td>
+                            ${Month}月第${numbers[item.week]}周计划
+                        </td>
+                        <td>
+                            <textarea v-model="item.subjectLearning"></textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.otherAspects"></textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.remark"></textarea>
+                        </td>
+                    </tr>
+                </table>
+                <div class="save" @click="setweek()">保存</div>
+                <div class="close" @click="weekjihuatanchuang=false,clearData()"></div>
+            </div>
+        </div>
+        <div class="addTests Days" v-show="Dayjihuatanchuang">
+            <div class="head">添加/编辑日计划</div>
+            <img src="/career/imgs/careerManagement/plan/icon_head.png" alt="" style="height: 60px">
+            <div class="tables2" style="padding: 0 10px">
+                <ul class="listNav">
+                    <li @click="tabs(0)" :class="Daybool[0]&&'listActive'">第一周</li>
+                    <li @click="tabs(1)" :class="Daybool[1]&&'listActive'">第二周</li>
+                    <li @click="tabs(2)" :class="Daybool[2]&&'listActive'">第三周</li>
+                    <li @click="tabs(3)" :class="Daybool[3]&&'listActive'">第四周</li>
+                </ul>
+                <table >
+                    <tr>
+                        <td>日期</td>
+                        <td>今天我要完成的目标</td>
+                        <td>完成保障措施</td>
+                    </tr>
+                    <tr v-for="item in DayData1" v-if="Daybool[0]">
+                        <td>
+                            <el-date-picker
+                                    v-model="item.date"
+                                    type="date"
+                                    placeholder="选择日期"
+                                    value-format="yyyy-MM-dd"
+                            >
+                            </el-date-picker>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeTargetToday">
+
+                            </textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeSafeguards">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr v-for="item in DayData2" v-if="Daybool[1]">
+                        <td>
+                            <el-date-picker
+                                    v-model="item.date"
+                                    type="date"
+                                    value-format="yyyy-MM-dd"
+                                    placeholder="选择日期">
+                            </el-date-picker>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeTargetToday">
+
+                            </textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeSafeguards">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr v-for="item in DayData3" v-if="Daybool[2]">
+                        <td>
+                            <el-date-picker
+                                    v-model="item.date"
+                                    type="date"
+                                    value-format="yyyy-MM-dd"
+                                    placeholder="选择日期">
+                            </el-date-picker>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeTargetToday">
+
+                            </textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeSafeguards">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                    <tr v-for="item in DayData4" v-if="Daybool[3]">
+                        <td>
+                            <el-date-picker
+                                    v-model="item.date"
+                                    type="date"
+                                    value-format="yyyy-MM-dd"
+                                    placeholder="选择日期">
+                            </el-date-picker>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeTargetToday">
+
+                            </textarea>
+                        </td>
+                        <td>
+                            <textarea v-model="item.completeSafeguards">
+
+                            </textarea>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="save" @click="setDays()">保存</div>
+            <div class="close" @click="Dayjihuatanchuang=false,clearData()"></div>
+        </div>
+    </div>
+</div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/vue.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/elementUi.js"></script>
+<script src="js/axios.min.js"></script>
+<script src="js/api/index.js"></script>
+<script src="js/api/address.js"></script>
+<script>
+    Vue.prototype.ports = ports;
+    Vue.prototype.$ajax= axios;
+    Vue.prototype.$echarts =echarts;
+    Vue.prototype.G_uri= address.G_uri;
+    Vue.prototype.G_uris= address.G_uris;
+    new Vue({
+        delimiters:['${','}'],
+        el:'.main',
+        data(){
+            return {
+                activeName: 'first',
+                yuejihuatanchuang:false,
+                showyuejihuatanchuang:false,
+                weekjihuatanchuang:false,
+                Dayjihuatanchuang:false,
+                //月计划
+                Yuetitle:'', // 标题
+                Yuetarget:'',//目标内容
+                Yuecontent:'',//内容困难
+                Yuemeasure:'',//措施
+                YueID:'',
+                YuenowData:[],
+                YueonceData:[],
+                Month:new Date().getMonth()+1,
+                showYueData:{},
+                //月计划分页
+                pageNumber:1,//当前页码
+                pageSize:10,//每页大小
+                total:0,//总条数,
+                currentPage:1,
+                numbers:[null,'一','二','三','四'],
+                weekData:[
+                    {
+                        week:1,
+                        subjectLearning:'',
+                        otherAspects:'',
+                        remark:''
+                    },
+                    {
+                        week:2,
+                        subjectLearning:'',
+                        otherAspects:'',
+                        remark:''
+                    },
+                    {
+                        week:3,
+                        subjectLearning:'',
+                        otherAspects:'',
+                        remark:''
+                    },
+                    {
+                        week:4,
+                        subjectLearning:'',
+                        otherAspects:'',
+                        remark:''
+                    }
+                ],
+                DayData1:[
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:1,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    }
+                ],
+                DayData2:[
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:2,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    }
+                ],
+                DayData3:[
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:3,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    }
+                ],
+                DayData4:[
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    },
+                    {
+                        week:4,
+                        date:'',
+                        completeTargetToday:'',
+                        completeSafeguards:''
+                    }
+                ],
+                Daybool:[true,false,false,false]
+            }
+        },
+        methods:{
+            //警告提示
+            warning(text){
+                this.$notify({
+                    title: '提示',
+                    message: text,
+                    type: 'warning'
+                });
+            },
+            //清空数据
+            clearData(){
+                this.Yuetitle='';
+                this.Yuetarget='';
+                this.Yuecontent='';
+                this.Yuemeasure='';
+                this.YueID='';
+            },
+            //添加编辑当月计划
+            nowAdd(){
+                let _this=this;
+                if(!this.Yuetitle){
+                    this.warning('标题不能为空')
+                }
+                if(!this.YueID){
+                    this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.nowAdd,{
+                        studentId:window.sessionStorage.getItem('studentId'),
+                        title:this.Yuetitle,
+                        target:this.Yuetarget,
+                        content:this.Yuecontent,
+                        measure:this.Yuemeasure
+                    },{
+                        headers:{
+                            token: window.sessionStorage.getItem('ymtxToken')
+                        }
+                    }).then((res)=>{
+                        if(res.data.code==2000){
+                            _this.nowList();
+                            _this.onceList(1,this.pageSize);
+                            _this.yuejihuatanchuang=false;
+                        }
+                    })
+                }else{
+                    this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.nowEdit,{
+                        studentId:window.sessionStorage.getItem('studentId'),
+                        id:this.YueID,
+                        title:this.Yuetitle,
+                        target:this.Yuetarget,
+                        content:this.Yuecontent,
+                        measure:this.Yuemeasure
+                    },{
+                        headers:{
+                            token: window.sessionStorage.getItem('ymtxToken')
+                        }
+                    }).then((res)=>{
+                        if(res.data.code==2000){
+                            _this.nowList();
+                            _this.onceList(1,this.pageSize);
+                            _this.yuejihuatanchuang=false;
+                        }
+                    })
+                }
+            },
+            //获取当月计划列表
+            nowList(){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.nowlist,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        if(res.data.data.length!=0){
+                            _this.YuenowData=res.data.data;
+                        }
+                    }
+                })
+            },
+            //查看当月计划
+            nowShow(){
+                this.Yuetitle=this.YuenowData.title||'';
+                this.Yuetarget=this.YuenowData.target||'';
+                this.Yuecontent=this.YuenowData.content||'';
+                this.measure=this.YuenowData.measure||'';
+                this.YueID=this.YuenowData.id||'';
+                this.yuejihuatanchuang=true;
+            },
+            //获取曾经月计划列表
+            onceList(pageNumber,pageSize){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.oncelist,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    pageNumber:pageNumber||1,
+                    pageSize:pageSize||10
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.YueonceData=res.data.data.list;
+                        _this.total=res.data.data.page.count;
+                    }
+                })
+            },
+            //当曾经月计划分页页面变化
+            currentChange(num) {
+                this.currentPage = num;
+                this.onceList(num,this.pageSize);
+            },
+            //删除曾经月计划
+            delonce(id){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.oncedel,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.onceList(1,this.pageSize);
+                    }
+                })
+            },
+            //查看曾经月计划
+            showonce(id){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.onceshow,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.showYueData=res.data.data;
+                        _this.showyuejihuatanchuang=true;
+                    }
+                })
+            },
+            //添加、编辑当月周计划
+            setweek(){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.setweek,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    data:_this.weekData
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.weekjihuatanchuang=false;
+                    }
+                })
+            },
+            //获取当月周计划
+            getweek(){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.getweek,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        if(res.data.data.length!=0){
+                            _this.weekData=res.data.data;
+                        }
+                    }
+                })
+            },
+            //日计划选项卡
+            tabs(index){
+                this.Daybool=[false,false,false,false]
+                this.Daybool[index]=true
+            },
+            //获取日计划
+            getDays(){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.getDays,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        let data=res.data.data;
+                        if(data[1]&&data[1].length!=0){
+                            _this.DayData1=data[1]
+                            _this.DayData2=data[2]
+                            _this.DayData3=data[3]
+                            _this.DayData4=data[4]
+                        }
+                    }
+                })
+            },
+            //添加/编辑日计划
+            setDays(){
+                let _this=this;
+                let data=[...this.DayData1,...this.DayData2,...this.DayData3,...this.DayData4];
+                data.forEach(item=>{
+                    delete item.id;
+                })
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.setDays,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    data:data
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.getDays()
+                        _this.DayData1=[];
+                        _this.DayData2=[];
+                        _this.DayData3=[];
+                        _this.DayData4=[];
+                        _this.Dayjihuatanchuang=false;
+                    }else{
+                        _this.warning(res.data.msg)
+                        _this.Dayjihuatanchuang=false;
+                    }
+                })
+            },
+            //日计划点击完成
+            finish(id){
+                let _this=this;
+                this.$ajax.post(this.G_uri+this.ports.careerManagement.mounthplan.finish,{
+                    studentId:window.sessionStorage.getItem('studentId'),
+                    id:id
+                },{
+                    headers:{
+                        token: window.sessionStorage.getItem('ymtxToken')
+                    }
+                }).then((res)=>{
+                    if(res.data.code==2000){
+                        _this.getDays();
+                    }
+                })
+            }
+
+        },
+        created(){
+
+        },
+        mounted(){
+            this.nowList();
+            this.onceList(1,this.pageSize);
+            this.getweek();
+            this.getDays();
+            let width=$(window).width();
+            let height=$(window).height();
+            $('#masks').css({width:width,height:height});
+            setTimeout(function () {
+                $('#loading').hide();
+                $('.main').fadeIn();
+            })
+        }
+    })
+</script>
+</html>

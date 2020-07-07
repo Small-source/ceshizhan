@@ -3,536 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="7fc4d66d-6c15-4345-a181-d74ad2ccf656" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/entries" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/format" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/00/00e5f5ece37c30306ad2b6b03533243c40181326.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/00/00f6f6404c52f417ab89b39c9be36bb8d48deb33.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/02/02238049258fb93f8846e175fad9f065e42b02c4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/03/038a7cabdea53638bba55f1872c3db3c7ce94fd8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/03/03eaab255552e502a11041b2377c1f9d18623d4f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/04/048d2c12a8f40c8e59af560ea3c2a21bf7e539c6.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/05/0568b10dfa52aded1ad8d0ad47f48f0b624adc20.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/05/05f2a9e2086baeeecae5b55defeacb83ea7093d3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/07/0703024c1ea790f80bcdb98653f248d5607ee3bb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/09/09a6a5fcd4e70fc9fcbbeb5e50c272c4bb418315.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/0d/0d64ccdd457539c0abca114dd82b12c35f845313.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/10/1019cac866cd79c7d459e5c738f87bedc406cd92.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/11/1179da85d41ece8f12adbe5b8fc557f9fbb3d8e5.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/11/11b76d00ae2dc4ef521a1714c705c5628c742fdb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/12/126d7b9b131bd463ba8cd52b3134253093a39085.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/12/1299807ba2e936ffc4881504bb57423aba6251aa.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/14/143787186657e00e31f3ff5c9d1ad47590a3f097.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/14/14388e0acb8a66bbe8a88391b0706bc6e2e96c01.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/14/14f8d78dce645721f866b9969283cf7b62c0998d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/15/15586f380cc5da7ec1eeae5236474ee9492cdc2d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/17/17d16b0e8733e0e4bfc40ec0ad88eb6170677517.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/18/182ecb421f336017d77908f16bced204777ac775.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/19/191c6251d33ae74726ee522bb27f18eab4c558c0.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/19/19d6c958728533e79c79c0b7e8b989836792ea9f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1b/1b3558fc57c417ad77bc10a03e8cffb1ed2f793a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1d/1d1d5258e489fd48725decb9e5006c6e23b65fb4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1d/1de1381237495bd7b80c0e0454f5a045558f7037.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1e/1e5b335530d33f7b546f3e63630c4166442648fe.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1e/1eb0b00815e228831e5dc83a0b1f429f61548d72.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/1f/1f754bc628f686a0491a70b8fe8e9f3d30aff62f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/21/2193b941c7221eca53192de5876cc9fab31a45d9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/2a/2a035a408f0f1159209537661737dd62566ad3b8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/2a/2a30207e817e1e8510e710a034c18e990a30aef8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/2a/2ab35627e9f52ad7c52b7032421f27575c04c648.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/2d/2d4a296c205d8734bcc0e104b7413eda75a88317.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/2f/2fda64792cbc0708ef06ff97218eaafdc5e9751b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/32/32b595ff1175d6e3821c4ee483cbec5b42182a55.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/33/3332242cab4966b906f0ef847a73a8e5be486fcc.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/34/342d65330f1a770bc2434fa32730c0b2d3d307b2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/34/343cfdda391175c91f49488fc62aa3440682c8e3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/34/34ed0be2230c1a69025062ccf95b1fd86973f5eb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/37/37091f299b486cf7ada654605a162202e7f0e5ba.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/38/38ecbcb35a0a666eecae352898d36806cb137b3d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/39/393a70ab59c4254a4c00c12a5c8512c5d1a7a95d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/39/399176cd2bda9668eeee541ede766616ea947285.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/3a/3ad14d2656c791b5e345106598a33e6365512b79.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/3c/3c05de22b0143686dead120957960350b8f3f850.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/3e/3efc0b530bb85045651c04aa448edafbc51c3417.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/3f/3f0dcb332163bc3a5d5670fe395060c0612a55be.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/43/43fac4ff62ae47c1410effaffcfa406b4a4a4c07.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/45/4502f02248762d6dbe60b67005897523c32c0276.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/46/46b2f4f6cd4a158f28d96ee953d1e9ed4fc37fd8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/46/46b85a6ada161997a3192f4bea1476139e76c778.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/46/46dc258e92dbcf58e6f9f5eeeae4394ce620e96c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/46/46ed8b2a1bab87c0edf0d450c61da1e0a47c9278.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/47/474a56e9b0ac50fd3e1e16b77b448f7c297c0865.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/47/47bdc4f3f4d82a87f2fd12dbb1fdf10c4fa4e436.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/47/47fb6d93b341a233a4b608c031e292f526ed8ae7.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/48/485dac8616d50084932eb213ad54cb1b1dd5719b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/49/491a447c4efc01b62738efeedfefbbb3ad0679f2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/49/494f7d8bfd8344f5f2ef3ecb17b81464684ec5b4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/4b/4b23943a760f32c791b63cf966f482e3dc9c3a29.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/4b/4bca6c24db57b8867e84fa041196baf963f41b59.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/4b/4bd4a6b1a012596f639d87d3a9c47835c913ac5b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/4e/4ea44b02dd49db0ce89339eeb297137b66fd046b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/51/5181b1608c02b7d0c3cc5bd79a50ebaf4735b9ec.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/52/52cb2bfd6cf1b3588528d9f847ed03f7da25306e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/52/52de1b536007aa8ba680e0cfb5037333afb81518.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/54/5497bf93c81809a6a3e51b3882f7a0a4f70b32de.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/55/55e0d3f05e8cc98a2d9cf2a3c480c562acfe2f02.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/58/580a703a06467f43214002668725af5a29c52aed.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/58/58be728883af19f23cc8c325a4b5a8cb2e4d3450.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/59/59985ba5f8035fe748e67d7549804946a7a4e374.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/5b/5b9539aa76791bd05e7968e42684b2c0afb683cd.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/5c/5c2b23d4426873a00b75558a8e957979dc6a4897.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/5d/5d186fa319196bb45ac5e753dd0d151599913e61.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/61/61f56568690534c953469e02e58068fc96c2eb33.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/62/62b307989fe168bb5567b343906627fa3b08ffab.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/63/63bf514b36a4e6387939e0c6a2c8780ec08a2612.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/65/6572d6bd8c1dd4d66abd33a91f3f1b93ed8d56a4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/66/664051ffe1630b2382309e8c0617392493c1fce1.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/67/670950798cff29b10c015e7dc004ffabc7be8858.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/67/672df7a8443a67455bb136741e3fe59069b38132.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/67/678dfd9bd515dc8323904865407a5635c8826b29.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/67/67ca56f0b62ecf9d86c02d63790652c2a0683604.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/68/681688ad8a424fbb311bac638e77debdc6e09d7f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/68/68f5d458e25abac420b900608350a0e68375363e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/69/69567b52959e0654eae2df04d94fd0df75eb1fad.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6a/6a03fdaa739c7ace325f94007c9684458b43bcd1.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6a/6aa9762942bcd4aafc872a93abfee3c3129664c3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6c/6c041c2a988028408a6fbe07d2f782ca33da8976.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6c/6c8a67079b7e298ce3b2c97f219bc53e825d6182.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6c/6ca88777f32cced5b388e4d615c92d5936b83657.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6c/6cda52ffe2d406a0fdb901fca4378a0483e1aa05.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/6e/6ed4c52f7847460f82446a8efebd14975351bf7e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/71/71f761a7a79161b49e26a253d7aaf1c609d7d319.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/72/725c76c203eabae4a3512ca1112077b08461b46a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/72/727618233dc1faaa3a92d62912340d4b52ad3d2e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/73/7369589849538500f0b73f8f95e3255b65058407.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/74/74fb8fa913b17cf8b6390902e2e8ee7e49e6b30a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/75/75661adbc9eafbd09f023f20fa73140cb61d77e3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/75/75a6ee0a52010196690f6574c5386cc315d14392.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/76/762f28461b8c30691c80a88f54053b91917cbd78.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/77/7706a7527393832b546db12b8c492ffd894f2c12.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7a/7a4c4f8bce773c09b9877d9bdc17d115f8c25e3b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7a/7ac89dd0269e99a27e02e9be9ffb7765fb88b9b7.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7b/7b1b0a61cf883a2e6224fe136125522d79aa77db.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7d/7d5c25d8a9f9ef72a5300cc5e2368a7cbbe047c7.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7d/7df8148a34cc3979d662bb6009906aba9f4d120b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/7f/7f1910032d87d157daa2a7a9679c738839bdb46b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/80/80e9f9d3cb63f87aa6ef7a462c0fb3efec456775.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/81/81918521f9457030e17625cd518c74b1c1ead6bb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/82/82360924f2530857f90f7c23f467c918f7459537.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/84/84c5a4657f768cd1ed3321dfac5e2be4f0c62a0d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/86/8627ea4c88747843594259d29d9fb1fa03460736.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/87/87b8f6ab2c0918da56de8c4ceb085645b746aad2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/88/88523924351bac0b5d560fe0c5781e2556e7693d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/88/889bf34517a1c69000ba75686c9aa92d0254c6d7.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8b/8b3c23f5449c2b5dd9ac2b15b70c1518cd9e25da.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8c/8c852877b0785589b35f612dea76ffaaa3853b15.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8d/8dc3fc34829a0fd397e2fcce8a3c395c3bdf9797.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8e/8e032bdf99b93bbd01c0d874fb6ed3eb3873dff5.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8e/8e11407da44c70a29e33aadd1d1bcbde77cb5753.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8f/8f6117c4aa8b7e9d033f1e3ed0af4e8eb017331e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/8f/8fe8db6f06d8a70b1d80b7bb70a143c4127720b2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/92/924e5af4e2b6e483a91eedeeacd91f72f2fa4f4f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/92/928d952527503ef013483c902fca68c1dc5d7822.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/92/92bebad63f1f1b36b95fe6e4ca40a7df21b24fbc.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/92/92f3f2324c99fd8ad11cd800ed7ac93594e663a5.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/93/9317c9e85491b503092c10d5b55878579848332c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/93/9351d7bfef87aa7dd31e0fafbe98185b3bcd1c47.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/93/93878a8b342f38a6b184fdd40b87c6eefa6b8eef.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/93/93e88efeb8e4345658db26d3f2ecce8d4b3b84e9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/96/96584634c25cf37662ef8cd00c7d2074b8fa2916.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/98/983b2be6aeda7293dfdfb1b6023baebcf1d75a1e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/98/98597354b244b24f7d6ffab1cdfcd377175d4c8c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/98/98931684e2a4e3303253db306d797bb47e7aa6f8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/98/98cad5b9030fc65e332af22ac4588b0a46824daf.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/98/98f80f2e6ea0a3191912798b9d2b09c19a19af97.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9a/9a25d1e278f0374aa810b63f0f903dc7b417ad79.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9a/9a455aaf1a72b1e0aa273872a040ce57cbf386d0.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9c/9c8e83fa6fc5de38e7f1ad00c487c7af2d9b9973.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9c/9cb8dec6e37518cb2fd1a4719cf36a6d8c4aff3c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9c/9ce5f4c4a22af401775a575821faa6bca7c30e7b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9d/9d25afddaca7eaf9bdfdfaa3aa22af2699d0787a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9e/9e535ad8491f25b88f771f4793d0f047a535ecf2.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/9e/9ee37982f98f1294955065fc4e45814a2f6447c3.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a0/a00b492e86041a3eff7e07112aa8c8d9ce9a72ae.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a1/a1bf7e57ae35d2d725ac70df613592688be57111.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a3/a31acd40332bedc7d44383d4f58a0fdc48070503.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a4/a412cd177d653236e30488bc6e0588780a1912b9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a4/a42509ffc85806e6f5f3485e4326e09a60f20352.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a4/a45211f78d3bcd3b8b3a7a29090f5fd7a08c5dc0.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a4/a4c8693872edfb325cbd70d6b2ab58f9de8fe937.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a5/a56995e4e0ad4ddd4358f6743765ebb16052ff1c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a7/a78df845af6f3ee0badc0496730e8b4e2d16290d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/a8/a8ed72a84ee17a6bdd51b44f7629e61b3c95c56c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ad/add6e9ffb5bc1e807f91df1cbad917bebcfa1448.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ae/aebb0b1116bd447e2c8da9cbf9dc2b78b332cef8.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/af/af5373c439e007a833e97bafe075562fc3e5b9cb.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/af/afb41e5d678eb22c42f02bc46bdd17e3f00beb99.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b0/b06fdec1bf2b3508af501e5e5f2cd8773a76b562.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b1/b160a8b6efb873d814c7e47a5408bd48507453bf.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b1/b18e280f1b1fe853e2092dfa29ddb0cedd09257f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b1/b1a0d6654e0a12bf2086681578788054081ba3e5.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b2/b22a4f2e9355ea52ecfb156fe5cfc3ef174b6f38.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b3/b309cfb130f4c8144ee24944f904d43bd6c9b472.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b3/b3333f73c08bad942641a4aa473be156b5207cf0.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b4/b48456e6c44c71afb818e8d0232af42f8b12eddc.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b7/b79977da125bda92b21877c9987e9ed287e9f9f7.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/b8/b85cb30e0a31ee02113e4492af4e3cc5f4e689f9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ba/ba0447c672a5a3374a239126d4091dbf85f09ddc.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ba/ba853cdedc5a32084f6e2dbd43844e15be09f9d9.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ba/ba905e6990e00cc8c3cf3f67b59f0c4ed10b6d0b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ba/bac6497648ff293ad1fa5aaa0cde0e7b9215a209.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/bb/bb53dabac08f3a91e921f761fcfdd85732f9f6e4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/bb/bbbe39b6263903428ba1807a815737fa7c011d92.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/bd/bd320dd377899086d1a8e9e0e8063bd332ba9513.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/c1/c13f6b392673c457c0067f9dc033b658c9f84a13.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/c1/c19db165a2dce9f9fa4f997a5ada1d6e1e654270.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/c3/c35e860b37854d92f9b625a6291378e4b61b45a6.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/c4/c44f8cfba3cf741b63b57457b4fd0a3b8d24a528.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/c4/c4fa088d1c6877f8b5b529e57d077949e13668af.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/cb/cb5344ac8d93ac0586fe3366c55f14801a2db884.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d0/d07a2285bc829de8cab0ec62b55fe0a058a1edd6.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d2/d22ee98dc5a1a47c6636a8df1efa8407f9f3ed2f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d2/d2f903bcf6ed8fca8154217f6fb35bee31967204.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d6/d6161e3b911d4d75a5e40c45891cc25fd1c8152b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d8/d81e98236fc2002ece7516c16b2bef273df4ced4.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/d8/d85b6efd9a6c23d4059ac32f5d5550aaf1af7815.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/da/da39a3ee5e6b4b0d3255bfef95601890afd80709.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/da/daafd5ea7cce890bf3e68a651cb3861e8999143f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e3/e35061718a7b0b1de8a4f33e3db15335ed73846c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e3/e39bbccaadb4a0a6d3be84e95cf1f52c203f3385.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e5/e56b07d7427bd7ca9dc4ba7a42b3bc66d8e08987.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e6/e656e8d23e9f48567877c13b12c4834127d27af1.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e6/e6ff7b9bba4d78e0a7a7e83e84fcdfbb7771a837.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e7/e7959459161d5f307fc59d326a2e43ac40e654ca.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e7/e7bd8d0d4565d0e3bcca1e5409fdb8949dd46664.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e7/e7ed2a232b2ba3cdd3034c7c4a55e932946418de.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/e8/e8b44e05a8bf86501e40fe1a6fc3fce360afddec.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ea/eac09fb8c1e073f1dd1044a72edf6adbbcfa1034.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ec/ec366366adf90633236a9a9b63a741116468707a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ed/ede8b43ea81c2f238c4c261204b2a7836265c90e.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ef/ef3750706a5ed44eaa17d32ae39626ccd5f26e1d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f0/f04fd7c006959b25a58e3622c68a645780fbc958.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f0/f0cc11ef0fed2f67ed6d522c94df8affc2c140f6.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f3/f39066bcc67596e8910149956f7743808a25470b.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f3/f3b997e33d3297d703960ae3548dab9ae2fe116c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f4/f4e26f157fc305cdef1abd8cadc8aa440d3d7b6d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f6/f657c7627b20b61ede3d1bf40be76e26def9c2e1.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f6/f6d58c0655325b41d05b8f33124a0013ab70b836.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f7/f74caf73960cb852d94cd47e517782bfea32c353.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f7/f77bfb6a20964de53a8e6ce918e43b916dbe5251.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f8/f807ec0dc64dfeb0e113f28b0dec53727852979c.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/f9/f909dba60a602feb7ff428c5fc8243a61532df6d.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fa/fa950ed8029b344dc85516899309e4eba71e6c63.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fa/faa93d72ef574ec9fa31cb7473e30bf510bfa1cc.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fb/fb31918cd73e1a9e7620b92eea948e89b51e7ccf.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fb/fb4d89931c47907815c9745703a7eebf92e3ae09.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fc/fcb28e1e9cec5b155bb6728ce732a1122259a162.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fc/fcf3eb4e7717c230d1e3ea0bfcafcc0338231e45.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fd/fd4c0a597b4905a577b85cc333d2696b2eac6668.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fd/fd8833d68a712a7a1e2941e33d9a72a9c3a68f2f.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fe/fe099374f25d6a377f1ceb1e0e2faffc579461ba.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/fe/feefe950a39dc6d7283b2f5ce77022364eefde7a.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/pristine/ff/ffb95e318d4de5998bd8d1a8b6e9e1b70cb5bf89.svn-base" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/wc.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/.svn/wc.db-journal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/MP_verify_Nk0Eje9UwfsH1ylD.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/banner01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/banner02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/bg_fushizhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/bg_fushizhidao02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/bg_peigengshuxue01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/bg_peigengshuxue02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/icon_daxue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/icon_zhibo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/icon_zhuanlan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/icon_zhuanye.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/school.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/subejct.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zb01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zb02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zb03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zhibo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zhuanlan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zl01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zl02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zl03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/classroom/pop/zl04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/bg_zhuyili.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon-zanwuneirong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_chakan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_chengjiu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_fangtanjilu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_fanhui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_peigeng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_pingguyuzhenduan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_qingxuguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_renjiguanxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_shijianguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_tishi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_tishi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_toubu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_xingxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_xuexidongji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_xuexixiguan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_zhuyili.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/icon_zhuyiliceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/report_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/diagnosis/reportbgp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_anniu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_bianji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_dingwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_nav06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_weixuanzhong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_xingaokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_xuankechaxun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_xuekepaiming.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_xuexizhuangtai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_yixuanzhong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_yuanxiaoku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_zhiyeku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_zhuanyedingwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/home/icon_zhuanyeku.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/js/echarts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/login/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/login/icon_duanxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/login/icon_mima.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/login/icon_shouji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_shijian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_tuancerukou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_wodeshoucang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_xingaokaoxuanke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_xuekezhenduanceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/mine/icon_zhuanyedingweiceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_daxuezhuanyexuanke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_xingaokaoxuanke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/icon_xuankezuhe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/newSelectSubjects/pcduan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/report/header.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_benke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_boshidian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_chakangengduo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_dingwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_gongli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_jiaoyubu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_shengyaunzhiliang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_shijian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_shoucang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_shuoshidian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_xiala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/schoolDetail/icon_zonghelei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg0120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg0420.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/bg07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_360xuanke.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_dingwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_guanwangdizhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_huhangjihua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_jingsaizhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_kechengxuexika.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_lianxifangshi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_qiangjijihua.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_shengyaceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_xuekezhenduan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/service/icon_zhiyuantianbao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/bindcard/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/bindcard/icon_kahao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/bindcard/icon_mima.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/icon_nanbai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/icon_nanlan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/icon_nvbai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/icon_nvlan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/perfectInformation/icon_xiala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/tStart/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/tStart/icon_dingwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/tStart/icon_wancheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/xuanke/icon_dianliang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/xuanke/icon_dianliang1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/xuanke/icon_sekuai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/xuanke/icon_weidianliang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/tuance/xuanke/icon_weidianliang1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_i.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_niukou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_r.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/icon_s.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuanyedingwei/xgtx-bg1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/bg_ceshibeijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/bgreport.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon-jiantou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon_biaoti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon_deng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon_naozhong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet/img/zhuyili/icon_xingxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/applet_get_openid.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/bindCard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/bindphone.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/call_back.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/elementUi.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/evaluation_report7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/main.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/question.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/question.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/testEntry.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/css/testEntry.less" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/evaluation_report7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/get_user.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/denglu/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/denglu/bgCard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/denglu/icon_duanxin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/denglu/icon_mima.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/denglu/icon_shouji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/bg_zhuyili.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon-zanwuneirong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_chakan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_chengjiu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_fangtanjilu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_fanhui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_peigeng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_pingguyuzhenduan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_qingxuguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_renjiguanxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_shijianguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_tishi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_tishi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_toubu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_xuexidongji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_xuexixiguan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_zhuyili.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/icon_zhuyiliceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportCover6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/report_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/diagnosis/reportbgp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/peigeng/bg01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/peigeng/bg02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/peigeng/bg_peigengshuxue01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/peigeng/bg_peigengshuxue02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/bg_ceshibeijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/bgreport.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon-jiantou.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon_bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon_biaoti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon_deng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon_naozhong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/img/zhuyili/icon_xingxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/axios.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/circleChart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/echarts.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/elementUi.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/jquery-3.4.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/less.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/map.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/rem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/js/vue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/main_pg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/main_pg_applet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/password.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/css/message.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/css/reset.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/h5/h5/beijing@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/h5/h5/biaoti@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/h5/h5/kuang1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/h5/h5/kuang2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/beijing@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/biaoti@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/kuang01ft.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/kuang01top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/kuang1@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/kuang2@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/images/u=4226261565,529315572&amp;fm=26&amp;gp=0.jpg.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/pay/js/rem.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/perfectInformation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/test7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weixin/testEntry.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/index/index.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/index/index.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/bindcard.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/bindcard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tStart.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tStart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/utils/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/utils/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/icon_smallbg.png" beforeDir="false" afterPath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/icon_smallbg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/reportCover.png" beforeDir="false" afterPath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/reportCover.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/xgtx-bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/打包上线/career/imgs/growthFile/xgtx-bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打包上线/career/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/打包上线/career/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/打包上线/career/js/chunk-2d0dd0aa.5243a2a7.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/打包上线/career/js/chunk-2d0dd0aa.5243a2a7.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/date.vue" beforeDir="false" afterPath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/date.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/main.vue" beforeDir="false" afterPath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/main.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/month.vue" beforeDir="false" afterPath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/month.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/week.vue" beforeDir="false" afterPath="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/week.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.wxml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -544,13 +24,55 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/官网移动端/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/官网移动端/voluntaryReport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/官网移动端/css/reset.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.less">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/官网移动端/js/rem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-22" />
     <option name="width" value="1936" />
     <option name="height" value="1047" />
   </component>
@@ -565,16 +87,6 @@
             <path>
               <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
               <item name="测试站" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
-              <item name="测试站" type="462c0819:PsiDirectoryNode" />
-              <item name="官网移动端" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
-              <item name="测试站" type="462c0819:PsiDirectoryNode" />
-              <item name="打包上线" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -613,14 +125,17 @@
       <updated>1593828055237</updated>
       <workItem from="1593828057917" duration="756000" />
       <workItem from="1594005089315" duration="3150000" />
+      <workItem from="1594089391329" duration="594000" />
+      <workItem from="1594107171390" duration="1601000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3906000" />
+    <option name="totallyTimeSpent" value="6101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2897787" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -653,6 +168,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/js/rem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/voluntaryReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
         </state>
       </provider>
     </entry>

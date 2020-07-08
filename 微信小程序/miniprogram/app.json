@@ -1,6 +1,6 @@
 {
   "pages": [
-        "pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2",
+    "pages/tuance/newSelectSubjects/balance2/balance2",
     "pages/index/index",
     "pages/login/bindphone",
     "pages/login/perfectInformation",
@@ -63,11 +63,11 @@
     "pages/tuance/professionalPositioningTest_report",
     "pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1",
     "pages/tuance/newSelectSubjects/balance1/balance1",
-    "pages/tuance/newSelectSubjects/balance2/balance2",
     "pages/tuance/newSelectSubjects/generateSubjectPlan/generateSubjectPlan",
     "pages/tuance/tEnd",
     "pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport",
-    "pages/plan/history"
+    "pages/plan/history",
+      "pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

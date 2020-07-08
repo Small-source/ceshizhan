@@ -2,17 +2,665 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc4d66d-6c15-4345-a181-d74ad2ccf656" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/新版学马官网/css/about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/aboutus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/calluserji.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/dizhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/erjilanse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/hexiaojun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/icon_dangqian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/icon_yiqian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/jianjiehui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/jianjielan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/jiazhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/lianxiwomen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/lichengbgc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/linpeng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/liuna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/shijian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/wei.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/wuxin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/xiangqing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/xiaohanjun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/yusongqian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/zhangyubo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/zixunhui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/zixunlan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/aboutus/zongbu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_xuemayuanjing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_dingjianshizituandui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_duonianyunyingjingyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_pinpaizhimingdugao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_qianjingguangkuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_yanfatixichengshu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/china_map.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_gaokaofuwujigou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_jiaofujigou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_shengxueguihua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_xuelitisheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_yanxuefudao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_zhiyeguihua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_chenjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_chenjingxia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_gaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_helaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_huangbin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_hulu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_jinbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_lichuxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liqin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liuna.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liushuling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_luguo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_luowei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_pengyinshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_sunminghuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_sunminghuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_tanghe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangguorui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangyitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangyue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_weiwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wulaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_xiaohanjun.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_xuyaoya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yulaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yushanshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yuyunfang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_zhangshuya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_zhaoyue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/qiaodan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/left_lan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/right_lan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_header_foot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_shengxuegangxu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_shichang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_zhengce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_aopengshudian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_boyijiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_boyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_hongyunzhiyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_jingling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_loudixuehaijiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_qiangouxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_shandongxuemajiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_weimingjiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_wenzhijiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_xueerle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/chenjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/chenjingxia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/gaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/hexiaojun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/huangbin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/hulu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/jinbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/lichuxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liqin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liuna.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liushuling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/luguo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/luowei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/pengyinshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/qiaodan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/sunminghuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/sunminghuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/tanghe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangguorui.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangguorui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangyitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangyue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/weiwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wuxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yushanshan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yusongqian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yuyunfang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/zhangshuya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/zhaoyue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/李初曦.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/赵越.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_chengshudekechengtixi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_quanweidexitonggongju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_gaokaofuwujigou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_jiaofujigou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_quanfangweiyunyingzhicibaozhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_yunyingzichi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_yunyingzichi02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/beijingtisheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/beijingtishengbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/fudao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/gaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/genzongfudao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/home02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/huangbin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/jinbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/laoshiguanli-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/linpeng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/sunminghuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/wangyitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/wenjian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xiaojunhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xuesheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xuyaoya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/zhangyubo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/gaokaozhiyuanbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/gaozhaoguize01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/geyuanxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/xitongtese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/zhizhuzhaosheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/zizhaobaokao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/beijing3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/beiwai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/bg非公开网.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/public_praise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/bg/xuema_wechat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/home01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/home02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/home03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/homebanner01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/homebanner03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/icon/xiala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jiaoshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jiaoyubu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jiazhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/jingdiankehu/08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/kechengjianshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/kexueyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/lansebeijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/lunbo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/lunbo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/lunbo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_beijingshifan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_beijingwaiguoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_jinritoutiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_pac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_qinghua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_shijiedaxue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_xinlangjiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_xuema.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_zhongguobiaozhunhua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/partner/icon_zhongguokexueyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/qinghua.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/shengxueguihua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/shengyafazhanyunpingtaipsd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/shuidi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/sina.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_liaochengdiyizhongxue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_longnan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_pingyuanxian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_ronghua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_shandongshiyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_sichuanmianyang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_tianxin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_yunnanluxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuema.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuesheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuexiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuyaoya.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/yanjiuyuanjpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/zizhi07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/02ziwotansuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/03waibutansuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/04shengyajuece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/05suyangtisheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/beijingjiaofu02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jiaofuziyuanbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jiaofuziyuanbeijing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jingxuanshipin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/shengyashiying.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/tishengzhuanyenengli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuankejuece.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuankejuece1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuexijiejian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/yuanjian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/loading/loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/loading/loading2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/logo/logoss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/logo/phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/br.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/baokao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beijing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beizhuyitianxie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/changdiguanli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/dierge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/disange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/diyige.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/duihao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/duobianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/fushizhidao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/guanli-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiaocaisheji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiaoshifazhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiazhangchengzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/kujialeqiyezhan_zhinengguangchang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/peitu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/pingjia-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/pingtaixitong.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/renxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/richangguanli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shejiguifan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shejiguifanbj3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shuju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/wubianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xiaoneitongzhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xuankejuece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xueshengzizhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xuexi-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/yuanxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zhaosheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zhiyexingqu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zonghefenxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zuihouyige.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/bg_flow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/bg_kecheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_gongchengkexuelei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_lilunkexuelei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_renwenshekelei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/beijing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/callus.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/chanpinhezuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/chengdu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/dudao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/fuwubijing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/heshishencha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jiameng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jiamengtiaojian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jingling.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/loudi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/oem.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/qianshuxieyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/qidongsudukuai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shangwuhezuobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shiachang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shichangguimoda.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shidishencha.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/touziqianjinghao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/touzishouyigao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/xueerle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/zhidao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/zixunliaojie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_chaninliucheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_shengxuenandian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/duihao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_header_write.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_header_write_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_shengxuenandian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/right_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/baokao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/beizhuyitianxie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/dianshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/duihao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/duobianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/fushizhidao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/guanli-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/hart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/jiaoshifazhan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/jiazhangchengzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/kujialeqiyezhan_zhinengguangchang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/mianshizhidaokecheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/pingjia-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/renxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shehuishijian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shejiguifan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shejiguifan拷贝3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shengxueguihuabanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shuju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/wenshuzhuanxie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/wubianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xuankejuece.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshengzizhu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshudasai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshuyanjiu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xuexi-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xyekezhuanxiangtishenbg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/yanxueying.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/yuanxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zhaosheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zhiyexingqu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zonghefenxi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/celiangweidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/fuhehsidaotezhengde.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/job01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/liubianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/quanweikexuedecepingfangfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/shengyacepingbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/whyceping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/xinxiku.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/yuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zhuanyexiangshidecepingbaogao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zizhi01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zizhi02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/01yinjinxuemayangebn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/beijing3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/fengfudekechengziyuan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/fengfuziyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaoer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaosan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaoyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/kecheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/shengyakechengbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/xitonggongneng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/sanjiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/shengyazhidaobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/shengyazhidaojiaoshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/anquan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/beijing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ganxingqu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/jiangzhang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/peixun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/peixunjidi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/sidayoushi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/spainstudy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/巴塞罗那大学logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/马德里自治大学logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/downcircle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/dushu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jiaocai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jiaoju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jingxuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/maozi02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/sheji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shengyaziyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shezhi02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shu02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/xiaobenjiaocai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/xuanketiaozheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zaixianweitiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhengque (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhengque1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhineng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhinengpaixu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/ziyuanpinggu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/ziyuanxitong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zoubanzhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/bg_5v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/bg_youshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_5v1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_liangshenzhizuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_liubianxing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_yixianzhuanjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_yuanxiaoshuju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_zhuanyepingtai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_zizuyanfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/down-circle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/erji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fangansheji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fanganshishi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fengfudejiaocai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/hezuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocaibai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocailan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocaisheji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaoju.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaojubai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaojulan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaoxue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiejuefoot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/maozhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/qianshuxieyi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shejibai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shejilan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shengyapingtaidajian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shezhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shifanzhidao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xiala.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xiala1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xialahui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xingaokaobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xuqiugoutong.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/zhuanyedetixijiaocai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/bangongxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/beijing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/chengji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/diannao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/duoweidubj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/ganxingquzhiwei.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/iconset0177.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/iconset0336.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/jingzhun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/jingzhunleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/lansebeijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/mimangxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/number.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/pailie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/people.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/shujutongji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/tuoyuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xinanti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xinnanti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xitonggongnengbgc.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuankeceping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuankejuece.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuanze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xueshimao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/zhiyetansuo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/BAI-peixun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/beijing.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/biaozhunhuajianshe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/biaozhunhuajianshe1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/danao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/dushu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jianjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jiaocaixuanze.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jiaocaixuanze1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/mimangxiang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/peixun1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/tieheshiji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/tieheshiji1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zaixianweitiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhineng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhinengpaikebanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhiyuantianbaozhidaobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/ziyuanpinggu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/beijing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/flow-determine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/huida.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/mingcijieshi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/querenfangan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/you.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/zhengce-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/zhiyuantianbaozhidaobanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/beijingtisheng.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/fushizhidao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/gaokaozhaolu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zhengcejiedu.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zhiyuantianbao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zizhaozongping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/geyuanxiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/xitongtese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/zhizhuzhaosheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/zizhaobaokao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/jichu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/jichu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/pingjiajieguo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/pingjiajieguo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/quanmianpingjia.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/zonghesuzhibanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/zonghesuzhifoot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/屏幕快照 2019-03-01 下午5.48.45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/03gaobietihai.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/beijing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/beijing2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/fufenjisuan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/gusuangaokaochengjishuiping.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/huafanweijian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/jiaowuzhuren.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/jiaoyuzhuguanbumenlingdao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xiaozhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongjianjie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongjianjie01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongmonichengji.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xuekejiaoshi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xueshengjiazhang.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/zoubankaoshixitongbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/beijing1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/beijingjiaofu02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/duofangmiangongneng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/xitonggongneng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/xuanketiaozheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zhinenghulianwang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zhinengpaixu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zoubanxiaoyuanbanner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zoubanzhi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/js/jquery-3.5.1.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/huojiangMessage.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/xueyeMessage.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/gaokaobaike/gaokaobaikeDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/gaokaobaike/gaokaobaikeDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/gaokaobaike/gaokaobaikeDetail.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/gaokaobaike/gaokaobaikeDetail.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/index/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/index/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/mine.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/reportList/reportList.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/mine/reportList/reportList.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/plan/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxss" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/balance2/balance2.wxss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor1/selectTargetMajor1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectTargetMajor2/selectTargetMajor2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/perfectInformation.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport.json" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/newSelectSubjects/selectSubjectReport/selectSubjectReport.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/professionalPositioningTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/professionalPositioningTest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/professionalPositioningTest.json" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/professionalPositioningTest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.json" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.wxml" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/pages/tuance/tEnd.wxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/微信小程序/miniprogram/utils/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/微信小程序/miniprogram/utils/login.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,57 +672,124 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/官网移动端/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/官网移动端/voluntaryReport.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/官网移动端/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/官网移动端/js/rem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.56215847">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="266">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.css">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/about.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="771">
+                  <caret line="170" column="71" selection-start-line="170" selection-start-column="71" selection-end-line="170" selection-end-column="71" />
+                  <folding>
+                    <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#p#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#0;n#div#1;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/学马官网/src/views/xuemaNews/xuemaNews.vue">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-328" />
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/js/public.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="95">
+                  <caret line="5" selection-start-line="5" selection-end-line="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/css/public.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="152">
+                  <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="329">
+                  <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CoffeeScript File" />
+        <option value="HTML File" />
+        <option value="XSLT Stylesheet" />
+        <option value="Less File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-22" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/新版学马官网/header.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/footer.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/public.coffee" />
+        <option value="$PROJECT_DIR$/新版学马官网/index.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/about.less" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/public.css" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/about.css" />
+        <option value="$PROJECT_DIR$/新版学马官网/about.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-155" />
+    <option name="y" value="49" />
     <option name="width" value="1936" />
     <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -88,6 +803,30 @@
               <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
               <item name="测试站" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
+              <item name="imgs" type="462c0819:PsiDirectoryNode" />
+              <item name="aboutus" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -96,10 +835,24 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="F:/本地" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../本地" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\测试站\新版学马官网" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\测试站\新版学马官网\imgs\aboutus" />
+      <recent name="F:\测试站\新版学马官网\img" />
+      <recent name="F:\测试站\新版学马官网\js" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -126,18 +879,19 @@
       <workItem from="1593828057917" duration="756000" />
       <workItem from="1594005089315" duration="3150000" />
       <workItem from="1594089391329" duration="594000" />
-      <workItem from="1594107171390" duration="1601000" />
+      <workItem from="1594107171390" duration="1631000" />
+      <workItem from="1594176970340" duration="15663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6101000" />
+    <option name="totallyTimeSpent" value="21794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2897787" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14752372" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -171,34 +925,117 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/官网移动端/index.html">
+    <entry file="file://$PROJECT_DIR$/官网移动端/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="46" lean-forward="true" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        <state relative-caret-position="418">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/官网移动端/css/reset.css">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/js/jquery-3.5.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学马官网/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/官网移动端/js/rem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/voluntaryReport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="117" column="61" lean-forward="true" selection-start-line="117" selection-start-column="61" selection-end-line="117" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.xsl">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.less">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.less">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/官网移动端/voluntaryReport.html">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.less">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="127" column="22" lean-forward="true" selection-start-line="127" selection-start-column="22" selection-end-line="127" selection-end-column="22" />
+        <state relative-caret-position="76">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/js/public.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/学马官网/src/views/xuemaNews/xuemaNews.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="771">
+          <caret line="170" column="71" selection-start-line="170" selection-start-column="71" selection-end-line="170" selection-end-column="71" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#p#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

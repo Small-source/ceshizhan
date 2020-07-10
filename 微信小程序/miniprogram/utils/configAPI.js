@@ -66,8 +66,5 @@ const API = {
   APPLET_DAY_PLAN: '/actionPlan/appletDayPlan', //我的/护航计划/日计划列表  
   APPLET_WEEK_EDIT_PLAN: '/actionPlan/editCurrentMonthlyWeeklyPlan', //我的/护航计划/周计划点击实现完成状态  
   APPLET_DAY_EDIT_PLAN: '/applet/doneCurrentMonthlyWeeklyDayPlan' //我的/护航计划/日点击实现完成状态  
-
-  
-
 }
 module.exports = API

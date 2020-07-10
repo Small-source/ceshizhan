@@ -1,0 +1,171 @@
+.head {
+  background: url("../imgs/home/banner.png") center center no-repeat;
+  width: 100%;
+  height: 540px;
+}
+.parts {
+  width: 1200px;
+  margin: 0 auto;
+}
+.part1 {
+  background: url("../imgs/home/icon_shengxuefuwu.png") center center no-repeat;
+  width: 100%;
+  height: 880px;
+}
+.part1 .tops {
+  width: 100%;
+  height: 150px;
+  border-radius: 20px;
+  background: #fff;
+  position: relative;
+  top: -54px;
+  box-shadow: 0 20px 20px #F5F5F5;
+}
+.part1 .tops > li {
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  float: left;
+  font-size: 18px;
+  color: #666666;
+  padding-top: 25px;
+}
+.part1 .tops > li > p {
+  font-size: 18px;
+  padding: 10px 0 18px;
+  color: #666666;
+  text-align: left;
+  text-indent: 57px;
+}
+.part1 .tops > li > span {
+  font-size: 45px;
+  font-weight: bolder;
+  color: #3186F7;
+  letter-spacing: 0;
+}
+.part1 .tops > li > a {
+  color: #666;
+  position: relative;
+  top: -2px;
+}
+.part1 .dajiantou {
+  display: block;
+  margin: 46px auto 0;
+}
+.title {
+  font-size: 33px;
+  text-align: center;
+  font-weight: 600;
+}
+.title span {
+  font-size: 18px;
+  color: #fff;
+}
+.xueye {
+  width: 100%;
+  height: 320px;
+  border-bottom: 1px solid #FFFFFF;
+  background: url("../imgs/home/icon_lanbeijing.png") center center no-repeat;
+}
+.xueyelist {
+  width: 954px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.xueyelist li {
+  width: 225px;
+  height: 100%;
+  position: relative;
+}
+.xueyelist li p {
+  text-align: center;
+  line-height: 76px;
+  font-size: 28px;
+  color: #fff;
+}
+.xueyelist li .p {
+  position: absolute;
+  left: 0;
+  bottom: -76px;
+  color: #333;
+  font-size: 20px;
+  width: 100%;
+}
+.part2 {
+  background: url("../imgs/home/bg_chanpintixi.png") center center no-repeat;
+  width: 100%;
+  height: 946px;
+}
+.part2 .part2box {
+  width: 1050px;
+  height: 710px;
+  margin: 70px auto 0;
+  background: url("../imgs/home/icon_diannao.png") center 21px no-repeat;
+  position: relative;
+}
+.part2 .part2box .pli {
+  position: absolute;
+  width: 210px;
+  height: 38px;
+  background: url("../imgs/home/icon_xiantiao.png") center bottom no-repeat;
+  color: #fff;
+  font-size: 20px;
+  top: 0;
+}
+.part2 .part2box .pli2 {
+  top: 124px;
+  left: 0;
+}
+.part2 .part2box .pli3 {
+  top: 545px;
+  left: 0;
+}
+.part2 .part2box .pli4 {
+  top: 668px;
+  left: 0;
+}
+.part2 .part2box .pli5 {
+  right: 0;
+}
+.part2 .part2box .pli6 {
+  right: 0;
+  top: 124px;
+}
+.part2 .part2box .pli7 {
+  right: 0;
+  top: 190px;
+}
+.part2 .part2box .pli8 {
+  right: 0;
+  top: 550px;
+}
+.part2 .part2box .mo {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 20px;
+  color: #3276E9;
+  font-weight: bold;
+}
+.part2 .part2box .mo1 {
+  left: 130px;
+  top: 70px;
+}
+.part2 .part2box .mo2 {
+  left: 130px;
+  top: 615px;
+}
+.part2 .part2box .mo3 {
+  left: 834px;
+  top: 70px;
+}
+.part2 .part2box .mo4 {
+  left: 834px;
+  top: 615px;
+}
+.part3 {
+  background: #F5F9FC;
+}
+/*# sourceMappingURL=index.css.map */

@@ -15,7 +15,6 @@ Page({
     subjectArr: ['subjectPhysics', 'subjectChemistry', 'subjectBiological', 'subjectIdeologicalPolitics',
       'subjectHistory', 'subjectGeography','subjectTechnology']
   },
-
   //切换tab选项
   Tab(e){
     this.setData({

@@ -211,6 +211,7 @@
                         this.xueyeNumber='第'+data.num+'次'
                         this.bigEvent=data.bigEvent
                         this.date=data.date;
+                        this.academicPlanId=data.academicPlanId;
                     }
                 })
             },

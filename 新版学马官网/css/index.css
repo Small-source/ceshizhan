@@ -29,6 +29,10 @@
   font-size: 18px;
   color: #666666;
   padding-top: 25px;
+  cursor: pointer;
+}
+.part1 .tops > li:hover span {
+  transform: scale(1.2);
 }
 .part1 .tops > li > p {
   font-size: 18px;
@@ -42,6 +46,8 @@
   font-weight: bolder;
   color: #3186F7;
   letter-spacing: 0;
+  display: inline-block;
+  transition: 0.1s;
 }
 .part1 .tops > li > a {
   color: #666;
@@ -82,7 +88,7 @@
 .xueyelist li p {
   text-align: center;
   line-height: 76px;
-  font-size: 28px;
+  font-size: 26px;
   color: #fff;
 }
 .xueyelist li .p {
@@ -165,7 +171,223 @@
   left: 834px;
   top: 615px;
 }
+.part2 .part2box .mo5 {
+  left: 236px;
+  top: 490px;
+  color: #fff;
+  font-size: 14px;
+  width: 80px;
+  text-align: center;
+  line-height: 32px;
+}
+.part2 .part2box .mo6 {
+  left: 466px;
+  top: 467px;
+  color: #fff;
+  font-size: 14px;
+  width: 106px;
+  text-align: center;
+  line-height: 32px;
+}
+.part2 .part2box .mo7 {
+  left: 645px;
+  top: 488px;
+  color: #fff;
+  font-size: 14px;
+  width: 158px;
+  text-align: center;
+  line-height: 32px;
+}
 .part3 {
+  background: url("../imgs/home/icon_diquan.png") center center no-repeat;
+  background-color: #F5F9FC;
+  height: 918px;
+}
+.part3 .items {
+  position: relative;
+  width: 1040px;
+  margin: 0 auto;
+  border: 1px solid transparent;
+}
+.part3 .items li {
+  position: absolute;
+  width: 170px;
+  height: 70px;
+}
+.part3 .items li p {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.part3 .items li span {
+  font-size: 12px;
+  color: #999999;
+  line-height: 18px;
+}
+.part3 .items .li1 {
+  left: 50px;
+  top: 140px;
+}
+.part3 .items .li2 {
+  left: 0;
+  top: 414px;
+}
+.part3 .items .li3 {
+  left: 416px;
+  top: 670px;
+}
+.part3 .items .li4 {
+  right: 40px;
+  top: 140px;
+}
+.part3 .items .li5 {
+  right: 0;
+  top: 414px;
+}
+.part3 .items .canvas {
+  position: absolute;
+  width: 590px;
+  height: 586px;
+  border: 1px solid transparent;
+  left: 224px;
+  top: 15px;
+  z-index: 9;
+}
+.part3 .items .circle {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position: absolute;
   background: #F5F9FC;
+  z-index: 99;
+}
+.part3 .items .circle1 {
+  left: 308px;
+  top: 112px;
+}
+.part3 .items .circle2 {
+  left: 254px;
+  top: 385px;
+}
+.part3 .items .circle3 {
+  left: 493px;
+  top: 560px;
+}
+.part3 .items .circle4 {
+  left: 698px;
+  top: 112px;
+}
+.part3 .items .circle5 {
+  left: 751px;
+  top: 385px;
+}
+.part3 .items .women {
+  display: block;
+  margin: 30px auto;
+  position: relative;
+  top: 42px;
+}
+.part4 {
+  background: url("../imgs/home/kecheng_bg.png") center center no-repeat;
+  width: 100%;
+  height: 630px;
+  position: relative;
+}
+.part4 .zhichilis {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 56px;
+}
+.part4 .zhichilis li {
+  width: 280px;
+  height: 380px;
+  border-radius: 15px;
+  background: #fff;
+}
+.part4 .zhichilis li img {
+  display: block;
+  margin: 70px auto 30px;
+}
+.part4 .zhichilis li p {
+  text-align: center;
+  font-size: 18px;
+}
+.part4 .zhichilis li .p {
+  padding: 6px 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.part4 .zhichilis li .p span {
+  font-size: 12px;
+  color: #999999;
+  display: block;
+  line-height: 26px;
+}
+.part5 .users {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 36px;
+  padding-bottom: 30px;
+}
+.part5 .users li {
+  box-shadow: 0 0 5px #E3E3E3;
+  width: 285px;
+  height: 270px;
+  margin-bottom: 22px;
+}
+.part5 .users li .img {
+  width: 100%;
+  height: 190px;
+}
+.part5 .users li p {
+  text-align: center;
+  line-height: 78px;
+  font-size: 14px;
+}
+.part5 .users li:nth-of-type(1) .img {
+  background: url("../imgs/home/use_xuema/icon_longnan.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(2) .img {
+  background: url("../imgs/home/use_xuema/icon_ronghua.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(3) .img {
+  background: url("../imgs/home/use_xuema/icon_tianxin.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(4) .img {
+  background: url("../imgs/home/use_xuema/icon_liaochengdiyizhongxue.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(5) .img {
+  background: url("../imgs/home/use_xuema/icon_pingyuanxian.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(6) .img {
+  background: url("../imgs/home/use_xuema/icon_shandongshiyan.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(7) .img {
+  background: url("../imgs/home/use_xuema/icon_sichuanmianyang.png") center center no-repeat;
+}
+.part5 .users li:nth-of-type(8) .img {
+  background: url("../imgs/home/use_xuema/icon_longnan.png") center center no-repeat;
+}
+.part6 {
+  height: 494px;
+  width: 100%;
+  background: #F5F9FC;
+}
+.part6 .hezuo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.part6 .hezuo li {
+  width: 230px;
+  height: 84px;
+  background: #fff;
+  margin-top: 28px;
+}
+.part6 .hezuo li img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=index.css.map */

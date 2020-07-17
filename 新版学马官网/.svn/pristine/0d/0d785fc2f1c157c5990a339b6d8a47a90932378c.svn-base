@@ -1,0 +1,228 @@
+    .gaokaochongci {
+        .inner {
+            width: 1200px;
+            margin: 0 auto;
+        }
+        .title {
+            height: 130px;
+            line-height: 130px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .banner {
+            img {
+                width: 100%;
+            }
+        }
+        .result {
+            background-color: #FFFFFF;
+            padding-bottom: 40px;
+            position: relative;
+            .go_peigeng {
+                width: 910px;
+                height: 140px;
+                background-color: #fff;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px #dedede;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #fff;
+                position: absolute;
+                left: 50%;
+                top: -50px;
+                margin-left: -455px;
+                .btn {
+                    width: 400px;
+                    height: 70px;
+                    border-radius: 35px;
+                    background-color: #377CEE;
+                    text-align: center;
+                    line-height: 70px;
+                    cursor: pointer;
+                    box-shadow: 0px 5px 5px #0F4FB5;
+                    &:active {
+                        box-shadow: none;
+                    }
+                }
+            }
+            .main_box {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .main {
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    width: 260px;
+                    text-align: center;
+                    img {
+                        margin-bottom: 20px;
+                    }
+                    .detail {
+                        font-size: 18px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+        .jianjie {
+            color: #fff;
+            height: 600px;
+            background: url(../imgs/gaokaochongci/bg_kechengjianjie.png) no-repeat center center;
+            .title {
+                color: #fff;
+            }
+            .main {
+                width: 646px;
+                padding: 100px 20px 0px 20px;
+                font-size: 16px;
+                line-height: 1.5em;
+            }
+        }
+        .hexin {
+            height: 710px;
+            background-color: #fff;
+            .main {
+                height: 502px;
+                background: url(../imgs/gaokaochongci/icon_hexinyoushi.png) no-repeat;
+                position: relative;
+                p {
+                    position: absolute;
+                    font-size: 20px;
+                    line-height: 50px;
+                    color: #333;
+                }
+                .no1 {
+                    left: 620px;
+                    top: 50px;
+                }
+                .no2 {
+                    left: 700px;
+                    top: 170px;
+                }
+                .no3 {
+                    left: 700px;
+                    top: 288px;
+                }
+                .no4 {
+                    left: 620px;
+                    top: 410px;
+                }
+            }
+        }
+        .kecengtixi {
+            background-color: #F4F6F8;
+            padding-bottom: 60px;
+            color: #333;
+            .main_box {
+                display: flex;
+                flex-wrap: wrap;
+                .main {
+                    width: 33.333%;
+                    .mains {
+                        padding: 20px;
+                        .main_title {
+                            line-height: 54px;
+                            font-size: 22px;
+                            font-weight: 600;
+                        }
+                        .detail {
+                            font-size: 14px;
+                            line-height: 1.5em;
+                            margin-bottom: 20px;
+                        }
+                        ul {
+                            display: flex;
+                            width: 100%;
+                            flex-wrap: wrap;
+                            li {
+                                margin-bottom: 20px;
+                                width: 50%;
+                                font-size: 13px;
+                                position: relative;
+                                padding-left: 10px;
+                                line-height: 1em;
+                                box-sizing: border-box;
+                                &::before {
+                                    content: '';
+                                    width: 6px;
+                                    height: 6px;
+                                    background-color: #4478EA;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 0;
+                                    margin-top: -3px;
+                                    z-index: 1;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .team {
+            background-color: #FFFFFF;
+            height: 565px;
+            .main_box {
+                display: flex;
+                justify-content: space-between;
+                .main {
+                    width: 222px;
+                    height: 366px;
+                    box-sizing: border-box;
+                    padding: 0 20px;
+                    padding-top: 120px;
+                    color: #FFFFFF;
+                    .main_title {
+                        font-size: 18px;
+                        font-weight: 600;
+                        text-align: center;
+                        margin-bottom: 5px;
+                    }
+                    .detail {
+                        font-size: 14px;
+                        line-height: 1.5em;
+                    }
+                }
+            }
+        }
+        .shikan {
+            height: 592px;
+            background: url(../imgs/gaokaochongci/icon_shikankecheng.png) no-repeat center center;
+            .title {
+                color: #fff;
+            }
+            .main_box {
+                display: flex;
+                justify-content: space-between;
+                .header {
+                    width: 400px;
+                    height: 72px;
+                    line-height: 72px;
+                    text-align: center;
+                    color: #fff;
+                    font-size: 20px;
+                    position: absolute;
+                    top: -10px;
+                    left: 50%;
+                    // z-index: 2;
+                    margin-left: -200px;
+                    background: url(../imgs/gaokaochongci/icon_kecheng.png) no-repeat center center;
+                }
+                .main {
+                    position: relative;
+                    width: 560px;
+                    height: 380px;
+                    box-sizing: border-box;
+                    padding: 84px 25px 25px 25px;
+                    background-color: #fff;
+                    video {
+                        width: 100%;
+                        height: 100%;   
+                    }
+                }
+            }
+        }
+    }

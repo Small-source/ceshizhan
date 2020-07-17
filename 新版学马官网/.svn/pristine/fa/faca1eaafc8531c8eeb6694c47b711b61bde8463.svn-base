@@ -1,0 +1,355 @@
+.xuanke .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.xuanke .title {
+  height: 130px;
+  line-height: 130px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.xuanke .banner {
+  height: 480px;
+  background: url(../imgs/xuanke/banner.png) no-repeat center center;
+}
+.xuanke .solve_problem {
+  background-color: #FFFFFF;
+  padding-bottom: 40px;
+  position: relative;
+  padding-top: 80px;
+  color: #333;
+}
+.xuanke .solve_problem .nav_box {
+  width: 1200px;
+  height: 140px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  margin-left: -600px;
+  padding: 0 60px;
+}
+.xuanke .solve_problem .go_peigeng {
+  width: 1200px;
+  height: 130px;
+  box-sizing: border-box;
+  padding: 0 100px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  margin-left: -600px;
+}
+.xuanke .solve_problem .go_peigeng .btn {
+  width: 300px;
+  height: 54px;
+  border-radius: 27px;
+  background-color: #377CEE;
+  text-align: center;
+  line-height: 54px;
+  cursor: pointer;
+  font-size: 18px;
+  box-shadow: 0px 5px 5px #0F4FB5;
+  color: #fff;
+  font-size: 16px;
+}
+.xuanke .solve_problem .go_peigeng .btn:hover {
+  color: #fff;
+}
+.xuanke .solve_problem .go_peigeng .btn:active {
+  box-shadow: none;
+}
+.xuanke .solve_problem .title_box {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #fff;
+  line-height: 54px;
+}
+.xuanke .solve_problem .title_box .school {
+  width: 278px;
+  height: 66px;
+  background: url(../imgs/xuanke/bg_xuexiao.png);
+}
+.xuanke .solve_problem .title_box .student {
+  width: 892px;
+  height: 66px;
+  background: url(../imgs/xuanke/bg_student.png);
+}
+.xuanke .solve_problem .main_box {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+.xuanke .solve_problem .main_box li {
+  padding: 20px 15px;
+  display: flex;
+  background-color: #fff;
+  font-size: 14px;
+  border-radius: 2px;
+  width: 276px;
+  box-sizing: border-box;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(222, 222, 222, 0.5);
+}
+.xuanke .solve_problem .main_box li img {
+  margin-right: 15px;
+}
+.xuanke .kexuexuanke {
+  background-color: #F4F6F9;
+  padding-bottom: 50px;
+}
+.xuanke .kexuexuanke .main_box {
+  display: flex;
+  justify-content: space-between;
+  color: #333;
+}
+.xuanke .kexuexuanke .main_box li {
+  position: relative;
+  width: 366px;
+  height: 490px;
+  box-sizing: border-box;
+  padding-top: 300px;
+}
+.xuanke .kexuexuanke .main_box li .num {
+  text-align: center;
+  height: 65px;
+  overflow: hidden;
+}
+.xuanke .kexuexuanke .main_box li .main_title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  line-height: 50px;
+}
+.xuanke .kexuexuanke .main_box li .main_detail {
+  padding: 0 60px;
+  font-size: 14px;
+  text-align: center;
+  color: #333;
+  line-height: 20px;
+}
+.xuanke .our_advantage {
+  padding-bottom: 30px;
+}
+.xuanke .our_advantage .content {
+  background: url(../imgs/xuanke/bg_youshi.png) no-repeat center center;
+  height: 366px;
+}
+.xuanke .our_advantage .content ul {
+  display: flex;
+  justify-content: space-between;
+  height: 366px;
+  position: relative;
+  top: 0px;
+  z-index: 10;
+}
+.xuanke .our_advantage .content ul li {
+  box-sizing: border-box;
+  width: 240px;
+  height: 366px;
+  padding-top: 70px;
+  color: #fff;
+  text-align: center;
+}
+.xuanke .our_advantage .content ul li .small_title {
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+}
+.xuanke .our_advantage .content ul li .line {
+  width: 95px;
+  border: 1px solid #fff;
+  margin: 0 auto;
+}
+.xuanke .our_advantage .content ul li .small_detail {
+  padding: 0 40px;
+  padding-top: 25px;
+  font-size: 14px;
+  text-align: left;
+  text-align: center;
+}
+.xuanke .our_advantage .content ul li .img_box {
+  height: 40px;
+}
+.xuanke .our_advantage .content ul li:nth-child(1) .img_box {
+  background: url(../imgs/xuanke/icon_xianshang.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:nth-child(2) .img_box {
+  background: url(../imgs/xuanke/icon_jiejuefangan.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:nth-child(3) .img_box {
+  background: url(../imgs/xuanke/icon_shizi.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:nth-child(4) .img_box {
+  background: url(../imgs/xuanke/icon_genzong.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:hover {
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 0px 35px rgba(167, 169, 180, 0.2);
+  background-color: #fff;
+  color: #333;
+}
+.xuanke .our_advantage .content ul li:hover .small_title {
+  color: #333;
+}
+.xuanke .our_advantage .content ul li:hover .line {
+  border: 1px solid #377BED;
+}
+.xuanke .our_advantage .content ul li:hover .small_detail {
+  color: #333;
+}
+.xuanke .our_advantage .content ul li:hover:nth-child(1) .img_box {
+  background: url(../imgs/xuanke/icon_xianshanglan.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:hover:nth-child(2) .img_box {
+  background: url(../imgs/xuanke/icon_jiejuefanganlan.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:hover:nth-child(3) .img_box {
+  background: url(../imgs/xuanke/icon_shizilan.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul li:hover:nth-child(4) .img_box {
+  background: url(../imgs/xuanke/icon_genzonglan.png) no-repeat center center;
+}
+.xuanke .our_advantage .content ul .active {
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 0px 35px rgba(167, 169, 180, 0.2);
+  background-color: #fff;
+  color: #333;
+}
+.xuanke .our_advantage .content ul .active .small_title {
+  color: #333;
+}
+.xuanke .our_advantage .content ul .active .line {
+  border: 1px solid #377BED;
+}
+.xuanke .our_advantage .content ul .active .small_detail {
+  color: #333;
+}
+.xuanke .gongnengjieshao .inner {
+  display: flex;
+}
+.xuanke .gongnengjieshao .middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.xuanke .gongnengjieshao .main_box {
+  padding-top: 60px;
+}
+.xuanke .gongnengjieshao .main_box .title_box {
+  width: 186px;
+  height: 42px;
+  line-height: 42px;
+  background-color: #3492f9;
+  color: #fff;
+  text-align: center;
+  border-radius: 21px;
+  margin-bottom: 25px;
+}
+.xuanke .gongnengjieshao .main_box ul li {
+  display: flex;
+  width: 236px;
+  margin-bottom: 20px;
+}
+.xuanke .gongnengjieshao .main_box ul li img {
+  margin-right: 15px;
+  display: block;
+  width: 38px;
+  height: 38px;
+}
+.xuanke .gongnengjieshao .main_box ul li p {
+  line-height: 1.5em;
+  color: #333;
+  font-size: 14px;
+}
+.xuanke .jiehe .content {
+  color: #fff;
+  height: 595px;
+  background: url(../imgs/xuanke/bg_shixianxueshengxuan.png) no-repeat center center;
+}
+.xuanke .jiehe .content .inner {
+  padding-top: 60px;
+  height: 595px;
+  box-sizing: border-box;
+  display: flex;
+}
+.xuanke .jiehe .content .inner .main_box {
+  width: 220px;
+}
+.xuanke .jiehe .content .inner .main_box .title_box {
+  margin-bottom: 45px;
+}
+.xuanke .jiehe .content .inner .main_box .title_box span {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 30px;
+  border-bottom: 1px solid #fff;
+}
+.xuanke .jiehe .content .inner .main_box ul li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+.xuanke .jiehe .content .inner .main_box ul li img {
+  margin-right: 25px;
+}
+.xuanke .jiehe .content .inner .inner_right {
+  color: #333;
+}
+.xuanke .jiehe .content .inner .inner_right .title_box span {
+  border-bottom: 1px solid #333;
+}
+.xuanke .jiehe .content .inner .middle {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.xuanke .jiehe .content .inner .middle img {
+  width: 357px;
+  height: 281px;
+}
+.xuanke .fuwuliucheng {
+  height: 509px;
+  background: url(../imgs/xuanke/icon_fuwuliucheng.png) no-repeat center center;
+}
+.xuanke .fuwuliucheng .main_box {
+  padding: 150px 60px 0px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.xuanke .fuwuliucheng .main_box li {
+  color: #333;
+  width: 190px;
+  text-align: center;
+}
+.xuanke .fuwuliucheng .main_box .main_title {
+  font-size: 18px;
+  line-height: 50px;
+  font-weight: bold;
+}
+.xuanke .fuwuliucheng .main_box .mian_detail {
+  font-size: 14px;
+  line-height: 22px;
+}

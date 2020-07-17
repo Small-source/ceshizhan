@@ -1,0 +1,297 @@
+header {
+  height: 74px;
+  width: 100%;
+}
+header * {
+  box-sizing: content-box !important;
+}
+header .headerbox {
+  height: 74px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 10000000000;
+  -webkit-box-shadow: 0 0 6px #dedede;
+  box-shadow: 0 0 6px #dedede;
+}
+header .headerbox .headInner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+header .headerbox .logos {
+  width: 142px;
+  height: 44px;
+  padding: 15px 0px;
+  float: left;
+  margin-right: 350px;
+}
+header .headerbox .logos a {
+  display: block;
+  width: 142px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+}
+header .headerbox .logos a span {
+  position: absolute;
+  left: -1000px;
+}
+header .headerbox .logos a img {
+  width: 99px;
+  height: 40px;
+}
+header .headerbox .lis-nav {
+  height: 74px;
+}
+header .headerbox .lis-nav .lis {
+  float: left;
+  height: 40px;
+  padding: 17px 0px;
+  margin-right: 38px;
+  color: #000;
+  position: relative;
+  font-size: 14px;
+}
+header .headerbox .lis-nav .lis .select {
+  color: #156def;
+}
+header .headerbox .lis-nav .lis:hover .arrow {
+  transform: rotate(180deg);
+}
+header .headerbox .lis-nav .lis .arrow {
+  position: absolute;
+  right: -13px;
+  top: 33px;
+  width: 10px;
+  height: 10px;
+  background: url(../imgs/home/xiala.png) no-repeat center center;
+  background-size: 10px 10px;
+}
+header .headerbox .lis-nav .lis .bigLink {
+  display: block;
+  line-height: 40px;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #000;
+}
+header .headerbox .lis-nav .lis .bigLink span {
+  display: block;
+  color: #000;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+}
+header .headerbox .lis-nav .lis .bigLink .select {
+  color: #156def;
+}
+header .headerbox .lis-nav .lis .nextNavs {
+  position: fixed;
+  padding-top: 30px;
+  width: 100%;
+  height: 150px;
+  left: 0px;
+  top: 65px;
+  background-color: #ffffff;
+  z-index: 20000;
+}
+header .headerbox .lis-nav .lis .nextNavs .mountLink {
+  color: #333;
+  font-size: 14px;
+  line-height: 40px;
+  cursor: pointer;
+}
+header .headerbox .lis-nav .lis .nextNavs .mountLink:hover .yunpingtai {
+  display: block;
+}
+header .headerbox .lis-nav .lis .nextNavs .pingtai {
+  color: #2d3e50;
+  height: 40px !important;
+  display: block;
+}
+header .headerbox .lis-nav .lis .nextNavs .pingtai span {
+  padding-left: 10px;
+}
+header .headerbox .lis-nav .lis .nextNavs .pingtai:hover {
+  color: #156def;
+}
+header .headerbox .lis-nav .lis .nextNavs .yunpingtai {
+  padding-left: 60px;
+  padding-top: 30px;
+  width: 370px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 166px;
+  top: 0px;
+  display: none;
+}
+header .headerbox .lis-nav .lis .nextNavs .yunpingtai li {
+  font-size: 14px;
+  float: left;
+  width: 160px;
+  height: 26px;
+  line-height: 26px;
+  border-radius: 3px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+header .headerbox .lis-nav .lis .nextNavs .yunpingtai li a {
+  display: block;
+  width: 160px;
+  height: 26px;
+  color: #666666;
+}
+header .headerbox .lis-nav .lis .nextNavs .yunpingtai li a:hover {
+  color: #156def;
+}
+header .headerbox .lis-nav .lis .nextNavs .yunpingtai li:nth-child(even) {
+  margin-right: 0px;
+}
+header .headerbox .lis-nav .lis .footLink {
+  width: 100%;
+  color: #333;
+  font-size: 14px;
+}
+header .headerbox .lis-nav .lis .footLink li {
+  height: 36px;
+  line-height: 36px;
+  float: left;
+  width: 150px;
+  margin-right: 65px;
+  cursor: pointer;
+}
+header .headerbox .lis-nav .lis .footLink li a {
+  display: block;
+  width: 100%;
+  height: 40px;
+  color: #2d3e50;
+}
+header .headerbox .lis-nav .lis .footLink li a:hover {
+  color: #156def;
+}
+header .headerbox .lis-nav .lis .footLink li:nth-child(3) {
+  margin-right: 0px;
+}
+header .headerbox .lis-nav .lis .footLink li:last-child {
+  margin-right: 0px;
+}
+header .headerbox .lis-nav .lis:hover .bigLink {
+  cursor: pointer;
+  color: #156def;
+}
+header .headerbox .lis-nav .lis_no2 {
+  margin-right: 0px;
+  padding-right: 51px;
+}
+header .headerbox .lis-nav .lis_no2 .bigLink {
+  position: relative;
+}
+header .headerbox .lis-nav .lis_no2 .bigLink .arrow {
+  right: -15px;
+  top: 50%;
+  margin-top: -3px;
+}
+header .headerbox .lis-nav .lis_no2:hover .nextNavs {
+  display: block;
+}
+header .headerbox .lis-nav .link_shengya {
+  float: right;
+  padding: 23.5px 0px;
+  width: 86px;
+  height: 27px;
+}
+header .headerbox .lis-nav .link_shengya a {
+  display: block;
+  width: 86px;
+  height: 27px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #127de1;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 27px;
+}
+header .headerbox .lis-nav .xingaokao {
+  margin-right: 51px;
+}
+header .headerbox .lis-nav .xingaokao .nextNavs {
+  width: 200px;
+  height: 100px;
+  left: -10px;
+  z-index: 20000;
+}
+header .headerbox .lis-nav .xingaokao .nextNavs a {
+  width: 100%;
+  color: #2d3e50;
+}
+header .headerbox .lis-nav .xingaokao .nextNavs a:hover {
+  color: #156def;
+}
+header .headerbox .lis-nav .guanyuwomen .nextNavs {
+  width: 200px;
+  height: 100px;
+  left: -42px;
+  z-index: 20000;
+}
+header .headerbox .lis-nav .guanyuwomen .mountLink {
+  display: block;
+  width: 100%;
+  height: 40px;
+}
+header .headerbox .lis-nav .guanyuwomen .mountLink:hover {
+  color: #156def;
+}
+header .headerbox .nextNavs {
+  display: none;
+  position: absolute;
+  width: 100%;
+  z-index: 100000000;
+  background-color: #fff;
+  padding: 30px 0px;
+  padding-bottom: 20px;
+}
+header .headerbox .nextNavs .nav_box {
+  float: left;
+  width: 325px;
+  height: 120px;
+  border-right: 1px solid #e5e5e5;
+}
+header .headerbox .nextNavs .nav_box .headerTitle {
+  font-size: 16px;
+  line-height: 16px;
+  color: #333;
+  font-weight: 600;
+}
+header .headerbox .nextNavs .nav_box ul {
+  width: 325px;
+}
+header .headerbox .nextNavs .nav_box ul li {
+  padding-top: 20px;
+  font-size: 14px;
+  line-height: 14px;
+  float: left;
+  width: 50%;
+  color: #666;
+  cursor: pointer;
+}
+header .headerbox .nextNavs .nav_box2 {
+  padding-left: 25px;
+  width: 310px;
+}
+header .headerbox .nextNavs .nav_box3 {
+  padding-left: 25px;
+  width: 300px;
+}
+header .headerbox .nextNavs .nav_box4 {
+  float: left;
+  width: 170px;
+  border: none;
+  padding-left: 25px;
+}
+/*# sourceMappingURL=header.css.map */

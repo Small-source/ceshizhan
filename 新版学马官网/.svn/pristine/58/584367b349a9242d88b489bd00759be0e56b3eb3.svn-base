@@ -1,0 +1,316 @@
+header{
+  *{
+    box-sizing: content-box !important;
+  }
+  height: 74px;
+  width: 100%;
+  .headerbox{
+    height: 74px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 10000000000;
+    -webkit-box-shadow: 0 0 6px #dedede;
+    box-shadow: 0 0 6px #dedede;
+    .headInner{
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .logos {
+      width: 142px;
+      height: 44px;
+      padding: 15px 0px;
+      float: left;
+      margin-right: 350px;
+      a {
+        display: block;
+        width: 142px;
+        height: 60px;
+        overflow: hidden;
+        position: relative;
+        span {
+          position: absolute;
+          left: -1000px;
+        }
+        img {
+          width: 99px;
+          height: 40px;
+        }
+      }
+    }
+    .lis-nav {
+      height: 74px;
+      .lis {
+        float: left;
+        height: 40px;
+        padding: 17px 0px;
+        margin-right: 38px;
+        color: #000;
+        position: relative;
+        font-size: 14px;
+        .select {
+          color: #156def;
+        }
+        &:hover {
+          .arrow {
+            transform: rotate(180deg);
+          }
+        }
+        .arrow {
+          position: absolute;
+          right: -13px;
+          top: 33px;
+          width: 10px;
+          height: 10px;
+          background: url(../imgs/home/xiala.png) no-repeat center center;
+          background-size: 10px 10px;
+
+        }
+        .bigLink {
+          display: block;
+          line-height: 40px;
+          border-radius: 20px;
+          font-size: 14px;
+          color: #000;
+          span {
+            display: block;
+            color: #000;
+            height: 40px;
+            line-height: 40px;
+            border-radius: 20px;
+          }
+          .select {
+            color: #156def;
+          }
+        }
+        .nextNavs {
+          position: fixed;
+          padding-top: 30px;
+          width: 100%;
+          height: 150px;
+          left: 0px;
+          top: 65px;
+          // box-shadow:0 0 20px rgba(176,224,251,.5);
+          background-color: #ffffff;
+          // border-radius: 10px;
+          z-index: 20000;
+          .mountLink {
+            color: #333;
+            font-size: 14px;
+            line-height: 40px;
+            cursor: pointer;
+            &:hover {
+              .yunpingtai {
+                display: block;
+              }
+            }
+
+          }
+          .pingtai {
+            color: #2d3e50;
+            height: 40px !important;
+            display: block;
+            span {
+              padding-left: 10px;
+            }
+            &:hover {
+              color: #156def;
+            }
+          }
+          .yunpingtai {
+            padding-left: 60px;
+            padding-top: 30px;
+            width: 370px;
+            height: 310px;
+            background-color: #fff;
+            position: absolute;
+            left: 166px;
+            top: 0px;
+            display: none;
+            li {
+              font-size: 14px;
+              float: left;
+              width: 160px;
+              height: 26px;
+              line-height: 26px;
+              border-radius: 3px;
+              margin-right: 50px;
+              margin-bottom: 10px;
+              cursor: pointer;
+              a {
+                // width: 100%;
+                display: block;
+                width: 160px;
+                height: 26px;
+                color: #666666;
+                &:hover {
+                  color: #156def;
+                }
+              }
+              &:nth-child(even) {
+                margin-right: 0px;
+              }
+            }
+          }
+        }
+        .footLink {
+          // height: 60px;
+          width: 100%;
+          // float: left;
+          color: #333;;
+          font-size: 14px;
+          li {
+            height: 36px;
+            line-height: 36px;
+            float: left;
+            width: 150px;
+            margin-right: 65px;
+            cursor: pointer;
+            a {
+              display: block;
+              width: 100%;
+              height: 40px;
+              color: #2d3e50;
+              &:hover {
+                color: #156def;
+              }
+            }
+            &:nth-child(3) {
+              margin-right: 0px;
+            }
+            &:last-child {
+              margin-right: 0px;
+            }
+          }
+        }
+        &:hover {
+          .bigLink {
+            cursor: pointer;
+            color: #156def;
+          }
+        }
+      }
+      .lis_no2 {
+        margin-right: 0px;
+        padding-right: 51px;
+        .bigLink {
+          position: relative;
+          .arrow {
+            right: -15px;
+            top: 50%;
+            margin-top: -3px;
+          }
+        }
+        &:hover .nextNavs{
+          display: block;
+        }
+        // .arrow {
+        // 	left: 75px;
+        // }
+      }
+      .link_shengya {
+        float: right;
+        padding: 23.5px 0px;
+        width: 86px;
+        height: 27px;
+        a {
+          display: block;
+          width: 86px;
+          height: 27px;
+          font-size: 14px;
+          color: #fff;
+          background-color: #127de1;
+          border-radius: 2px;
+          text-align: center;
+          line-height: 27px;
+        }
+      }
+      .xingaokao {
+        margin-right: 51px;
+        .nextNavs {
+          width: 200px;
+          height: 100px;
+          left: -10px;
+          z-index: 20000;
+          a {
+            width: 100%;
+            color: #2d3e50;
+            &:hover {
+              color: #156def;
+            }
+          }
+        }
+      }
+      .guanyuwomen {
+        .nextNavs {
+          width: 200px;
+          height: 100px;
+          left: -42px;
+          z-index: 20000;
+        }
+        .mountLink {
+          display: block;
+          width: 100%;
+          height: 40px;
+          &:hover {
+            color: #156def;
+          }
+        }
+      }
+    }
+    .nextNavs {
+      display: none;
+      position: absolute;
+      width: 100%;
+      z-index: 100000000;
+      background-color: #fff;
+      padding: 30px 0px;
+      padding-bottom: 20px;
+      .nav_box {
+        float: left;
+        width: 325px;
+        height: 120px;
+        border-right: 1px solid #e5e5e5;
+        .headerTitle {
+          font-size: 16px;
+          line-height: 16px;
+          color: #333;
+          font-weight: 600;
+        }
+        ul {
+          width: 325px;
+          li {
+            padding-top: 20px;
+            font-size: 14px;
+            line-height: 14px;
+            float: left;
+            width: 50%;
+            color: #666;
+            cursor: pointer;
+          }
+        }
+      }
+      .nav_box2 {
+        padding-left: 25px;
+        width: 310px;
+
+      }
+      .nav_box3 {
+        padding-left: 25px;
+        width: 300px;
+
+      }
+      .nav_box4 {
+        float: left;
+        width: 170px;
+        border: none;
+        padding-left: 25px;
+      }
+    }
+  }
+}

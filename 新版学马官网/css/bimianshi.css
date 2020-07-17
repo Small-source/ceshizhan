@@ -1,0 +1,415 @@
+.bimianshi {
+  background-color: #f9f9f9;
+}
+.bimianshi .inner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.bimianshi .banner {
+  width: 100%;
+  height: 480px;
+  background: url(../imgs/bimianshi/banner01.png) no-repeat center center;
+}
+.bimianshi .content {
+  background: #F5F5F5;
+  padding-bottom: 40px;
+}
+.bimianshi .content .inners {
+  top: -84px;
+  background-color: #fff;
+  padding: 10px 25px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  width: 1150px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 8px rgba(222, 222, 222, 0.61);
+  position: relative;
+  border-radius: 5px;
+}
+.bimianshi .content .title {
+  height: 42px;
+  line-height: 42px;
+  color: #333;
+  font-size: 22px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+}
+.bimianshi .content .bigTitle {
+  height: 38px;
+  line-height: 38px;
+  color: #676767;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+}
+.bimianshi .content .jianjie {
+  height: 36px;
+  line-height: 36px;
+  color: #E13F01;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.bimianshi .content .footLis {
+  padding-top: 14px;
+  height: 36px;
+}
+.bimianshi .content .footLis li {
+  float: left;
+  width: 86px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 20px;
+  border: 1px solid #de675f;
+  color: #de675f;
+  font-size: 14px;
+  border-radius: 3px;
+  letter-spacing: 1px;
+}
+.bimianshi .content .goBuy {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
+  width: 160px;
+  height: 44px;
+  color: #fff;
+  background-color: #3592f9;
+  border-radius: 5px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px #135fb3;
+}
+.bimianshi .content .goBuy:active {
+  box-shadow: none;
+}
+.bimianshi .content .havenBuy {
+  position: absolute;
+  right: 20px;
+  bottom: 25px;
+  width: 160px;
+  height: 44px;
+  color: #fff;
+  background-color: #3592f9;
+  border-radius: 5px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  box-shadow: 0px 3px 3px #135fb3;
+}
+.bimianshi .content .havenBuy:active {
+  box-shadow: none;
+}
+.bimianshi .content .xuemaIntroduction {
+  position: relative;
+  top: -45px;
+}
+.bimianshi .content .xuemaIntroduction .inner {
+  padding-top: 20px;
+}
+.bimianshi .content .xuemaIntroduction .title {
+  height: 70px;
+  color: #333;
+  line-height: 70px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.bimianshi .content .xuemaIntroduction .xiangqing {
+  font-size: 14px;
+  color: #666;
+}
+.bimianshi .content .xuemaIntroduction .xiangqing p {
+  text-indent: 2em;
+}
+.bimianshi .content .courseOutline {
+  background-color: #fff;
+}
+.bimianshi .content .courseOutline .inner {
+  width: 100%;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.bimianshi .content .courseOutline .title {
+  height: 40px;
+  color: #333;
+  line-height: 40px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.bimianshi .content .courseOutline .analysis {
+  font-size: 14px;
+  color: #666;
+  line-height: 30px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+.bimianshi .content .courseOutline .description {
+  line-height: 24px;
+  font-size: 14px;
+  color: #666;
+}
+.bimianshi .content .courseOutline .details {
+  padding-top: 20px;
+}
+.bimianshi .content .courseOutline .details table {
+  text-align: center;
+  border: 1px solid #dedede;
+}
+.bimianshi .content .courseOutline .details table tr {
+  width: 1160px;
+  line-height: 54px;
+}
+.bimianshi .content .courseOutline .details table tr th {
+  padding-left: 20px;
+  text-align: center;
+  width: 556px;
+  color: #333;
+  font-size: 18px;
+  background: #DCDCDC;
+}
+.bimianshi .content .courseOutline .details table tr {
+  width: 100%;
+  line-height: 45px;
+}
+.bimianshi .content .courseOutline .details table tr td {
+  padding-left: 20px;
+  width: 556px;
+  font-size: 14px;
+}
+.bimianshi .content .sudentEvaluation {
+  margin-bottom: 20px;
+}
+.bimianshi .content .sudentEvaluation .inner {
+  padding-top: 15px;
+  background-color: #fff;
+}
+.bimianshi .content .sudentEvaluation .title {
+  width: 94px;
+  height: 36px;
+  background-color: #3592f9;
+  border-radius: 0px 18px 18px 0px;
+  color: #fff;
+  padding-left: 20px;
+  line-height: 36px;
+}
+.bimianshi .content .sudentEvaluation .lis {
+  padding: 20px;
+  overflow: hidden;
+}
+.bimianshi .content .sudentEvaluation .lis li {
+  padding: 5px 20px;
+  width: 278px;
+  height: 259px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  float: left;
+}
+.bimianshi .content .sudentEvaluation .lis li:last-child {
+  margin-right: 0px;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox {
+  padding: 12px 0px;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox .imgBox {
+  float: left;
+  margin-right: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox .imgBox img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox .topRight {
+  float: left;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox .topRight .name {
+  font-size: 14px;
+  color: #333;
+  height: 25px;
+  line-height: 25px;
+  margin-bottom: 7px;
+}
+.bimianshi .content .sudentEvaluation .lis li .topBox .topRight .address {
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  color: #3492f9;
+}
+.bimianshi .content .sudentEvaluation .lis li .description {
+  padding: 20px;
+  overflow: hidden;
+}
+.bimianshi .content .instructors .title {
+  height: 110px;
+  color: #fff;
+  line-height: 110px;
+  text-align: center;
+  font-size: 22px;
+}
+.bimianshi .content .instructors .lis {
+  padding: 0 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.bimianshi .content .instructors .lis li {
+  box-sizing: border-box;
+  padding-bottom: 0px;
+  width: 276px;
+  height: 420px;
+  margin-right: 20px;
+  float: left;
+  position: relative;
+  transition: all 0.5s linear;
+}
+.bimianshi .content .instructors .lis li:last-child {
+  margin-right: 0px;
+}
+.bimianshi .content .instructors .lis li img {
+  width: 100%;
+  height: 100%;
+}
+.bimianshi .content .instructors .lis li .teacherBox {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 245px;
+  height: 90px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: rgba(53, 146, 249, 0.9);
+}
+.bimianshi .content .instructors .lis li .teacherBox .teacher {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #fff;
+  line-height: 40px;
+}
+.bimianshi .content .instructors .lis li .teacherBox .university {
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+}
+.bimianshi .content .contentBox {
+  position: relative;
+  top: -63px;
+  width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+.bimianshi .content .contentBox .title {
+  line-height: 76px;
+  padding-left: 20px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+}
+.bimianshi .content .contentBox .title span {
+  font-size: 20px;
+  color: #3592F9;
+  font-weight: bolder;
+  margin-left: 14px;
+  letter-spacing: 2px;
+}
+.bimianshi .content .contentBox .listnavs {
+  width: 100%;
+  height: 64px;
+  border-bottom: 1px solid #EAEAEA;
+  padding-top: 17px;
+  box-sizing: border-box;
+}
+.bimianshi .content .contentBox .listnavs .listnavBox {
+  width: 384px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.bimianshi .content .contentBox .listnavs .listnavBox li {
+  width: 88px;
+  height: 30px;
+  border-radius: 15px;
+  background: #E6E7E9;
+  color: #3592FA;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.bimianshi .content .contentBox .videoBox1 {
+  width: 100%;
+  padding: 0 20px;
+  margin-bottom: 40px;
+  box-sizing: border-box;
+}
+.bimianshi .content .contentBox .videoBox1 .list {
+  overflow: hidden;
+  width: 100%;
+}
+.bimianshi .content .contentBox .videoBox1 .inner {
+  padding: 0px 0px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_left {
+  float: left;
+  width: 670px;
+  height: 386px;
+  background-color: #c1defe;
+  border-radius: 3px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_left video {
+  width: 100%;
+  height: 100%;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_right {
+  float: left;
+  padding-top: 27px;
+  padding-left: 50px;
+  background: url(../imgs/bimianshi/icon/icon_ren.png) no-repeat 430px 28px;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_right .title {
+  width: 100%;
+  font-size: 18px;
+  line-height: 54px;
+  color: #3592f9;
+  border-bottom: 1px solid #dcdcdc;
+  margin-bottom: 10px;
+  padding-left: 0;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_right .tese {
+  font-size: 16px;
+  color: #333;
+  line-height: 36px;
+  font-weight: 600;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_right .detail {
+  line-height: 34px;
+  color: #666;
+  font-size: 14px;
+}
+.bimianshi .content .contentBox .videoBox1 .videoBox_right .fuli {
+  line-height: 70px;
+  color: #333;
+  font-weight: bold;
+  font-size: 14px;
+  padding-left: 30px;
+  background: url(../imgs/bimianshi/icon/icon_liwu.png) no-repeat 0px center;
+}
+/*# sourceMappingURL=bimianshi.css.map */

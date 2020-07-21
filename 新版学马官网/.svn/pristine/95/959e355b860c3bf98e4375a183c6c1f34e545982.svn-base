@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育一对一志愿填报指导</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/study_way.css">
+    <script src="js/public.js"></script>
+</head>
+<body>
+	<div class="publicHead"></div>
+    <div class="study_way">
+        <div class="banner">
+        </div>
+		<div class="solve_problem">
+			<div class="go_peigeng">
+                <a class="btn" href="http://www.xuematech.com/career/#/wayToStudy/main" target="_blank">进入升学途径</a>
+            </div>
+			<div class="inner">
+                <div class="title">解决问题</div>
+                <ul class="main_box">
+                    <li>
+                    	<img src="./imgs/study_way/rs01.png" alt="">
+                    	<p>没有渠道<br/>全面了解现有的升学途径</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/study_way/rs02.png" alt="">
+                    	<p>无法分析<br/>出适合自己的最优升学途径</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/study_way/rs03.png" alt="">
+                    	<p>选择好了<br/>升学途径，没有方案指导如何准备 </p>
+                    </li>
+                </ul>
+			</div>
+		</div>
+       	<div class="xitongzhicheng">
+			<div class="title">系统支撑做好升学路径规划</div>
+			<div class="inner">
+				<ul class="main_box">
+					<li>
+						<img src="./imgs/study_way/icon_01.png" alt="">
+						<p class="main_title"></p>
+						<p class="main_detail">权威数据库<br/>系统分析升学路径</p>
+					</li>
+					<li>
+						<img src="./imgs/study_way/icon_02.png" alt="">
+						<p class="main_title"></p>
+						<p class="main_detail">升学路径大百科<br/>每项路径最详细解读</p>
+					</li>
+					<li>
+						<img src="./imgs/study_way/icon_03.png" alt="">
+						<p class="main_title"></p>
+						<p class="main_detail">生成推荐升学路径方案<br/> </p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="features">
+			<div class="title">功能介绍</div>
+            <div class="inner">
+            	<div class="img_box">
+            		<img src="./imgs/study_way/icon_gongnengjieshao.png" alt="">
+            	</div>
+                <ul class="main_box">
+                    <li>
+                    	<img src="./imgs/study_way/icon_shengxuetujingfenxi.png" alt="">
+                        <p class="main_detail">升学途径分析</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/study_way/icon_baogao.png" alt="">
+                        <p class="main_detail">升学途径分析报告</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/study_way/icon_shengxuetujingyueli.png" alt="">
+                        <p class="main_detail">升学途径月历</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/study_way/icon_tuijianshengxuetujing.png" alt="">
+                        <p class="main_detail">推荐升学途径方案</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="fuwuanli">
+        	<div class="title">服务案例</div>
+        	<div class="inner">
+        		<div class="content">
+        			<img src="./imgs/study_way/icon_anli.png" alt="">
+        		</div>
+        	</div>
+        	<div class="footer">
+        	</div>
+        </div>
+    </div>
+	<div class="publicFoot"></div>
+</body>
+</html>

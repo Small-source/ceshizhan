@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>招商合作</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/zhaoshanghezuo.css">
+</head>
+<body>
+    <div class="zhaoshanghezuo">
+        <div class="publicHead"></div>
+        <div class="banner">
+        </div>
+        <div class="content_detail">
+            <p><span>4周</span>打造规划师核心服务能力</p>
+            <p>人才培养更加高效</p>
+        </div>
+        <!-- 免费获取测试账号 -->
+        <div class="free_getting_accounts">
+            <div class="inner">
+                <div class="big_title">
+                    马上获取试用账号
+                </div>
+                <div class="title_detail"></div>
+                <p class="baoming">
+                    已经有<span>1467</span>人预约报名
+                </p>
+                <p class="remind" :style="{color: isSuccess ? '#3492f9': 'red'}">{{remind}}</p>
+                <div class="input_phone">
+                    <input type="text" placeholder="请输入您的姓名"  onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的姓名'" class="username" v-model="free_name" maxlength="10">
+                    <input type="number" placeholder="请输入您的手机号" class="telephone_number" onfocus="this.placeholder=''" onblur="this.placeholder='请输入您的手机号'" v-model="free_telephone_number">
+                    <div class="btn" @click="getFreeAccount">立即领取</div>
+                </div>
+            </div>
+            <div class="free_foot">
+                <div class="inner">
+                    <div class="main_roll">
+                            <!-- 父容器里面的v-if="topMovieList.length>0"是必须写的，否则将不起作用 -->
+                            <!-- <swiper class="roll-ul" :options="swiperOption" ref="mySwiper" v-if="freeArrList.length > 0" >　　　　　　　　　　　　　　
+                                <swiper-slide v-for="(item, index) in freeArrList" :key="index" >
+                                    <p>{{item.name}}</p><p>{{item.phone}}</p><p>{{item.time}}</p>
+                                </swiper-slide>
+                            </swiper> -->
+                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- 政策背景 -->
+        <div class="zhengcebeijing">
+            <div class="inner">
+                <div class="big_title">
+                    政策背景
+                </div>
+                <ul class="lis">
+                    <li>
+                        <p class="year">2013年</p>
+                        <p>《中共中央关于全面深化改革若干重大问题的决定》</p>
+
+                    </li>
+                    <li>
+                        <p class="year">2014年</p>
+                        <p>《国务院关于深化考试招生制度改革的实施意见》</p>
+                    </li>
+                    <img src="./imgs/zhaoshanghezuo/arrow.png" alt="">
+                </ul>
+                <p class="biao">新高考改革时间表</p>
+                <ul class="biao_box">
+                    <li>
+                        <p class="year">2014年</p>
+                        <p class="dian"></p>
+                        <p class="title">第一批</p>
+                        <p class="detail">浙江、上海</p>
+                    </li>
+                    <li>
+                        <p class="detail">北京、天津</p>
+                        <p class="detail">山东、海南</p>
+                        <p class="title">第二批</p>
+                        <p class="dian"></p>
+                        <p class="year">2017年</p>
+                    </li>
+                    <li>
+                        <p class="year">2018年</p>
+                        <p class="dian"></p>
+                        <p class="title">第三批</p>
+                        <p class="detail">江苏、湖北</p>
+                        <p class="detail">福建、辽宁</p>
+                        <p class="detail">重庆、河北</p>
+                        <p class="detail">湖南、广东</p>
+                    </li>
+                    <li>
+                        <p class="detail">陕西、甘肃</p>
+                        <p class="detail">宁夏、广西</p>
+                        <p class="detail">安徽、江西</p>
+                        <p class="detail">内蒙古、辽宁</p>
+                        <p class="detail">黑龙江、吉林</p>
+                        <p class="detail">贵州、西藏</p>
+                        <p class="title">第四批</p>
+                        <p class="dian"></p>
+                        <p class="year">2019年</p>
+                    </li>
+                    <li>
+                        <p class="title">...</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="guimo">
+            <div class="title_box">
+                新高考市场规模
+            </div>
+            <div class="inner">
+                <div class="content">
+                    <ul>
+                        <li>2019年高考报考人数突破<span>1031</span>万人！</li>
+                        <li>生涯规划、强基综评、志愿填报市场规模<span>20</span>亿！</li>
+                    </ul>
+                </div>
+                <ul class="lis_mid">
+                    <li>
+                        <p>全国高中生</p>
+                        <p>在校人数<span>3000</span>万</p>
+                    </li>
+                    <li>
+                        <p><span>5%</span>选择</p>
+                        <p>付费咨询</p>
+                    </li>
+                    <li>
+                        <p>咨询单价</p>
+                        <p><span>2000元/人</span></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="yuji">
+            <p>预计2020年中学生咨询规划市场消费规模</p>
+            <p>将达到<span>3000亿</span></p>
+        </div>
+        <div class="guihua">
+            <div class="title_box">
+                <p><span>学马</span></p>
+                <p>新高考背景下的升学规划</p>
+            </div>
+            <div class="inner">
+                <div class="content">
+                    <ul class="lis">
+                        <li>
+                            <p>探索方向</p>
+                            <p>认识自我</p>
+                            <p>确立目标</p>
+                        </li>
+                        <li>
+                            <p>调整方向</p>
+                            <p>打造优势</p>
+                            <p>提升能力</p>
+                        </li>
+                        <li>
+                            <p>多元升学</p>
+                            <p>冲刺高考</p>
+                            <p>梦想成真</p>
+                        </li>
+                    </ul>
+
+                </div>
+                <ul class="title_lis">
+                    <li>高一</li>
+                    <li>高二</li>
+                    <li>高三</li>
+                </ul>
+            </div>
+        </div>
+        <div class="resolve">
+            <div class="inner">
+                <div class="title_box">
+                    <p><span>学马</span></p>
+                    <p>升学解决方案</p>
+                </div>
+                <ul class="yuan">
+                    <li>
+                        <p>服务支撑<br/>体系</p>
+                    </li>
+                    <li>
+                        <p>工具系统<br/>体系</p>
+                    </li>
+                    <li>
+                        <p>课程内容<br/>体系</p>
+                    </li>
+                </ul>
+                <ul class="title_lis">
+                    <li>认识自我</li>
+                    <li>探索外部世界</li>
+                    <li>明确方向</li>
+                    <li>设定目标</li>
+                    <li>行动方案</li>
+                    <li>生涯评估</li>
+                </ul>
+                <ul class="ft_lis">
+                    <li>方向定位</li>
+                    <li>目标设定</li>
+                    <li>通路设计与背景提升</li>
+                    <li>升学备考</li>
+                </ul>
+            </div>
+        </div>
+        <div class="youshi">
+            <div class="youshi1">
+                <div class="inner">
+                    <div class="big_title">
+                        学马三大优势
+                    </div>
+                    <div class="s_title">工具系统体系</div>
+                    <div class="content">
+                        <div class="left">
+                            <img src="./imgs/zhaoshanghezuo/gjtx.png" alt="">
+                        </div>
+                        <div class="right">
+                            <div class="box">
+                                <p class="title"><span>3</span>大产品</p>
+                                <p>生涯发展管理平台</p>
+                                <p>代理商官网</p>
+                                <p>小程序</p>
+                            </div>
+                            <div class="box">
+                                <p class="title"><span>8</span>大系统</p>
+                                <ul>
+                                    <li><p>生涯测评系统</p><p>学科诊断系统</p></li>
+                                    <li><p>学职信息查询系统</p><p>升学途径分析系统</p></li>
+                                    <li><p>视频课程平台</p><p>新高考选科系统</p></li>
+                                    <li><p>志愿填报系统</p><p>学业管理系统</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="youshi2">
+                <div class="s_title">服务支撑体系</div>
+                <div class="inner inner_line">
+                    <ul class="lis">
+                        <li>
+                            <p class="title">师资培训</p>
+                            <p><span>生涯规划咨询师</span><span>升学规划专家</span></p>
+                            <p><span>学业规划咨询师</span><span>志愿填报规划师</span></p>
+                            <img src="./imgs/zhaoshanghezuo/fwzc1.png" alt="">
+                        </li>
+                        <li>
+                            <p class="title">配套教材</p>
+                            <p>生涯规划与志愿填报教材、升学规划教材...</p>
+                            <div class="box">
+                                <p>
+                                    2020年<br/>强基计划白皮书
+                                </p>
+                                <p>
+                                    从生涯规划<br/>的角度谈<br/>高考志愿填报
+                                </p>
+                                <p>
+                                    新高考<br/>升学规划必读
+                                </p>
+                            </div>
+                            <img src="./imgs/zhaoshanghezuo/fwzc2.png" alt="">
+                        </li>
+                        <li>
+                            <p class="title">运营服务支持</p>
+                            <p>筹备期-开业期-成长期-成熟期，全方位服务</p>
+                            <img src="./imgs/zhaoshanghezuo/fwzc3.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="youshi2">
+                <div class="s_title">课程内容体系</div>
+                <div class="inner">
+                    <ul class="lis">
+                        <li>
+                            <p class="title">5大系列课程</p>
+                            <p><span>生涯课程</span><span>升学课程</span><span>志愿填报</span></p>
+                            <p><span>院校介绍</span><span>专业介绍</span><span>&emsp;&emsp;&emsp;&emsp;</span></p>
+                            <img src="./imgs/zhaoshanghezuo/kc1.png" alt="">
+                        </li>
+                        <li>
+                            <p class="title">直播课运营</p>
+                            <p>学马升学大讲堂全年48节课，周周直<br/>播</p>
+                            <img src="./imgs/zhaoshanghezuo/kc2.png" alt="">
+                        </li>
+                        <li>
+                            <p class="title">强基综评笔面试课程</p>
+                            <p>强基计划、综合评价复试笔面试课程，学科拔尖课程</p>
+                            <img src="./imgs/zhaoshanghezuo/kc3.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="advantage">
+            <div class="big_title">
+                使用学马教育品牌优势
+            </div>
+            <div class="inner">
+                <ul class="lis">
+                    <li v-for="(item,index) in advantage">
+                        <img :src="item.imgUrl" alt="">
+                        <p>{{item.detail}}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="zhichi">
+            <div class="big_title">
+                校区运营服务与支持
+            </div>
+            <ul class="inner lis">
+                <li v-for="(item,index) in zhichi" class="lid">
+                    <div class="top_box">
+                        <img :src="item.imgUrl" alt="">
+                        <p>{{item.title}}</p>
+                    </div>
+                    <ul class="detail_lis" v-for="(child,idx) in item.detail">
+                        <li><span>{{idx + 1}}</span>{{child}}</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="liucheng">
+            <div class="big_title">
+                合作流程
+            </div>
+            <div class="inner content">
+                <img src="/imgs/zhaoshanghezuo/jiantou.png" alt="">
+                <ul class="lis">
+                    <li>合作意向沟通</li>
+                    <li>全方位审核</li>
+                    <li>达成合作协议</li>
+                    <li>运营支持</li>
+                </ul>
+            </div>
+        </div>
+        <div class="zhanshi zhiying">
+            <div class="big_title">
+                直营校区展示
+            </div>
+            <div class="inner lis">
+                <img :src="item.imgUrl" alt="" v-for="(item,index) in zhiying">
+            </div>
+        </div>
+        <div class="zhanshi">
+            <div class="big_title">
+                全国校区展示
+            </div>
+            <div class="inner lis">
+                <img :src="item.imgUrl" alt="" v-for="(item,index) in quanguo">
+            </div>
+        </div>
+        <div class="zhanshi jiangzuo">
+            <div class="big_title">
+                讲座与培训展示
+            </div>
+            <div class="inner lis">
+                <img :src="item.imgUrl" alt="" v-for="(item,index) in jiangzuo">
+            </div>
+        </div>
+        <!-- 加盟咨询 -->
+        <div class="join_us">
+            <div class="big_title">
+                加盟咨询
+            </div>
+            <div class="inner">
+                <div class="left">
+                    <div class="map" id="map">
+                        <img src="./imgs/zhaoshanghezuo/map.png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <p class="title">加盟咨询</p>
+                    <ul>
+                        <li>
+                            <p>加盟费用：</p>
+                            <div class="select_box">
+                                <input type="text" v-model="checkd_typed" @click="isShowOption1 = !isShowOption1">
+                                <img src="./imgs/zhaoshanghezuo/icon_xialahui.png" alt="" :class="isShowOption1 ? 'img_active': ''">
+                                <div class="option_box" v-show="isShowOption1">
+                                    <p @click="checkd_type = 1; isShowOption1=false">加盟费用</p>
+                                    <p @click="checkd_type = 2; isShowOption1=false">加盟模式</p>
+                                    <p @click="checkd_type = 3; isShowOption1=false">其他问题</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <p>姓&emsp;&emsp;名：</p>
+                            <input type="text" placeholder="请输入您的姓名" v-model="join_name">
+                        </li>
+                        <li>
+                            <p>手&emsp;&emsp;机：</p>
+                            <input type="number" placeholder="请输入您的电话" v-model="join_phonenumber">
+                        </li>
+                        <li>
+                            <p>留&emsp;&emsp;言：</p>
+                            <textarea  v-model="join_message" placeholder="请输入您的留言" onfocus="this.placeholder = ''"  onblur="this.placeholder = '请输入您的留言'"></textarea>
+                        </li>
+                    </ul>
+                    <p class="remind">{{join_remind}}</p>
+                    <div class="btn" @click="getJoinMessage">
+                        立即咨询
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fixed_box" v-show="isShowFixed">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <p>我想了解：</p>
+                        <div class="select_box">
+                            <input type="text" v-model="checkd_typed" @click="isShowOption2= !isShowOption2">
+                            <img src="./imgs/zhaoshanghezuo/icon_xialahui.png" alt="" :class="isShowOption2 ? 'img_active': ''">
+                            <div class="option_box" v-show="isShowOption2">
+                                <p @click="checkd_type = 1; isShowOption2=false">加盟费用</p>
+                                <p @click="checkd_type = 2; isShowOption2=false">加盟模式</p>
+                                <p @click="checkd_type = 3; isShowOption2=false">其他问题</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <p>姓名：</p>
+                        <input type="text" placeholder="请输入您的姓名" v-model="join_name">
+                    </li>
+                    <li>
+                        <p>手机：</p>
+                        <input type="number" placeholder="请输入您的电话" v-model="join_phonenumber">
+                    </li>
+                    <li>
+                        <p>留言：</p>
+                        <textarea  v-model="join_message" placeholder="请输入您的留言" onfocus="this.placeholder = ''"  onblur="this.placeholder = '请输入您的留言'"></textarea>
+                    </li>
+                </ul>
+                <div class="btn" @click="getJoinMessage">
+                    立即咨询
+                </div>
+                <div class="btn_close" @click="isShowFixed=false">×</div>
+            </div>
+        </div>
+        <div class="publicFoot"></div>
+    </div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/public.js"></script>
+<script src="./js/vue.js"></script>
+<!-- <script src="./js/echarts.min.js"></script>
+<script src="./js/china.js"></script> -->
+<script src="./js/axios.min.js"></script>
+<script type="module">
+
+    Vue.prototype.$ajax= axios;
+    // Vue.prototype.$echarts = echarts;
+    Vue.prototype.G_uri= 'http://www.xuematech.com/papi';
+    new Vue({
+        el:'.zhaoshanghezuo',
+        data(){
+            return{
+                isShowOption1: false,
+                isShowOption2: false,
+                isShowFixed: true,
+                imgIndex: 1,
+                swiperOption:{
+                    loop:true,
+                    notNextTick:true,
+                    initialSlide:0,
+                    direction : 'vertical',
+                    speed:300,
+                    autoplay:{
+                        delay:2000,
+                        stopOnLastSlide:true,
+                        disableOnInteraction:false
+                    },
+                    parallax: true,
+                    pagination:{
+                        el:".swiper-pagination",
+                        type: "bullets",
+                        clickable:true
+                    },
+                    effect : 'slide'
+                },
+
+
+                free_name: '',
+                free_telephone_number: '',
+                remind: '',
+                isSuccess: true,
+                checkd_type: '1',
+                join_name: '',
+                join_phonenumber: '',
+                join_message: '',
+                isSuccessJoin: true,
+                join_remind: '',
+                freeData: [],
+
+                advantage: [
+                    { imgUrl: './imgs/zhaoshanghezuo/icon_zhimingdugao.png',detail: '品牌知名度高，影响广泛，收获良好口碑' },
+                    { imgUrl: './imgs/zhaoshanghezuo/icon_qianjingguangkuo.png',detail: '项目前景广阔，投资少回报高，实现快速持续盈利' },
+                    { imgUrl: './imgs/zhaoshanghezuo/icon_yunyingjingyan.png',detail: '多年运营经验，管理模式成熟，为加盟商提供全面保障' },
+                    { imgUrl: './imgs/zhaoshanghezuo/icon-yanfatixichengshu.png',detail: '研发体系成熟，课程内容完备，得到市场一致好评认可' },
+                    { imgUrl: './imgs/zhaoshanghezuo/icon-shizituandui.png',detail: '顶尖师资团队，积淀多年经验，且有专业师资培训体系' }
+                ],
+                zhiying: [
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_01.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_02.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_03.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_04.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_05.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_06.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_07.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/zhiyingxiaoqu_08.png'},
+                ],
+                quanguo: [
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_01.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_02.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_03.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_04.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_05.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_06.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_07.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/quanguoxiaoqu_08.png'},
+                ],
+                jiangzuo: [
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_01.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_02.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_03.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_04.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_05.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_06.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_07.png'},
+                    { imgUrl: './imgs/zhaoshanghezuo/jiangzuoyupeixun_08.png'},
+                ],
+                zhichi: [
+                    { title: '筹备期',imgUrl: './imgs/zhaoshanghezuo/icon_01.png', detail: ['协助选址','市场调研','装修设计','薪酬绩效','产品设计','人员招聘','人员培训','系统使用'] },
+                    { title: '开业期',imgUrl: './imgs/zhaoshanghezuo/icon_02.png', detail: ['校区开业验收','开业方案制定','市场宣传支持','入校落地支持'] },
+                    { title: '成长期',imgUrl: './imgs/zhaoshanghezuo/icon_03.png', detail: ['市场方案订制','入校运营支持','日常培训支持','个性化校区分析诊断'] },
+                    { title: '成熟期',imgUrl: './imgs/zhaoshanghezuo/icon_04.png', detail: ['物料支持','品牌宣传','员工进阶培训'] },
+                ],
+                dataList:[
+                      {name: '南海诸岛', value: 0},
+                      {name: '北京', value: 0},
+                      {name: '天津', value: 1},
+                      {name: '上海', value: 1},
+                      {name: '重庆', value: 3},
+                      {name: '河北', value: 10},
+                      {name: '河南', value: 4},
+                      {name: '云南', value: 2},
+                      {name: '辽宁', value: 1},
+                      {name: '黑龙江', value: 1},
+                      {name: '湖南', value: 20},
+                      {name: '安徽', value:0},
+                      {name: '山东', value: 6},
+                      {name: '新疆', value: 3},
+                      {name: '江苏', value: 0},
+                      {name: '浙江', value: 2},
+                      {name: '江西', value: 0},
+                      {name: '湖北', value: 5},
+                      {name: '广西', value: 0},
+                      {name: '甘肃', value: 1},
+                      {name: '山西', value: 1},
+                      {name: '内蒙古', value: 0},
+                      {name: '陕西', value: 0},
+                      {name: '吉林', value: 2},
+                      {name: '福建', value: 1},
+                      {name: '贵州', value: 0},
+                      {name: '广东', value: 4},
+                      {name: '青海', value: 0},
+                      {name: '西藏', value: 0},
+                      {name: '四川', value: 1},
+                      {name: '宁夏', value: 0},
+                      {name: '海南', value: 1},
+                      {name: '台湾', value: 0},
+                      {name: '香港', value: 0},
+                      {name: '澳门', value: 0}
+                ]
+            }
+        },
+        computed: {
+            freeArrList() {
+                let arr = [];
+                arr = this.freeData.slice(0,40);
+                return arr;
+            },
+            swiper() {
+                return this.$refs.mySwiper.swiper;
+            },
+            checkd_typed() {
+                let value = this.checkd_type;
+                console.log(value)
+                if(value ==1) {
+                    return '加盟费用'
+                }else if(value ==2) {
+                    return '加盟模式'
+                }else {
+                    return '其他问题'
+                }
+            }
+        },
+        watch: {
+        },
+        methods: {
+
+            // 获取免费测试账号
+            getTestApplyList() {
+                var _this = this;
+                var token = window.sessionStorage.getItem('ymtxToken');
+
+                this.$ajax.post(this.G_uri + '/merchant/getTestApplyList', {
+
+                },{
+                    headers:{
+                        token: token
+                    }
+                })
+                .then(function(res) {
+                    if(res.data.code == 2000) {
+                        _this.freeData = res.data.data;
+                    }else if(res.data.code == 1016) {
+                        _this.$router.push('/login');
+                    }
+                })
+                .catch(function(error) {
+                    console.log(error)
+                });
+            },
+
+
+
+            // 获取免费测试账号
+            getFreeAccount() {
+                var _this = this;
+                var name = this.free_name;
+                var phone = this.free_telephone_number;
+                var token = window.sessionStorage.getItem('ymtxToken');
+                var reg = /(^1[34578]\d{9}$)|(^\d{8}$)/;
+                if(!name && !phone) {
+                    this.remind = '姓名或手机号不能为空';
+                    this.isSuccess = false
+                    return;
+                }else if(!reg.test(phone)) {
+                    this.remind = '手机号格式不正确'
+                    this.isSuccess = false
+                    return;
+                }
+                this.$ajax.post(this.G_uri + '/merchant/storeTestApply', {
+                    name: name,
+                    phone: phone
+                },{
+                    headers:{
+                        token: token
+                    }
+                })
+                .then(function(res) {
+                    if(res.data.code == 2000) {
+                        _this.remind = '我们已经接收您的申请';
+                    }else if(res.data.code == 1016) {
+                        _this.$router.push('/login');
+                    }else {
+                        _this.isSuccess = false;
+                       _this.remind = res.data.msg;
+                    }
+                })
+                .catch(function(error) {
+                    console.log(error)
+                });
+            },
+            // 底部加盟咨询
+            //type 1加盟费用 2加盟模式 3其他问题
+            getJoinMessage() {
+                var _this = this;
+                var name = this.join_name;
+                var phone = this.join_phonenumber;
+                var type = this.checkd_type;
+                var message = this.join_message;
+                var token = window.sessionStorage.getItem('ymtxToken');
+                var reg = /(^1[34578]\d{9}$)|(^\d{8}$)/;
+                if(!name && !phone && !message) {
+                    this.join_remind = '姓名、手机号和留言不能为空';
+                    this.isSuccessJoin = false;
+                    return;
+                }else if(!reg.test(phone)) {
+                    this.join_remind = '手机号格式不正确';
+                    this.isSuccessJoin = false;
+                    return;
+                }
+                this.$ajax.post(this.G_uri + '/merchant/storeConsultation', {
+                    name: name,
+                    phone: phone,
+                    type: type,
+                    message: message
+                },{
+                    headers:{
+                        token: token
+                    }
+                })
+                .then(function(res) {
+                    if(res.data.code == 2000) {
+                        _this.join_remind = '我们已经接收您的加盟咨询';
+                    }else if(res.data.code == 1016) {
+                        _this.$router.push('/login');
+                    }else {
+                        _this.isSuccessJoin = false;
+                        _this.join_remind = res.data.msg;
+                    }
+                })
+                .catch(function(error) {
+                    console.log(error);
+                });
+            },
+
+
+
+            buildMap() {
+                let myChart = echarts.init(document.getElementById('map'));
+                let option = {
+                    // tooltip: {
+                    //     formatter:function(params,ticket, callback){
+                    //         return params.seriesName+'<br />'+params.name+'：'+params.value
+                    //     }//数据格式化
+                    // },
+                    visualMap: {
+                        min: 0,
+                        max: 15,
+                        left: 'left',
+                        top: 'bottom',
+                        text: ['20','0'],//取值范围的文字
+                        inRange: {
+                            color: ['#fff4e6', '#dd2002']//取值范围的颜色
+                        },
+                        show: false//图注
+                    },
+                    geo: {
+                        map: 'china',
+                        roam: false,//不开启缩放和平移
+                        zoom:1.23,//视角缩放比例
+                        label: {
+                            normal: {
+                                show: true,
+                                fontSize:'10',//注意：地图省份名字字体如果过大会导致字体重叠
+                                color: 'rgba(0,0,0,0.7)'
+                            }
+                        },
+                        itemStyle: {
+                            normal:{
+                                borderColor: 'rgba(0, 0, 0, 0.2)'
+                            },
+                            emphasis:{
+                                areaColor: '#F3B329',//鼠标选择区域颜色
+                                shadowOffsetX: 0,
+                                shadowOffsetY: 0,
+                                // shadowBlur: 20,
+                                borderWidth: 0,
+                                // shadowColor: 'rgba(0, 0, 0, 0.5)'
+                            }
+                        }
+                    },
+                    series : [
+                        {
+                            name: '代理商数量',
+                            type: 'map',
+                            geoIndex: 0,
+                            data:this.dataList
+                        }
+                    ]
+                };
+                myChart.setOption(option);
+            }
+        },
+        mounted() {
+            // this.buildMap();
+        },
+        created() {
+            this.getTestApplyList();
+        }
+    })
+</script>
+</html>

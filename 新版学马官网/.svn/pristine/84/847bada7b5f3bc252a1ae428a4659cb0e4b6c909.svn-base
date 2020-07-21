@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育一对一志愿填报指导</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/zhiyuantianbao.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="zhiyuantianbao">
+        <div class="banner">
+            <img src="./imgs/zhiyuantianbao/banner.png" alt="志愿填报">
+        </div>
+        <div class="result">
+<!--             <div class="go_peigeng">
+                <a class="btn" href="http://xuemaedu.net/accounts/login?fromUrl=/tzy/choosebatch" target="_blank">进入志愿填报</a>
+            </div> -->
+            <div class="inner">
+                <div class="title">90%以上的学生遗憾没有填好高考志愿 </div>
+                <ul class="main_box">
+                    <li>录取到不喜欢的专业</li>
+                    <li>上学的城市不喜欢</li>
+                    <li>不懂填报规则，被大学退档</li>
+                    <li>高分低报，原本可以报更好的学校</li>
+                </ul>
+            </div>
+        </div>
+        <div class="important">
+            <div class="inner">
+                <div class="title">志愿填报很复杂且非常重要</div>
+                <ul>
+                    <li>
+                        <img src="./imgs/zhiyuantianbao/icon_tianbaoguize.png" alt="">
+                        <p class="main_title">填报规则复杂</p>
+                        <p class="main_detail">新高考改革后，志愿填报规则 发生了巨大变化</p>
+                    </li>
+                    <li>
+                        <img src="./imgs/zhiyuantianbao/icon_yingxiangyinsu.png" alt="">
+                        <p class="main_title">影响因素较多</p>
+                        <p class="main_detail">面临地域、院校、成绩、家庭 等因素，不知如何抉择</p>
+                    </li>
+                    <li>
+                        <img src="./imgs/zhiyuantianbao/icon_zhuanyeyinsu.png" alt="">
+                        <p class="main_title">院校专业信息量大</p>
+                        <p class="main_detail">院校专业多，填报依据的数据多，信息量大</p>
+                    </li>
+                    <li>
+                        <img src="./imgs/zhiyuantianbao/icon_liaojiexinxishao.png" alt="">
+                        <p class="main_title">了解信息少</p>
+                        <p class="main_detail">读不懂政策，了解渠道少，掌握信息有限</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="cepingdingwei">
+            <div class="inner">
+                <div class="title">专业填报看这里</div>
+                <div class="detail">—— 量身打造最合适的志愿填报方案 ——</div>
+                <p class="miaosu">专家一对一服务从学生的兴趣爱好、性格特征、未来职业发展等角度出发，为学生量身设计符合其生涯发展的最优志愿方案。</p>
+                <div class="header"><img src="./imgs/zhiyuantianbao/icon_biaoti.png" alt=""></div>
+                <p class="header_detail">通过专业生涯测评对认知潜能、人格特征、兴趣倾向、学习特征、心理健康进行综合测评，帮助学生发现天赋，全方位了解自我，精准定位专业</p>
+                <ul class="main_box">
+                    <li><img src="./imgs/zhiyuantianbao/zl01.png" alt=""></li>
+                    <li><img src="./imgs/zhiyuantianbao/zl02.png" alt=""></li>
+                    <li><img src="./imgs/zhiyuantianbao/zl03.png" alt=""></li>
+                    <li><img src="./imgs/zhiyuantianbao/zl04.png" alt=""></li>
+                </ul>
+                <div class="footer">(生涯测评系统中认知潜能评价模型和职业定位结构模型申请了国家发明专利) </div>
+            </div>
+        </div>
+        <div class="tianbaoxitong">
+            <div class="inner">
+                <ul class="main_box">
+                    <li>
+                        <p class="main_title">数据权威</p>
+                        <p class="main_detail">数据与考试院数据完全同步，2800多所院校近5年院校、专业录取数据、招生计划与省考试院同 步更新。</p>
+                    </li>
+                    <li>
+                        <p class="main_title">推荐精准</p>
+                        <p class="main_detail">根据院校历5年录取分数线、位次和当年招生计划等数据，结合目标专业、高考成绩、运用6大核 心算法推荐录取率最高的院校，推荐精准度</p>
+                    </li>
+                    <li>
+                        <p class="main_title">功能强大</p>
+                        <p class="main_detail">满足自主填报、院校优先、专业优先等多种填报模式需求。</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="quanmianfenxi">
+            <div class="inner">
+                <ul class="main_box">
+                    <li>
+                        <p class="main_title">高校概况</p>
+                        <p class="main_detail">历史沿革，基本情况等</p>
+                    </li>
+                    <li>
+                        <p class="main_title">开设专业</p>
+                        <p class="main_detail">高校开设的全部专业</p>
+                    </li>
+                    <li>
+                        <p class="main_title">优势学科</p>
+                        <p class="main_detail">包含国家重点学科，特色专业</p>
+                    </li>
+                    <li>
+                        <p class="main_title">录取分数</p>
+                        <p class="main_detail">包含国家重点学科，特色专业</p>
+                    </li>
+                    <li>
+                        <p class="main_title">招生简章</p>
+                        <p class="main_detail">考生所在省份的招生简章分析</p>
+                    </li>
+                    <li>
+                        <p class="main_title">招生计划</p>
+                        <p class="main_detail">考生所在省份的招生计划</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="fuwuliucheng">
+            <div class="inner">
+                <div class="title">服务流程</div>
+                <ul class="main_box">
+                    <li>
+                        <p class="main_title">专业定位</p>
+                        <p class="main_detail">专业版测评报告+专业外 部探索+王牌专业分析</p>
+                    </li>
+                    <li>
+                        <p class="main_title">院校筛选</p>
+                        <p class="main_detail">精准院校专业数据+目标院校方案</p>
+                    </li>
+                    <li>
+                        <p class="main_title">学业规划</p>
+                        <p class="main_detail">学生高中成绩分析+目标分解行动计划+学习状态激励</p>
+                    </li>
+                    <li>
+                        <p class="main_title">机会分析</p>
+                        <p class="main_detail">院校招生分析+低分高就机会点+填报方案优选</p>
+                    </li>
+                    <li>
+                        <p class="main_title">知分填报</p>
+                        <p class="main_detail">提档概率以及录取概率分析+录取风险评估+填报方案调整（保证录取结果、不退档、不滑档 、避免高分低就）</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="our_advantage">
+            <div class="title">我们的优势</div>
+            <div class="content">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">科学的指导理念</p>
+                            <p class="small_detail">以生涯规划理念为指导， 按照认知自我-外部探索-科学决策进行志愿填报</p>
+                        </li>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">完善的填报流程</p>
+                            <p class="small_detail">将专业结合成绩筛选院 校，制定行动方案。知分填报，保证录取结果 ，避免高分低就</p>
+                        </li>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">精准的填报数据</p>
+                            <p class="small_detail">院校、专业等信息来源于官方，精准全面，及时更新，为志愿填报提供有力的数据支撑</p>
+                        </li>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">丰富的规划经验</p>
+                            <p class="small_detail">一线志愿填报规划师实操经验丰富，拥有多年志愿填报规划工作经验 ，填报零失误</p>
+                        </li>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">个性化的填报方案</p>
+                            <p class="small_detail">依据学生的基本情况，千人千面，依据学生的基本情况以及特点延伸 ，为学生量身打造适合的填报方案</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

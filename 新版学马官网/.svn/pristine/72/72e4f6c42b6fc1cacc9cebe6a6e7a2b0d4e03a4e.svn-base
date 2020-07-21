@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育特殊类招生背景提升服务，研学营</title>
+    <meta name="keywords" content="学马,学马教育,研学,研究性学习,研究性学习训练营,训练营,">
+    <meta name="description" content="为更多的学生提供特殊类招生背景提升服务，研究性学习训练营，社会实践训练营等，在学习的过程中提升">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/yanxueying.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="yanxueying">
+        <div class="banner">
+            <img src="./imgs/yanxueying/banner.png" alt="研学营">
+        </div>
+        <div class="service_object">
+            <p class="big_title">服务对象</p>
+            <div class="inner">
+                <p><span></span>高中一、二、三年级学生，考试成绩一本线上或综合素质优秀</p>
+                <img src="./imgs/yanxueying/icon_fuwuduixiang.png" alt="">
+            </div>
+        </div>
+        <div class="service_content">
+            <p class="big_title">服务内容</p>
+            <ul class="inner lis">
+                <li class="title_box">
+                    <p>序号</p>
+                    <p>课程模块</p>
+                    <p>服务内容</p>
+                </li>
+                <li>
+                    <p>1</p>
+                    <p>课题研究</p>
+                    <p>开营破冰与专家讲座</p>
+                </li>
+                <li>
+                    <p>2</p>
+                    <p>深入探究</p>
+                    <p>确定研究课题与收集资料</p>
+                </li>
+                <li>
+                    <p>3</p>
+                    <p>成果展示</p>
+                    <p>分组汇报与专家点评</p>
+                </li>
+                <li>
+                    <p>4</p>
+                    <p>研究收获</p>
+                    <p>论文在评审通过后可以盖中国人类工效学学会、中国标准化研究院国家重点实验室的签章</p>
+                </li>
+            </ul>
+        </div>
+        <div class="service_features">
+            <p class="big_title">服务特色</p>
+            <ul class="inner lis">
+                <li>
+                    <img src="./imgs/yanxueying/icon_mingshi.png" alt="">
+                    <p class="title">名师指导，学霸带队</p>
+                    <p class="detail">顶尖高校名师亲临现场，指导相关学科的探究性课题研究。国家一级学会专家及清华大学相关专业硕博带队交流学科疑惑</p>
+                </li>
+                <li>
+                    <img src="./imgs/yanxueying/icon_keyan.png" alt="">
+                    <p class="title">感悟科研，探索前沿</p>
+                    <p class="detail">走进国家重点实验室，体验科研项目流程，提升基础科研素养。立足课本知识，探索学科领域前沿课题，掌握未来发展趋势。模拟硕博级答辩标准，感受学术氛围及学术研究的严谨性。</p>
+                </li>
+                <li>
+                    <img src="./imgs/yanxueying/icon_zhuli.png" alt="">
+                    <p class="title">权威签章，助力升学</p>
+                    <p class="detail">普及新高考、强基计划、综合评价的专业性知识。权威认定的有效盖章，丰富综合素质评价档案，助力强基&综评复试。</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

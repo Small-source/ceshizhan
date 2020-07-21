@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shipin.css">
+    <title>Title</title>
+</head>
+<body>
+    <div class="part1">
+    </div>
+    <div class="part2">
+            <div class="parts">
+                <div class="title" style="padding-bottom: 20px">
+                    解决以下常见问题
+                </div>
+                <div class="main">
+                    <ul class="list">
+                        <li>
+                            <img src="imgs/shipin/icon_kemu.png" alt="">
+                            <p>
+                            <span class="span1">
+                                高一马上就要结束了,还
+                            </span> <br>
+                                <span class="span2">
+                                不知道选什么科目
+                            </span>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="imgs/shipin/icon_jiangfen.png" alt="">
+                            <p>
+                            <span class="span1">
+                               同学都降分录取了,还在
+                            </span> <br>
+                                <span class="span2">
+                                裸考升学
+                            </span>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="imgs/shipin/icon_mimang.png" alt="">
+                            <p>
+                                <span class="span1">
+                                    高考完
+                                </span>
+                                <span class="span2" style="line-height: 0">
+                                    对大学和专业
+                                </span>
+                                <br>
+                                <span class="span2">
+                                一无所知
+                               </span>
+                                <span class="span1">
+                                    变得更加迷茫了
+                                </span>
+                            </p>
+                        </li>
+                        <li>
+                            <img src="imgs/shipin/icon_gaokaotianbao.png" alt="">
+                            <p>
+                                <span class="span2" style="line-height: 21px">
+                                    不懂高考填报
+                                </span>
+                                <br>
+                                <span class="span1" style="line-height: 40px">
+                                    只能对着电脑点来点去
+                               </span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    <div class="part3">
+        <div class="parts">
+            <div class="title" style="color:#fff;">
+                产品优势
+            </div>
+            <ul class="clist">
+                <li>
+                    <img src="imgs/shipin/icon_01.png" alt="">
+                    <p>
+                        学马教研团队精心打造<br>
+                        多视角全面剖析<br>
+                        更懂学生关心的话题
+                    </p>
+                </li>
+                <li>
+                    <img src="imgs/shipin/icon_kechengziyuan.png" alt="">
+                    <p>
+                        海量课程资源<br>
+                        网络平台在线点播<br>
+                        多端便捷实用
+                    </p>
+                </li>
+                <li>
+                    <img src="imgs/shipin/icon_quanweixinxi.png" alt="">
+                    <p>
+                        权威信息实时发布<br>
+                        掌握一手改革动态<br>
+                        满足学生和家长需要
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="part4">
+        <div class="parts">
+            <div class="title">
+                功能介绍
+            </div>
+            <ul class="list">
+                <li>
+                    <div class="text" style="float:left;margin-left: 50px">
+                        <img src="imgs/shipin/icon_1.png" alt="">
+                        <p>生涯课程</p>
+                        <span>帮助学生更快理解生涯历年,培养生涯意识</span>
+                    </div>
+                    <img src="imgs/shipin/icon_shengyakecheng.png" alt="" style="float: right">
+                </li>
+                <li>
+                    <div class="text" style="float:right">
+                        <img src="imgs/shipin/icon_2.png" alt="">
+                        <p>升学课堂</p>
+                        <span>帮助学生了解不用途径，合理进行学业决策</span>
+                    </div>
+                    <img src="imgs/shipin/icon_shengxueketang.png" alt="" style="float:left;margin-left: -30px">
+                </li>
+                <li>
+                    <div class="text" style="float:left;margin-left: 50px">
+                        <img src="imgs/shipin/icon_3.png" alt="">
+                        <p>大学介绍</p>
+                        <span>实力院校、特色大学全方位讲解</span>
+                    </div>
+                    <img src="imgs/shipin/icon_daxuejieshao.png" alt="">
+                </li>
+                <li>
+                    <div class="text" style="float:right">
+                        <img src="imgs/shipin/icon_4.png" alt="">
+                        <p>专业解读</p>
+                        <span>热点专业、未来最具前景专业等深入剖析</span>
+                    </div>
+                    <img src="imgs/shipin/icon_zhuanyejiedu.png" alt="" style="float:left;margin-left: -30px">
+                </li>
+                <li>
+                    <div class="text" style="float:left;margin-left: 50px">
+                        <img src="imgs/shipin/icon_5.png" alt="">
+                        <p>志愿填报</p>
+                        <span>提供实时参考依据和报考技巧，辅助学生规避风险、最优升学</span>
+                    </div>
+                    <img src="imgs/shipin/icon_zhiyuantianbao.png" alt="">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

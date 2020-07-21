@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+    <title>学马教育-学业规划</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/xueyeguihua.css">
+</head>
+<body>
+    <div class="xueyeguihua">
+        <div class="banner">
+            <img src="./imgs/xueyeguihua/banner.png" alt="研学营">
+        </div>
+        <div class="service_object">
+            <p class="big_title">服务对象</p>
+            <div class="inner">
+                <p><span></span>高中一、二、三年级学生，学习动力不足、在学习计划的制定和执行环节需要优化</p>
+                <img src="./imgs/xueyeguihua/icon_fuwuduixiang.png" alt="">
+            </div>
+        </div>
+        <div class="service_content">
+            <p class="big_title">服务内容</p>
+            <ul class="inner lis">
+                <li class="title_box">
+                    <p>序号</p>
+                    <p>内容模块</p>
+                    <p>服务内容</p>
+                </li>
+                <li>
+                    <p>1</p>
+                    <p>制定目标</p>
+                    <p>不同梯度的大学目标清单根据大学目标制定月目标</p>
+                </li>
+                <li>
+                    <p>2</p>
+                    <p>行动计划</p>
+                    <p>根据目标清单制定周计划和日计划</p>
+                </li>
+                <li>
+                    <p>3</p>
+                    <p>监督执行</p>
+                    <p>监督学生计划的执行与完成情况</p>
+                </li>
+                <li>
+                    <p>4</p>
+                    <p>结果复盘</p>
+                    <p>规划师对学生的计划执行情况进行反馈，包括学生自我评估、规划师评估以及总结与改进</p>
+                </li>
+            </ul>
+        </div>
+        <div class="service_features">
+            <p class="big_title">服务特色</p>
+            <ul class="inner lis">
+                <li>
+                    <img src="./imgs/xueyeguihua/icon_fengbi.png" alt="">
+                    <p class="title">全程动态闭环管理</p>
+                    <p class="detail">目标、计划、行动、复盘四位一体，根据学生实际情况适时调整，形成学业管理的全程动态闭环</p>
+                </li>                
+                <li>
+                    <img src="./imgs/xueyeguihua/icon-gejieduan.png" alt="">
+                    <p class="title">感悟科研，探索前沿</p>
+                    <p class="detail">将管理学的SMART原则和PDCA循环融入学业管理过程，稳扎稳打、步步为营的完成各阶段的任务</p>
+                </li>                
+                <li>
+                    <img src="./imgs/xueyeguihua/bg_mingshi.png" alt="">
+                    <p class="title">权威签章，助力升学</p>
+                    <p class="detail">为学生配备专属规划师，进行周期性的线下一对一沟通，有效解决实际问题</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

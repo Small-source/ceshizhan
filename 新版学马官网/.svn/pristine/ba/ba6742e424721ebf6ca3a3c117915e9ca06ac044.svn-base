@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>笔面试指导课程</title>
+    <meta name="keywords" content="强基计划,综合评价,校考,复试,特殊类招生,笔面试真题,笔试真题,面试真题">
+    <meta name="description" content="梳理各高校特殊类招生复试校考笔面试真题，梳理知识脉络，形成课程体系、并进行相应的拓展。讲练结合，快速提升学习能力与应试技巧。">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/bimianshi.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="bimianshi">
+        <div class="banner">
+        </div>
+        <div class="content">
+            <!-- 复试网课 -->
+            <div class="inners">
+                <div class="title">
+                    复试冲刺网课
+                </div>
+                <div class="bigTitle">强基&综评冲刺网课</div>
+                <p class="jianjie">36所大学强基计划</p>
+                <ul class="footLis">
+                    <li>考法分析</li>
+                    <li>笔试押题</li>
+                    <li>面试闯关</li>
+                    <li>真题训练</li>
+                </ul>
+            </div>
+            <!-- 精品复试课 -->
+            <div class="contentBox">
+                <div class="listnavs">
+                    <ul class="listnavBox">
+                        <li>免费课程</li>
+                        <li>课程形式</li>
+                        <li>讲师介绍</li>
+                    </ul>
+                </div>
+                <div class="title">
+                    <img src="./imgs/bimianshi/icon_biaoti.png" alt="">
+                    <span>免费课程</span>
+                </div>
+                <div class="videoBox1">
+                    <div class="inner">
+                        <div class="list">
+                            <div class="videoBox_left">
+                                <video  controls  src="http://video.xuematech.com/customerTrans/e0e743b29a96c8274b726aa8b76e33ad/1911e53a-172bc2608df-0007-0e88-a79-43367.mp4" poster="./imgs/bimianshi/mianshi01.png" preload="none">
+                                </video>
+                            </div>
+                            <div class="videoBox_right">
+                                <p class="title">强基综评</p>
+                                <p class="tese">课程特色</p>
+                                <div class="detail">
+                                    <p><span>·</span> 以高考为本，强基综评为辅，稳中取胜</p>
+                                    <p><span>·</span> 归纳各高校命题规律，有针对性的帮助学生总结备考策略</p>
+                                    <p><span>·</span> 线上学习录播课程，突破时间和空间的限制</p>
+                                    <p><span>·</span> 讲练结合，配套有最新综合评价真题库</p>
+                                </div>
+                                <p class="fuli"><span>福利1：</span>免费获得全套笔面试内部教研资料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="videoBox1">
+                    <div class="inner">
+                        <div class="list">
+                            <div class="videoBox_left">
+                                <video  controls  src="http://video.xuematech.com/140a86663b3b4f3b9879cd0cc9d09c74/57ce2344f2334a29a7c6baf5ef690f71-769a6f82ddf5405842ef02de1fc7e6f1-sd.mp4" poster="./imgs/bimianshi/shuxue01.png" preload="none">
+                                </video>
+                            </div>
+                            <div class="videoBox_right">
+                                <p class="title">强基综评</p>
+                                <p class="tese">课程特色</p>
+                                <div class="detail">
+                                    <p><span>·</span> 以高考为本，强基综评为辅，稳中取胜</p>
+                                    <p><span>·</span> 归纳各高校命题规律，有针对性的帮助学生总结备考策略</p>
+                                    <p><span>·</span> 线上学习录播课程，突破时间和空间的限制</p>
+                                    <p><span>·</span> 讲练结合，配套有最新综合评价真题库</p>
+                                </div>
+                                <p class="fuli"><span>福利1：</span>免费获得全套笔面试内部教研资料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="videoBox1">
+                    <div class="inner">
+                        <div class="list">
+                            <div class="videoBox_left">
+                                <video  controls  src="http://video.xuematech.com/c240cd8a88a54aae9a919d27de93d345/d5b51961e74e46fd91083844203db2cb-c216366b0002e38cf14c49841b548555-sd.mp4" preload="none"  poster="./imgs/bimianshi/kexueyuan.png">
+                                </video>
+                            </div>
+                            <div class="videoBox_right">
+                                <p class="title">强基综评</p>
+                                <p class="tese">课程特色</p>
+                                <div class="detail">
+                                    <p><span>·</span> 以高考为本，强基综评为辅，稳中取胜</p>
+                                    <p><span>·</span> 归纳各高校命题规律，有针对性的帮助学生总结备考策略</p>
+                                    <p><span>·</span> 线上学习录播课程，突破时间和空间的限制</p>
+                                    <p><span>·</span> 讲练结合，配套有最新综合评价真题库</p>
+                                </div>
+                                <p class="fuli"><span>福利1：</span>免费获得全套笔面试内部教研资料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="videoBox1" style="margin-bottom: 0">
+                    <div class="inner">
+                        <div class="list">
+                            <div class="videoBox_left">
+                                <video  controls  src="http://video.xuematech.com/6ee53d3f10504b35b72913ce39623357/e05e036ae86449e3bd7a54f883ecfa1c-fafb069d095f3c2596112b9c88b2db1c-sd.mp4" preload="none"  poster="./imgs/bimianshi/zhongnandaxue.png">
+                                </video>
+                            </div>
+                            <div class="videoBox_right">
+                                <p class="title">强基综评</p>
+                                <p class="tese">课程特色</p>
+                                <div class="detail">
+                                    <p><span>·</span> 以高考为本，强基综评为辅，稳中取胜</p>
+                                    <p><span>·</span> 归纳各高校命题规律，有针对性的帮助学生总结备考策略</p>
+                                    <p><span>·</span> 线上学习录播课程，突破时间和空间的限制</p>
+                                    <p><span>·</span> 讲练结合，配套有最新综合评价真题库</p>
+                                </div>
+                                <p class="fuli"><span>福利1：</span>免费获得全套笔面试内部教研资料</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <img src="./imgs/bimianshi/icon_biaoti.png" alt="">
+                    <span>课程形式</span>
+
+                </div>
+                <!-- 课程大纲 -->
+                <div class="courseOutline">
+                    <div class="inner">
+                        <div class="OutlineContet">
+                            <p class="analysis">课程形式为90所院校考法分析、招生简章解读以及复习建议。每位考生选3所志愿院校，进行针对性学习</p>
+                            <p class="description"></p>
+                            <div class="details">
+                                <table border="1">
+                                    <tr>
+                                        <th style="border-right: 1px solid #fff">真题</th>
+                                        <th>核心内容</th>
+                                    </tr>
+                                    <tr>
+                                        <td>复试考法</td>
+                                        <td>19年招生简章</td>
+                                    </tr>
+                                    <tr>
+                                        <td>复习建议</td>
+                                        <td>往年真题分析</td>
+                                    </tr>
+                                    <tr>
+                                        <td>备考行程</td>
+                                        <td>规划时间点</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title">
+                    <img src="./imgs/bimianshi/icon_biaoti.png" alt="">
+                    <span>讲师介绍</span>
+                </div>
+                <!-- 讲师介绍 -->
+                <div class="instructors">
+                    <div class="inner">
+                        <ul class="lis">
+                            <li>
+                                <img src="./imgs/bimianshi/t1.png" alt="">
+                                <div class="teacherBox">
+                                    <p class="teacher">金  波</p>
+                                    <p class="university">清华大学 2015年以712分湖南省第二名的成绩考入清华大学</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./imgs/bimianshi/zy.png" alt="">
+                                <div class="teacherBox">
+                                    <p class="teacher">赵越</p>
+                                    <p class="university">对外经济贸易大学硕士研究生 高级规划师 多年志愿填报经验</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./imgs/bimianshi/smh.png" alt="">
+                                <div class="teacherBox">
+                                    <p class="teacher">孙明欢</p>
+                                    <p class="university">清华大学 吉林大学硕士研究生 多年研究性学习课程的研发经验</p>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="./imgs/bimianshi/t4.png" alt="">
+                                <div class="teacherBox">
+                                    <p class="teacher">乔  丹</p>
+                                    <p class="university">清华大学 北京师范大学汉语言文学 高考英语142分，曾成功辅导学员通过北大自主招生</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

@@ -1,0 +1,133 @@
+footer{
+  *{
+    box-sizing: content-box !important;
+    color:#fff !important;
+  }
+  .footerNav {
+    // height: 280px;
+    width: 100%;
+    background-color: #333436;
+    border-bottom: 1px solid #6e6f70;
+    color: #fff;
+    padding-top: 70px;
+    // height: 322px;
+    .innerFoot {
+      width: 1200px;
+      margin: 0 auto;
+      position: relative;
+      overflow: hidden;
+      .dizhi{
+        li{
+          line-height: 24px;
+          span{
+            font-size:15px;
+            margin-right: 20px;
+          }
+          .span1{
+            font-size: 13px;
+            color:rgba(255, 255, 255, 0.6) !important;
+            white-space: nowrap;
+          }
+        }
+      }
+    }
+    .ft_title {
+      font-size: 15px;
+      margin-bottom: 34px;
+    }
+     ul {
+       li {
+         line-height:20px;
+         font-size: 14px;
+         margin-bottom: 18px;
+         cursor: pointer;
+         &:hover {
+          a {
+            color: #fff !important;
+            span {
+              color: #fff !important;
+            }
+           }
+         }
+         a {
+          color: rgba(255,255,255,.6) !important;
+          span {
+            color: rgba(255,255,255,.6) !important;
+          }
+         }
+       }
+     }
+    .customer {
+      float: left;
+      width: 398px;
+      margin-top: -5px;
+      .ft_title {
+        padding-top: 5px;
+        margin-bottom: 15px;
+      }
+      .tel {
+        margin-bottom: 10px;
+        font-size: 24px;
+      }
+      .lis {
+        padding-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        width: 330px;
+        li {
+          text-align: center;
+          img {
+            width: 72px;
+            height: 72px;
+          }
+          p {
+            line-height: 42px;
+            font-size: 13px;
+          }
+        }
+      }
+      .img_box {
+
+      }
+    }
+    .guanyuwomen {
+      float: left;
+      width: 180px;
+    }
+    .products {
+      float: left;
+      width: 346px;
+      .footertitle {
+        line-height: 30px;
+      }
+      ul {
+        width: 346px;
+        padding-top: 10px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        li {
+          float: left;
+          width: 155px;
+          margin-bottom: 5px;
+          font-size: 13px;
+        }
+      }
+    }
+    .career_news {
+      float: right;
+      .ft_title {
+        margin-bottom: 20px;
+      }
+      // width: 350px;
+    }
+  }
+  .copyright {
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+    background-color: #333436;
+    font-size: 12px;
+  }
+}

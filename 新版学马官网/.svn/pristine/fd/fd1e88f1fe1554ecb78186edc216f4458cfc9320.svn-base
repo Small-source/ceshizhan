@@ -1,0 +1,108 @@
+footer * {
+  box-sizing: content-box !important;
+  color: #fff !important;
+}
+footer .footerNav {
+  width: 100%;
+  background-color: #333436;
+  border-bottom: 1px solid #6e6f70;
+  color: #fff;
+  padding-top: 70px;
+}
+footer .footerNav .innerFoot {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+footer .footerNav .ft_title {
+  font-size: 16px;
+  margin-bottom: 34px;
+}
+footer .footerNav ul li {
+  line-height: 20px;
+  font-size: 14px;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+footer .footerNav ul li:hover a {
+  color: #fff !important;
+}
+footer .footerNav ul li:hover a span {
+  color: #fff !important;
+}
+footer .footerNav ul li a {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+footer .footerNav ul li a span {
+  color: rgba(255, 255, 255, 0.6) !important;
+}
+footer .footerNav .customer {
+  float: left;
+  width: 398px;
+  margin-top: -5px;
+}
+footer .footerNav .customer .ft_title {
+  padding-top: 5px;
+  margin-bottom: 15px;
+}
+footer .footerNav .customer .tel {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+footer .footerNav .customer .lis {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+footer .footerNav .customer .lis li {
+  text-align: center;
+}
+footer .footerNav .customer .lis li img {
+  width: 72px;
+  height: 72px;
+}
+footer .footerNav .customer .lis li p {
+  line-height: 42px;
+  font-size: 13px;
+}
+footer .footerNav .guanyuwomen {
+  float: left;
+  width: 180px;
+}
+footer .footerNav .products {
+  float: left;
+  width: 346px;
+}
+footer .footerNav .products .footertitle {
+  line-height: 30px;
+}
+footer .footerNav .products ul {
+  width: 346px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+footer .footerNav .products ul li {
+  float: left;
+  width: 155px;
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+footer .footerNav .career_news {
+  float: right;
+}
+footer .footerNav .career_news .ft_title {
+  margin-bottom: 20px;
+}
+footer .copyright {
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 0.5px;
+  color: #ffffff;
+  background-color: #333436;
+  font-size: 12px;
+}
+/*# sourceMappingURL=footer.css.map */

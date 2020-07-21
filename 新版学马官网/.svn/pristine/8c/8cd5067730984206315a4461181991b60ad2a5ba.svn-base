@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育-学业规划</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/qiangjizongping.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="qiangjizongping">
+        <div class="banner">
+            <img src="./imgs/qiangjizongping/banner.png" alt="强基&综评">
+        </div>
+        <div class="service_object">
+            <p class="big_title">服务对象</p>
+            <div class="inner">
+                <p><span></span>高中一、二、三年级学生，学习动力不足、在学习计划的制定和执行环节需要优化</p>
+                <img src="./imgs/qiangjizongping/icon_fuwuneirong.png" alt="">
+            </div>
+        </div>
+        <div class="service_content">
+            <p class="big_title">服务内容</p>
+            <ul class="inner lis">
+                <li class="title_box">
+                    <p>序号</p>
+                    <p>内容模块</p>
+                    <p>服务内容</p>
+                </li>
+                <li>
+                    <p>1</p>
+                    <p>背景提升</p>
+                    <p>带领学生参加研究性学习营，指导研究性学习报告；安排学生的社会实践活动，指导社会实践报告；根据学生实际情况，推荐并指导参加中学生各项大赛；根据学生实际情况，指导高校学科营的申请。</p>
+                </li>
+                <li>
+                    <p>2</p>
+                    <p>资格申请</p>
+                    <p>根据学生的成绩、材料、奖项以及专业意向、结合高校简章，指导学生择校与自荐信写作；按照择校方案收集、检查各项准备材料，指导家长进行各项准备，并完成网报工作。</p>
+                </li>
+                <li>
+                    <p>3</p>
+                    <p>复试指导</p>
+                    <p>根据学生入围高校的复试情况及录取规则，有针对性地进行复试辅导（笔试和面试）。</p>
+                </li>
+            </ul>
+        </div>
+        <div class="service_features">
+            <p class="big_title">服务特色</p>
+            <ul class="inner lis">
+                <li>
+                    <img src="./imgs/qiangjizongping/icon_kecheng.png" alt="">
+                    <p class="title">全面的课程内容</p>
+                    <p class="detail">备考阶段全覆盖，从背景提升、资格申请到复试辅导，助力学生全程备考。</p>
+                </li>
+                <li>
+                    <img src="./imgs/qiangjizongping/icon_fuwumoshi.png" alt="">
+                    <p class="title">省心的服务模式</p>
+                    <p class="detail">为学生配备专属规划师，进行VIP式1V1个性化规划与指导服务。</p>
+                </li>
+                <li>
+                    <img src="./imgs/qiangjizongping/icon_shizililiang.png" alt="">
+                    <p class="title">雄厚的师资力量</p>
+                    <p class="detail">聘请清北等顶尖高校的名师进行专业有效的复试辅导，“过来人”学长学姐倾囊相授，助力学生圆梦名校。</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

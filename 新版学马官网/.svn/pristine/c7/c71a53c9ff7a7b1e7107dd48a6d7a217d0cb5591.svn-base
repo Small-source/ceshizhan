@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+    <title>学马教育-学业规划</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/huhangjihua.css">
+</head>
+<body>
+    <div class="huhangjihua">
+        <div class="banner">
+            <img src="./imgs/huhangjihua/banner.png" alt="">
+        </div>
+        <div class="qunti">
+            <div class="title">适用群体</div>
+            <div class="inner">
+                <ul class="main_box">
+                    <li><img src="./imgs/huhangjihua/icon_01.png" alt=""><p>没有目标，感到迷茫的<br/>学生</p></li>
+                    <li><img src="./imgs/huhangjihua/icon_02.png" alt=""><p>想要做进一步提升，进入<br/>理想高校的学生</p></li>
+                    <li><img src="./imgs/huhangjihua/icon_03.png" alt=""><p>想要通过综合评价/强基<br/>计划进入名校</p></li>
+                </ul>
+            </div>
+        </div>
+        <div class="jianjie">
+            <div class="title">护航计划简介</div>
+            <div class="inner">
+                <div class="detail_box">
+                    <img src="./imgs/huhangjihua/icon_dunhao01.png" alt="" class="img01">
+                    <img src="./imgs/huhangjihua/icon_dunhao01.png" alt="" class="img02">
+                    <p class="no1">新高考的改革，给我们高中阶段的学生带来了更加科学的培养方式，增加了学生更多的自主选择权，但是在改革的实施过程中又带来了一些现实问题，学生面临的升学问题，主要集中在：取消文理分科后，高一学生如何选择合适自己的选考科目？实现多元升学后，高中阶段如何规划自己的升学路径？招生录取制度从院校导向转变为专业导向的模式，如何决策自己的志愿方案？</p>
+                    <p class="no2">在此背景之下，基于生涯规划理念，通过学生发展方向定位（生涯测评、新高考选科）、升学通路设计（综评/强基计划）、提升训练（学业规划）以及结果选择（志愿填报）四大步骤，为学生提供个性化的升学指导整体解决方案。</p>
+                </div>
+                <img src="./imgs/huhangjihua/bg_siweidaotu.png" alt="">
+            </div>
+        </div>
+        <div class="grade1 grade">
+            <div class="title">高一</div>
+            <div class="title_detail">—— 探索方向，认知自我，确立目标 ——</div>
+            <div class="inner">
+                <ul class="main_box">
+                    <li>
+                        <p class="small_title">角色转化</p>
+                        <p class="small_detail">初高中有序衔接，帮助学生适应高中的新生活</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">方向定位</p>
+                        <p class="small_detail">生涯探索，挖掘潜能优势，定位专业及职业方向，完成选科</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">全面规划</p>
+                        <p class="small_detail">制定学生升学初步方案并制定科学的行动计划</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">能力提升</p>
+                        <p class="small_detail">针对性参与研究性学习、学科能力提升项目，有效提升综合竞争力</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">全程陪伴</p>
+                        <p class="small_detail">有效解决学习和成长过程中遇到的问题，实现健康成长</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grade2 grade">
+            <div class="title">高二</div>
+            <div class="title_detail">—— 探索方向，认知自我，确立目标 ——</div>
+            <div class="inner">
+                <ul class="main_box">
+                    <li>
+                        <p class="small_title">打造亮点</p>
+                        <p class="small_detail">选择与自身匹配的研究性学习、学科能力提升等项目</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">目标调整</p>
+                        <p class="small_detail">根据学生的实际变化情况，修正目标，确定意向大学和专业的范围</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">路径选择</p>
+                        <p class="small_detail">综合考量，确定与学生相匹配的升学路径及实施方案，包括<br/>强基计划、综合评价等</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">把握机遇</p>
+                        <p class="small_detail">申请参与适合学生的高校学科营，增加走进名校的几率</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">有效辅导</p>
+                        <p class="small_detail">有效解决学生高二关键期的学习问题，实现学业良好发展</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="grade3 grade">
+            <div class="title">高三</div>
+            <div class="title_detail">—— 探索方向，认知自我，确立目标 ——</div>
+            <div class="inner">
+                <ul class="main_box">
+                    <li>
+                        <p class="small_title">考前强化</p>
+                        <p class="small_detail">把握高考考试规律，真题强化训练，冲刺高考</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">力争捷径</p>
+                        <p class="small_detail">合理制定综合评价、强基计划等特殊类招生申请方案</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">贴心指导</p>
+                        <p class="small_detail">帮助学生完成综评、强基申请报考，报考材料准备、网上填报等</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">从容应战</p>
+                        <p class="small_detail">帮助学生调整高考前的心态，争取超水平发挥</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">圆梦高校</p>
+                        <p class="small_detail">量身制定科学的志愿填报方案</p>
+                    </li>                    
+                    <li>
+                        <p class="small_title">大学规划</p>
+                        <p class="small_detail">量身制定科学的志愿填报方案</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="our_advantage">
+            <div class="title">我们的优势</div>
+            <div class="content">
+                <div class="inner">
+                    <ul>
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">科学的培养理念</p>
+                            <div class="line"></div>
+                            <p class="small_detail">适应新高考改革对人才培养的要求，全面提升学生的综合素养，增强学生的升学实力。</p>
+                        </li>                        
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">个性化的解决方案</p>
+                            <div class="line"></div>
+                            <p class="small_detail">基于学生个人基本情况定制专属升学规划方案，并根据学生的实际变化情况做及时调整。</p>
+                        </li>                        
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">雄厚的师资力量</p>
+                            <div class="line"></div>
+                            <p class="small_detail">研发老师毕业于985名校，经验丰富；一线授课老师拥有多年的升学规划经验，辅导众多学生进入理想高校。</p>
+                        </li>                        
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">服务过程全程跟踪</p>
+                            <div class="line"></div>
+                            <p class="small_detail">提供一对一的专业规划师和教务管理老师，顺利达到升学的目标，并时追踪学生的学业情况。</p>
+                        </li>                        
+                        <li>
+                            <div class="img_box"></div>
+                            <p class="small_title">强大的系统平台支撑</p>
+                            <div class="line"></div>
+                            <p class="small_detail">生涯发展管理平台系统为学生升学规划提供技术支撑，个性化特征、学习状态全过程记录。</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fuwuneirong">
+            <div class="title">服务内容</div>
+            <div class="content">
+                <div class="inner">
+                    <ul class="lis">
+                        <li onclick="change(this,0)" class="active">目标规划</li>
+                        <li onclick="change(this,1)">升学备考</li>
+                        <li onclick="change(this,2)">学业提升</li>
+                        <li onclick="change(this,3)">结果选择</li>
+                    </ul>
+                    <div class="table_box">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th colspan="2">服务模块</th>
+                                    <th>服务内容</th>
+                                    <th>课时</th>
+                                    <th>辅导时间</th>
+                                    <th>大护航套餐</th>
+                                    <th>小护航套餐</th>
+                                </tr>
+                            </thead>
+                            <tbody class="active">
+                                <tr>
+                                    <td rowspan="5">目标规划</td>
+                                    <td rowspan="2">生涯测评</td>
+                                    <td>学业潜能测评+解读</td>
+                                    <td rowspan="2">1</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>专业定位测评+解读</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>新高考选科</td>
+                                    <td>选科测评+解读</td>
+                                    <td>1</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>升学通路设计方案</td>
+                                    <td>升学途径评估与规划方案</td>
+                                    <td>1</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                 <tr>
+                                    <td>外部探索</td>
+                                    <td>专业+院校+升学政策</td>
+                                    <td>100+</td>
+                                    <td>线上</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="9">升学备考</td>
+                                    <td rowspan="4">背景提升</td>
+                                    <td>研究性学习报告（2个）</td>
+                                    <td>20</td>
+                                    <td>寒暑假</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>社会实践</td>
+                                    <td>4</td>
+                                    <td>寒暑假或周末</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>大赛推荐</td>
+                                    <td>/</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    
+                                </tr>
+                                <tr>
+                                    <td>综合素质评价档案指导</td>
+                                    <td>/</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                 <tr>
+                                    <td rowspan="3">资格申请</td>
+                                    <td>择校方案指导</td>
+                                    <td>1</td>
+                                    <td>3-5月</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>自荐信指导</td>
+                                    <td>1</td>
+                                    <td>3-5月</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td>资料汇总与网上报考</td>
+                                    <td>/</td>
+                                    <td>3-5月</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="2">复试指导</td>
+                                    <td>面试指导</td>
+                                    <td>6</td>
+                                    <td>高考后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                                 <tr>
+                                    <td>笔试指导</td>
+                                    <td>/</td>
+                                    <td>高考后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td rowspan="8">升学备考</td>
+                                    <td rowspan="2">学业评估</td>
+                                    <td>学科诊断</td>
+                                    <td>每学期一次</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                 <tr>
+                                    <td>学习状态评估</td>
+                                    <td>/</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td rowspan="5">学业管理</td>
+                                    <td>目标管理与时间规划</td>
+                                    <td rowspan="5">20次</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>制定行动计划</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>结果复盘</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>情绪管理与考试焦虑辅导</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>自信心提升</td>
+                                    <td>报名后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>学业拔尖</td>
+                                    <td>拔尖训练</td>
+                                    <td>6天</td>
+                                    <td>寒暑假</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>结果选择</td>
+                                    <td>志愿填报</td>
+                                    <td>志愿填报一对一指导</td>
+                                    <td>2</td>
+                                    <td>高考后</td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                    <td class="bg_blue"><img src="./imgs/huhangjihua/icon_duihao.png" alt=""></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+    function change(el,index) {
+        var tbodys = $('tbody');
+        var els = $(el).siblings();
+        els.each(function(index, value,err) {
+            value.className = '';
+        })
+        tbodys.each(function(index, value,err) {
+            value.className = '';
+        })
+        tbodys[index].className = 'active';
+        el.className = 'active';
+    }
+</script>
+</html>

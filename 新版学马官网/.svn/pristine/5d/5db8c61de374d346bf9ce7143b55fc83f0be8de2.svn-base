@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+    <title>学马教育-学马新闻</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/news.css">
+</head>
+<body>
+	<div class="news">
+		<div class="header">
+			<div class="inner">
+				<ul class="news_nav">
+					<!-- <li><a href=""></a></li> -->
+					<!-- <li>{{item.name}}</li> -->
+				</ul>
+			</div>
+		</div>
+		<div class="content">
+			<div class="inner content_news">
+			</div>
+		</div>	
+<!-- 		<div class="loading" v-show="isShowLoading">
+            <Loading></Loading>
+        </div> -->
+	</div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+<script>
+	getNewsNav();
+	getNews();
+	function getNewsNav() {
+		$.ajax({
+		    url: "http://www.xuematech.com/papi/article/getCategoryList",
+		    data: {type: 1},
+		    type: "POST",
+		    dataType: "json",
+		    success: function(data) {
+		    	var navData = data.data;
+		    	var news_nav = $('.news_nav');
+		    	var elmentLi = '';
+		    	var idx = getQueryVariable('idx');
+		    	$.each(navData,function(index, value) {
+		    		if(idx == index) {
+						elmentLi += '<li class="active"><a href="' +'./news.html?id='+value.id + '&idx='+ index + '">' + value.name + '</li>'
+		    		}else {
+		    			elmentLi += '<li><a href="' +'./news.html?id='+value.id + '&idx='+ index + '">' + value.name + '</li>'
+		    		}
+		    							
+		    	})
+		    	news_nav.html(elmentLi);
+		  //   	if (id) {
+			 //    	$.each(el.parentNode.childNodes,function(index, value) {
+			 //    		value.className = '';
+				// 	})
+				// 	el.className = 'active';
+				// }
+
+		    }
+		})
+	}
+	function getNews() {
+		var id = getQueryVariable('id');
+		console.log(id);
+		$.ajax({
+		    url: "http://www.xuematech.com/papi/article/getArticleList",
+		    data: {
+		    	cateId: id||1,
+            	pageSize: 20,
+            	totalPage: 1
+		    },
+		    type: "POST",
+		    dataType: "json",
+		    success: function(data) {
+		    	var newsList = data.data.list;
+		    	var content_news =  $('.content_news');
+		    	var elmentLi = '';
+		    	$.each(newsList,function(index, value) {
+		    		if(value.description == null) {
+		    			value.description = '';
+		    		}
+			    	elmentLi += '<div class="news_box">'+
+			    					'<img src="' + value.pic + '" alt="">'+
+			    					'<div class="mian_news">'+
+			    						'<p class="title">' + value.title + '</p>'+ 
+			    						'<div class="detail">'+ value.description + '</div>' + 
+			    						'<a href="./news_detail.html?id=' + value.id + '" class="more">阅读全文>></a>'+
+			    					'</div>' +
+					            '</div>';
+				})
+				content_news.html(elmentLi);      
+		    }
+		})
+	}
+	function getQueryVariable(variable) {
+       var query = window.location.search.substring(1);
+       var vars = query.split("&");
+       for (var i=0;i<vars.length;i++) {
+               var pair = vars[i].split("=");
+               if(pair[0] == variable){return pair[1];}
+       }
+       return(false);
+    }
+</script>
+</html>

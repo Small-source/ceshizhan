@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育高考冲刺课程，沛耕数学</title>
+    <meta name="keywords" content="周沛耕,沛耕数学,高考冲刺,押题,押中率高,押中率,高,提炼考点,考高预测,.考试技巧,出题规律">
+    <meta name="description" content="学马教育与沛耕数学联合推出高考冲刺课程，汇集近3年高考真题及解析，极高的押题率帮助学生有效提高高考成绩。">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/gaokaochongci.css">
+    <link rel="shortcut icon" href="/favicon.ico">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="gaokaochongci">
+        <div class="banner">
+            <img src="./imgs/gaokaochongci/banner01.png" alt="">
+        </div>
+        <div class="result">
+            <!--<div class="go_peigeng">
+                <div class="btn" @click="goPeigeng()">进入沛耕数学</div>
+            </div> -->
+            <div class="inner">
+                <div class="title">解决学生的问题</div>
+                <div class="main_box">
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon-mingshi.png" alt="">
+                        <p class="detail">名师精讲<br/>化繁为简</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_tilian.png" alt="">
+                        <p class="detail">提炼考点<br/>易错点</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_shendujiedu.png" alt="">
+                        <p class="detail">深度解读<br/>命题初衷</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_zhuzhongjieti.png" alt="">
+                        <p class="detail">注重解题<br/>思维训练</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_zongjieguina.png" alt="">
+                        <p class="detail">总结归纳<br/>解题技巧</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_kuaisutisheng.png" alt="">
+                        <p class="detail">快速提升<br/>解题速度</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_kaochafanwei.png.png" alt="">
+                        <p class="detail">圈定考察范围<br/>及方向</p>
+                    </div>
+                    <div class="main">
+                        <img src="./imgs/gaokaochongci/icon_yuanchuang.png" alt="">
+                        <p class="detail">独家原创题<br/>精准预测</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jianjie">
+            <div class="inner">
+                <div class="title">课程简介</div>
+                <p class="main">
+                    沛耕数学是由“全国十佳教师”、多届全国高考命题、审题专家周沛耕老师， 带领高考专家团队精心打造的系统化、体系化的高考备考课程。沛耕高考冲刺提分课程，依据对不同水平的学生和对高考命题规律的系统研 究，周沛耕老师提炼高考命题核心考点，总结归纳解题技巧和方法，为学生精准
+    研读、领会和把握高考试题的考察意图、命题思路以及解题思路、方法、技巧等 提供了更权威的指导。每一讲都以命题人的角度深度解读，每一题都无限贴近高 考真题提供指导，体现了权威的命题思路、命题方法以及高考方向。
+                </p>
+            </div>
+        </div>
+        <div class="hexin">
+            <div class="inner">
+                <div class="title">核心优势</div>
+                <div class="main">
+                    <p class="no1">多届全国高考命题、审题专家周沛耕老师在线授课</p>
+                    <p class="no2">课程紧跟当下新高考命题趋势，贴合高考要求</p>
+                    <p class="no3">总结解题规律和考试技巧，帮助学生实现高效提分</p>
+                    <p class="no4">高考真题深入解析，掌握出题规律，实现科学备考</p>
+                </div>
+            </div>
+        </div>
+        <div class="kecengtixi">
+            <div class="inner">
+                <div class="title">课程体系</div>
+                <div class="main_box">
+                    <div class="main">
+                        <div class="imgBox">
+                            <img src="./imgs/gaokaochongci/icon_kaodianjingjiang.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="mains">
+                            <div class="main_title">专项拔高课</div>
+                            <div class="detail">提升数学思维和解题能力,帮助同学突破高考后两道压轴题，在高考数学上更上 一层楼。</div>
+                            <ul>
+                                <li>专题训练 难点狙击</li>
+                                <li>化繁为简 各个击破</li>
+                                <li>注重解题技巧和方法</li>
+                                <li>打破思维定式 拓展解题思维</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="imgBox">
+                            <img src="./imgs/gaokaochongci/icon_zhentiyanjiuyuyuce.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="mains">
+                            <div class="main_title">考点精讲课</div>
+                            <div class="detail">考点精讲课程将帮助学生将高中数学的基础知识融会贯通，并逐步掌握高考前 3 道大题以及选做题的解题思路和常用方法。</div>
+                            <ul>
+                                <li>涵盖高考全部高频考点</li>
+                                <li>划定核心考点及易错点</li>
+                                <li>总结解题规律及套路方法</li>
+                                <li>暴露问题 查漏补缺</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="imgBox">
+                            <img src="./imgs/gaokaochongci/icon_zhuanxiangbagaoke.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main">
+                        <div class="mains">
+                            <div class="main_title">真题研究与预测</div>
+                            <div class="detail">明确高考方向，真题模拟预测，本课程精选了 24 道近几年高考真题进行分析， 通过题目探究高考命题的趋势。</div>
+                            <ul>
+                                <li>近3年高考真题解析课程</li>
+                                <li>深度解读命题初衷</li>
+                                <li>高考趋势解读及方向把握</li>
+                                <li>原创题预测 实战演练</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="team">
+            <div class="inner">
+                <div class="title">专家团队</div>
+                <div class="main_box">
+                    <div class="main" style="background: url(./imgs/gaokaochongci/icon_zhoupeigeng.png) no-repeat center center">
+                        <p class="main_title">周沛耕</p>
+                        <p class="detail">北大附中数学特级教师周沛耕，全国十佳教师，享受国务院特殊津贴的有突 出贡献的专家之一。曾是国家奥林匹克数学竞赛总教练，国家奥林匹克集训队教练、北京队 主教练、国家教委全国理科实验班授课教师，是多届国际奥林匹克数学竞赛金奖获得者的老师。</p>
+                    </div>
+                    <div class="main" style="background: url(./imgs/gaokaochongci/icon_yangqingming.png) no-repeat center center">
+                        <p class="main_title">杨青明</p>
+                        <p class="detail">中国数学学会会员、原清华附中高级教师，出版编辑《形独》一书。</p>
+                    </div>
+                    <div class="main" style="background: url(./imgs/gaokaochongci/icon_dongshujia.png) no-repeat center center">
+                        <p class="main_title">董数甲</p>
+                        <p class="detail">毕业于山东师范大学，曾获得国家奥林匹克山东省一等奖。10 年以上高考试题研究经验，所带学生多名考入清华、北大、人大、北邮等。</p>
+                    </div>
+                    <div class="main" style="background: url(./imgs/gaokaochongci/icon_baichong.png) no-repeat center center">
+                        <p class="main_title">白冲</p>
+                        <p class="detail">10 年以上高考试题研究经验，善于抓住问题所考查的本质内容。注重解决问 题的通法和技巧，培养学生一题多解和多题一解的能力，提高学生解决问题的能力。擅长对试题进行归纳、总结与整理。</p>
+                    </div>
+                    <div class="main" style="background: url(./imgs/gaokaochongci/icon_duanpengfei.png) no-repeat center center">
+                        <p class="main_title">段鹏飞</p>
+                        <p class="detail">从事数学教学多年，功底扎实，逻辑思维严密，重点突出。热爱教育，丰富 的教学经验让课堂更加精准有效，快速提分重塑学生对数学的兴趣，让学生在学习中感受快乐。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="shikan">
+            <div class="inner">
+                <div class="title">试看课程</div>
+                <div class="main_box">
+                    <div class="main">
+                        <div class="header">高中数学总复习专题记（对学生）——函数</div>
+                        <video  controls  src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/37847cdd-171203288ea-0007-0e88-a79-43367.mp4">
+                        </video>
+                    </div>
+                    <div class="main">
+                        <div class="header">2019年全国一卷重点题目选讲——第四题</div>
+                        <video  controls  src="http://video.xuematech.com/customerTrans/f916eb861861badc8e2ef48e60789ed7/51224f20-171203288d6-0007-0e88-a79-43367.mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

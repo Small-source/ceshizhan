@@ -1,0 +1,174 @@
+.school_solution {
+  font-size: 16px;
+}
+.school_solution .inner {
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+}
+.school_solution .big_title {
+  height: 140px;
+  line-height: 140px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+.school_solution .banner img {
+  width: 100%;
+}
+.school_solution .service_program {
+  padding-bottom: 70px;
+  background-color: #F5F9FC;
+}
+.school_solution .service_program .lis {
+  display: flex;
+  justify-content: space-between;
+}
+.school_solution .service_program .lis li {
+  width: 278px;
+  height: 364px;
+  padding: 28px;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0 0 10px #dedede;
+}
+.school_solution .service_program .lis li .title {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 66px;
+}
+.school_solution .service_program .lis li .detail {
+  font-size: 13px;
+  color: #666;
+  line-height: 30px;
+}
+.school_solution .teacher_training {
+  padding-bottom: 70px;
+}
+.school_solution .teacher_training .inner {
+  height: 439px;
+  padding-left: 628px;
+  background: url(../imgs/school_solution/tixi.png) no-repeat;
+}
+.school_solution .teacher_training .inner ul {
+  padding-top: 50px;
+}
+.school_solution .teacher_training .inner ul li {
+  height: 46px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-between;
+  margin-bottom: 86px;
+}
+.school_solution .course {
+  box-sizing: border-box;
+  background: url(../imgs/school_solution/bg_shengyakechengjianshe.png) no-repeat center center;
+  height: 585px;
+  padding-bottom: 70px;
+  color: #fff;
+}
+.school_solution .course .big_title {
+  color: #fff;
+}
+.school_solution .course .inner ul {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.school_solution .course .inner ul li {
+  width: 400px;
+  text-align: center;
+}
+.school_solution .course .inner ul li img {
+  margin-bottom: 30px;
+}
+.school_solution .course .inner ul li p {
+  line-height: 30px;
+}
+.school_solution .platform {
+  padding-bottom: 55px;
+  background-color: #FFFFFF;
+}
+.school_solution .platform .inner {
+  box-sizing: border-box;
+  position: relative;
+  background: url(../imgs/school_solution/icon_shengyapingtaijianshe.png) no-repeat center center;
+  height: 585px;
+  padding-top: 180px;
+}
+.school_solution .platform .inner ul li {
+  position: absolute;
+  width: 230px;
+  line-height: 80px;
+  text-align: center;
+}
+.school_solution .platform .inner ul .no1 {
+  left: 120px;
+  top: 30px;
+}
+.school_solution .platform .inner ul .no2 {
+  left: 850px;
+  top: 30px;
+}
+.school_solution .platform .inner ul .no3 {
+  left: 0px;
+  top: 230px;
+}
+.school_solution .platform .inner ul .no4 {
+  left: 970px;
+  top: 235px;
+}
+.school_solution .platform .inner .main {
+  width: 340px;
+  height: 210px;
+  margin: 0 auto;
+  line-height: 40px;
+  text-align: center;
+}
+.school_solution .platform .inner .main span {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2D89FA;
+}
+.school_solution .floor_demonstration {
+  padding-bottom: 70px;
+  background-color: #F5F9FC;
+}
+.school_solution .floor_demonstration .big_detail {
+  font-size: 16px;
+  margin-top: -20px;
+  text-align: center;
+}
+.school_solution .floor_demonstration ul {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.school_solution .floor_demonstration ul li {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.school_solution .floor_demonstration ul li img {
+  margin-bottom: 20px;
+}
+.school_solution .service_process {
+  padding-bottom: 70px;
+  background-color: #fff;
+}
+.school_solution .service_process ul {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.school_solution .service_process ul li {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.school_solution .service_process ul li img {
+  margin-bottom: 20px;
+}
+/*# sourceMappingURL=school_solution.css.map */

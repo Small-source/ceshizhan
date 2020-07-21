@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马教育一对一志愿填报指导</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/school_solution.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="school_solution">
+        <div class="banner">
+            <img src="./imgs/school_solution/banner.png" alt="校园解决方案">
+        </div>
+        <div class="service_program">
+            <h5 class="big_title">四大服务方案 助力学校轻松转型</h5>
+            <ul class="inner lis">
+                <li>
+                    <img src="./imgs/school_solution/icon_shengyajiaoshi.png" alt="">
+                    <p class="title">生涯教师培养</p>
+                    <p class="detail">以培养多层次、多类型的优质生涯教育师资团队为目标，助力学校在新一轮教育综合改革中全面开展生涯教育，提高学生学业发展规划的实战技能</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_shengyakecheng.png" alt="">
+                    <p class="title">生涯课程建设</p>
+                    <p class="detail">根据学校教育现状需求，协同研发生涯教育的独立校本教材，助力学校实现特色生涯课程体系，轻松开课</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_shengyapingtai.png" alt="">
+                    <p class="title">生涯平台搭建</p>
+                    <p class="detail">引进“互联网+”教学模式，6大软件系统，涵盖生涯教育全流程，让教学管理更便捷</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_jiaocai.png" alt="">
+                    <p class="title">落地示范服务</p>
+                    <p class="detail">资深生涯规划师驻校辅导，亲自讲解生涯教育课程，为学校教师做现场示范和指导</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="teacher_training">
+            <h5 class="big_title">生涯教师培训</h5>
+            <div class="inner">
+                <ul>
+                    <li>
+                        进行国际生涯发展协会的课程培训，经考核可获得“国际生涯规划师（NCDA CDP）”证书
+                    </li>
+                    <li>
+                        系统全面的掌握生涯教育理论知识，学会运用主题班会及学科渗透等方式开展生涯主题活动的教学技能
+                    </li>
+                    <li>
+                        政策解读，帮助学生、家长、教师理解并认同高中生涯教育的价值、目标和内容，唤醒生涯规划意识
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="course">
+            <h5 class="big_title">生涯课程建设</h5>
+            <div class="inner">
+                <ul>
+                    <li>
+                        <img src="./imgs/school_solution/icon_01.png" alt="">
+                        <p>专业的体系教材<br/>塑造生涯教学质量</p>
+                    </li>
+                    <li>
+                        <img src="./imgs/school_solution/icon_02.png" alt="">
+                        <p>丰富的教材资源<br/>打造多元教育形式</p>
+                    </li>
+                    <li>
+                        <img src="./imgs/school_solution/icon_03.png" alt="">
+                        <p>支持教材联合研发<br/>帮助形成校本特色</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="platform">
+            <h5 class="big_title">生涯平台建设</h5>
+            <div class="inner">
+                <ul>
+                    <li class="no1">自主学习 科学规划</li>
+                    <li class="no2">辅助参与 助力规划</li>
+                    <li class="no3">智能教学 轻松引导</li>
+                    <li class="no4">智能管理 科学统筹</li>
+                </ul>
+                <div class="main">
+                    <p>引进<span>“互联网+”</span>教学模式,</p>
+                    <p><span>6大</span>软件系统</p>
+                    <p>涵盖<span>生涯教育全流程</span></p>
+                    <p>让教学管理更便捷</p>
+                </div>
+            </div>
+        </div>
+        <div class="floor_demonstration">
+            <h5 class="big_title">落地示范服务</h5>
+            <p class="big_detail">资深生涯规划师驻校辅导，亲自讲解生涯教育课程，为学校教师做现场示范和指导</p>
+            <ul class="inner lis">
+                <li>
+                    <img src="./imgs/school_solution/icon_jiangshi.png" alt="">
+                    <p>资深规划示范教学</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_jiao.png" alt="">
+                    <p>联合编写生涯校本教材</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_tesexiao.png" alt="">
+                    <p>助力建设生涯教育特色校</p>
+                </li>
+                <li>
+                    <img src="./imgs/school_solution/icon_pingtai.png" alt="">
+                    <p>软件硬件使用培训</p>
+                </li>
+            </ul>
+        </div>
+        <div class="service_process">
+            <h5 class="big_title">服务流程</h5>
+            <ul class="inner lis">
+                <li>
+                   <img src="./imgs/school_solution/icon_xuqiu.png" alt="">
+                   <p>需求沟通</p>
+                </li>
+                <li>
+                   <img src="./imgs/school_solution/icon_fangansheji.png" alt="">
+                   <p>方案设计</p>
+                </li>
+                <li>
+                   <img src="./imgs/school_solution/icon_qianshuxieyi.png" alt="">
+                   <p>签署协议</p>
+                </li>
+                <li>
+                   <img src="./imgs/school_solution/icon_fanganshishi.png" alt="">
+                   <p>方案实施</p>
+                </li>
+                <li>
+                   <img src="./imgs/school_solution/icon_shifanzhidao.png" alt="">
+                   <p>示范指导</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

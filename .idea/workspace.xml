@@ -2,469 +2,264 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc4d66d-6c15-4345-a181-d74ad2ccf656" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/新版学马官网/css/footer.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/css/header.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/css/teacher.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/css/xueye.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xiala.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuema.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/xuema_wechat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_jinzita.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_kechengshouyi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xueye/.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xueye/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xueye/icon_juece.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xueye/icon_mubiaofenjie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/xueye/icon_xueyeguanli.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/teacher.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/新版学马官网/xueye.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/icon_hulu1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/icon_hulu2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_baidu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_beijingshifan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_beiwai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_heqijuli.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_jinritoutiao.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_lisichen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_pac.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_shijiedaxue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/logos/icon_xinlangjiaoyu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_diaoyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_tianfu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_xuesheng.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_zhidao.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/新版学马官网/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuezhi.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/xuezhi.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuezhi.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/xuezhi.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuezhi.less" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/xuezhi.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/bimianshi.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/bimianshi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/career_assessment.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/career_assessment.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/about.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/bimianshi.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/bimianshi.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/career_assessment.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/career_assessment.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/career_assessment.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/career_assessment.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/footer.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/footer.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/gaokaochongci.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/gaokaochongci.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/gaokaochongci.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/gaokaochongci.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/header.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/header.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/index.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/public.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/shengxuejiangtang.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/shengxuejiangtang.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/shipin.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/shipin.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/study_way.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/study_way.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/study_way.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/study_way.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/subject_diagnosis.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/subject_diagnosis.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/subject_diagnosis.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/subject_diagnosis.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/teacher.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/teacher.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/teacher.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/teacher.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuanke.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/xuanke.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuanke.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuanke.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xueye.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/xueye.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xueye.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xueye.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xueyeguihua.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xueyeguihua.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuezhi.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/xuezhi.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/yanxueying.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/yanxueying.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/zhiyuantianbao.css" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/css/zhiyuantianbao.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/zhiyuantianbao.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/css/zhiyuantianbao.less" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/新版学马官网/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/gaokaochongci.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/gaokaochongci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/新版学马官网/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/beijingtisheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/beijingtishengbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/fudao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/gaoyu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/genzongfudao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/home02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/huangbin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/jinbo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/laoshiguanli-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/linpeng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/sunminghuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/wangyitong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/wenjian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xiaojunhan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xuesheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/xuyaoya.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/beijingtisheng/zhangyubo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/gaokaozhiyuanbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/gaozhaoguize01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/geyuanxiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/xitongtese.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/zhizhuzhaosheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/gaokaozhiyuan/zizhaobaokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/home03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/02ziwotansuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/03waibutansuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/04shengyajuece.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/05suyangtisheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/beijingjiaofu02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jiaofuziyuanbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jiaofuziyuanbeijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/jingxuanshipin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/shengyashiying.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/tishengzhuanyenengli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuankejuece.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuankejuece1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/xuexijiejian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/jiaofuziyuan/yuanjian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/logo/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/logo/logoss.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/logo/phone.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/lunbotu/br.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/baokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beijing2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/beizhuyitianxie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/changdiguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/dierge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/disange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/diyige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/duihao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/duobianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/fushizhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/guanli-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiaocaisheji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiaoshifazhan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/jiazhangchengzhang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/kujialeqiyezhan_zhinengguangchang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/peitu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/pingjia-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/pingtaixitong.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/renxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/richangguanli.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shejiguifan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shejiguifanbj3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/shuju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/wubianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xiaoneitongzhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xuankejuece.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xueshengzizhu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/xuexi-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/yuanxiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zhaosheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zhiyexingqu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zonghefenxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/pingtai/zuihouyige.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/bg_flow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/bg_kecheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_gongchengkexuelei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_lilunkexuelei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/researchCamp/icon_renwenshekelei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/beijing2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/callus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/chanpinhezuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/chengdu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/dudao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/fuwubijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/heshishencha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jiameng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jiamengtiaojian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/jingling.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/loudi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/oem.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/qianshuxieyi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/qidongsudukuai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shangwuhezuobanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shiachang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shichangguimoda.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/shidishencha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/touziqianjinghao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/touzishouyigao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/xueerle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/zhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shangwuhezuo/zixunliaojie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_chaninliucheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/bg_shengxuenandian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/duihao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_header_write.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_header_write_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/icon_shengxuenandian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/pc_3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/right_arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/baokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/beizhuyitianxie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/dianshi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/duihao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/duobianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/fushizhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/guanli-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/hart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/jiaoshifazhan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/jiazhangchengzhang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/kujialeqiyezhan_zhinengguangchang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/mianshizhidaokecheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/pingjia-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/renxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shehuishijian.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shejiguifan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shejiguifan拷贝3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shengxueguihuabanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/shuju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/wenshuzhuanxie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/wubianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xuankejuece.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshengzizhu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshudasai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xueshuyanjiu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xuexi-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/xyekezhuanxiangtishenbg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/yanxueying.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/yuanxiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zhaosheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zhiyexingqu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengxueguihua/tu/zonghefenxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/celiangweidu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/fuhehsidaotezhengde.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/job01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/liubianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/quanweikexuedecepingfangfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/shengyacepingbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/whyceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/xinxiku.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/yuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zhuanyexiangshidecepingbaogao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zizhi01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyaceping/zizhi02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/01yinjinxuemayangebn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/beijing3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/fengfudekechengziyuan.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/fengfuziyuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaoer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaosan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/gaoyi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/kecheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/shengyakechengbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyakecheng/xitonggongneng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/sanjiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/shengyazhidaobanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/shengyazhidao/shengyazhidaojiaoshi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/anquan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/beijing1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/daxue06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ganxingqu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/jiangzhang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/ms03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/peixun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/peixunjidi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/rw03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/sidayoushi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/spainstudy.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/巴塞罗那大学logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/spainstudy/马德里自治大学logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/downcircle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/dushu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jiaocai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jiaoju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/jingxuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/maozi02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/sheji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shengyaziyuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shezhi02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/shu02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/xiaobenjiaocai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/xuanketiaozheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zaixianweitiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhengque (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhengque1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhineng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zhinengpaixu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/ziyuanpinggu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/ziyuanxitong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/tubiao/zoubanzhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/bg_5v1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/bg_youshi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_5v1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_liangshenzhizuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_liubianxing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_yixianzhuanjia.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_yuanxiaoshuju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_zhuanyepingtai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/vipEscort/icon_zizuyanfa.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/bj4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/down-circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/erji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fangansheji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fanganshishi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/fengfudejiaocai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/guanlipt6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/hezuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocaibai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocailan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaocaisheji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaoju.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaojubai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaojulan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiaoxue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/jiejuefoot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/maozhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/qianshuxieyi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shejibai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shejilan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shengyapingtaidajian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shezhi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/shifanzhidao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xiala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xiala1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xialahui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xingaokaobanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/xuqiugoutong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xingaokao/zhuanyedetixijiaocai.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/bangongxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/beijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/chengji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/diannao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/duoweidubj.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/ganxingquzhiwei.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/iconset0177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/iconset0336.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/jingzhun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/jingzhunleft.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/lansebeijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/mimangxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/number.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/pailie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/people.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/shujutongji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/top03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/tuoyuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xinanti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xinnanti.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xitonggongnengbgc.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuankeceping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuankejuece.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xuanze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/xueshimao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/xuankejuece/zhiyetansuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/BAI-peixun.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/beijing.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/biaozhunhuajianshe.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/biaozhunhuajianshe1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/danao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/dushu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jianjie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jiaocaixuanze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/jiaocaixuanze1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/mimangxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/peixun1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/tieheshiji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/tieheshiji1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zaixianweitiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhineng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhinengpaikebanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/zhiyuantianbaozhidaobanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhinengpaike/ziyuanpinggu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/beijing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/flow-determine.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/huida.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/mingcijieshi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/querenfangan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/you.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/zhengce-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zhiyuantianbaozhidao/zhiyuantianbaozhidaobanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/beijingtisheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/fushizhidao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/gaokaozhaolu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zhengcejiedu.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zhiyuantianbao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhaozongping/zizhaozongping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/geyuanxiao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/xitongtese.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/zhizhuzhaosheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zizhuzhaosheng/zizhaobaokao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/jichu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/jichu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/pingjiajieguo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/pingjiajieguo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/quanmianpingjia.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/zonghesuzhibanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/zonghesuzhifoot.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zonghesuzhi/屏幕快照 2019-03-01 下午5.48.45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/03gaobietihai.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/beijing1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/beijing2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/duolianxi03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/fufenjisuan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/gusuangaokaochengjishuiping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/huafanweijian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/jiaowuzhuren.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/jiaoyuzhuguanbumenlingdao.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xiaozhang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitonggongneng03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongjianjie.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongjianjie01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xitongmonichengji.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xuekejiaoshi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/xueshengjiazhang.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubankaoshixitong/zoubankaoshixitongbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/beijing1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/beijingjiaofu02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/duofangmiangongneng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/xitonggongneng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/xuanketiaozheng.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zhinenghulianwang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zhinengpaixu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zoubanxiaoyuanbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/zoubanxiaoyuan/zoubanzhi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_huoqushiyongzhanghao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_jiameng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_shengxuejiejuefangan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_xiaoquyunyingzhichi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_xingaokaoshichangguimo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_xuemayuanjing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/bg_zhengcebeijing.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_dingjianshizituandui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_duonianyunyingjingyan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_pinpaizhimingdugao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_qianjingguangkuo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/brand_advantage/icon_yanfatixichengshu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/china_map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_gaokaofuwujigou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_jiaofujigou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_shengxueguihua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_xuelitisheng.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_yanxuefudao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/cooperation/bg_zhiyeguihua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/ditu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_chenjie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_chenjingxia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_gaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_helaoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_huangbin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_hulu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_jinbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_lichuxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liqin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liuna.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_liushuling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_luguo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_luowei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_pengyinshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_sunminghuan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_sunminghuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_tanghe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangguorui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangyitong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wangyue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_weiwei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_wulaoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_xiaohanjun.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_xuyaoya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yulaoshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yushanshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_yuyunfang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_zhangshuya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/icon_zhaoyue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/famouse_teachers/qiaodan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/fwzc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/fwzc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/fwzc3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/gjtx.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon-shengxueguihua.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon-shizituandui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon-yanfatixichengshu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/left_lan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon/right_lan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_3000wan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_3000yi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_dachenghezuoxieyi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_header.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_header_foot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_hezuoyixianggoutong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_huoquzhanghao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_jiantou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_qianjingguangkuo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_quanfangweishenhe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_shijianzhou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_tubiao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_xialahei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_xialahui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_yunyingjingyan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_yunyingzhichi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_zhimingdugao.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_zixundanjia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/icon_zixunfufwi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiangzuoyupeixun_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/jiantou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/kc1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/kc2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/kc3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_shengxuegangxu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_shichang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/market_prospect/icon_zhengce.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_aopengshudian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_boyijiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_boyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_hongyunzhiyuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_jingling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_loudixuehaijiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_qiangouxiang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_shandongxuemajiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_weimingjiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_wenzhijiaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/partnership/bg_xueerle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/quanguoxiaoqu_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/chenjie.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/chenjingxia.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/gaoyu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/hexiaojun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/huangbin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/hulu.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/jinbo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/lichuxi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liqin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liuna.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/liushuling.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/luguo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/luowei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/pengyinshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/qiaodan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/sunminghuan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/sunminghuan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/tanghe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangguorui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangguorui.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangyitong.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wangyue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/weiwei.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/wuxin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yushanshan.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yusongqian.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/yuyunfang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/zhangshuya.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/zhaoyue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/李初曦.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/teacher/赵越.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_chengshudekechengtixi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/three_advantages/bg_quanweidexitonggongju.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/youshi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_gaokaofuwujigou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_jiaofujigou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_quanfangweiyunyingzhicibaozhang.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_yunyingzichi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/yunying/bg_yunyingzichi02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/attractInvestment/zhiyingxiaoqu_08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/career_assessment/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/career_assessment/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/home/icon_diannao.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/home/icon_diannao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/study_way/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/study_way/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/subject_diagnosis/banner.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/subject_diagnosis/banner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_jinzita.png" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_jinzita.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/新版学马官网/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/新版学马官网/js/public.js" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/js/public.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/shengxuejiangtang.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/shengxuejiangtang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/shipin.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/shipin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/study_way.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/study_way.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/subject_diagnosis.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/subject_diagnosis.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/teacher.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/xuanke.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/xuanke.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/xueye.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/xueye.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/xueyeguihua.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/xueyeguihua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/xuezhi.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/xuezhi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/yanxueying.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/yanxueying.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/新版学马官网/zhiyuantianbao.html" beforeDir="false" afterPath="$PROJECT_DIR$/新版学马官网/zhiyuantianbao.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -476,52 +271,56 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6571429">
+    <splitter split-orientation="horizontal" split-proportion="0.5676179">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/新版学马官网/xueye.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="209">
-                  <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="110" selection-end-column="9" />
-                  <folding>
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#span#1;n#p#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                  </folding>
+                <state relative-caret-position="133">
+                  <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="99" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/新版学马官网/teacher.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+                <state relative-caret-position="323">
+                  <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
                   <folding>
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#li#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#style#0;n#li#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/school_solution.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/xueyeguihua.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="123" selection-start-line="6" selection-start-column="123" selection-end-line="6" selection-end-column="123" />
                 </state>
               </provider>
             </entry>
@@ -529,50 +328,56 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/新版学马官网/footer.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="572">
-                  <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/新版学马官网/header.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="76">
-                  <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
+                <state relative-caret-position="554">
+                  <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
                   <folding>
-                    <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-38">
-                  <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
+                <state relative-caret-position="19">
+                  <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#5;n#p#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#0;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#1;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#li#12;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#li#14;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/huhangjihua.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="124" selection-start-line="6" selection-start-column="124" selection-end-line="6" selection-end-column="124" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/qiangjizongping.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="114">
+                  <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
@@ -580,34 +385,21 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/新版学马官网/about.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+                <state relative-caret-position="266">
+                  <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
                   <folding>
-                    <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#p#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#1;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#input#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#script#4;n#html#0;n#!!top" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/新版学马官网/js/public.js">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/zhiyuantianbao.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="19">
-                  <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
+                <state relative-caret-position="114">
+                  <caret line="6" column="144" selection-start-line="6" selection-start-column="144" selection-end-line="6" selection-end-column="144" />
                 </state>
               </provider>
             </entry>
@@ -616,52 +408,28 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/新版学马官网/css/xueye.less">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="304">
-                  <caret line="61" selection-start-line="61" selection-end-line="87" selection-end-column="1" />
-                  <folding>
-                    <element signature="e#262#1315#0" />
-                    <element signature="e#1322#1842#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/新版学马官网/css/teacher.less">
+            <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="741">
-                  <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
-                  <folding>
-                    <element signature="e#1772#2292#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/新版学马官网/shipin.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="247">
-                  <caret line="107" selection-start-line="107" selection-end-line="107" />
+                <state relative-caret-position="570">
+                  <caret line="276" column="37" selection-start-line="276" selection-start-column="37" selection-end-line="276" selection-end-column="37" />
                   <folding>
                     <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#0;n#p#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#span#1;n#p#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#img#0;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#img#1;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#style#0;n#li#12;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+                    <element signature="n#style#0;n#li#14;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -702,11 +470,22 @@
       <find>router-link</find>
       <find>head</find>
       <find>title</find>
+      <find>footerNavList</find>
+      <find>lis</find>
+      <find>生涯</find>
+      <find>/favicon.ico</find>
+      <find>icon</find>
+      <find>women</find>
+      <find>学马生涯</find>
     </findStrings>
     <replaceStrings>
       <replace>headerTitle</replace>
       <replace>li</replace>
+      <replace>favicon.ico</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>F:\测试站\新版学马官网</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -716,37 +495,52 @@
       <list>
         <option value="$PROJECT_DIR$/新版学马官网/css/public.coffee" />
         <option value="$PROJECT_DIR$/新版学马官网/css/about.less" />
-        <option value="$PROJECT_DIR$/新版学马官网/css/public.css" />
         <option value="$PROJECT_DIR$/新版学马官网/css/swiper.min.css" />
         <option value="$PROJECT_DIR$/新版学马官网/css/about.css" />
         <option value="$PROJECT_DIR$/新版学马官网/css/index.css" />
         <option value="$PROJECT_DIR$/新版学马官网/css/aa.less" />
         <option value="$PROJECT_DIR$/新版学马官网/css/a.less" />
         <option value="$PROJECT_DIR$/生涯发展管理平台/src/views/plan/replay.vue" />
-        <option value="$PROJECT_DIR$/新版学马官网/xuezhi.html" />
-        <option value="$PROJECT_DIR$/新版学马官网/css/index.less" />
         <option value="$PROJECT_DIR$/新版学马官网/css/shipin.less" />
-        <option value="$PROJECT_DIR$/新版学马官网/shipin.html" />
         <option value="$PROJECT_DIR$/新版学马官网/js/xueye.html" />
-        <option value="$PROJECT_DIR$/新版学马官网/xueye.html" />
         <option value="$PROJECT_DIR$/新版学马官网/css/xueye.less" />
         <option value="$PROJECT_DIR$/新版学马官网/css/xuezhi.less" />
-        <option value="$PROJECT_DIR$/新版学马官网/about.html" />
         <option value="$PROJECT_DIR$/新版学马官网/css/header.less" />
         <option value="$PROJECT_DIR$/新版学马官网/footer.less" />
         <option value="$PROJECT_DIR$/新版学马官网/header.html" />
-        <option value="$PROJECT_DIR$/新版学马官网/js/public.js" />
-        <option value="$PROJECT_DIR$/新版学马官网/footer.html" />
-        <option value="$PROJECT_DIR$/新版学马官网/index.html" />
-        <option value="$PROJECT_DIR$/新版学马官网/css/footer.less" />
-        <option value="$PROJECT_DIR$/新版学马官网/teacher.html" />
         <option value="$PROJECT_DIR$/新版学马官网/css/teacher.less" />
+        <option value="$PROJECT_DIR$/新版学马官网/js/public.js" />
+        <option value="$PROJECT_DIR$/新版学马官网/news_detail.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/zhaoshanghezuo.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/public.css" />
+        <option value="$PROJECT_DIR$/新版学马官网/career_assessment.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/subject_diagnosis.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/xuezhi.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/study_way.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/shipin.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/xueye.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/xuanke.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/shengxuejiangtang.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/bimianshi.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/gaokaochongci.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/yanxueying.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/qiangjizongping.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/xueyeguihua.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/zhiyuantianbao.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/about.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/index.less" />
+        <option value="$PROJECT_DIR$/新版学马官网/index.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/teacher.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/school_solution.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/huhangjihua.html" />
+        <option value="$PROJECT_DIR$/新版学马官网/css/footer.less" />
+        <option value="$PROJECT_DIR$/新版学马官网/footer.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-2" />
-    <option name="y" value="3" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-18" />
+    <option name="y" value="5" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -758,6 +552,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
+              <item name="测试站" type="462c0819:PsiDirectoryNode" />
+              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -780,22 +590,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
-              <item name="测试站" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
-              <item name="测试站" type="462c0819:PsiDirectoryNode" />
-              <item name="新版学马官网" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -803,19 +597,19 @@
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="LESS" />
-    <property name="last_opened_file_path" value="E:/daqianduan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\测试站\新版学马官网\imgs\teacher" />
       <recent name="F:\测试站\新版学马官网\imgs\home" />
+      <recent name="F:\测试站\新版学马官网\imgs\home\logos" />
+      <recent name="F:\测试站\新版学马官网\imgs\teacher" />
       <recent name="F:\测试站\新版学马官网\imgs\xueye" />
       <recent name="F:\测试站\新版学马官网\imgs\shipin" />
-      <recent name="F:\测试站\新版学马官网\imgs\xuezhi" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\测试站\新版学马官网\css" />
@@ -833,6 +627,16 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="teacher.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/测试站/新版学马官网/teacher.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.teacher.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -859,95 +663,62 @@
       <workItem from="1594867422682" duration="5659000" />
       <workItem from="1594880619061" duration="10189000" />
       <workItem from="1594951758204" duration="20556000" />
+      <workItem from="1594986469708" duration="97000" />
+      <workItem from="1595210979155" duration="3106000" />
+      <workItem from="1595214300157" duration="20108000" />
+      <workItem from="1595297311631" duration="272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158075000" />
+    <option name="totallyTimeSpent" value="181658000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="3" width="1936" height="1056" extended-state="0" />
+    <frame x="-18" y="5" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15068494" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10086768" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21800433" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1886196" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.10086768" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.010845987" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.21800433" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.xsl" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.less" />
-    <entry file="file://$PROJECT_DIR$/官网移动端/css/voluntaryReport.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/about.less" />
-    <entry file="file://$PROJECT_DIR$/学马官网/src/views/xuemaNews/xuemaNews.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/aboutus/hexiaojun.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/aboutus/hexiaojun.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/js/swiper.animate1.0.3.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/animate.min.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/banner.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/aa.less" />
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/aa.css" />
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/a.css" />
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/a.less" />
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/index.css.map">
-      <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ui/官网切图/icon_biaoqian.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://D:/files/files/一些文件和文档/php邮箱验证码/class.phpmailer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1311" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/kecheng_bg.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/bg_kecheng.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/icon_bajian.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -969,13 +740,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/新版学马官网/css/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/index.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="265" column="5" lean-forward="true" selection-start-line="265" selection-start-column="5" selection-end-line="265" selection-end-column="5" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/生涯发展管理平台/src/views/plan/replay.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -1006,249 +770,279 @@
     <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/xueye/banner.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/shipin.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="88" selection-start-line="88" selection-end-line="113" selection-end-column="1" />
-          <folding>
-            <element signature="e#258#1311#0" />
-            <element signature="e#1318#1838#0" />
-            <element signature="e#1845#2314#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/shipin.less" />
     <entry file="file://$PROJECT_DIR$/新版学马官网/css/xuezhi.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/xuezhi.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="964">
-          <caret line="55" column="11" lean-forward="true" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/shengxuejiangtang.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/footer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="25" lean-forward="true" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/header.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="e#389#684#0" />
-            <element signature="e#1305#1559#0" />
-            <element signature="e#1573#2738#0" />
-            <element signature="e#2752#3196#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/js/public.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="8" column="48" lean-forward="true" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#p#0;n#li#1;n#ul#1;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#0;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#1;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#2;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#3;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#4;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#li#5;n#ul#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#input#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/footer.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/xuezhi.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/xuezhi.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/footer.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/header.less" />
     <entry file="file://$PROJECT_DIR$/新版学马官网/css/teacher.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-589" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_jinzita.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/xueye.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/teacher/icon_kechengshouyi.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/teacher.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/use_xuema/icon_liaochengdiyizhongxue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#0;n#li#4;n#ul#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#p#1;n#li#1;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="133">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/新版学马官网/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="80" column="7" lean-forward="true" selection-start-line="80" selection-start-column="7" selection-end-line="80" selection-end-column="7" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/news.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/xueye.html">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/news_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="78" column="2" lean-forward="true" selection-start-line="78" selection-start-column="2" selection-end-line="110" selection-end-column="9" />
+        <state relative-caret-position="266">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#1;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/xueye.less">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/zhaoshanghezuo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="61" selection-start-line="61" selection-end-line="87" selection-end-column="1" />
+        <state relative-caret-position="8379">
+          <caret line="441" column="7" selection-start-line="441" selection-start-column="7" selection-end-line="441" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/career_assessment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/subject_diagnosis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="102" selection-start-line="6" selection-start-column="102" selection-end-line="6" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/xuezhi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="5" selection-end-column="73" />
           <folding>
-            <element signature="e#262#1315#0" />
-            <element signature="e#1322#1842#0" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/study_way.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/新版学马官网/shipin.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        <state relative-caret-position="399">
+          <caret line="116" column="20" lean-forward="true" selection-start-line="116" selection-start-column="20" selection-end-line="116" selection-end-column="20" />
           <folding>
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#p#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#p#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#3;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/xuanke.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="251" lean-forward="true" selection-start-line="251" selection-end-line="251" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/shengxuejiangtang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="95" selection-start-line="7" selection-start-column="95" selection-end-line="7" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/bimianshi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/gaokaochongci.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="183" column="34" selection-start-line="183" selection-start-column="34" selection-end-line="183" selection-end-column="34" />
+          <folding>
+            <element signature="n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/yanxueying.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/imgs/home/icon_hulu1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/index.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/css/footer.less" />
+    <entry file="file://$PROJECT_DIR$/新版学马官网/xueye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="8" selection-end-column="99" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/新版学马官网/teacher.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="110" column="7" lean-forward="true" selection-start-line="110" selection-start-column="7" selection-end-line="110" selection-end-column="7" />
+        <state relative-caret-position="323">
+          <caret line="114" column="23" selection-start-line="114" selection-start-column="23" selection-end-line="114" selection-end-column="23" />
           <folding>
             <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#li#0;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#div#1;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#li#0;n#ul#0;n#div#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/新版学马官网/css/teacher.less">
+    <entry file="file://$PROJECT_DIR$/新版学马官网/school_solution.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="112" lean-forward="true" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="114">
+          <caret line="6" column="80" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/xueyeguihua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="123" selection-start-line="6" selection-start-column="123" selection-end-line="6" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/huhangjihua.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="124" selection-start-line="6" selection-start-column="124" selection-end-line="6" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/qiangjizongping.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="72" selection-start-line="6" selection-start-column="72" selection-end-line="6" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
           <folding>
-            <element signature="e#1772#2292#0" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#4;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/zhiyuantianbao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="144" selection-start-line="6" selection-start-column="144" selection-end-line="6" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="37" column="52" selection-start-line="37" selection-start-column="52" selection-end-line="37" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/新版学马官网/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding>
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#img#0;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#ul#0;n#li#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#ul#0;n#div#0;n#div#5;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#7;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#li#12;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#13;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#14;n#ul#0;n#div#0;n#div#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/xueye.css">
+    <title>Title</title>
+</head>
+<body>
+  <div class="publicHead"></div>
+  <div class="part1"></div>
+  <div class="part2">
+       <div class="parts">
+           <div class="title" style="padding-bottom: 20px">
+               解决以下常见问题
+           </div>
+           <div class="main">
+               <ul class="list">
+                   <li>
+                       <img src="imgs/xueye/icon_mubiao.png" alt="">
+                       <p>
+                            <span class="span1">
+                                确定目标后,要
+                            </span> <br>
+                           <span class="span2">
+                                怎样制定有效的计划
+                            </span><br>
+                           <span class="span1">
+                               来实现呢?
+                           </span>
+                       </p>
+                   </li>
+                   <li>
+                       <img src="imgs/xueye/icon_chengjiyinsu.png" alt="">
+                       <p>
+                            <span class="span2">
+                                 影响学习成绩的因素
+                            </span> <br>
+                           <span class="span1">
+                                有哪些?你现在有哪些不足？
+                            </span>
+                       </p>
+                   </li>
+                   <li>
+                       <img src="imgs/xueye/icon_shenrufenxi.png" alt="">
+                       <p>
+                            <span class="span1">
+                                如何
+                            </span>
+                           <span class="span2" style="line-height: 0">
+                                深入分析学习
+                            </span>
+                           <br>
+                           <span class="span2">
+                               问题,
+                            </span>
+                           <span class="span1">
+                               提升自主学习的意识
+                           </span><br>
+                            <span class="span1">
+                                和学习能力
+                            </span>
+                       </p>
+                   </li>
+                   <li>
+                       <img src="imgs/xueye/icon_fudaogongju.png" alt="">
+                       <p>
+                            <span class="span1">
+                                教师辅导学生，
+                            </span><br>
+                           <span class="span2">
+                                缺乏体系化工具
+                            </span>
+                       </p>
+                   </li>
+               </ul>
+           </div>
+       </div>
+  </div>
+  <div class="part3">
+       <div class="parts">
+           <div class="title" style="color:#fff;">
+               产品优势
+           </div>
+           <ul class="clist">
+               <li>
+                   <img src="imgs/xueye/icon_shangsheng.png" alt="">
+                   <p>
+                       学习计划制定<br>
+                       月周日复盘过程全记录<br>
+                       智能化分析提升效率
+                   </p>
+               </li>
+               <li>
+                   <img src="imgs/xueye/icon_duoduanjiehe.png" alt="">
+                   <p>
+                       多端结合<br>
+                       助力计划高校落实<br>
+                       助力教师高校辅导
+                   </p>
+               </li>
+               <li>
+                   <img src="imgs/xueye/icon_xuexizhuangtaiceping.png" alt="">
+                   <p>
+                       权威学习状态测评<br>
+                       8种维度诊断<br>
+                       10大主题课程
+                   </p>
+               </li>
+           </ul>
+       </div>
+  </div>
+  <div class="part4">
+       <div class="parts">
+           <div class="title">
+               功能介绍
+           </div>
+           <ul class="list">
+               <li>
+                   <div class="text" style="float:left;">
+                       <p>决策</p>
+                       <span>
+                            <div class="circle"></div>
+                           通过SWOT、决策平衡单等工具进行决策
+                       </span> <br>
+                       <span>
+                            <div class="circle"></div>
+                            参考生涯测评推荐
+                       </span><br>
+                       <span>
+                           <div class="circle"></div>
+                           根据成绩匹配院校
+                       </span><br>
+                       <span>
+                           <div class="circle"></div>
+                           专业库、院校库、职业库提供大数据支撑
+                       </span>
+                   </div>
+                   <img src="imgs/xueye/icon_juece.png" alt="" style="float: right">
+               </li>
+               <li>
+                   <div class="text" style="float:right">
+                       <p>目标分解与行动计划</p>
+                       <span>
+                            <div class="circle"></div>
+                           制定高考目标,拆解成可实现的小目标
+                       </span><br>
+                       <span>
+                            <div class="circle"></div>
+                            制定具体的每个月、每周、每日的计划，循环渐进、逐一实现
+                       </span><br>
+                       <span>
+                           <div class="circle"></div>
+                           生涯规划报告一键生成，供学生便捷实用
+                       </span>
+                   </div>
+                   <img src="imgs/xueye/icon_mubiaofenjie.png" alt="" style="float:left;">
+               </li>
+               <li>
+                   <div class="text" style="float:left;top:0px;">
+                       <p>学业规划</p>
+                       <span>
+                            <div class="circle"></div>
+                            学业诊断:进行初步访谈，成就目标定向、时间管理、 <br>
+                            注意力等7种学业诊断维度的测评，并形成评估与诊断 <br>记录
+                       </span> <br>
+                       <span>
+                            <div class="circle"></div>
+                             咨询规划:设置合理的目标并制定解决方案，记录学生 <br>咨询信息
+                       </span><br>
+                       <span>
+                           <div class="circle"></div>
+                            辅导提升:针对学生动机、学习习惯、学习能力、情绪 <br>管理、人际关系这5大要素，采用
+                           多种工具，多维度进行 <br>学业提升辅导
+                       </span><br>
+                       <span>
+                           <div class="circle"></div>
+                           生成报告:一键生成学习规划报告,将学生整个学业<br>规划过程完整呈现
+                       </span>
+                   </div>
+                   <img src="imgs/xueye/icon_xueyeguanli.png" alt="" style="float: right">
+               </li>
+           </ul>
+       </div>
+  </div>
+  <div class="publicFoot"></div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

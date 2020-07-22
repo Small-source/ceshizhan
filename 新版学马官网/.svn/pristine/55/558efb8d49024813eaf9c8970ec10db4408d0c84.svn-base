@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="院校库,专业库,职业库,大学,专业,职业,权威数据库,大学与专业相关联,实时更新">
+    <meta name="description" content="院校库、专业库与职业库，数据来自于国家教育部等多部门公布的文件数据">
+    <title>学马官网，中学生生涯规划一站式私人定制管家，新高考背景下的升学规划</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/xuezhi.css">
+</head>
+<body>
+    <div class="publicHead"></div>
+    <div class="part1">
+    </div>
+    <div class="part2">
+        <div class="parts">
+            <div class="title">
+                解决以下常见问题
+            </div>
+            <div class="main">
+                <ul class="list">
+                    <li>
+                        <img src="imgs/xuezhi/icon_xinxipingtai.png" alt="">
+                        <p>
+                            <span class="span1">
+                                想要提前了解下大学专业,却
+                            </span> <br>
+                            <span class="span2">
+                                找不到信息平台...
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/xuezhi/icon+_neirong.png" alt="">
+                        <p>
+                            <span class="span1">
+                                费劲找的网站,仔细看发现
+                            </span> <br>
+                            <span class="span2">
+                                和官网的内容完全不一样
+                            </span>
+                        </p>
+                    </li>
+                    <li>
+                        <img src="imgs/xuezhi/icon_guanlian.png" alt="">
+                        <p>
+                            <span class="span1">
+                                内容太乱,
+                            </span>
+                            <span class="span2" style="line-height: 0">
+                                体现不出院校
+                            </span>
+                            <br>
+                            <span class="span2">
+                                专业和职业间的关联
+                            </span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="part3">
+        <div class="parts">
+            <div class="title">
+                产品优势
+            </div>
+            <div class="main">
+                <div class="text text1">
+                    信息实时更新掌握第一手数据
+                </div>
+                <div class="text text2">
+                    专业权威的数据库,详尽深度地<br>挖掘,与官网信息进行核对
+                </div>
+                <div class="text text3">
+                    职业专业院校全关联多维度<br>分析为未来规划最优途径
+                </div>
+                <img src="imgs/xuezhi/icon_lvzan.png" alt="" class="icon icon1">
+                <img src="imgs/xuezhi/icon_lanzan.png" alt="" class="icon icon2">
+                <img src="imgs/xuezhi/chengzan.png" alt="" class="icon icon3">
+                <div class="bottom bottom1">
+                    <span>“1675+”</span>条专业数据信息
+                </div>
+                <div class="bottom bottom2">
+                    <span>“500+”</span>条职业数据信息
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part4">
+        <div class="parts">
+            <div class="title">
+                提供最全面的职业专业和大学信息
+            </div>
+             <ul class="items">
+                 <li>教育部公布的<br>所有大学数据及信息</li>
+                 <li>本科和高职专科<br>所有专业信息</li>
+                 <li>海量职业信息<br>快速查询</li>
+             </ul>
+        </div>
+    </div>
+    <div class="part5">
+        <div class="parts">
+            <div class="title">
+                多种途径查询方法
+            </div>
+            <div class="w w1">
+                根据<br>职业查询
+            </div>
+            <div class="w w2">
+                根据<br>学校查询
+            </div>
+            <div class="w w3">
+                根据<br>专业查询
+            </div>
+            <div class="b b1">
+                根据心仪的学校查<br>询学科和专业要求
+            </div>
+            <div class="b b2">
+                根据想从事的职业<br>查询最优的学校和<br>专业
+            </div>
+            <div class="b b3">
+                根据想读的专业查<br>询学科要求和可选<br>高校
+            </div>
+        </div>
+    </div>
+    <div class="publicFoot"></div>
+</body>
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

@@ -1,0 +1,149 @@
+    .shengxuejiangtang {
+        .inner {
+            width: 1200px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .title {
+            height: 130px;
+            line-height: 130px;
+            font-size: 32px;
+            font-weight: bold;
+            color: #333;
+            text-align: center;
+        }
+        .banner {
+            img {
+                width: 100%;
+            }
+        }
+        .result {
+            background-color: #FFFFFF;
+            padding-bottom: 60px;
+            position: relative;
+            // .go_peigeng {
+            //     width: 1200px;
+            //     height: 130px;
+            //     background-color: #fff;
+            //     border-radius: 5px;
+            //     box-shadow: 0px 0px 10px #dedede;
+            //     color: #333;
+            //     position: absolute;
+            //     left: 50%;
+            //     top: -50px;
+            //     margin-left: -600px;
+            //     font-size: 16px;
+            //     ul {
+            //         display: flex;
+            //         align-items: center;
+            //         justify-content: space-around;
+            //         padding: 10px 0px;
+            //         li {
+            //             a {
+            //                 display: block;
+            //                 width: 100%;
+            //                 height: 100%;
+            //                 color: #333;
+            //                 &:hover {
+            //                     color: #3492f9;
+            //                 }
+            //                 p {
+            //                     line-height: 40px;
+            //                     text-align: center;
+            //                 }
+            //             }
+            //         }
+            //     }
+            // }
+        }
+        .main_box {
+            padding-top: 50px;
+            .header {
+                margin-bottom: 35px;
+                img {
+                    margin-bottom: 10px;
+                }
+                .detail {
+                    font-size: 18px;
+                    color: #333;
+                }
+            }
+            .main p{
+                padding-left: 30px;
+                line-height: 18px;
+                font-size: 16px;
+                margin-bottom: 16px;
+                color: #2d86e8;
+                background: url(../imgs/shengxuejiangtang/icon-duihao.png) no-repeat 0px center;
+            }
+        }
+        .video_box {
+            width: 656px;
+            height: 450px;
+            box-sizing: border-box;
+            padding: 58px 110px 122px 118px;
+            background: url(../imgs/shengxuejiangtang/icon_right.png) no-repeat;
+            video {
+                width: 100%;
+                height: 100%;
+                object-fit: fill;
+            }
+        }
+        .kecheng {
+            background-color: #fff;
+            padding: 60px 0;
+            .top_detail {
+                color: #333;
+                font-size: 16px;
+                padding-top: 36px;
+                background: url(../imgs/shengxuejiangtang/icon_bg.png) no-repeat;
+                margin-bottom: 75px;
+            }
+            .main_box {
+                float: left;
+            }
+            .video_box {
+                float: right;
+            }
+        }
+        .zhuanye {
+            background-color: #F5F7F9;
+            padding: 80px 0;
+            .main_box {
+                float: right;
+            }
+            .video_box {
+                float: left;
+            }
+        }
+        .daxue {
+            background-color: #fff;
+            padding: 80px 0;
+            .main_box {
+                float: left;
+            }
+            .video_box {
+                float: right;
+            }   
+        }
+        .zhiyuantianbao {
+            background-color: #F5F7F9;
+            padding: 80px 0;
+            .main_box {
+                float: right;
+            }
+            .video_box {
+                float: left;
+            }
+        }
+        .shengyakecheng {
+            background-color: #fff;
+            padding: 80px 0;
+            .main_box {
+                float: left;
+            }
+            .video_box {
+                float: right;
+            }
+        }
+    }

@@ -1,0 +1,147 @@
+.part1 {
+  width: 100%;
+  height: 480px;
+  background: url("../imgs/teacher/banner.png") center bottom no-repeat;
+}
+.parts {
+  width: 1200px;
+  margin: 0 auto;
+}
+.parts .title {
+  font-size: 34px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 50px 0;
+}
+.part2 {
+  width: 100%;
+  height: 679px;
+  background: url("../imgs/xuezhi/icon_jiejuewenti.png") center center;
+}
+.part2 .main {
+  width: 1266px;
+  height: 546px;
+  background: url("../imgs/xuezhi/bg.png") center center no-repeat;
+  overflow: hidden;
+  margin-left: -33px;
+}
+.part2 .main .list {
+  display: flex;
+  justify-content: space-between;
+  width: 1106px;
+  height: 390px;
+  margin: 71px auto 0;
+  position: relative;
+  left: -6px;
+}
+.part2 .main .list li {
+  width: 262px;
+  height: 390px;
+  background: url("../imgs/shipin/icon_weidianji.png") center center no-repeat;
+}
+.part2 .main .list li:hover {
+  background: url("../imgs/shipin/icon_dianjihou.png") center center no-repeat;
+}
+.part2 .main .list li img {
+  display: block;
+  margin: 40px auto;
+}
+.part2 .main .list li p {
+  text-align: center;
+  padding: 0 30px ;
+}
+.part2 .main .list li p * {
+  color: #fff;
+}
+.part2 .main .list li p .span1 {
+  font-size: 18px;
+}
+.part2 .main .list li p .span2 {
+  font-size: 20px;
+  line-height: 36px;
+}
+.part3 {
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+.part3 .neirong {
+  overflow: hidden;
+}
+.part3 .neirong .left {
+  float: left;
+  width: 628px;
+  height: 439px;
+  background: url("../imgs/teacher/icon_jinzita.png") center center no-repeat;
+}
+.part3 .neirong .right {
+  float: left;
+}
+.part3 .neirong .right li {
+  padding: 24px 0 0;
+}
+.part3 .neirong .right li p {
+  line-height: 32px;
+  font-size: 12px;
+  color: #333333;
+}
+.part4 {
+  height: 585px;
+  width: 100%;
+  background: url("../imgs/shipin/bg_chanpinyoushi.png") center center no-repeat;
+  text-align: center;
+}
+.part4 .clist {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.part4 .clist li {
+  width: 190px;
+  padding-top: 30px;
+}
+.part4 .clist li img {
+  display: block;
+  margin: 0 auto;
+}
+.part4 .clist li p {
+  font-size: 17px;
+  color: #fff;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 38px;
+}
+.part5 {
+  height: 748px;
+}
+.part5 .parts .neirong {
+  height: 489px;
+  background: url("../imgs/teacher/icon_kechengshouyi.png") center center no-repeat;
+  position: relative;
+}
+.part5 .parts .neirong .ps {
+  width: 320px;
+  height: 60px;
+  position: absolute;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.part5 .parts .neirong .ps1 {
+  top: 104px;
+  left: 0;
+}
+.part5 .parts .neirong .ps2 {
+  top: 104px;
+  right: 0;
+}
+.part5 .parts .neirong .ps3 {
+  top: 386px;
+  left: 0;
+}
+.part5 .parts .neirong .ps4 {
+  top: 386px;
+  right: 0;
+}

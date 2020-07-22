@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>学马学科诊断系统</title>
+    <meta name="keywords" content="学科诊断,试卷分析,成绩分析,排名分析,知识点分析,能力分析,提分策略,大数据分析,个性化题集,精准推荐,提分题集,错题本,知识点图谱">
+    <meta name="description" content="学科诊断系统，包含了试卷分析、成绩分析、排名分析、知识点分析与能力分析这5大分析方式，帮助学生综合全面分析学科中存在问题，同时根据积累的大数据向学生推荐个性化的习题，稳步提升学习">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/subject_diagnosis.css">
+</head>
+<body>
+	<div class="publicHead"></div>
+    <div class="subject_diagnosis">
+        <div class="banner">
+        </div>
+		<div class="solve_problem">
+<!-- 			<div class="go_peigeng">
+                <a class="btn" href="http://ym.xuematech.com" target="_blank">进入学科诊断</a>
+            </div> -->
+			<div class="inner">
+                <div class="title">解决问题</div>
+                <ul class="main_box">
+                    <li>
+                    	<img src="./imgs/subject_diagnosis/solve_01.png" alt="">
+                    	<p>题做了很多<br/>效果却不大</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/subject_diagnosis/solve_02.png" alt="">
+                    	<p>做过的题<br/>一错再错</p>
+                    </li>
+                    <li>
+                    	<img src="./imgs/subject_diagnosis/solve_03.png" alt="">
+                    	<p>学习非常努力<br/>成绩却总不见提高</p>
+                    </li>
+                </ul>
+			</div>
+		</div>
+       	<div class="product_advantages">
+			<div class="title">产品优势</div>
+			<div class="inner">
+				<ul class="main_box">
+					<li style="background: url(./imgs/subject_diagnosis/icon_wudafenxi.png) no-repeat">
+						<div class="num">
+							<img src="./imgs/subject_diagnosis/icon_01.png" alt="">
+						</div>
+						<p class="main_title">五大分析</p>
+						<p class="main_detail">试卷分析、成绩分析、<br/>排名分析、知识点分析、能力分析</p>
+					</li>
+					<li style="background: url(./imgs/subject_diagnosis/icon_tifencelue.png) no-repeat">
+						<div class="num">
+							<img src="./imgs/subject_diagnosis/icon_02.png" alt="">
+						</div>
+						<p class="main_title">提分策略</p>
+						<p class="main_detail">大数据高效分析<br/>推荐有效提分知识点</p>
+					</li>
+					<li style="background: url(./imgs/subject_diagnosis/icon_gexinghuatiji.png) no-repeat">
+						<div class="num">
+							<img src="./imgs/subject_diagnosis/icon_03.png" alt="">
+						</div>
+						<p class="main_title">个性化题集</p>
+						<p class="main_detail">精准推荐、不同梯度<br/>专属提分题集</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="gongnengjieshao">
+			<div class="title">功能介绍</div>
+			<div class="inner">
+				<div class="main_btn">测评阶段</div>
+				<div class="mid">
+					<img src="./imgs/subject_diagnosis/icon_cepingjieduan.png" alt="">
+				</div>
+				<ul class="lis_box1">
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_shijuanfenxi.png" alt="">
+						<p>试卷分析</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_chengjifenxi.png" alt="">
+						<p>成绩分析</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_paimingfenxi.png" alt="">
+						<p>排名分析</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_zhishidianfenxi.png" alt="">
+						<p>知识点分析</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_nenglifenxi.png" alt="">
+						<p>能力分析</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_guochengxingceping.png" alt="">
+						<p>过程性测评</p>
+					</li>
+				</ul>
+			</div>
+			<div class="inner">
+				<div class="main_btn">提分阶段</div>
+				<div class="mid">
+					<img src="./imgs/subject_diagnosis/icon_zhenduanjieduan.png" alt="">
+				</div>
+				<ul class="lis_box2">
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_tifencelue01.png" alt="">
+						<p>提分策略</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_zhishidianrenzhitupu.png" alt="">
+						<p>知识点认知图谱</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_cuotiben.png" alt="">
+						<p>错题本</p>
+					</li>
+					<li>
+						<img src="./imgs/subject_diagnosis/icon_gexinghuashitituijian.png" alt="">
+						<p>个性化试题推荐</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+    </div>
+	<div class="publicFoot"></div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="js/public.js"></script>
+</html>

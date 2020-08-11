@@ -495,6 +495,12 @@ const routes = [
                 component:()=>import('./views/user/login'),
             },
             {
+                path:'/register',
+                name:'个人注册',
+                meta:{requireAuth:true},
+                component:()=>import('./views/user/register'),
+            },
+            {
                 path:'/forgetPassword',
                 name:'忘记密码',
                 meta:{requireAuth:true},

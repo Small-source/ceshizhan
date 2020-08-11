@@ -2,22 +2,22 @@
     <div class="jihuoka">
         <div class="mark">
             <div class="tanchuang1" v-show="!isJihuo">
-                <div class="title">激活生涯测评卡</div>
+                <div class="title">激活生涯卡</div>
                 <p class="neirong">
-                    <input type="text" v-model="KaNumber" placeholder="请输入生涯测评卡账号" class="Username" >
+                    <input type="text" v-model="KaNumber" placeholder="请输入生涯卡卡号" class="Username" >
                 </p>
                 <!-- <p class="warning">{{warning1}}</p> -->
                 <p class="neirong2">
-                    <input type="password" v-model="Kapassword" placeholder="请输入生涯测评卡密码" class="Password1" >
+                    <input type="password" v-model="Kapassword" placeholder="请输入生涯卡密码" class="Password1" >
                 </p>
                 <p class="warning">{{warning4}}</p>
                 <div @click="goJihuo" class="button">确定</div>
                 <div class="close" @click="$emit('goClose')">X</div>
             </div>
             <div class="tanchuang2" v-show="isJihuo">
-                <div class="tubiao"><img src="/imgs/tongyongtanchuang/chenggong.png" alt=""></div>
-                <div class="title">生涯测评卡激活成功</div>
-                <p class="tishiyu">可使用生涯测评功能</p>
+                <div class="tubiao"><img src="/imgs/selfAssessment/chenggong.png" alt=""></div>
+                <div class="title">生涯卡激活成功</div>
+                <p class="tishiyu">可使用生涯测评、选科、升学途径分析、选择决策、视频课程等升学规划功能</p>
                 <div class="goback" @click="goBack">确定</div>
             </div>
         </div>
@@ -87,6 +87,7 @@
         .neirong {
             height: 50px;
             input {
+                box-sizing: border-box;
                 width: 390px;
                 height: 50px;
                 padding-left: 50px;

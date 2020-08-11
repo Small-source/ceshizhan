@@ -252,7 +252,7 @@ export default {
             var token = window.sessionStorage.getItem('ymtxToken');
             window.sessionStorage.setItem('token',token);
             var _this = this;
-            this.$ajax.post(this.G_uri + '/assessment/testEvaluationProgress',{
+            this.$ajax.post(this.G_uri + '/chooseSubject/startTest',{
                 testType: 1,
             },{
                 headers:{

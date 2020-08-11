@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta base="car">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="stylesheet" href="/statics/css/reset.css">
+    <link rel="stylesheet" href="/ceping/layui/css/layui.css?family=Noto+Sans+SC:100,300,400,500,700,900" media="all">
+     <!-- <title>学马教育</title> -->
+</head>
+<body>
+    <div id="app"></div>
+    <script src="<%= BASE_URL %>ceping/jquery.min.js"></script>
+    <script src="<%= BASE_URL %>ceping/jsPDF/jspdf.min.js"></script>
+    <script src="<%= BASE_URL %>ceping/jsPDF/html2canvas.js"></script>
+    <script src="<%= BASE_URL %>ceping/jsPDF/canvas2image.js"></script>
+    <script src="<%= BASE_URL %>ceping/layui/layui.js"></script>
+    <script src="<%= BASE_URL %>ceping/Maze.js"></script>
+    <!-- <script src="<%= BASE_URL %>statics/js/circleChart.min.js"></script> -->
+    <script>
+        var diyTime, diySeq = 1;
+
+        /**
+         * get url param
+         * @param name
+         * @returns {*}
+         */
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return decodeURI(r[2]);
+            } else {
+                return null;
+            }
+        }
+
+        /**
+         * 动手操作能力 碰壁次数
+         * @param s
+         * @constructor
+         */
+        function AsCallJsHit(s) {
+            // console.log(s);
+            $('#jsHits').text(s);
+        }
+
+        /**
+         * 动手操作能力 拖动一周结束测试
+         * @param s
+         * @constructor
+         */
+        function AsCallJsOneCircle(s) {
+            var time = new Date().getTime() - diyTime;
+            $.ajax({
+                url: '/api/result/cognition/diy/add',
+                dataType: 'json',
+                type: 'POST',
+                data: {
+                    time: time,// number	是	测试总时间		5000
+                    diy_time: time,	// number	是	完成时间		590
+                    diy_nums: $('#jsHits').text()// 	number	是	碰壁次数
+                },
+                headers: {
+                    "token": sessionStorage.getItem('token'),
+                },
+                success: function (data) {
+                    if (data.code == 0) {
+                        // this.layerMsg('测试成功!')
+                        // this.$router.push('/rzqn/success/7')
+                        // console.log(getQueryString('type'))
+                        if (window.location.hash=="#/shengyaceping/rzqn/7?type=test") {
+                            self.location = '#/shengyaceping/rzqn/success/7?type=test';
+                        } else {
+                            self.location = '#/shengyaceping/rzqn/success/7';
+                        }
+                    } else {
+                        console.log(data.msg);
+                    }
+                },
+                error: function (data) {
+                    console.log('接口响应失败，请联系网站管理人员');
+                }
+            })
+            $.ajax({
+                url: '/api/test/setNode',
+                dataType: 'json',
+                type: 'POST',
+                data: {
+                    module: 2,// number	是	测试总时间		5000
+                    node: 72,	// number	是	完成时间		590
+                },
+                headers: {
+                    "token": sessionStorage.getItem('token'),
+                },
+                success: function (data) {
+                    if (data.code == 0) {
+                        // this.layerMsg('测试成功!')
+                        // this.$router.push('/rzqn/success/7')
+                        // console.log(getQueryString('type'))
+                    } else {
+                        console.log(data.msg);
+                        layerMsg(data.msg);
+                    }
+                },
+                error: function (data) {
+                    console.log('接口响应失败，请联系网站管理人员');
+                }
+            })
+        }
+        function layerMsg(msg, time) {
+            if ($('#layer').length > 0) {
+                return false;
+            }
+            var layerHtml = '<div id="layer" class="layer"></div>';
+            $('body').append(layerHtml);
+            $('#layer').text(msg);
+            var layerWidth = $('#layer').width() / 2;
+            $('#layer').css('marginLeft', -layerWidth);
+            if (time) {
+                setTimeout(function () {
+                    $('#layer').remove();
+                }, time);
+            } else {
+                setTimeout(function () {
+                    $('#layer').remove();
+                }, 2000);
+            }
+        }
+
+
+        /**
+         * 动手操作能力 时间
+         * @param s
+         * @constructor
+         */
+        function AsCallJsTime(s) {
+            if (diySeq == 1) {
+                diyTime = s;
+                diySeq++
+            }
+            console.log(diyTime);
+        }
+    </script>
+</body>
+</html>

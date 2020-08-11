@@ -1,14 +1,14 @@
 <template>
     <div class="jihuomajor">
         <div class="tanchuang1" v-show="!isJihuo">
-            <div class="title">激活根据专业选科目卡</div>
+            <div class="title">激活生涯卡</div>
             <!-- <form action=""> -->
                 <p class="neirong">
-                    <input type="text" v-model="XuankekaNumber" placeholder="请输入根据专业选科目卡账号" class="Username" >
+                    <input type="text" v-model="XuankekaNumber" placeholder="请输入生涯卡卡号" class="Username" >
                 </p>
                 <!-- <p class="warning">{{warning1}}</p> -->
                 <p class="neirong2">
-                    <input type="password" v-model="Xuankekapassword" placeholder="请输入根据专业选科目卡密码" class="Password1">
+                    <input type="password" v-model="Xuankekapassword" placeholder="请输入生涯卡密码" class="Password1">
                 </p>
                 <p class="warning">{{warning4}}</p>
                 <button @click="goJihuo">确定</button>
@@ -18,9 +18,9 @@
             </div>
         </div>
         <div class="tanchuang2" v-show="isJihuo">
-            <div class="tubiao"><img src="/imgs/tongyongtanchuang/chenggo ng.png" alt=""></div>
-            <div class="title">激活成功</div>
-            <p class="tishiyu">点击确定前往选科</p>
+            <div class="tubiao"><img src="/imgs/selfAssessment/chenggong.png" alt=""></div>
+            <div class="title">生涯卡激活成功</div>
+            <p class="tishiyu">可使用选科、生涯测评、升学途径分析、选择决策、视频课程等升学规划功能</p>
             <button class="goback" @click="$router.push('/elective/majorSelectedSubjects/mubiaozhuanye')">确定</button>
         </div>
     </div>

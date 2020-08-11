@@ -1,5 +1,6 @@
 <template>
     <div class="login">
+        <p class="title">账号登录</p>
         <div class="denglu">
             <input type="text" v-model="userName" placeholder="请输入手机号码或8位卡号">
             <input  type="password" v-model="password" placeholder="请输入登录密码">
@@ -7,7 +8,10 @@
             <div class="button" @click="login">
                 登录
             </div>
-            <router-link to="/forgetPassword">忘记密码?</router-link>
+            <ul class="lis">
+                <router-link to="/register" tag="li">个人注册</router-link>
+                <router-link to="/forgetPassword" tag="li">忘记密码?</router-link>
+            </ul>
         </div>
     </div>
 </template>
@@ -105,19 +109,29 @@
     .login{
         width: 480px;
         height: 390px;
-        padding: 100px 50px 0 70px;
-        background:url("/imgs/user/bg_zhanghaodenglu2.png");
+        padding: 0px 46px 0 50px;
+        background:url("/imgs/user/bg_zhanghaodenglu3.png");
         position: absolute;
         left: 50%;
         top:50%;
-        margin-top: -190px;
+        margin-top: -195px;
         margin-left: -240px;
+        .title {
+            line-height: 72px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #fff;
+        }
+        .denglu {
+            padding-top: 29px;
+        }
         input{
             width: 100%;
             height: 60px;
             // padding-top: 14px;
             font-size: 16px;
-            text-indent: 30px;
+            text-indent: 50px;
             background: none;
         }
         .button{
@@ -139,11 +153,18 @@
             width: 80px;
             margin: 10px auto;
         }
+        .lis {
+            display: flex;
+            justify-content: space-between;
+            color:#3286E8;
+            margin: 10px auto;
+            cursor: pointer;
+        }
         .warning{
             text-align: center;
             color:red;
-            line-height: 54px;
-            height: 54px;
+            line-height: 30px;
+            height: 30px;
         }
     }
 </style>

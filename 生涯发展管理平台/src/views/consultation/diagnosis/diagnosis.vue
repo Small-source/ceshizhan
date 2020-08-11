@@ -193,6 +193,12 @@
                     margin-bottom: 20px;
                     .img_box {
                         float: left;
+                        width: 52px;
+                        height: 52px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
                     }
                     p {
                         line-height: 42px;

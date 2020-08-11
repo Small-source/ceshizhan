@@ -338,7 +338,7 @@
                     </div>
                 </li>
             </ul>
-            <div class="save" @click="add(),clear()">保存</div>
+            <div class="save" @click="add()">保存</div>
             <div class="close" @click="exitConfirm"></div>
         </div>
     </div>
@@ -541,6 +541,7 @@
                             _this.getTotalChart()
                             _this.getPartChart()
                             _this.addtanchuang=false;
+                            _this.clear();
                         }else{
                             _this.warning(res.data.msg)
                         }
@@ -557,6 +558,7 @@
                             _this.getTotalChart()
                             _this.getPartChart()
                             _this.addtanchuang=false;
+                            _this.clear();
                         }else{
                             _this.warning(res.data.msg)
                         }

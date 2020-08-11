@@ -35,9 +35,9 @@
                                 清华大学与中科院心理所研究成果，结合心理学和人因学，采取物理心理测评技术针对认知潜能、人格特征、兴趣、学习风格、心理健康进行综合测量，精准定位专业范围，帮助考生发现天赋，科学完成自我认知。
                             </p>
                             <div class="button">
-                                <router-link to="/shengyaceping" target="_blank">
+                                <div class="button" @click="goTest">
                                     开始测评
-                                </router-link>
+                                </div>
                             </div>
                         </div>
                     </li>
@@ -415,14 +415,18 @@
                 保存
             </div>
         </div>
+        <Jihuoka v-show="isShowjihuoka" v-on:goClose="isShowjihuoka = false"></Jihuoka>
     </div>
 </template>
 <script>
-    import  masks from '../../components/mask.vue'
+    import  masks from '../../components/mask.vue';
+       // 引入激活生涯卡组件
+    import Jihuoka from '../../components/jihuoka.vue';
     export default {
         name: "careerAnchor",
         data(){
             return {
+                isShowjihuoka: false,
                 career:[],
                 cardstanchuang:false,
                 balancetanchuang:false,
@@ -488,7 +492,7 @@
                 resultflag:true,
             }
         },
-        components:{masks},
+        components:{masks,Jihuoka},
         computed:{
             citys(){
                 return this.$store.state.citys
@@ -1274,7 +1278,40 @@
             resultend(){
                 this.resultflag=true;
             },
-
+            goTest() {
+                var token = window.sessionStorage.getItem('ymtxToken');
+                var _this = this;
+                this.$ajax.post(this.G_uri + '/chooseSubject/startTest',{
+                    testType: 1,
+                },{
+                    headers:{
+                        token: token
+                    }
+                })
+                .then(function(res) {
+                    // console.log(res)
+                    if(res.data.code == 2000) {
+                        // code: 1.第一次测试2.继续测试3.测试完成4.绑卡
+                        if(res.data.data.code == 4) {
+                            _this.isShowjihuoka = true;
+                            return;
+                        }else {
+                            let {href}=_this.$router.resolve({
+                                path: '/shengyaceping'
+                            })
+                            window.open(href, '_blank');
+                        }
+                    }else if(res.data.code == 1016) {
+                        _this.$router.push('/login');
+                    }else if(res.data.code == 2026) {
+                        _this.$router.push('/perfectInformation');
+                    }
+                })
+                .catch(function(error) {
+                    console.log(error)
+                    // alert('当前服务器繁忙，请刷新')
+                });
+            }
         },
         watch:{
             citys(){

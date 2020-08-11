@@ -71,9 +71,10 @@ new Vue({
     document.dispatchEvent(new Event('render-event'))
   }
 }).$mount('#app');
-router.beforeEach((to,from,next)=>{
+router.beforeResolve((to,from,next)=>{ 
     window.scroll(0,0)
     if(!to.meta.requireAuth){
+      // console.log(6666);
         if (!window.sessionStorage.getItem("ymtxToken")) { // 判断当前的token是否存在
            return next({path:'/login'});
         }else{

@@ -1,0 +1,21 @@
+//文本溢出省略号显示
+@mixin ellipsis($line: 1){
+  display: -webkit-box;
+  -webkit-line-clamp: $line;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+//统一按钮样式
+@mixin btn-css($w:110, $h:36, $color:#fff, $bg:#00A2FF){
+  display: block;
+  width: $w + px;
+  height: $h + px;
+  background: $bg;
+  color: $color;
+  line-height: 0;
+  text-align: center;
+  &:hover { background:lighten($bg,5%); }
+  &:active { background:darken($bg,5%); }
+}

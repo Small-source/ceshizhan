@@ -2,373 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc4d66d-6c15-4345-a181-d74ad2ccf656" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/js/canvas2image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/js/html2canvas.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/js/jquery-2.2.3.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/js/jspdf.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/laydate/default/font.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/all-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/mobile/layer-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/mobile/layim-mobile-open.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/mobile/upload-mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/mobile/zepto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/layui/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/public/statics/sortable/Sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexidonglihuang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexidonglihui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexidonglilan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexiqianlihuang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexiqianlihui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexiqianlilan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexixiaolihuang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexixiaolihui.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_xuexixiaolilan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/nav/icon_yiwancheng.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/components/learningPotential.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/js/htmlToPdf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/routes/LearningEffectiveness.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/routes/LearningMotivation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/routes/LearningPotential.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/untils/routes/mentalHealth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide9_4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess2_1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess9_4.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/Navigations/part1.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/Navigations/part2.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/MentalHealth/Navigation.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/MentalHealth/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LearningCapacity/src/views/home.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/ceping/Maze.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/data/competition.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/data/high_school.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/data/map.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/data/zizhaobishi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/data/zizhaomianshi.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/ceping/cepingwancheng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/loading/loading.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/loading/loading2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/logo/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/logo/bg_zuo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/logo/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/logo/logo2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/banner2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/banner3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/bg2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/bg_zhanghaodenglu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/bg_zhanghaodenglu2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/bg_zhanghaodenglu3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/chenggong.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_.left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_password.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_user.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_xiala.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_xinghao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/icon_xinxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/loginbanner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/men.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/mima.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/touxiang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/women.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/xinxi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/imgs/user/yonghu.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/public/statics/video2.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/api/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/01.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/01.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/02.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/02.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/03.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/03.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/04.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/04.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/05.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/05.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/06.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/06.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/07.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/07.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/08.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/08.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/09.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/09.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqn144.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqn94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqn_guide144.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqn_guide94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqntest144.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/newceping/rzqntest94.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/assets/test_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/test_10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/DownloadProgress.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Loading.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Loading2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Login.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Pager.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Swiper.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Topnav.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/Viptanchuang.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/mask.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/rzqn.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/utils/htmlToPdf.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/assets/js/htmlToPdf.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/xgtx.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/xljk.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/components/xqqx.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/components/learningMotivation.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/router/shengyaceping.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/style/modules/evlua.scss" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/style/modules/evlua.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/style/modules/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/style/modules/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/until/public.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/cepingwancheng.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/shengyaceping.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify12.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify13.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify14.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify15.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify22.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/classify23.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/profile.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/profile1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/evlua/serial.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/index/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/index/password1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/index/password2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/index/password3.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/pay/pay1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/pay/pay2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/pay/pay3.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/pay/pay4.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques10.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques11.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques121.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques122.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques123.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques13.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques141.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques142.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques143.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques144.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques21.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques2_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques22.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques2_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques4.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques5.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques6.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques6.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques71.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques72.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques8.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques7.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques91.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques8_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/ques92.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques8_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide10.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide11.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide121.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide122.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide123.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide13.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide141.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide9_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide142.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide9_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide143.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide9_3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide144.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide21.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide2_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide22.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide2_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide4.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide5.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide6.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide6.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide71.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide72.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide8.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide7.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide91.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide8_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesGuide92.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesGuide8_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru10.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru11.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru12.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru13.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru14.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru9.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru21.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru4.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru5.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru6.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru6.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru8.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru7.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesInstru9.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesInstru8.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesPlay3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesPlay3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesPlay7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess1.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess10.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess11.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess121.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess122.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess123.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess13.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess141.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess9_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess142.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess9_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess143.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess9_3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess144.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess21.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess22.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess2_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess3.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess4.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess4.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess5.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess5.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess6.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess6.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess7.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess71.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess72.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess8.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess7.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess91.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess8_1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/rzqn/quesSuccess92.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/quesSuccess8_2.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/card.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/password.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/profile.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/report.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/reportDetail.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/reportDetail2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/reportSample.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/reportSample2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/usercenter/test.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesGuide1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesGuide2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesOne.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesSuccess1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesSuccess2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xgtx/quesTwo.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xljk/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xljk/quesGuide.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xljk/quesOne.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xljk/quesSuccess.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningMotivation/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/index2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/ques1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/ques2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningMotivation/ques1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/ques3.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/ques4.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesGuide1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesGuide2.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningMotivation/quesGuide1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesGuide3.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesGuide4.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesSuccess1.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesSuccess2.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesSuccess3.vue" beforeDir="false" afterPath="$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningMotivation/quesSuccess1.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/ceping/shengyaceping/view/xqqx/quesSuccess4.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LearningCapacity/src/views/start.vue" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -401,11 +35,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/index.vue">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="457">
-                  <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="119" selection-end-column="29" />
+                <state relative-caret-position="305">
+                  <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -419,7 +53,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_2.vue">
               <provider selected="true" editor-type-id="text-editor" />
             </entry>
@@ -736,13 +370,6 @@
               <item name="测试站" type="462c0819:PsiDirectoryNode" />
               <item name="LearningCapacity" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="测试站" type="b2602c69:ProjectViewProjectNode" />
-              <item name="测试站" type="462c0819:PsiDirectoryNode" />
-              <item name="LearningCapacity" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="untils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -872,12 +499,13 @@
       <workItem from="1597283135075" duration="3521000" />
       <workItem from="1597291622633" duration="16069000" />
       <workItem from="1597369573291" duration="13261000" />
-      <workItem from="1597629582439" duration="566000" />
+      <workItem from="1597629582439" duration="1192000" />
+      <workItem from="1597654310102" duration="1215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297343000" />
+    <option name="totallyTimeSpent" value="299184000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1200,9 +828,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_2.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningMotivation/ques1.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -1240,8 +865,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/index.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="117" column="10" selection-start-line="117" selection-start-column="10" selection-end-line="119" selection-end-column="29" />
+        <state relative-caret-position="305">
+          <caret line="109" column="38" selection-start-line="109" selection-start-column="38" selection-end-line="109" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -1282,6 +907,9 @@
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LearningCapacity/src/views/LearningAbility/LearningPotential/ques9_2.vue">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

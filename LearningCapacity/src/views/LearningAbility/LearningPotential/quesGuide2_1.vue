@@ -91,7 +91,7 @@
 
     methods: {
       go: function (e) {
-        if (!sessionStorage.getItem('')) {
+        if (!sessionStorage.getItem('mathTest1')) {
           this.layerMsg('至少练习一次!');
           return false;
         }

@@ -10,10 +10,11 @@ export default {
          * @param time
          * @returns {boolean}
          */
-        Vue.prototype.saveNode = function (module, node) {
+        Vue.prototype.saveNode = function (module, node,testId) {
             this.$http.post("/api/test/setNode", {
                     module: module, // 1-性格特性，2-认知潜能，3-兴趣倾向，4-心理健康
-                    node: node, // 对应的小结
+                    node: node, // 对应的小结,
+                    testId:testId
                 }, {
                     headers: {
                         "token": sessionStorage.getItem('token'),
@@ -45,8 +46,10 @@ export default {
          * @param node
          *
          * */
-        Vue.prototype.markOver = function (module, node) {
-            this.$http.post("/api/test/markOver", {}, {
+        Vue.prototype.markOver = function (module, node,testId) {
+            this.$http.post("/api/test/markOver", {
+                    testId:testId
+                }, {
                     headers: {
                         "token": sessionStorage.getItem('token'),
                     }

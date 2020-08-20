@@ -6,19 +6,12 @@ module.exports = {
         port: process.env.PORT || 8080,
         proxy: {
             '/api': {
-                target: 'http://39.98.37.134:8003',//测试环境 
+                target: 'http://39.98.37.134:8088',//测试环境
                 changeOrigin: true,
                 pathRewrite: {
-                    '^/api': '/api'
+                    '^/api': '/'
                 }
             },
-            '/papi': {
-                target: 'http://39.98.37.134:8002',//测试环境
-                changeOrigin: true,
-                pathRewrite: {
-                    '^/papi': ''
-                }
-            }
         }
     },
     configureWebpack: config => {

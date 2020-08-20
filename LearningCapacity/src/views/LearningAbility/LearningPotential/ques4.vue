@@ -221,7 +221,6 @@
              * 答题
              */
             answerClick: function (e) {
-
                 var length = $(e.target).closest('.ques-item').find('.answer-item.active').length;
                 if (length != 2) {
                     this.layerMsg('请选择2个答案！');
@@ -282,6 +281,7 @@
                 this.$ajax.post("/api/result/cognition/present/compute", {
                         time: this.time,
                         answers: JSON.stringify(this.answers),
+                        test_id:window.sessionStorage.getItem('testId')
                     }, {
                         timeout:3000,
                         headers: {

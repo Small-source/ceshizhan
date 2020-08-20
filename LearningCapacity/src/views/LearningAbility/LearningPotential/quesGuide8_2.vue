@@ -18,7 +18,7 @@
 
           </div>
           <div class="btngroup test_btngroup">
-            <a href="javascript:;" @click="go($event)" url="/learningAbility/learningPotential/92" class="btn btn_start">开始<span
+            <a href="javascript:;" @click="go($event)" url="/learningAbility/learningPotential/82" class="btn btn_start">开始<span
               v-if="seconds">({{seconds}}s)</span></a>
           </div>
         </div>

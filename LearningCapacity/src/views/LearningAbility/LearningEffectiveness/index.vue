@@ -1,48 +1,50 @@
 <template>
   <div class="pc-page">
-    <div class="test_main test_main_3">
+    <div class="test_main test_main_2">
       <Nav></Nav>
       <div class="test_test clearfix">
         <div class="test_test_l">
           <div class="titbox center">
-            <h4 class="cn_tit">学习态度</h4>
-            <h6 class="en_tit">learning atitude</h6>
+            <h4 class="cn_tit">学习效力</h4>
+            <h6 class="en_tit">learning effectiveness</h6>
           </div>
           <div class="desc">
-            <p>学习动力指的是引发并维持学习活动的内部心理倾向。学习动力主要表现在学习态度上，学习态度由认知、情感、行为意向三部分组成，这三部分是协调统一的关系。</p>
+            <p>学习效力指的是如何有效地学习。学习效力主要由方法效力和风格效力组成。其中，方法效力指的是学习策略，风格效力指的是学习风格。</p>
           </div>
           <div class="btngroup test_btngroup">
-            <router-link to="/learningAbility/LearningMotivation/guide/1" class="btn btn_start_4">开始测评</router-link>
+            <router-link class="btn btn_start" :to="url">开始测评</router-link>
           </div>
         </div>
         <div class="test_test_r">
-          <img src="@/assets/test_10.png" alt="" class="img"/>
+          <img src="@/assets/newceping/icon_xuexixiaoli.png" alt="" class="img"/>
         </div>
+      </div>
+      <div class="test_foot test_copy">
+        Personality is the individual’s unique behavior or inherent behavioral tendencies formed on the basis<br>
+        of certain genetic qualities in the process of adapting to the environment.
       </div>
     </div>
   </div>
 </template>
+
 <script>
-  import Nav from '../../../components/learningMotivation.vue';
-  export default {
-    data() {
+    import Nav from '../../../components/learningEffectiveness.vue';
+  export default{
+    data(){
       return {
-        testType: ''
+          url:'/learningAbility/LearningEffectiveness/guide/1'
       }
-    },
-    mounted() {
-      this.testType = sessionStorage.getItem('testType');
     },
     components: {Nav},
       created(){
-          this.goCreate()
+        this.goCreate()
       },
       methods:{
           goCreate() {
               var _this = this;
               var serial_no = this.serial_no;
               this.$ajax.post( '/api/test/create',{
-                  module:2
+                  module:3
               },{
                   headers:{
                       token:window.sessionStorage.getItem('token')
@@ -56,7 +58,7 @@
                           if(node==0){
                               return
                           }
-                          this.$router.push('/learningAbility/LearningMotivation/guide/'+node)
+                          this.$router.push('/learningAbility/LearningEffectiveness/guide/'+node)
                       }else if(res.data.code == 1016) {
 
                       }
@@ -70,6 +72,8 @@
   }
 </script>
 
-<style>
-
+<style scoped>
+  .test_test_r{
+    transition: .1s;
+  }
 </style>

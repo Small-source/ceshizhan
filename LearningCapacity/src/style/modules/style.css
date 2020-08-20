@@ -375,10 +375,12 @@ textarea {  -webkit-appearance: none;}
 .system_main .item_ql .icon{background: url(~@/assets/newceping/nav/icon_xuexiqianlihui.png) no-repeat center;background-size:cover;}
 .system_main .item_dl .icon{background: url(~@/assets/newceping/nav/icon_xuexidonglihui.png) no-repeat center;background-size:cover;}
 .system_main .item_xl .icon{background: url(~@/assets/newceping/nav/icon_xuexixiaolihui.png) no-repeat center;background-size:cover;}
+.system_main .item_xljk .icon{background: url(~@/assets/newceping/nav/icon_xinlijiankanghui.png) no-repeat center;background-size:cover;}
 
 .system_main .item_ql.cur .icon{background: url(~@/assets/newceping/nav/icon_xuexiqianlilan.png) no-repeat center;background-size:cover;}
 .system_main .item_dl.cur .icon{background: url(~@/assets/newceping/nav/icon_xuexidonglilan.png) no-repeat center;background-size:cover;}
 .system_main .item_xl.cur .icon{background: url(~@/assets/newceping/nav/icon_xuexixiaolilan.png) no-repeat center;background-size:cover;}
+.system_main .item_xljk.cur .icon{background: url(~@/assets/newceping/nav/icon_xinlijiankanglan.png) no-repeat center;background-size:cover;}
 
 .system_main .item.cur .title{color: #3B97F3;}
 .system_main .item.cur,.system_main .item:hover{border-color:#5f8ceb;background: #5f8ceb;}
@@ -386,6 +388,7 @@ textarea {  -webkit-appearance: none;}
 .system_main .item_ql_over .icon{background: url(~@/assets/newceping/nav/icon_xuexiqianlihuang.png) no-repeat center;background-size:cover;}
 .system_main .item_dl_over .icon{background: url(~@/assets/newceping/nav/icon_xuexidonglihuang.png)no-repeat center;background-size:cover;}
 .system_main .item_xl_over .icon{background: url(~@/assets/newceping/nav/icon_xuexixiaolihuang.png) no-repeat center;background-size:cover;}
+.system_main .item_xljk_over .icon{background: url(~@/assets/newceping/nav/icon_xuexixiaolihuang.png) no-repeat center;background-size:cover;}
 
 .system_main .item_ql_over .title,.system_main .item_dl_over .title,.system_main .item_xl_over .title{color: #FFB664;}
 

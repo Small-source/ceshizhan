@@ -394,12 +394,12 @@
                         time: this.time,
                         questions: JSON.stringify(this.questions),
                         answers: JSON.stringify(this.answers),
-                        times: JSON.stringify(this.times)
+                        times: JSON.stringify(this.times),
+                        test_id:window.sessionStorage.getItem('testId')
                     },
                     {
                         timeout:3000,
                         headers: {
-
                             "token": sessionStorage.getItem('token'),
                         }
                     }

@@ -198,6 +198,7 @@
         this.$ajax.post("/api/result/cognition/matha/compute", {
             time: this.timeA,
             answers: JSON.stringify(this.answersA),
+            test_id:window.sessionStorage.getItem('testId')
           }, {
                 timeout:3000,
             headers: {
@@ -216,7 +217,7 @@
               // this.subject = 2;
               // this.startTimeB = new Date().getTime();
               this.saveNode(1, 82);
-              this.$router.push({path: '/learningAbility/learningPotential/success/91'})
+              this.$router.push({path: '/learningAbility/learningPotential/success/82'})
             } else {
               this.layerMsg(data.msg);
             }
@@ -280,7 +281,8 @@
             var data = res.data;
             if (data.code == 0) {
 //              this.layerMsg('测试成功!');
-              this.$router.push('/learningAbility/learningPotential/success/9')
+                this.saveNode(1, 82);
+              this.$router.push('/learningAbility/learningPotential/success/82')
             } else {
               this.layerMsg(data.msg);
             }

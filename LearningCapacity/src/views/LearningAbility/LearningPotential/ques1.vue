@@ -266,6 +266,7 @@
         this.$ajax.post("/api/result/cognition/info/add", {
             time: this.time,
             answers: JSON.stringify(this.answers),
+            test_id:window.sessionStorage.getItem('testId')
           },
           {
             timeout:3000,
@@ -282,7 +283,7 @@
             // console.log(res.data);
             var data = res.data;
             if (data.code == 0) {
-              _this.saveNode(1, 21);
+              _this.saveNode(1,21);
               _this.$router.push('/learningAbility/learningPotential/success/1')
             } else {
               _this.layerMsg(data.msg);

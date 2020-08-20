@@ -157,6 +157,7 @@
         this.$ajax.post("/api/result/cognition/lang/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
+            test_id:window.sessionStorage.getItem('testId')
           }, {
             timeout:3000,
             headers: {

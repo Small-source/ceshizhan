@@ -210,10 +210,10 @@
        * 提交
        */
       submit: function () {
-
         this.$ajax.post("/api/result/cognition/logic/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
+            test_id:window.sessionStorage.getItem('testId')
           }, {
             timeout:3000,
             headers: {

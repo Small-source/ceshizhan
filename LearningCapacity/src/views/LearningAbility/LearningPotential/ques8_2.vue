@@ -181,7 +181,12 @@
        * 获取试题列表
        */
       quesListB: function () {
-        this.$ajax.post("/api/test/cognition/mathb/list", {emulateJSON: true}).then(
+        this.$ajax.post("/api/test/cognition/mathb/list",{
+            timeout:3000,
+            headers: {
+                "token": sessionStorage.getItem('token'),
+            }
+        }, {emulateJSON: true}).then(
           function (res) {
             // 请求成功的结果
             var data = res.data;
@@ -271,6 +276,7 @@
         this.$ajax.post("/api/result/cognition/mathb/compute", {
             time: this.timeB,
             answers: JSON.stringify(this.answersB),
+            test_id:window.sessionStorage.getItem('testId')
           }, {
                 timeout:3000,
             headers: {
@@ -288,7 +294,7 @@
             if (data.code == 0) {
 //              this.layerMsg('测试成功!');
               this.saveNode(1, 91);
-              this.$router.push('/learningAbility/learningPotential/success/92')
+              this.$router.push('/learningAbility/learningPotential/success/82')
             } else {
               this.layerMsg(data.msg);
             }

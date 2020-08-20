@@ -85,7 +85,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/1',
-        name: 'RzqnGuide1',
+        name: 'Guide1',
         component: Guide1
     },
     {
@@ -106,7 +106,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/21',
-        name: 'RzqnGuide21',
+        name: 'Guide21',
         component: Guide21
     },
     {
@@ -163,7 +163,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/4',
-        name: 'RzqnGuide4',
+        name: 'Guide4',
         component: Guide4
     },
     {
@@ -205,7 +205,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/6',
-        name: 'RzqnGuide6',
+        name: 'Guide6',
         component: Guide6
     },
     {
@@ -226,7 +226,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/7',
-        name: 'RzqnGuide7',
+        name: 'Guide7',
         component: Guide7
     },
     {
@@ -247,7 +247,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/81',
-        name: 'RzqnGuide81',
+        name: 'Guide81',
         component: Guide81
     },
     {
@@ -262,7 +262,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/82',
-        name: 'RzqnGuide82',
+        name: 'Guide82',
         component: Guide82
     },
     {
@@ -283,7 +283,7 @@ export default [
     },
     {
         path: '/learningAbility/learningPotential/guide/91',
-        name: 'RzqnGuide91',
+        name: 'Guide91',
         component: Guide91
     },
     {

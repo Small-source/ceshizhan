@@ -272,7 +272,8 @@
         this.$ajax.post("/api/result/cognition/workb/add", {
             time: this.time,
             answers: JSON.stringify(this.answers),
-            nums: JSON.stringify(this.memoryNum)
+            nums: JSON.stringify(this.memoryNum),
+            test_id:window.sessionStorage.getItem('testId')
           }, {
                 timeout:3000,
             headers: {

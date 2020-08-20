@@ -193,10 +193,11 @@
                 }
                 // return;
                 let _this=this;
-                this.$ajax.post(this.G_uri+"/result/cognition/attentionc/compute", {
+                this.$ajax.post("/api/result/cognition/attentionc/compute", {
                         time:new Date().getTime()-this.tempTimeStart,
                         right:this.right,
-                        wrong:this.wrong
+                        wrong:this.wrong,
+                        test_id:window.sessionStorage.getItem('testId')
                     },
                     {
                         timeout:3000,

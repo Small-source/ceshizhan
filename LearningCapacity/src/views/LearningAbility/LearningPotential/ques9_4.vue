@@ -263,9 +263,10 @@
                     this.isSubmiting = false;
                     return
                 }
-                this.$ajax.post(this.G_uri + "/result/cognition/attentiond/compute", {
+                this.$ajax.post("/api/result/cognition/attentiond/compute", {
                         time: time,
-                        answers: JSON.stringify(this.answerData)
+                        answers: JSON.stringify(this.answerData),
+                        test_id:window.sessionStorage.getItem('testId')
                     },
                     {
                         timeout:3000,
@@ -281,8 +282,9 @@
                         // 请求成功的结果
                         _this.isSubmiting = false;
                         var data = res.data;
+                        console.log(data.code)
                         if (data.code == 0) {
-                            _this.saveNode(2, 1);
+                            _this.markOver();
                             _this.$router.push('/learningAbility/learningPotential/success/94')
                         } else {
                             _this.layerMsg(data.msg);

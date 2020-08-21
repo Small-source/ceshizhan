@@ -263,7 +263,7 @@
        */
       submit: function () {
           let _this=this;
-        this.$ajax.post("/api/result/cognition/info/add", {
+        this.$ajax.post(this.G_uri+"/result/cognition/info/add", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')

@@ -127,7 +127,11 @@
        */
       quesListA: function () {
         var _this = this, total;
-        this.$ajax.post("/api/test/cognition/matha/list", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/cognition/matha/list", {emulateJSON: true},{
+            headers:{
+                token:window.sessionStorage.getItem('token')
+            }
+        }).then(
           function (res) {
             // 请求成功的结果
             var data = res.data;
@@ -145,7 +149,12 @@
       },
 
       quesListB: function () {
-        this.$ajax.post("/api/test/cognition/mathb/list", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/cognition/mathb/list", {emulateJSON: true},
+            {
+                headers:{
+                    token:window.sessionStorage.getItem('token')
+                }
+            }).then(
           function (res) {
             // 请求成功的结果
             var data = res.data;
@@ -195,7 +204,7 @@
        * 提交 Part A
        */
       submitA: function () {
-        this.$ajax.post("/api/result/cognition/matha/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/matha/compute", {
             time: this.timeA,
             answers: JSON.stringify(this.answersA),
             test_id:window.sessionStorage.getItem('testId')
@@ -262,7 +271,7 @@
        * 提交 Part B
        */
       submitB: function () {
-        this.$ajax.post("/api/result/cognition/mathb/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/mathb/compute", {
             time: this.timeB,
             answers: JSON.stringify(this.answersB),
           }, {

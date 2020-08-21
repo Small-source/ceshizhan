@@ -1,0 +1,123 @@
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta base=car><link rel=icon href=/favicon.ico><link rel=stylesheet href=/statics/css/reset.css><link rel=stylesheet href="/ceping/layui/css/layui.css?family=Noto+Sans+SC:100,300,400,500,700,900" media=all><link href=/css/chunk-018339e8.fb780ce3.css rel=prefetch><link href=/css/chunk-078e5f94.fb780ce3.css rel=prefetch><link href=/css/chunk-09002d61.25d88515.css rel=prefetch><link href=/css/chunk-10688fc0.fb780ce3.css rel=prefetch><link href=/css/chunk-15ef8547.fb780ce3.css rel=prefetch><link href=/css/chunk-16a59812.6cd8ccf8.css rel=prefetch><link href=/css/chunk-1886e7c5.fb780ce3.css rel=prefetch><link href=/css/chunk-1c1d0208.f3c5e535.css rel=prefetch><link href=/css/chunk-1d6a5e6a.fb780ce3.css rel=prefetch><link href=/css/chunk-1d85cd70.fb780ce3.css rel=prefetch><link href=/css/chunk-1e5da64e.ad4b4b47.css rel=prefetch><link href=/css/chunk-1f98aa66.fb780ce3.css rel=prefetch><link href=/css/chunk-2020c194.fb780ce3.css rel=prefetch><link href=/css/chunk-21065aac.fb780ce3.css rel=prefetch><link href=/css/chunk-234e0862.d08bf1f4.css rel=prefetch><link href=/css/chunk-23d06a86.cc0c94ac.css rel=prefetch><link href=/css/chunk-24222915.fb780ce3.css rel=prefetch><link href=/css/chunk-25a07888.4336fc25.css rel=prefetch><link href=/css/chunk-264b44bc.6dc5adfd.css rel=prefetch><link href=/css/chunk-2b56fe02.fb780ce3.css rel=prefetch><link href=/css/chunk-2d791acc.fb780ce3.css rel=prefetch><link href=/css/chunk-2e60329a.fb780ce3.css rel=prefetch><link href=/css/chunk-30589a15.fb780ce3.css rel=prefetch><link href=/css/chunk-310a3f48.4666730d.css rel=prefetch><link href=/css/chunk-337ac52c.fb780ce3.css rel=prefetch><link href=/css/chunk-375149bc.fb780ce3.css rel=prefetch><link href=/css/chunk-38c62996.fb780ce3.css rel=prefetch><link href=/css/chunk-3fafdd75.fb780ce3.css rel=prefetch><link href=/css/chunk-41d20412.fb780ce3.css rel=prefetch><link href=/css/chunk-44c7f274.fb780ce3.css rel=prefetch><link href=/css/chunk-477477a8.fb780ce3.css rel=prefetch><link href=/css/chunk-47b04956.fb780ce3.css rel=prefetch><link href=/css/chunk-48217033.fb780ce3.css rel=prefetch><link href=/css/chunk-5057b65c.fb780ce3.css rel=prefetch><link href=/css/chunk-59d6f98e.02ad521a.css rel=prefetch><link href=/css/chunk-5eca4b1e.a890de73.css rel=prefetch><link href=/css/chunk-5fce6fb1.fb780ce3.css rel=prefetch><link href=/css/chunk-6896db63.fb780ce3.css rel=prefetch><link href=/css/chunk-69abd840.fb780ce3.css rel=prefetch><link href=/css/chunk-6a02d77b.5d0a2e1e.css rel=prefetch><link href=/css/chunk-6a4c8138.fb780ce3.css rel=prefetch><link href=/css/chunk-6c00d251.fb780ce3.css rel=prefetch><link href=/css/chunk-6cc0cffe.fb780ce3.css rel=prefetch><link href=/css/chunk-7077991a.29617111.css rel=prefetch><link href=/css/chunk-72682eec.74503941.css rel=prefetch><link href=/css/chunk-726c81a4.fb780ce3.css rel=prefetch><link href=/css/chunk-732570b3.fb780ce3.css rel=prefetch><link href=/css/chunk-75c6ae73.fb780ce3.css rel=prefetch><link href=/css/chunk-76926264.fb780ce3.css rel=prefetch><link href=/css/chunk-775a9dc9.fb780ce3.css rel=prefetch><link href=/css/chunk-7979ab70.8fd8f40a.css rel=prefetch><link href=/css/chunk-79a33b2c.fb780ce3.css rel=prefetch><link href=/css/chunk-975555ec.fb780ce3.css rel=prefetch><link href=/css/chunk-a5bb1074.fb780ce3.css rel=prefetch><link href=/css/chunk-a692faba.fb780ce3.css rel=prefetch><link href=/css/chunk-ad154f1a.fb780ce3.css rel=prefetch><link href=/css/chunk-c2844740.fb780ce3.css rel=prefetch><link href=/css/chunk-c8719148.fb780ce3.css rel=prefetch><link href=/css/chunk-c87cacd2.2a1ef41d.css rel=prefetch><link href=/css/chunk-cc8dcc56.bbc68bb8.css rel=prefetch><link href=/css/chunk-d3a1f3d8.fb780ce3.css rel=prefetch><link href=/css/chunk-e4bfddf0.fb780ce3.css rel=prefetch><link href=/css/chunk-f50a2a12.09198701.css rel=prefetch><link href=/js/chunk-018339e8.e2d54acf.js rel=prefetch><link href=/js/chunk-078e5f94.7bcd833f.js rel=prefetch><link href=/js/chunk-09002d61.f050c919.js rel=prefetch><link href=/js/chunk-0c62a713.04d0d2cc.js rel=prefetch><link href=/js/chunk-10688fc0.c5c2981a.js rel=prefetch><link href=/js/chunk-13dc3c28.55170dd3.js rel=prefetch><link href=/js/chunk-15ef8547.c84c8de8.js rel=prefetch><link href=/js/chunk-16a59812.52c089ee.js rel=prefetch><link href=/js/chunk-1886e7c5.2238287f.js rel=prefetch><link href=/js/chunk-1c1d0208.67999186.js rel=prefetch><link href=/js/chunk-1d6a5e6a.c9c6691e.js rel=prefetch><link href=/js/chunk-1d85cd70.b26651c7.js rel=prefetch><link href=/js/chunk-1e5da64e.0f56d90d.js rel=prefetch><link href=/js/chunk-1f98aa66.c616e1d8.js rel=prefetch><link href=/js/chunk-2020c194.bea6d79d.js rel=prefetch><link href=/js/chunk-21065aac.93b5e801.js rel=prefetch><link href=/js/chunk-234e0862.89a4a851.js rel=prefetch><link href=/js/chunk-23d06a86.b01964cc.js rel=prefetch><link href=/js/chunk-24222915.f0309218.js rel=prefetch><link href=/js/chunk-254b1e23.31de5ee0.js rel=prefetch><link href=/js/chunk-25a07888.96cfe1e8.js rel=prefetch><link href=/js/chunk-264b44bc.803c4f49.js rel=prefetch><link href=/js/chunk-2b56fe02.40ca7c81.js rel=prefetch><link href=/js/chunk-2bf3cda1.ff3bb7ea.js rel=prefetch><link href=/js/chunk-2d0c7e1b.b96c1583.js rel=prefetch><link href=/js/chunk-2d0cfa15.5d2f88e1.js rel=prefetch><link href=/js/chunk-2d5b687c.94071e1c.js rel=prefetch><link href=/js/chunk-2d791acc.414574e3.js rel=prefetch><link href=/js/chunk-2e60329a.8ec4d5c5.js rel=prefetch><link href=/js/chunk-30589a15.c0f5362b.js rel=prefetch><link href=/js/chunk-310a3f48.5e913e47.js rel=prefetch><link href=/js/chunk-337ac52c.3d880caa.js rel=prefetch><link href=/js/chunk-375149bc.0841fde4.js rel=prefetch><link href=/js/chunk-37d45428.988c7dda.js rel=prefetch><link href=/js/chunk-38c62996.035a3cc6.js rel=prefetch><link href=/js/chunk-3fafdd75.455ba24f.js rel=prefetch><link href=/js/chunk-41d20412.79a78ddc.js rel=prefetch><link href=/js/chunk-44c7f274.d373cc48.js rel=prefetch><link href=/js/chunk-4507f134.2a61cba4.js rel=prefetch><link href=/js/chunk-477477a8.79034060.js rel=prefetch><link href=/js/chunk-47b04956.f8cd6ccb.js rel=prefetch><link href=/js/chunk-48217033.aa95ce9e.js rel=prefetch><link href=/js/chunk-5057b65c.4ef7f650.js rel=prefetch><link href=/js/chunk-59d6f98e.d6bce29c.js rel=prefetch><link href=/js/chunk-5eca4b1e.22d14384.js rel=prefetch><link href=/js/chunk-5fce6fb1.784b83a9.js rel=prefetch><link href=/js/chunk-6896db63.e89e42ca.js rel=prefetch><link href=/js/chunk-69abd840.41be2987.js rel=prefetch><link href=/js/chunk-6a02d77b.9d7c282a.js rel=prefetch><link href=/js/chunk-6a4c8138.33faef56.js rel=prefetch><link href=/js/chunk-6c00d251.edbc43dc.js rel=prefetch><link href=/js/chunk-6cc0cffe.63439882.js rel=prefetch><link href=/js/chunk-7077991a.b1d35a4d.js rel=prefetch><link href=/js/chunk-72682eec.83ee0b9e.js rel=prefetch><link href=/js/chunk-726c81a4.4491d40b.js rel=prefetch><link href=/js/chunk-732570b3.16230cce.js rel=prefetch><link href=/js/chunk-75c6ae73.1ff3c53a.js rel=prefetch><link href=/js/chunk-76926264.c7f0b61f.js rel=prefetch><link href=/js/chunk-775a9dc9.79aa5f2b.js rel=prefetch><link href=/js/chunk-7979ab70.1e330800.js rel=prefetch><link href=/js/chunk-79a33b2c.73637086.js rel=prefetch><link href=/js/chunk-975555ec.f9e6a402.js rel=prefetch><link href=/js/chunk-a5bb1074.29323b3c.js rel=prefetch><link href=/js/chunk-a692faba.89e46796.js rel=prefetch><link href=/js/chunk-ad154f1a.0a6ca5fd.js rel=prefetch><link href=/js/chunk-b2096e5e.fe3bccf3.js rel=prefetch><link href=/js/chunk-b32d9fb4.df751a6b.js rel=prefetch><link href=/js/chunk-c2844740.6e1109d8.js rel=prefetch><link href=/js/chunk-c8719148.66d968cf.js rel=prefetch><link href=/js/chunk-c87cacd2.75c2b02d.js rel=prefetch><link href=/js/chunk-cc8dcc56.61731720.js rel=prefetch><link href=/js/chunk-d3a1f3d8.989a67f3.js rel=prefetch><link href=/js/chunk-e4bfddf0.7c257394.js rel=prefetch><link href=/js/chunk-f50a2a12.89f4ab20.js rel=prefetch><link href=/css/app.0c75fcbe.css rel=preload as=style><link href=/js/app.ca45da05.js rel=preload as=script><link href=/js/chunk-vendors.23972290.js rel=preload as=script><link href=/css/app.0c75fcbe.css rel=stylesheet></head><body><div id=app></div><script src=/ceping/jquery.min.js></script><script src=/ceping/jsPDF/jspdf.min.js></script><script src=/ceping/jsPDF/html2canvas.js></script><script src=/ceping/jsPDF/canvas2image.js></script><script src=/ceping/layui/layui.js></script><script>var diyTime, diySeq = 1;
+
+        /**
+         * get url param
+         * @param name
+         * @returns {*}
+         */
+        function getQueryString(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return decodeURI(r[2]);
+            } else {
+                return null;
+            }
+        }
+
+        /**
+         * 动手操作能力 碰壁次数
+         * @param s
+         * @constructor
+         */
+        function AsCallJsHit(s) {
+            // console.log(s);
+            $('#jsHits').text(s);
+        }
+
+        /**
+         * 动手操作能力 拖动一周结束测试
+         * @param s
+         * @constructor
+         */
+        function AsCallJsOneCircle(s) {
+            var time = new Date().getTime() - diyTime;
+            $.ajax({
+                url: '/api/result/cognition/diy/add',
+                dataType: 'json',
+                type: 'POST',
+                data: {
+                    time: time,// number	是	测试总时间		5000
+                    diy_time: time,	// number	是	完成时间		590
+                    diy_nums: $('#jsHits').text()// 	number	是	碰壁次数
+                },
+                headers: {
+                    "token": sessionStorage.getItem('token'),
+                },
+                success: function (data) {
+                    if (data.code == 0) {
+                        // this.layerMsg('测试成功!')
+                        // this.$router.push('/rzqn/success/7')
+                        // console.log(getQueryString('type'))
+                        if (window.location.hash=="#/shengyaceping/rzqn/7?type=test") {
+                            self.location = '#/shengyaceping/rzqn/success/7?type=test';
+                        } else {
+                            self.location = '#/shengyaceping/rzqn/success/7';
+                        }
+                    } else {
+                        console.log(data.msg);
+                    }
+                },
+                error: function (data) {
+                    console.log('接口响应失败，请联系网站管理人员');
+                }
+            })
+            $.ajax({
+                url: '/api/test/setNode',
+                dataType: 'json',
+                type: 'POST',
+                data: {
+                    module: 2,// number	是	测试总时间		5000
+                    node: 72,	// number	是	完成时间		590
+                },
+                headers: {
+                    "token": sessionStorage.getItem('token'),
+                },
+                success: function (data) {
+                    if (data.code == 0) {
+                        // this.layerMsg('测试成功!')
+                        // this.$router.push('/rzqn/success/7')
+                        // console.log(getQueryString('type'))
+                    } else {
+                        console.log(data.msg);
+                        layerMsg(data.msg);
+                    }
+                },
+                error: function (data) {
+                    console.log('接口响应失败，请联系网站管理人员');
+                }
+            })
+        }
+        function layerMsg(msg, time) {
+            if ($('#layer').length > 0) {
+                return false;
+            }
+            var layerHtml = '<div id="layer" class="layer"></div>';
+            $('body').append(layerHtml);
+            $('#layer').text(msg);
+            var layerWidth = $('#layer').width() / 2;
+            $('#layer').css('marginLeft', -layerWidth);
+            if (time) {
+                setTimeout(function () {
+                    $('#layer').remove();
+                }, time);
+            } else {
+                setTimeout(function () {
+                    $('#layer').remove();
+                }, 2000);
+            }
+        }
+
+
+        /**
+         * 动手操作能力 时间
+         * @param s
+         * @constructor
+         */
+        function AsCallJsTime(s) {
+            if (diySeq == 1) {
+                diyTime = s;
+                diySeq++
+            }
+            console.log(diyTime);
+        }</script><script src=/js/chunk-vendors.23972290.js></script><script src=/js/app.ca45da05.js></script></body></html>

@@ -6,8 +6,8 @@
       <div class="test_detail test_3">
         <div class="box">
           <em class="icon part_over"></em>
-          <p class="tips" v-if="type!='test'">Part A测试完成!</p>
-          <p class="tips" v-if="type=='test'">Part A练习完成!</p>
+          <p class="tips" v-if="type!='test'">Part C测试完成!</p>
+          <p class="tips" v-if="type=='test'">Part C练习完成!</p>
           <div class="btngroup">
             <router-link class="btn btn_goon" v-if="type!='test'" to="/learningAbility/learningPotential/guide/94">点击继续</router-link>
             <router-link v-if="type=='test'" to="/learningAbility/learningPotential/93?type=test" class="btn btn_jx">继续练习</router-link>

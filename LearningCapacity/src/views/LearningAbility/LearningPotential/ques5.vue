@@ -187,7 +187,7 @@
             },
 
             quesData: function () {
-                this.$ajax.post("/api/test/logic/gen_data", {
+                this.$ajax.post(this.G_uri+"/test/logic/gen_data", {
                         headers: {
                             "token": sessionStorage.getItem('token'),
                         }
@@ -390,7 +390,7 @@
             submit: function () {
                 var _this = this;
                 _this.time = Number(new Date().getTime()) - Number(_this.startTime);
-                this.$ajax.post("/api/result/cognition/think/add", {
+                this.$ajax.post(this.G_uri+"/result/cognition/think/add", {
                         time: this.time,
                         questions: JSON.stringify(this.questions),
                         answers: JSON.stringify(this.answers),

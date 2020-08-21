@@ -731,7 +731,7 @@
         }
         this.time = Number(new Date().getTime()) - Number(this.startTime);
         this.space_time = Number(new Date().getTime()) - Number(this.startTime);
-        this.$ajax.post("/api/result/cognition/space/add", {
+        this.$ajax.post(this.G_uri+"/result/cognition/space/add", {
             time: this.time,
             answers: sessionStorage.kongAnswers
 //            answers: '[{"space_direction_deviation":21,"space_range_deviation":30,"space_response_latency":506,"space_reaction_frequency":13,"space_time":506}]'

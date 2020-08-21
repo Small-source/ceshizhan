@@ -76,7 +76,10 @@
        * 获取试题列表
        */
       quesList: function () {
-        this.$ajax.post("/api/test/mind/list", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/mind/list", {emulateJSON: true},{
+            headers: {
+                "token": sessionStorage.getItem('token'),
+            }}).then(
           function (res) {
             // 请求成功的结果
             console.log(res.data);
@@ -149,7 +152,7 @@
        * 提交
        */
       submit: function () {
-        this.$ajax.post("/api/result/mind/compute", {
+        this.$ajax.post(this.G_uri+"/result/mind/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')

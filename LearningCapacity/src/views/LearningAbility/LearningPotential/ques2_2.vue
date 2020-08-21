@@ -135,8 +135,7 @@
 //        this.memoryNumInitStr = this.memoryNumInit.join('');
 //        console.log(this.memoryNum)        this.quesInit();
 
-        this.$ajax.post("/api/test/work/gen_nums", {
-                timeout:3000,
+        this.$ajax.post(this.G_uri+"/test/work/gen_nums", {
             headers: {
               "token": sessionStorage.getItem('token'),
             }
@@ -269,7 +268,7 @@
       submit: function () {
         console.log(this.answers);
         console.log(this.memoryNum);
-        this.$ajax.post("/api/result/cognition/workb/add", {
+        this.$ajax.post(this.G_uri+"/result/cognition/workb/add", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             nums: JSON.stringify(this.memoryNum),

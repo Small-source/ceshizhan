@@ -359,18 +359,21 @@ textarea {  -webkit-appearance: none;}
 .psd_form .getcode:hover{box-shadow:0 0 5px #ddd;}
 
 /*测评系统新*/
-.system_main{background: url(~@/assets//system_bg.jpg) no-repeat center;background-size:cover;padding-top: 120px;padding-bottom: 260px;}
+.system_main{background: url(~@/assets//system_bg.jpg) no-repeat center;background-size:cover;padding-top: 300px;padding-bottom: 260px;}
 
 .system_main .titbox{text-align: center;}
 .system_main .cn_tit{font-size: 40px;color: #ffffff;}
 .system_main .en_tit{font-size: 20px;color: rgba(255,255,255,.7);margin-top: 25px;text-transform: uppercase;}
 .system_main .font{font-size: 20px;color: #ffffff;line-height: 36px;width: 1200px;margin:50px auto 0;}
-.system_main .list{text-align: center;margin-top: 75px;}
-.system_main .item{width: 18%;display: inline-block;margin:0 1%;border:15px solid transparent;border-radius:15px;overflow: hidden; position: relative;}
+.system_main .list{text-align: center;margin-top: 75px;width: 1200px;margin:0 auto;display: flex;justify-content: space-between;position: relative}
+.system_main .item{width: 24%;margin:0 1%;border-radius:15px;overflow: hidden; position: relative;height: 388px}
+.system_main .item:hover {
+  border: 15px solid transparent;
+}
 .system_main .item>img{position: absolute;right: 10px;top:10px}
-.system_main .box{background: #fff;padding:85px 0 55px;border-radius:15px;display: block;}
+.system_main .box{background: #fff;padding:85px 0 55px;height:100%;border-radius:15px;display: block;}
 .system_main .icon{width: 200px;height: 172px;display: block;margin:0 auto;}
-.system_main .title{font-size: 24px;color: #999999;font-weight: bold;margin-top: 40px;}
+.system_main .title{font-size: 24px;color: #999999;margin-top: 40px;}
 
 .system_main .item_ql .icon{background: url(~@/assets/newceping/nav/icon_xuexiqianlihui.png) no-repeat center;background-size:cover;}
 .system_main .item_dl .icon{background: url(~@/assets/newceping/nav/icon_xuexidonglihui.png) no-repeat center;background-size:cover;}

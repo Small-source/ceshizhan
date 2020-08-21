@@ -198,7 +198,13 @@
              * 获取试题列表
              */
             quesList: function () {
-                this.$ajax.post("/api/test/cognition/present/list", {emulateJSON: true}).then(
+                this.$ajax.post(this.G_uri+"/test/cognition/present/list", {emulateJSON: true},
+                    {
+                        headers:{
+                            token:window.sessionStorage.getItem('token')
+                        }
+                    }
+                ).then(
                     function (res) {
                         // 请求成功的结果
                         console.log(res.data);
@@ -278,7 +284,7 @@
                 console.log(this.answers);
                 this.endTime = new Date().getTime();//结束时间
                 this.time = Number(this.endTime) - Number(this.startTime);
-                this.$ajax.post("/api/result/cognition/present/compute", {
+                this.$ajax.post(this.G_uri+"/result/cognition/present/compute", {
                         time: this.time,
                         answers: JSON.stringify(this.answers),
                         test_id:window.sessionStorage.getItem('testId')

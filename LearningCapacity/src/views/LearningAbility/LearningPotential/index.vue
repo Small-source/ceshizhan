@@ -39,7 +39,7 @@
         goCreate() {
             var _this = this;
             var serial_no = this.serial_no;
-            this.$ajax.post( '/api/test/create',{
+            this.$ajax.post( this.G_uri+'/test/create',{
                 module:1
             },{
                 headers:{
@@ -49,12 +49,13 @@
                 .then(function(res) {
                     if(res.data.code == 0) {
                         var testId=res.data.result.testId
-                        var node = res.data.result.node
+                        var node = res.data.result.node;
+                        window.sessionStorage.setItem('testId',testId)
                         if(node==0){
                             return
                         }
                         this.$router.push('/learningAbility/learningPotential/guide/'+node)
-                        window.sessionStorage.setItem('testId',testId)
+
                     }else if(res.data.code == 1016) {
 
                     }

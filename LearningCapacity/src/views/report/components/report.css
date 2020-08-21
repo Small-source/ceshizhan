@@ -1,0 +1,192 @@
+.page_shadow {
+  -webkit-box-shadow: 0px 0px 10px #666;
+  -ms-box-shadow: 0px 0px 10px #666;
+  -moz-box-shadow: 0px 0px 10px #666;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  height: 1300px;
+  width: 900px;
+  padding: 62px 94px 0 94px;
+  background-color: #fff;
+  position: relative;
+}
+.page_shadow .report_header {
+  margin-bottom: 20px;
+  line-height: 50px;
+  color: #2E75B6;
+  font-size: 24px;
+  padding-left: 100px;
+  background: url('/imgs/growthFile/icon_smallbg.png') no-repeat 0px center;
+  background-size: 80px 30px;
+}
+.page_shadow .big_page_number {
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  width: 100%;
+  line-height: 40px;
+  font-size: 18px;
+  color: #666;
+  text-align: center;
+}
+.page_shadow h5.header {
+  color: #fff;
+  background-color: #41CBAA;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 50px;
+}
+.page_shadow .header_detail_box {
+  padding-bottom: 40px;
+}
+.page_shadow .header_detail_box .header_detail {
+  text-indent: 2em;
+  line-height: 32px;
+  font-size: 15px;
+  color: #8A8A8A;
+}
+.page_shadow .part_big_title {
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 35px;
+}
+.page_shadow .part3_big_title {
+  padding-bottom: 10px;
+}
+.page_shadow .part_small_title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.page_shadow .par3_small_title {
+  padding-bottom: 20px;
+}
+.page_shadow .c_green {
+  color: #41CBAA;
+}
+.page_shadow .c_orange {
+  color: #F6B980;
+}
+.page_shadow .c_red {
+  color: #E77178;
+}
+.page_shadow .main_box {
+  margin-bottom: 75px;
+}
+.page_shadow .main_title {
+  display: flex;
+  align-items: center;
+  color: #5BD1B2;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+.page_shadow .main_title .block {
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  border-radius: 2px;
+  background-color: #5BD1B2;
+}
+.page_shadow .main_detail {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+.page_shadow .main_detail span {
+  font-size: 16px;
+}
+.page_shadow .main_remark {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 40px;
+  display: flex;
+  font-weight: bold;
+}
+.page_shadow .main_remark span {
+  font-size: 16px;
+}
+.page_shadow .main_remark .remark {
+  width: 46px;
+  height: 24px;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+  background-color: #41CBAA;
+  margin-right: 5px;
+  color: #fff;
+  border-radius: 5px;
+}
+.page_shadow .main_remark .c_green {
+  color: #41CBAA;
+}
+.page_shadow .main_directions {
+  padding: 25px;
+  font-size: 14px;
+  color: #8A8A8A;
+  line-height: 28px;
+  background-color: #F7F7F7;
+  border-radius: 5px;
+}
+.page_shadow .main_norm_box {
+  width: 670px;
+  margin: 0 auto;
+  margin-bottom: 46px;
+}
+.page_shadow .main_norm_box .rule_box {
+  position: relative;
+  left: -4px;
+  width: 686px;
+  height: 32px;
+  margin-bottom: 30px;
+}
+.page_shadow .main_norm_box .rule_box_part2 {
+  left: -8px;
+}
+.page_shadow .main_norm_box .norm_box {
+  width: 670px;
+  height: 20px;
+  background-color: #41CBAA;
+  position: relative;
+  border-radius: 10px;
+}
+.page_shadow .main_norm_box .norm_box .norm_block {
+  height: 28px;
+  position: absolute;
+  top: -4px;
+  background-color: rgba(0, 157, 162, 0.7);
+}
+.page_shadow .main_norm_box .norm_box .norm_block_part2 {
+  background-color: #FFD088;
+}
+.page_shadow .main_norm_box .norm_box .norm_score {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #FFF;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 50%;
+  top: 50%;
+  margin-top: -30px;
+}
+.page_shadow .main_norm_box .norm_box .score_1 {
+  background: url(/imgs/report_imgs/icon_circle1.png) no-repeat center center;
+}
+.page_shadow .main_norm_box .norm_box .score_2 {
+  background: url(/imgs/report_imgs/icon_circle2.png) no-repeat center center;
+}
+.page_shadow .main_norm_box .norm_box .score_3 {
+  background: url(/imgs/report_imgs/icon_circle3.png) no-repeat center center;
+}
+.page_shadow .main_norm_box .norm_box .score_4 {
+  background: url(/imgs/report_imgs/icon_circle4.png) no-repeat center center;
+}
+.page_shadow .main_norm_box .norm_box .score_5 {
+  background: url(/imgs/report_imgs/icon_circle5.png) no-repeat center center;
+}
+.page_shadow .main_norm_box .norm_box .score_part2_2 {
+  background: url(/imgs/report_imgs/icon_part2xuexidongliyuanquan.png) no-repeat center center;
+}

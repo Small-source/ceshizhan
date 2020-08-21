@@ -181,7 +181,7 @@
        * 获取试题列表
        */
       quesListB: function () {
-        this.$ajax.post("/api/test/cognition/mathb/list",{
+        this.$ajax.post(this.G_uri+"/test/cognition/mathb/list",{
             timeout:3000,
             headers: {
                 "token": sessionStorage.getItem('token'),
@@ -273,7 +273,7 @@
        * 提交 Part B
        */
       submitB: function () {
-        this.$ajax.post("/api/result/cognition/mathb/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/mathb/compute", {
             time: this.timeB,
             answers: JSON.stringify(this.answersB),
             test_id:window.sessionStorage.getItem('testId')

@@ -188,7 +188,7 @@
             console.log(this.right,this.wrong)
             // return;
         let _this=this;
-        this.$ajax.post("/api/result/cognition/attentionc/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/attentionc/compute", {
                 time:new Date().getTime()-this.tempTimeStart,
                 right:this.right,
                 wrong:this.wrong,

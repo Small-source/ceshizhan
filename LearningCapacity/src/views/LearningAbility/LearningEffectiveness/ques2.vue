@@ -87,7 +87,10 @@
        * 获取试题列表
        */
       quesList: function () {
-        this.$ajax.post("/api/test/mbti/list_mbti2", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/mbti/list_mbti2", {emulateJSON: true},{
+            headers: {
+                "token": sessionStorage.getItem('token'),
+            }}).then(
           function (res) {
             // 请求成功的结果
             console.log(res.data);
@@ -111,7 +114,10 @@
        */
       quesLieList: function () {
         var _this = this;
-        this.$ajax.post("/api/test/polygraph/list", {paper: 2}, {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/polygraph/list", {paper: 2}, {emulateJSON: true, headers: {
+                "token": sessionStorage.getItem('token'),
+            }},
+           ).then(
           function (res) {
             // 请求成功的结果
             console.log(res.data);
@@ -197,7 +203,7 @@
        */
       submit: function () {
 
-        this.$ajax.post("/api/result/mbti/mbti2/compute", {
+        this.$ajax.post(this.G_uri+"/result/mbti/mbti2/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')
@@ -232,9 +238,10 @@
        * 提交 测谎题
        */
       submitLie: function (question_id, answer) {
-        this.$ajax.post("/api/result/polygraph/compute", {
+        this.$ajax.post(this.G_uri+"/result/polygraph/compute", {
             question_id: question_id,
             answer: answer,
+            test_id:window.sessionStorage.getItem('testId')
           }, {
             headers: {
               "token": sessionStorage.getItem('token'),

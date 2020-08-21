@@ -41,7 +41,7 @@
           goCreate() {
               var _this = this;
               var serial_no = this.serial_no;
-              this.$ajax.post( '/api/test/create',{
+              this.$ajax.post( this.G_uri+'/test/create',{
                   module:2
               },{
                   headers:{
@@ -56,6 +56,7 @@
                           if(node==0){
                               return
                           }
+                          this.makeOver();
                           this.$router.push('/learningAbility/LearningMotivation/guide/'+node)
                       }else if(res.data.code == 1016) {
 

@@ -263,7 +263,7 @@
                     this.isSubmiting = false;
                     return
                 }
-                this.$ajax.post("/api/result/cognition/attentiond/compute", {
+                this.$ajax.post(this.G_uri+"/result/cognition/attentiond/compute", {
                         time: time,
                         answers: JSON.stringify(this.answerData),
                         test_id:window.sessionStorage.getItem('testId')

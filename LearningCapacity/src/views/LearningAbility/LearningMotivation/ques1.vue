@@ -143,7 +143,11 @@
        * 获取试题列表
        */
       quesList: function () {
-        this.$ajax.post("/api/test/hobby/attitude/list", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/hobby/attitude/list", {emulateJSON: true},
+            {
+                headers: {
+                    "token": sessionStorage.getItem('token')
+                }}).then(
           function (res) {
             // 请求成功的结果
             console.log(res.data);
@@ -217,7 +221,7 @@
        */
       submit: function () {
 
-        this.$ajax.post("/api/result/hobby/attitude/compute", {
+        this.$ajax.post(this.G_uri+"/result/hobby/attitude/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')

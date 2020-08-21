@@ -29,7 +29,7 @@ Vue.prototype.$echarts = echarts
 // Vue.prototype.G_uri= 'http://39.98.37.134:8002';
 // Vue.prototype.G_uris= 'http://39.98.37.134:8003/api';
 // // 线上域名
-Vue.prototype.G_uri= '';
+Vue.prototype.G_uri= '/api';
 Vue.prototype.G_uris = '';
 
 //获取代理商域名

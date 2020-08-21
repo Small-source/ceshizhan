@@ -205,7 +205,7 @@
               return
           }
           let _this=this;
-        this.$ajax.post("/api/result/cognition/attentiona/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/attentiona/compute", {
             time:new Date().getTime()-this.tempTimeStart,
             right:this.right,
             wrong:this.wrong,

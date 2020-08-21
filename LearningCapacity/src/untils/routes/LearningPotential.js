@@ -29,6 +29,7 @@ const Instru3 = () => import('@/views/LearningAbility/LearningPotential/quesInst
 const Guide3 = () => import('@/views/LearningAbility/LearningPotential/quesGuide3')
 const Ques3= () => import('@/views/LearningAbility/LearningPotential/ques3')
 const Success3 = () => import('@/views/LearningAbility/LearningPotential/quesSuccess3')
+const Play3 = () => import('@/views/LearningAbility/LearningPotential/quesPlay3')
 //4
 const Instru4 = () => import('@/views/LearningAbility/LearningPotential/quesInstru4')
 const Guide4 = () => import('@/views/LearningAbility/LearningPotential/quesGuide4')
@@ -154,6 +155,11 @@ export default [
         path: '/learningAbility/learningPotential/success/3',
         name: 'Success3',
         component: Success3,
+    },
+    {
+        path: '/learningAbility/learningPotential/play/3',
+        name: 'play3',
+        component: Play3,
     },
     // 4
     {

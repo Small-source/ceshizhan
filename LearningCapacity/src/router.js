@@ -19,6 +19,11 @@ const routes = [
         component:()=>import('@/views/LearningAbility/index.vue'),
         children: routers.learningAbility
     },
+    {
+        path:'/learningreport',
+        name:'学习力报告',
+        component:()=>import('./views/report/learningReport.vue')
+    }
 ]
 const mode = 'hash';
 // const router = new VueRouter({ base: process.env.BASE_URL,routes, mode });

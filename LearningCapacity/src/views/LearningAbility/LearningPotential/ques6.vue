@@ -142,7 +142,12 @@
        * 获取试题列表
        */
       quesList: function () {
-        this.$ajax.post("/api/test/cognition/logic/list", {emulateJSON: true}).then(
+        this.$ajax.post(this.G_uri+"/test/cognition/logic/list",{
+            timeout:3000,
+            headers: {
+                "token": sessionStorage.getItem('token'),
+            }
+        }, {emulateJSON: true}).then(
           function (res) {
             // 请求成功的结果
             console.log(res.data);
@@ -210,7 +215,7 @@
        * 提交
        */
       submit: function () {
-        this.$ajax.post("/api/result/cognition/logic/compute", {
+        this.$ajax.post(this.G_uri+"/result/cognition/logic/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')

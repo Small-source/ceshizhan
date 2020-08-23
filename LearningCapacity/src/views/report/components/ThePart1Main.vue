@@ -5,7 +5,7 @@
 		<P class="main_title"><span class="block"></span>{{normObj.name}}</P>
 		<div class="main_norm_box">
 			<div class="rule_box">
-				<img src="/imgs/report_imgs/norm_rule.png" alt="">
+				<img src="~@/assets/report_imgs/norm_rule.png" alt="">
 			</div>
 			<div class="norm_box">
 				<div class="norm_block" :style="{left: normObj.lnorm/200*670 + 'px', width: (normObj.rnorm-normObj.lnorm)/200*670 + 'px' }" :title="normObj.lnorm + '~' +normObj.rnorm"></div>
@@ -16,7 +16,7 @@
 				<div class="norm_score score_5" v-else="0.9<= normObj.score/200" :style="{left: normObj.score/200*670-30 + 'px'}">{{normObj.score}}</div>
 			</div>
 		</div>
-		<p class="main_detail">你在{{normObj.name}}的潜能水平值为<span class="c_orange">{{normObj.score}}</span>，你超过<span class="c_red">{{(normObj.percent) * 100}}%</span>的同龄人。</p>
+		<p class="main_detail">你在{{normObj.name}}的潜能水平值为<span class="c_orange">{{normObj.score | toFixed(2)}}</span>，你超过<span class="c_red">{{normObj.percent * 100 | toFixed(2)}}%</span>的同龄人。</p>
 		<p class="main_remark"><span class="remark">备注</span>本测评潜能水平值范围0~200，工作记忆能力平均潜能水平值<span class="c_green">{{normObj.lnorm}}~{{normObj.rnorm}}</span>。</p>
 		<P class="main_directions">{{comment}}</P>
 	</div>

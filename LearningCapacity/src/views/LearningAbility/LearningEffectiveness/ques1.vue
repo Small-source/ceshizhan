@@ -173,7 +173,7 @@
                         var data = res.data;
                         if (data.code == 0) {
                             this.saveNode(3,2)
-                            this.$router.push('/learningAbility/LearningEffectiveness/success1')
+                            this.$router.push('/learningAbility/LearningEffectiveness/success/1')
                         } else {
                             this.layerMsg(data.msg);
                         }

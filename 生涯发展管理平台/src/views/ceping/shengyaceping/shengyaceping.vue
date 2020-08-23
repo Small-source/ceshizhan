@@ -175,8 +175,6 @@ export default {
                     // 序列号类型1
                     if (data.result.serial_type == 1) {
                         if (data.result.module == 0) {
-                            this.chushi = true;
-                            this.$router.push('/shengyaceping');
                         } else if (data.result.module == 1) {
                             this.$router.push('/shengyaceping/xgtx/guide/' + data.result.node);
                         } else if (data.result.module == 2) {
@@ -260,7 +258,6 @@ export default {
                 }
             })
             .then(function(res) {
-                console.log(res.data)
                 if(res.data.code == 2000) {
                     // code: 1.第一次测试2.继续测试3.测试完成4.绑卡
                     if(res.data.data.code == 3) {
@@ -290,8 +287,54 @@ export default {
         }
     },
     mounted() {
+
     },
     created() {
+        var arr = [
+            200101, 200102, 200103,
+            200104, 200105, 200106,
+            200107, 200108, 200109,
+            200110, 200111, 200112,
+            200113, 200114, 200115,
+            200116, 200117, 200118,
+            200119, 200120, 200121,
+            200122, 200123, 200124,
+            200125, 200126, 200127,
+            200128, 200129, 200130,
+            200131, 200132, 200133,
+            200134, 200135, 200136,
+            200201, 200202, 200203,
+            200204, 200205, 200206,
+            200207, 200208, 200209,
+            200210, 200211, 200212,
+            200213, 200214, 200215,
+            200216, 200217, 200218,
+            200219, 200220, 200221,
+            200222, 200223, 200224,
+            200225, 200226, 200227,
+            200228, 200229, 200230,
+            200231, 200232, 200233,
+            200234, 200235,
+            200301, 200302, 200303,
+            200304, 200305, 200306,
+            200307, 200308, 200309,
+            200310, 200311, 200312,
+            200313, 200314, 200315,
+            200316, 200317, 200318,
+            200319, 200320, 200321,
+            200322, 200323, 200324,
+            200325, 200326, 200327,
+            200328, 200329, 200330,
+            200331, 200332, 200333,
+            200334, 200335
+        ]
+        var username = sessionStorage.getItem('username');
+        console.log(arr.indexOf(Number(username)))
+        if(arr.indexOf(Number(username))>=0){
+            window.sessionStorage.setItem('cardsBoolean',false)
+        }else{
+            window.sessionStorage.setItem('cardsBoolean',true)
+        }
         var testType360 = window.sessionStorage.getItem('testType360');
         this.goTest(testType360);
     }

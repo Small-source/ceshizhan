@@ -70,11 +70,20 @@ import ThePart4Main from './ThePart4Main.vue';//目录
 export default {
 	name: 'page_part4',
 	components: { ThePart4Main },
-    props: [],
+    props: {
+        norm: {
+          type: Object,//norm数组的其中一项
+          // required: true
+        },
+        comment: {
+            type: Object,//comment的类型解读
+            // required: true
+        }
+    },
     data() {
         return {
-        	comment: null,
-        	norm: null,
+        	// comment: null,
+        	// norm: null,
         }
     },
     computed: {
@@ -83,7 +92,7 @@ export default {
     watch: {
     },
     created() {	
-    	this.getXljkInfo()
+    	// this.getXljkInfo()
     },
     mounted() {
     },
@@ -179,8 +188,5 @@ export default {
                 }
             }
         }
-
-
-        
 	}
 </style>

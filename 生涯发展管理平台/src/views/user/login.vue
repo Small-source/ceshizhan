@@ -30,7 +30,7 @@
         methods:{
             //登录
             login(){
-                let regUser= /(^1[123456789]\d{9}$)|(^\d{8}$)/;
+                let regUser= /(^1[123456789]\d{9}$)|(^\d{8}$)|((^\d{6}$))/;
                 let regPw=/[a-zA-z0-9!@#$%^&*.?]{6,20}/;
                 let _this=this;
                 this.warning=''
@@ -95,7 +95,7 @@
         mounted(){
 
         },
-       beforeCreate(){
+        beforeCreate(){
 
         }
     }

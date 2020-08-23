@@ -24,7 +24,7 @@
 						<div class="norm">
 							<div class="norm_child"  :style="{left: (item.lnorm-1)/4*78 + 'px', width: (item.rnorm-item.lnorm)/4*78 + 'px' }"></div>
 							<div class="norm_bg"></div>
-							<div class="score" :style="{left: (item.score-1)/4*78-12 + 'px'}"><img src="/imgs/report_imgs/icon_xuexidongliyuanquan.png" alt="" :title="item.score | toFixed(2)"></div>
+							<div class="score" :style="{left: (item.score-1)/4*78-12 + 'px'}"><img src="~@/assets/report_imgs/icon_xuexidongliyuanquan.png" alt="" :title="item.score | toFixed(2)"></div>
 						</div>
 					</div>
 				</div>
@@ -60,7 +60,7 @@ export default {
     watch: {
     },
     created() {	
-    	this.getXxdlInfo()
+    	// this.getXxdlInfo()
     },
     mounted() {
     },
@@ -122,7 +122,7 @@ export default {
 				width: 317px;
 				height: 319px;
 				margin: 0 auto;
-				background: url(/imgs/report_imgs/icon_xuexidongli.png) no-repeat center center;
+				background: url(~@/assets/report_imgs/icon_xuexidongli.png) no-repeat center center;
 				p {
 					font-size: 15px;
 					font-weight: bold;
@@ -157,7 +157,7 @@ export default {
 							height: 9px;
 							position: relative;
 							z-index: 2;
-							background: url(/imgs/report_imgs/part2_tip.png) no-repeat center center;
+							background: url(~@/assets/report_imgs/part2_tip.png) no-repeat center center;
 						}
 						.norm_child {
 							height: 9px;

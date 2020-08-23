@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" /> 
+    <title>学马教育一对一志愿填报指导</title>
+    <meta name="keywords" content="志愿填报,志愿填报系统,志愿填报一对一服务,志愿填报一对一在线服务,湖南省长沙市,长沙市,志愿填报流程,志愿填报存在风险,志愿填报面问题">
+    <meta name="description" content="学马教育志愿填报服务的宣传介绍，包括了志愿填报流程、志愿填报的师资力量、志愿填报需要的支撑系统，以及志愿填报中家长和学生可能面临的问题。">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/voluntaryReport.css?007">
+    <script src="js/rem.js"></script>
+</head>
+<body>
+	<div class="voluntaryReport">
+	    <div class="logo_box">
+	    	<img src="./imgs/logo/logo.png" alt="">
+			<p>联系电话：4008-925-909</p>
+	    </div>
+	    <div class="banner">
+	    	<div class="main_box">
+	    		<div class="btn_box">
+	    			<p>目前还剩<span>128</span>个名额</p>
+	    			<div class="btn" ontouchstart="changeCard(true)">立即预约</div>
+	    		</div>
+				<p class="detail">志愿填报，人生的第二场高考</p>
+	    	</div>
+	    </div>
+	    <div class="question">
+	    	<p class="big_title">您是否在志愿填报中遇到以下问题</p>
+	    	<ul>
+	    		<li>
+	    			<p class="title">不知道：</p>
+	    			<p class="detail">读了十二年书，孩子都不知道自己以后想干啥！</p>
+	    		</li>
+	    		<li>
+	    			<p class="title">没经验：</p>
+	    			<p class="detail">世界变化太大了，父母的经验已经帮不上孩子！</p>
+	    		</li>
+	    		<li>
+	    			<p class="title">很无力：</p>
+	    			<p class="detail">那么厚的志愿填报大本，根本不知道咋用！</p>
+	    		</li>
+	    	</ul>
+	    </div>
+	    <div class="yingxiang">
+	    	<p class="title">时间紧、任务重，影响却远远超过高考</p>
+	    	<p class="resolve">
+	    		志愿填报一对一服务，万无一失，不留遗憾
+	    	</p>
+	    	<ul>
+	    		<li>避免退档风险</li>
+	    		<li>避免高分低就</li>
+	    		<li>避免政策失误</li>
+	    	</ul>
+	    </div>
+	    <div class="service_process">
+	    	<p class="big_title">
+	    		服务流程
+	    	</p>
+	    	<ul>
+	    		<li>
+	 				认识自我，通过生涯测评系统客观了解自己，探寻职业与专业
+	    		</li>
+	    		<li>
+					机会分析，目标法学招生政策分析，寻找志愿填报机会点
+	    		</li>
+	    		<li>
+	  				知分填报，综合提档、录取概率与风险，不断优化填报方案，保证录取结果
+	    		</li>
+	    	</ul>
+	    </div>
+	    <div class="teacher_guidance">
+	    	<p class="big_title">名师在线一对一指导</p>
+	    	<div class="content">
+		    	<div class="main_box">
+		    		<div class="left">
+		    			<img src="./imgs/voluntaryReport/ysq.png" alt="余松谦老师" title="学马教育高级规划师">
+		    		</div>
+		    		<div class="right">
+		    			<p class="name">余松谦老师</p>
+		    			<ul class="lis_tag">
+		    				<li>学马集团创始人</li>
+		    				<li>中南大学硕士研究生</li>
+		    				<li>清华大学研究生校外导师</li>
+		    			</ul>
+		    			<p class="detail">11年志愿填报经验，帮助近400名同学圆梦大学</p>
+		    		</div>
+		    	</div>
+		    	<div class="main_box">
+		    		<div class="left">
+		    			<img src="./imgs/voluntaryReport/hl.png" alt="胡璐老师" title="学马教育高级规划师">
+		    		</div>
+		    		<div class="right">
+		    			<p class="name">胡璐老师</p>
+		    			<ul class="lis_tag">
+							<li>学马教育高级规划师</li>
+		    			</ul>
+		    			<p class="detail">10年志愿填报经验，一对一指导233位同学成功进入理想的双一流大学</p>
+		    		</div>
+		    	</div>
+		    	<div class="main_box">
+		    		<div class="left">
+		    			<img src="./imgs/voluntaryReport/xyl.png" alt="肖印六老师" title="学马教育高级规划师">
+		    		</div>
+		    		<div class="right">
+		    			<p class="name">肖印六老师</p>
+		    			<ul class="lis_tag">
+		    				<li>学马教育高级规划师</li>
+		    				<li>湖南大学硕士</li>
+		    			</ul>
+		    			<p class="detail">6年志愿填报经验，一对一指导了203位同学成功进入自己的理想大学</p>
+		    		</div>
+		    	</div>
+		    </div>	
+	    </div>
+	    <div class="patent">
+	    	<p class="big_title">系统专利</p>
+	    </div>
+	</div>	
+	<div class="fixed_box">
+    	<a href="tel:4008-925-909" class="btn_box phone">
+    		<div>
+	    		<img src="./imgs/voluntaryReport/icon_lianxidianhua.png" alt="">
+	    		<span>电话咨询</span>
+	    	</div>	
+		</a>
+    	<div class="btn_box reservation" ontouchstart="changeCard(true)">
+    		<div>
+	    		<img src="./imgs/voluntaryReport/icon_yuyue.png" alt="">
+	    		<span>立即预约</span>
+	    	</div>
+    	</div>
+    </div>
+   	<div class="fixed_card" id="fixed_card">
+    	<div class="card">
+    		<ul>
+    			<li>
+    				<span>姓名：</span>
+    				<input id="join_name" type="text" placeholder="请输入您的姓名" onblur="goSlide(2)" onfocus="goSlide(1)">
+    			</li>
+    			<li>
+    				<span>电话：</span>
+    				<input id="join_phone" type="number" placeholder="请输入您的电话号码" onblur="goSlide(2)" onfocus="goSlide(1)">
+    			</li>
+    		</ul>
+    		<p class="remind" id="join_remind"></p>
+    		<div class="btn_submit" ontouchstart="goSubmit()">提交</div>
+    		<div class="btn_close" ontouchstart="changeCard(false)">
+    			<img src="./imgs/voluntaryReport/icon_close.png" alt="">
+    		</div>
+    	</div>
+    </div>  
+</body>
+<!-- <script src="./js/jquery-3.4.1.min.js"></script> -->
+<script src="./js/ajax.js"></script>
+<script>
+	let data = 1;
+	function changeCard(value) {
+		let _this = this;
+		let element = document.getElementById("fixed_card");
+		if(value) {
+			element.style.display="block";
+		}else {
+			element.style.display="none";
+			_this.goSlide(2)
+		}
+	}
+	// 加盟咨询
+	function goSubmit() {  
+		// console.log(5555)
+		let _this = this;
+	    let name = document.getElementById("join_name").value;
+	    let phone = document.getElementById("join_phone").value;
+	    let join_remind = document.getElementById("join_remind");
+	    let data =  "name=" + name + "&phone=" + phone;
+	    let reg = /(^1[34578]\d{9}$)|(^\d{8}$)/;
+	    if(!name && !phone) {
+	        join_remind.innerHTML = '姓名或手机号不能为空';
+	        return;
+	    }else if(!reg.test(phone)) {
+	        join_remind.innerHTML = '手机号格式不正确';
+	        return;   
+	    }
+	    ajax.post("http://www.xuematech.com/papi/merchant/storeWebsiteAppointmentApply", data, function(data) {
+	        console.log(data);
+	        if(data.code === 2000) {
+	            join_remind.innerHTML = '预约成功';
+	            setTimeout(function() {
+	    			document.getElementById("join_name").value = '';
+	    			document.getElementById("join_phone").value = '';
+	    			join_remind.innerHTML = '';
+	            	_this.changeCard(false)
+	            },1000)
+	        }else {
+	        	join_remind.innerHTML = data.msg;
+	        }
+	    })
+	}
+
+	function goSlide(value) {
+		let input =document.getElementById("join_name");
+		let input2 =document.getElementById("join_phone");
+		data = value;
+		setTimeout(function() {
+			// console.log(data)
+			if(data == 2) {
+				input.blur();
+				input2.blur();
+				window.scroll(0,0);
+			}
+		},0)
+		// console.log(value);
+		// window.scroll(0,0);
+		// window.scrollTo(0, document.documentElement.clientHeight);
+		// console.log(555)
+		// window.scrollTo(0, document.documentElement.clientHeight);
+		// setTimeout(() => {
+            // var scrollHeight = document.documentElement.scrollTop || document.body.scrollTop || 0;
+            // window.scrollTo(0, Math.max(scrollHeight - 1, 0));
+        // }, 100)
+	}
+	
+	
+
+</script>
+</html>

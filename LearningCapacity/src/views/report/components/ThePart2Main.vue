@@ -5,7 +5,7 @@
 		<P class="main_title"><span class="block"></span>{{normObj.name}}</P>
 		<div class="main_norm_box">
 			<div class="rule_box rule_box_part2">
-				<img src="/imgs/report_imgs/norm_rule5.png" alt="">
+				<img src="~@/assets/report_imgs/norm_rule5.png" alt="">
 			</div>
 			<div class="norm_box">
 				<div class="norm_block norm_block_part2" :style="{left: normObj.lnorm/5*670 + 'px', width: (normObj.rnorm-normObj.lnorm)/5*670 + 'px' }" :title="normObj.lnorm + '~' +normObj.rnorm"></div>

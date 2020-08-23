@@ -26,7 +26,7 @@
                     	</tr>
                     </thead>
                     <tbody>
-                        <tr v-for="data in norm">
+                        <tr v-for="data in norm_copy">
 	                        <td>{{data.name }}</td>
 	                        <td>{{data.score | toFixed(2)}}</td>
 	                        <td>{{data.lnorm}}~{{data.rnorm}}</td>
@@ -57,48 +57,43 @@
 				<P class="main_title"><span class="block"></span>{{norm[0].name}}</P>
 				<div class="main_norm_box">
 					<div class="rule_box">
-						<img src="/imgs/report_imgs/norm_rule.png" alt="">
+						<img src="~@/assets/report_imgs/norm_rule.png" alt="">
 					</div>
 					<div class="norm_box">
 						<div class="norm_block" :style="{left: norm[0].lnorm/200*670 + 'px', width: (norm[0].rnorm-norm[0].lnorm)/200*670 + 'px' }" :title="norm[0].lnorm + '~' +norm[0].rnorm"></div>
-						<div class="norm_score" v-if="norm[0].score/200 < 0.1" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(/imgs/report_imgs/icon_circle1.png) no-repeat center center'}">{{norm[0].score}}</div>
-						<div class="norm_score" v-else-if="norm[0].score/200 < 0.25" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(/imgs/report_imgs/icon_circle2.png) no-repeat center center'}">{{norm[0].score}}</div>
-						<div class="norm_score" v-else-if="norm[0].score/200 < 0.75" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(/imgs/report_imgs/icon_circle3.png) no-repeat center center'}">{{norm[0].score}}</div>
-						<div class="norm_score" v-else-if="norm[0].score/200 < 0.9" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(/imgs/report_imgs/icon_circle4.png) no-repeat center center'}">{{norm[0].score}}</div>
-						<div class="norm_score" v-else=" 0.9<= norm[0].score/200" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(/imgs/report_imgs/icon_circle5.png) no-repeat center center'}">{{norm[0].score}}</div>
+						<div class="norm_score" v-if="norm[0].score/200 < 0.1" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(~@/assets/report_imgs/icon_circle1.png) no-repeat center center'}">{{norm[0].score}}</div>
+						<div class="norm_score" v-else-if="norm[0].score/200 < 0.25" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(~@/assets/report_imgs/icon_circle2.png) no-repeat center center'}">{{norm[0].score}}</div>
+						<div class="norm_score" v-else-if="norm[0].score/200 < 0.75" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(~@/assets/report_imgs/icon_circle3.png) no-repeat center center'}">{{norm[0].score}}</div>
+						<div class="norm_score" v-else-if="norm[0].score/200 < 0.9" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(~@/assets/report_imgs/icon_circle4.png) no-repeat center center'}">{{norm[0].score}}</div>
+						<div class="norm_score" v-else=" 0.9<= norm[0].score/200" :style="{left: norm[0].score/200*670-30 + 'px',background: 'url(~@/assets/report_imgs/icon_circle5.png) no-repeat center center'}">{{norm[0].score}}</div>
 					</div>
 				</div>
 				<p class="main_detail">你在{{norm[0].name}}的潜能水平值为<span class="c_orange">{{norm[0].score}}</span>，你超过<span class="c_red">{{(norm[0].percent) * 100}}%</span>的同龄人。</p>
 				<p class="main_remark"><span class="remark">备注</span>本测评潜能水平值范围0~200，工作记忆能力平均潜能水平值<span class="c_green">{{norm[0].lnorm}}~{{norm[0].rnorm}}</span></p>
 				<P class="main_directions">{{comment.info.comment}}</P>
 			</div> -->
-			<ThePart1Main :normObj="norm[0]" :comment="comment[norm[0].type].comment" ></ThePart1Main>
-			<ThePart1Main :normObj="norm[1]" :comment="comment[norm[1].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[0]" :comment="comment[norm_copy[0].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[1]" :comment="comment[norm_copy[1].type].comment" ></ThePart1Main>
 			<p class="big_page_number">02</p>
 		</div>
 		<div class="page_shadow" v-if="comment">
 			<p class="part_big_title">1.2 学习潜力分析</p>
-			<ThePart1Main :normObj="norm[5]" :comment="comment[norm[5].type].comment" ></ThePart1Main>
-			<ThePart1Main :normObj="norm[4]" :comment="comment[norm[4].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[5]" :comment="comment[norm_copy[5].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[4]" :comment="comment[norm_copy[4].type].comment" ></ThePart1Main>
 			<p class="big_page_number">03</p>
 		</div>
 		<div class="page_shadow" v-if="comment">
 			<p class="part_big_title">1.2 学习潜力分析</p>
-			<ThePart1Main :normObj="norm[3]" :comment="comment[norm[3].type].comment" ></ThePart1Main>
-			<ThePart1Main :normObj="norm[2]" :comment="comment[norm[2].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[3]" :comment="comment[norm_copy[3].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[2]" :comment="comment[norm_copy[2].type].comment" ></ThePart1Main>
 			<p class="big_page_number">04</p>
 		</div>
 		<div class="page_shadow" v-if="comment">
 			<p class="part_big_title">1.2 学习潜力分析</p>
-			<ThePart1Main :normObj="norm[6]" :comment="comment[norm[6].type].comment" ></ThePart1Main>
-			<ThePart1Main :normObj="norm[7]" :comment="comment[norm[7].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[6]" :comment="comment[norm_copy[6].type].comment" ></ThePart1Main>
+			<ThePart1Main :normObj="norm_copy[7]" :comment="comment[norm_copy[7].type].comment" ></ThePart1Main>
 			<p class="big_page_number">05</p>
 		</div>
-<!-- 		<div class="page_shadow" v-if="comment">
-			<p class="part_big_title">1.2 学习潜力分析</p>
-			<ThePart1Main :normObj="norm[6]" :comment="comment[norm[6].type].comment" ></ThePart1Main>
-			<p class="big_page_number">06</p>
-		</div> -->
 	</div>
 </template>
 <script>
@@ -106,24 +101,41 @@ import ThePart1Main from './ThePart1Main.vue';//目录
 export default {
 	name: 'page_part1',
 	components: { ThePart1Main },
-    props: [],
+    props: {
+    	norm: {
+	      type: Array//norm数组的其中一项
+	      // required: true
+	    },
+	    comment: {
+	   		type: Object//comment的类型解读
+	      	// required: true
+	    }
+    },
     data() {
         return {
-        	comment: null,  //info    work        space    present  think          logic       lang      math
-        	norm: [] //0信息加工能力 1工作记忆能力 2空间能力 3表象能力 4思维转换能力 5逻辑推理能力 6语言能力 7数学能力 
+        	// comment: null,  //info    work        space    present  think          logic       lang      math
+        	// norm: [] //0信息加工能力 1工作记忆能力 2空间能力 3表象能力 4思维转换能力 5逻辑推理能力 6语言能力 7数学能力 
         }
+    },
+    computed: {
+		norm_copy() {
+			return this.norm.slice(0,9);
+		},
+		norm_total() {
+			return this.norm.slice(9);
+		}
     },
     watch: {
     },
     created() {	
-    	this.getRzqnInfo()
+    	// this.getRzqnInfo()
     },
     mounted() {
     },
     methods: {
     	getRzqnInfo() {
 		    this.$ajax.post(this.G_uris + '/common/report/cognition/content',{
-		    		report_id: '082c47e4a2e34b44bbc5f655259d3ff4'
+		    		// "test_id":"83404124475f4f9dad0bfb54e4b1e177"
                 },{
                     headers:{
                         token: window.sessionStorage.getItem('token')

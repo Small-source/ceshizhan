@@ -43,6 +43,7 @@ Vue.prototype.G_uris = '/api';
 //获取代理商域名
 // Vue.prototype.$OEMdomain= 'localhost';
 Vue.prototype.$OEMdomain= document.domain;
+// Vue.prototype.$OEMdomain= '39.98.37.134'
 Vue.config.productionTip = false;
 /*定义在全局 */
 // 保留两位小数点
@@ -71,7 +72,7 @@ new Vue({
     document.dispatchEvent(new Event('render-event'))
   }
 }).$mount('#app');
-router.beforeResolve((to,from,next)=>{ 
+router.beforeResolve((to,from,next)=>{
     window.scroll(0,0)
     if(!to.meta.requireAuth){
       // console.log(6666);

@@ -128,6 +128,7 @@
               $.each(data.result, function (index, val) {
                 _this.questions.push(val);
               });
+              console.log(this.questions)
               this.questions.sort(this.randomSort)
               this.bar = Number(this.curIndex - 1) / Number(this.total) * 100;
               //console.log(this.total);
@@ -202,8 +203,9 @@
        * 提交
        */
       submit: function () {
-
-        this.$ajax.post(this.G_uri+"/result/mbti/mbti2/compute", {
+          this.answers=this.answers.splice(0,100)
+          console.log(this.answers)
+        this.$ajax.post(this.G_uri + "/result/mbti/mbti2/compute", {
             time: this.time,
             answers: JSON.stringify(this.answers),
             test_id:window.sessionStorage.getItem('testId')

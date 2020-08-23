@@ -445,9 +445,13 @@ class Maze{
           ).then(
               function (res) {
                   // 请求成功的结果
-                  console.log(res.body);
                   var data = res.body;
-                  if (data.code == 0) {
+                  if (data.code == "0") {
+                      if(window.sessionStorage.getItem('cardsBoolean') == 'false'){
+                        _this.markOver()
+                          _this.$router.push('/cepingwancheng')
+                          return
+                      }
                       _this.layerMsg('测试成功!')
                       _this.saveNode(2, 8);
                       _this.$router.push('/shengyaceping/rzqn/success/72')

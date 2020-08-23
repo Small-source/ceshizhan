@@ -91,7 +91,7 @@ export default {
 <style type="text/css" lang='less' scoped>
 	@import './report.less';
 	.page_cover {
-		background: url(/imgs/report_imgs/page_cover.jpg);
+		background: url(~@/assets/report_imgs/page_cover.jpg);
 		background-size: 900px 1300px;
 		padding-top: 545px !important;
 		.header {

@@ -39,45 +39,6 @@
       </div>
     </div>
   </div>
-
-  <!--<div class="d-relative xgtz-index xgtx-ques">-->
-  <!--<img class="block-img" src="../../assets/xgtx/ques-bg.png" alt="">-->
-  <!--<rzqnNav></rzqnNav>-->
-  <!--<div class="evalu-part">-->
-  <!--<img src="../../assets/rzqn/parta1.png">-->
-  <!--</div>-->
-  <!--<div class="ques-wrapper">-->
-  <!--<div class="ques-container">-->
-  <!--<div class="ques-answer ques-math2-answer">-->
-  <!--<div class="ques-item" v-for="(question,index) in questions" v-if="index==curIndex" :cid="question.id">-->
-
-  <!--<div class="q-title">-->
-  <!--{{question.detail}}-->
-  <!--</div>-->
-  <!--<div class="q-answer">-->
-  <!--<ul>-->
-  <!--<li class="answer-item" @click="answerSelect($event)" v-for="opt in question.question_options"-->
-  <!--:answer="opt.opt_order">-->
-  <!--<span>{{opt.opt_txt}}</span>-->
-  <!--</li>-->
-  <!--</ul>-->
-  <!--</div>-->
-  <!--</div>-->
-  <!--<div class="ques-answer-tip" v-if="tip==1" @click="clickStart">点击鼠标，开始测试</div>-->
-  <!--<img class="confirm" v-if="tip==0" src="../../assets/rzqn/confirm.png" @click="answerClick($event)" alt="">-->
-
-  <!--</div>-->
-  <!--<div class="ques-bar" v-bind:style="{width:bar+'%'}"></div>-->
-  <!--</div>-->
-  <!--<div class="ques-progress">-->
-  <!--<div class="seq-wrapper pull-right">题号:{{curIndex+1}}/{{total}}</div>-->
-  <!--<div class="pull-right" style="margin-right:20px">本小题没有时间限制</div>-->
-  <!--</div>-->
-  <!--<div class="copyright">-->
-  <!--©版权声明：本作品著作权以及版权属于育铭天下，并受法律保护。-->
-  <!--</div>-->
-  <!--</div>-->
-  <!--</div>-->
 </template>
 
 

@@ -126,7 +126,7 @@
         watch: {
             user(val){
                 this.uName=val.name;
-                this.teacherId=val.teacher_id;
+                this.teacherId=val.teacher_id||'';
                 if(val.sex==1){
                     this.person='imgs/careerhome/icon_boy.png'
                 }else{
@@ -147,7 +147,7 @@
                 vue:this
             });
             this.uName=this.user.name;
-            this.teacherId=this.user.teacher_id;
+            this.teacherId=this.user.teacher_id||'';
             this.countDown(this.user.baccll_year)
             //获取未读通知
             this.$store.dispatch('getUnreadNum',token);

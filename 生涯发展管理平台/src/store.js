@@ -36,6 +36,7 @@ export default new Vuex.Store({
                 }
             }).then((res)=>{
               if(res.data.code==2000){
+                    sessionStorage.setItem('username',res.data.data.username)
                     context.commit('getUserInfo',res.data.data)
               }else{
                   window.localStorage.clear();

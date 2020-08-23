@@ -2,18 +2,17 @@
 <template>
 	<!-- 认知，情感，行为倾向，学习动力... 等 -->
 	<div class="part3_1_main_box">
-		<P class="main_title"><span class="block"></span>认知策略---<span>复述策略</span></P>
+		<P class="main_title"><span class="block"></span>{{title}}<span :class="['name', 'name'+type]">{{name}}</span></P>
 		<div class="main_norm_box">
 			<div class="norm_box">
-<!-- 				<div class="norm_block" :style="{right: normObj.lnorm/5*670 + 'px', width: (normObj.rnorm-normObj.lnorm)/5*670 + 'px' }" :title="normObj.lnorm + '~' +normObj.rnorm"></div> -->
-				<div :class="['grade', getGrade(5)]"  :style="{left: 3.2/5*712-23 + 'px'}">
+				<div :class="['grade', getGrade(normObj.score)]"  :style="{left: 3.2/5*712-23 + 'px'}">
 				</div>
 				<div class="norm_block" :style="{right: 0, width: (5-3.2)/5*712 + 'px' }"></div>
 				<div :class="['border',item==1&&'f_border']" v-for="item in 6"></div>
 			</div>
 		</div>
-		<!-- <p class="gradeName">你在复述策略水平为<span>{{getGradeName()}}</span></p> -->
-		<!-- <P class="main_directions">{{comment}}</P> -->
+		<p class="gradeName">你在复述策略水平为<span>{{getGradeName(normObj.score)}}</span>。</p>
+		<P class="main_directions">{{comment.comment}}</P>
 	</div>
 </template>
 <script>
@@ -22,12 +21,21 @@ export default {
 	components: {  },
     props: {
     	normObj: {
-	      type: Object,//norm数组的其中一项
+	      type: Object//norm数组的其中一项
 	      // required: true
 	    },
 	    comment: {
-	   		type: String,//comment的类型解读
+	   		type: Object//comment的类型解读
 	      	// required: true
+	    },
+	    title: {
+	    	type: String
+	    },
+	   	name: {
+	    	type: String
+	    },
+	   	type: {
+	    	type: String
 	    }
     },
     data() {
@@ -54,7 +62,7 @@ export default {
                 return 'grade_5';
             }
     	},
-    	getGradeName() {
+    	getGradeName(value) {
     		if(value < 1) {
                 return '很差';
             }else if(value < 2) {
@@ -73,6 +81,7 @@ export default {
 </script>
 <style type="text/css" lang='less' scoped>
 	.part3_1_main_box {
+		margin-bottom: 60px;
 		.main_title {
 			display: flex;
 			align-items: center;
@@ -140,19 +149,19 @@ export default {
 					height: 77px;
 				}
 				.grade_1 {
-					background-image: url(/imgs/report_imgs/icon_feichangcha.png);
+					background-image: url(~@/assets/report_imgs/icon_feichangcha.png);
 				}
 				.grade_2 {
-					background-image: url(/imgs/report_imgs/icon_jiaocha.png);
+					background-image: url(~@/assets/report_imgs/icon_jiaocha.png);
 				}
 				.grade_3 {
-					background-image: url(/imgs/report_imgs/icon_yiban.png);
+					background-image: url(~@/assets/report_imgs/icon_yiban.png);
 				}
 				.grade_4 {
-					background-image: url(/imgs/report_imgs/icon_jiaohao.png);
+					background-image: url(~@/assets/report_imgs/icon_jiaohao.png);
 				}
 				.grade_5 {
-					background-image: url(/imgs/report_imgs/icon_feichanghao.png);
+					background-image: url(~@/assets/report_imgs/icon_feichanghao.png);
 				}
 				.border {
 					height: 23px;

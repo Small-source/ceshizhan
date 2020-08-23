@@ -1,6 +1,6 @@
 const webpack = require("webpack");
 const path = require('path');
-const BASE_URL = process.env.NODE_ENV == 'production' ? '/career': '/';
+const BASE_URL = process.env.NODE_ENV == 'production' ? '/career/': '/';
 module.exports = {
     devServer: {
         port: process.env.PORT || 8080,

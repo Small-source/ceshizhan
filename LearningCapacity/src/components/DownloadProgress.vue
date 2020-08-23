@@ -39,7 +39,7 @@
 				    right:100%;
 				    width: 100%;
 				    height: 100%;
-				    background-image:url("/imgs/careerManagement/jindutiao.png");
+				    background-image:url(~@/assets/report_imgs/jindutiao.png);
 				    background-size:100% 100%;
 				} 
 			}

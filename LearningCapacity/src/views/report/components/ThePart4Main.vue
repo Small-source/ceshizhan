@@ -7,7 +7,7 @@
 			<div class="norm_box">
 				<div class="norm_canvas">
 					<canvas :id="canvasId" width="254" height="201"></canvas>
-					<div class="pointer" :style="{transform:'rotate(' + (-120 + normObj.score/5*240)+ 'deg)'}"><img src="/imgs/report_imgs/icon_xinlijiankangzhizhen.png" alt=""></div>
+					<div class="pointer" :style="{transform:'rotate(' + (-120 + normObj.score/5*240)+ 'deg)'}"><img src="~@/assets/report_imgs/icon_xinlijiankangzhizhen.png" alt=""></div>
 				</div>
 				<div class="detail_box">
 					<p class="title">{{normObj.name}}</p>
@@ -114,7 +114,7 @@ export default {
 					width: 254px;
 					height: 201px;
 					position: relative;
-					background: url(/imgs/report_imgs/part4_canvas.png);
+					background: url(~@/assets/report_imgs/part4_canvas.png);
 					.pointer {
 						position: absolute;
 						height: 194px;

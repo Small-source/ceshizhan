@@ -1,0 +1,356 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  color: #333;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  position: relative;
+}
+.investment {
+  flex: 1;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.investment .logo_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+  height: 1.2rem;
+  font-size: 0.24rem;
+}
+.investment .logo_box img {
+  display: block;
+  width: 1.6rem;
+}
+.investment .big_title {
+  padding-left: 0.3rem;
+  color: #fff;
+  font-size: 0.36rem;
+  font-weight: bold;
+}
+.investment .small_title {
+  height: 0.34rem;
+  display: flex;
+  align-items: center;
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #E72630;
+}
+.investment .small_title img {
+  width: 0.39rem;
+  height: 0.33rem;
+  margin-right: 0.1rem;
+}
+.investment .banner {
+  width: 7.5rem;
+  height: 5.82rem;
+}
+.investment .banner img {
+  width: 100%;
+  height: 100%;
+}
+.investment .service_products {
+  padding: 1.1rem 0.3rem 0.5rem 0.3rem;
+  background-color: #fff;
+  position: relative;
+}
+.investment .service_products .big_title {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.3rem;
+  width: 3.77rem;
+  height: 0.79rem;
+  line-height: 0.79rem;
+  background: url(../imgs/investment/icon_fuwuyuchanpintixi.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .service_products .content {
+  padding: 0 0.3rem;
+  background-color: #FFEEEE;
+  border-radius: 0.2rem;
+}
+.investment .service_products .content .main_box {
+  padding-top: 0.55rem;
+  border-bottom: 1px dashed #F3969B;
+}
+.investment .service_products .content .main_box:last-child {
+  border: none;
+}
+.investment .service_products .content .main_box .small_title {
+  margin-bottom: 0.3rem;
+}
+.investment .service_products .content .main_box .lis_service {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+.investment .service_products .content .main_box .lis_service li {
+  width: 1.2rem;
+  line-height: 1.5;
+  font-size: 0.22rem;
+  margin-bottom: 0.35rem;
+}
+.investment .service_products .content .main_box .lis_service li img {
+  width: 0.8rem;
+  height: 0.8rem;
+  margin-bottom: 0.1rem;
+}
+.investment .service_products .content .main_box .lis_products {
+  padding-bottom: 0.55rem;
+  display: flex;
+  justify-content: space-between;
+}
+.investment .service_products .content .main_box .lis_products li {
+  width: 2.03rem;
+  height: 2.23rem;
+  padding-top: 1.7rem;
+  font-size: 0.2rem;
+  text-align: center;
+}
+.investment .service_products .content .main_box .lis_products li:nth-child(1) {
+  background: url(../imgs/investment/icon_xuemashengya.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .service_products .content .main_box .lis_products li:nth-child(2) {
+  background: url(../imgs/investment/icon_shengyafazhanguanlipingtai.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .service_products .content .main_box .lis_products li:nth-child(3) {
+  background: url(../imgs/investment/icon_xiaochengxu.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .service_products .content .main_box .lis_tools {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 0.1rem;
+}
+.investment .service_products .content .main_box .lis_tools li {
+  margin-bottom: 0.3rem;
+  width: 2rem;
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-radius: 0.25rem;
+  border: 1px solid #FF5056;
+  font-size: 0.2rem;
+  text-align: center;
+}
+.investment .service_products .content .main_box .lis_tools li:last-child {
+  border: none;
+}
+.investment .business {
+  padding: 1.3rem 0.3rem 0.5rem 0.3rem;
+  background: linear-gradient(to right, #EA4E61, #E72532);
+  position: relative;
+}
+.investment .business .big_title {
+  position: absolute;
+  top: 0.55rem;
+  left: 0.3rem;
+  width: 4.9rem;
+  height: 0.9rem;
+  line-height: 0.79rem;
+  background: url(../imgs/investment/icon_xinyewu.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .business .content {
+  padding: 0 0.3rem;
+  padding-bottom: 0.3rem;
+  background-color: #FFEEEE;
+  border-radius: 0.2rem;
+}
+.investment .business .content .small_title {
+  margin-bottom: 0.35rem;
+}
+.investment .business .content .main_box {
+  padding-top: 0.6rem;
+}
+.investment .business .content .main_box ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.48rem;
+  font-size: 0.28rem;
+  margin-bottom: 0.25rem;
+}
+.investment .business .content .main_box ul li:last-child {
+  margin-bottom: 0;
+}
+.investment .business .content .main_box ul li p {
+  position: relative;
+  padding-left: 0.3rem;
+}
+.investment .business .content .main_box ul li p:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0.12rem;
+  height: 0.12rem;
+  border-radius: 0.02rem;
+  margin-top: -0.06rem;
+  background-color: #E8394A;
+}
+.investment .business .content .main_box ul li img {
+  width: 4.21rem;
+  height: 2.48rem;
+}
+.investment .xuema_advantage {
+  padding: 1.1rem 0.3rem 0.4rem 0.3rem;
+  background-color: #fff;
+  position: relative;
+}
+.investment .xuema_advantage .big_title {
+  position: absolute;
+  top: 0.44rem;
+  left: 0.3rem;
+  width: 2.77rem;
+  height: 0.79rem;
+  line-height: 0.79rem;
+  background: url(../imgs/investment/icon_xuemayoushi.png) no-repeat;
+  background-size: 100% 100%;
+}
+.investment .xuema_advantage .content {
+  background-color: #FFEEEE;
+  padding: 0 0.3rem;
+}
+.investment .xuema_advantage .content ul li {
+  padding: 0.5rem 0 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dashed #F3969B;
+}
+.investment .xuema_advantage .content ul li:last-child {
+  border: none;
+}
+.investment .xuema_advantage .content ul li .left {
+  padding-right: 0.4rem;
+}
+.investment .xuema_advantage .content ul li .left img {
+  width: 0.85rem;
+  height: 0.7rem;
+}
+.investment .xuema_advantage .content ul li .right {
+  flex: 1;
+}
+.investment .xuema_advantage .content ul li .right .title {
+  font-size: 0.32rem;
+  line-height: 1;
+  color: #E72630;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+.investment .xuema_advantage .content ul li .right .detail {
+  font-size: 0.22rem;
+}
+.fixed_box {
+  height: 1.15rem;
+}
+.fixed_box .btn_box {
+  width: 50%;
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-size: 0.32rem;
+  height: 1.15rem;
+  line-height: 1.15rem;
+  float: left;
+}
+.fixed_box .btn_box > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fixed_box .btn_box img {
+  display: block;
+  width: 0.57rem;
+  height: 0.7rem;
+  margin-right: 0.2rem;
+}
+.fixed_box .phone {
+  background-color: #FEB524;
+}
+.fixed_box .reservation {
+  background-color: #FF7200;
+}
+.fixed_box .reservation img {
+  width: 0.66rem;
+  height: 0.71rem;
+}
+.fixed_card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+  background: rgba(0, 0, 0, 0.7);
+}
+.fixed_card .card {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.05rem;
+  margin-top: -2.15rem;
+  width: 6.1rem;
+  height: 4.3rem;
+  padding: 0.5rem 0.3rem 0.4rem 0.3rem;
+  background-color: #fff;
+  border-radius: 0.3rem;
+}
+.fixed_card .card ul li {
+  line-height: 0.8rem;
+  margin-bottom: 0.35rem;
+  display: flex;
+}
+.fixed_card .card ul li:last-child {
+  margin-bottom: 0;
+}
+.fixed_card .card ul li span {
+  color: #333;
+  font-size: 0.28rem;
+}
+.fixed_card .card ul li input {
+  flex: 1;
+  border-radius: 0.4rem;
+  padding-left: 0.3rem;
+  border: 1px solid #9F9F9F;
+}
+.fixed_card .card .remind {
+  line-height: 0.65rem;
+  height: 0.65rem;
+  color: #EC5F5C;
+  font-size: 0.28rem;
+  text-align: center;
+}
+.fixed_card .card .btn_submit {
+  width: 2.56rem;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  border-radius: 0.4rem;
+  color: #fff;
+  text-align: center;
+  font-size: 0.32rem;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #EF835E, #EC5E5C);
+}
+.fixed_card .card .btn_close {
+  position: absolute;
+  right: 0;
+  top: -0.6rem;
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.fixed_card .card .btn_close img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}

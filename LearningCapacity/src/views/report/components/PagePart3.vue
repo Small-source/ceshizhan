@@ -29,14 +29,46 @@
                     资源管理策略
                 </p>
             </div>
+
+
 			<p class="big_page_number">09</p>
 		</div>
 		<div class="page_shadow">
 			<p class="part_small_title">3.1.2 学习策略分析</p>
-                <ThePart3Main ></ThePart3Main>
+                <ThePart3Main title="认知策略---" name="复述策略" :normObj="strategyNorm[5]" :comment="strategyComment[5]" type="1"></ThePart3Main>
+                <ThePart3Main title="认知策略---" name="精细加工策略" :normObj="strategyNorm[2]" :comment="strategyComment[2]" type="1"></ThePart3Main>
 			<p class="big_page_number">10</p>
 		</div>
-<!--         <div class="page_shadow">
+        <div class="page_shadow">
+            <p class="part_small_title">3.1.2 学习策略分析</p>
+                <ThePart3Main title="认知策略---" name="组织策略" :normObj="strategyNorm[9]" :comment="strategyComment[9]" type="1"></ThePart3Main>
+                <ThePart3Main title="认知策略---" name="反馈策略" :normObj="strategyNorm[4]" :comment="strategyComment[4]" type="1"></ThePart3Main>
+            <p class="big_page_number">10</p>
+        </div>
+        <div class="page_shadow">
+            <p class="part_small_title">3.1.2 学习策略分析</p>
+                <ThePart3Main title="元认知策略---" name="计划策略" :normObj="strategyNorm[0]" :comment="strategyComment[0]" type="2"></ThePart3Main>
+                <ThePart3Main title="元认知策略---" name="监控策略" :normObj="strategyNorm[10]" :comment="strategyComment[10]" type="2"></ThePart3Main>
+            <p class="big_page_number">10</p>
+        </div>
+        <div class="page_shadow">
+            <p class="part_small_title">3.1.2 学习策略分析</p>
+                <ThePart3Main title="元认知策略---" name="调节策略" :normObj="strategyNorm[6]" :comment="strategyComment[6]" type="2"></ThePart3Main>
+                <ThePart3Main title="资源管理策略---" name="时间管理策略" :normObj="strategyNorm[7]" :comment="strategyComment[7]" type="3"></ThePart3Main>
+            <p class="big_page_number">10</p>
+        </div>
+        <div class="page_shadow">
+            <p class="part_small_title">3.1.2 学习策略分析</p>
+                <ThePart3Main title="资源管理策略---" name="环境管理策略" :normObj="strategyNorm[1]" :comment="strategyComment[1]" type="3"></ThePart3Main>
+                <ThePart3Main title="资源管理策略---" name="心境管理策略" :normObj="strategyNorm[3]" :comment="strategyComment[3]" type="3"></ThePart3Main>
+            <p class="big_page_number">10</p>
+        </div>
+        <div class="page_shadow">
+            <p class="part_small_title">3.1.2 学习策略分析</p>
+                <ThePart3Main title="资源管理策略---" name="求助策略" :normObj="strategyNorm[8]" :comment="strategyComment[8]" type="3"></ThePart3Main>
+            <p class="big_page_number">10</p>
+        </div>
+        <div class="page_shadow">
             <p class="part_big_title part3_big_title">3.2 学习风格</p>
             <div class="header_detail_box">
                 <p class="header_detail">学习风格指的是在学习时所习惯的方式，主要由对待信息的主动性程度、信息加工方式和信息加工速度三部分构成。学习风格具有个人特色，没有高低之分，不同风格各有优势。</p>
@@ -146,11 +178,11 @@
                 </div>
                 <div class="advantage_box">
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_advantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_advantage.png" alt="">
                         <p>你的优势有：<span v-for="(item, index) in comment1.advantage">{{item.detail}}</span></p>
                     </div>
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_disadvantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_disadvantage.png" alt="">
                         <p>你的盲点有：<span v-for="(item, index) in comment1.disadvantage">{{item.detail}}</span></p>
                     </div>
                 </div>
@@ -179,11 +211,11 @@
                 </div>
                 <div class="advantage_box">
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_advantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_advantage.png" alt="">
                         <p>你的优势有：<span v-for="(item, index) in comment2.advantage">{{item.detail}}</span></p>
                     </div>
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_disadvantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_disadvantage.png" alt="">
                         <p>你的盲点有：<span v-for="(item, index) in comment2.disadvantage">{{item.detail}}</span></p>
                     </div>
                 </div>
@@ -207,17 +239,17 @@
                 </div>
                 <div class="advantage_box">
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_advantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_advantage.png" alt="">
                         <p>你的优势有：<span v-for="(item, index) in comment3.advantage">{{item.detail}}</span></p>
                     </div>
                     <div class="advantage">
-                        <img src="/imgs/report_imgs/icon_disadvantage.png" alt="">
+                        <img src="~@/assets/report_imgs/icon_disadvantage.png" alt="">
                         <p>你的盲点有：<span v-for="(item, index) in comment3.disadvantage">{{item.detail}}</span></p>
                     </div>
                 </div>
             </div>
             <p class="big_page_number">10</p>
-        </div> -->
+        </div>
 	</div>
 </template>
 <script>
@@ -225,37 +257,54 @@ import ThePart3Main from './ThePart3Main.vue';//目录
 export default {
 	name: 'page_part3',
 	components: { ThePart3Main },
-    props: [],
+    props: {
+        strategyNorm: {
+          type: Object//
+          // required: true
+        },
+        strategyComment: {
+            type: Object
+            // required: true
+        },
+        styleNorm: {
+          type: Object//
+          // required: true
+        },
+        styleComment: {
+            type: Object
+            // required: true
+        }
+    },
     data() {
         return {
-        	comment: null,
-        	norm: []
+        	// comment: null,
+        	// norm: []
         }
     },
     computed: {
         styleNorm1() {
-            return this.norm.chuangxin;
+            return this.styleNorm.chuangxin;
         },
         styleNorm2() {
-            return this.norm.duli;
+            return this.styleNorm.duli;
         },
         styleNorm3() {
-            return this.norm.chensi;
+            return this.styleNorm.chensi;
         },
         comment1() {
-            return this.comment.chuangxin;
+            return this.styleComment.chuangxin;
         },
         comment2() {
-            return this.comment.duli;
+            return this.styleComment.duli;
         },
         comment3() {
-            return this.comment.chensi;
+            return this.styleComment.chensi;
         }
     },
     watch: {
     },
     created() {	
-    	this.getXxfgInfo()
+    	// this.getXxfgInfo()
     },
     mounted() {
     },
@@ -291,7 +340,7 @@ export default {
         .content_box {
             width: 100%;
             height: 580px;
-            background: url(/imgs/report_imgs/icon_xuexicelue.png) no-repeat center center;
+            background: url(~@/assets/report_imgs/icon_xuexicelue.png) no-repeat center center;
         }
         .mark_box {
             width: 410px;
